@@ -6,7 +6,7 @@ import {
   megaMenus,
   type NavigationEntry,
   type NavigationGroup,
-  type PillarNavigationEntry,
+  type ProductNavigationEntry,
 } from "@/lib/site-navigation"
 
 function NavigationEntryLink({
@@ -109,18 +109,22 @@ function FeaturedNavigationCard({
   )
 }
 
-function PillarNavigationCard({ product }: { product: PillarNavigationEntry }) {
+function ProductNavigationCard({
+  product,
+}: {
+  product: ProductNavigationEntry
+}) {
   const Icon = product.icon
 
   return (
     <article
       className={cn(
         "group rounded-lg border border-l-4 border-border bg-card p-3 transition-shadow hover:shadow-medium",
-        product.accent === "health" && "border-l-pillar-health",
-        product.accent === "education" && "border-l-pillar-education",
-        product.accent === "social" && "border-l-pillar-social",
-        product.accent === "business" && "border-l-pillar-business",
-        product.accent === "government" && "border-l-pillar-government"
+        product.accent === "health" && "border-l-product-health",
+        product.accent === "education" && "border-l-product-education",
+        product.accent === "social" && "border-l-product-social",
+        product.accent === "business" && "border-l-product-business",
+        product.accent === "government" && "border-l-product-government"
       )}
     >
       <Link
@@ -131,15 +135,15 @@ function PillarNavigationCard({ product }: { product: PillarNavigationEntry }) {
           className={cn(
             "flex size-10 shrink-0 items-center justify-center rounded-lg",
             product.accent === "health" &&
-              "bg-teal-tint text-pillar-health dark:bg-pillar-health/15 dark:text-teal-300",
+              "text-product-health dark:bg-product-health/15 bg-teal-tint dark:text-teal-300",
             product.accent === "education" &&
-              "bg-blue-tint text-pillar-education dark:bg-pillar-education/15 dark:text-blue-300",
+              "text-product-education dark:bg-product-education/15 bg-blue-tint dark:text-blue-300",
             product.accent === "social" &&
-              "bg-[#FCEAE6] text-pillar-social dark:bg-pillar-social/15 dark:text-[#F5A08D]",
+              "text-product-social dark:bg-product-social/15 bg-[#FCEAE6] dark:text-[#F5A08D]",
             product.accent === "business" &&
-              "text-pillar-business dark:bg-pillar-business/15 bg-[#FDF6E5] dark:text-[#F5C88A]",
+              "text-product-business dark:bg-product-business/15 bg-[#FDF6E5] dark:text-[#F5C88A]",
             product.accent === "government" &&
-              "text-pillar-government dark:bg-pillar-government/15 bg-[#E8F3F9] dark:text-[#7CC0E2]"
+              "text-product-government dark:bg-product-government/15 bg-[#E8F3F9] dark:text-[#7CC0E2]"
           )}
         >
           <Icon aria-hidden="true" className="size-5" />
@@ -164,7 +168,7 @@ function PillarNavigationCard({ product }: { product: PillarNavigationEntry }) {
   )
 }
 
-function PillarsMegaMenu() {
+function ProductsMegaMenu() {
   const menu = megaMenus.products
 
   return (
@@ -184,7 +188,7 @@ function PillarsMegaMenu() {
         </div>
         <div className="grid gap-2">
           {menu.products?.map((product) => (
-            <PillarNavigationCard key={product.href} product={product} />
+            <ProductNavigationCard key={product.href} product={product} />
           ))}
         </div>
       </section>
@@ -241,7 +245,7 @@ export function MegaMenuPanel({
   return (
     <div className="overflow-hidden rounded-b-xl border border-border bg-popover text-popover-foreground shadow-high">
       {menuKey === "products" ? (
-        <PillarsMegaMenu />
+        <ProductsMegaMenu />
       ) : (
         <StandardMegaMenu menuKey={menuKey} />
       )}

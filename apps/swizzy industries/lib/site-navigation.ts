@@ -27,7 +27,7 @@ export type NavigationGroup = {
   links: NavigationEntry[]
 }
 
-export type PillarNavigationEntry = NavigationEntry & {
+export type ProductNavigationEntry = NavigationEntry & {
   zoneHref: string
   accent: "health" | "education" | "social" | "business" | "government"
 }
@@ -43,7 +43,7 @@ export type MegaMenuDefinition = {
     action: string
     icon: LucideIcon
   }
-  products?: PillarNavigationEntry[]
+  products?: ProductNavigationEntry[]
 }
 
 export const primaryNavigation = [
@@ -177,7 +177,7 @@ export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
       {
         title: "Tibika",
         description: "Immersive tools for hospitals, clinics, and care.",
-        href: "/products/tibika",
+        href: `${process.env.NEXT_PUBLIC_PROTOCOL}://tibika.${process.env.NEXT_PUBLIC_HOST}`,
         zoneHref: "https://tibika.swizzyindustries.com",
         icon: HeartPulse,
         accent: "health",
@@ -185,7 +185,7 @@ export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
       {
         title: "Elimika",
         description: "Immersive learning that reaches every classroom.",
-        href: "/products/elimika",
+        href: `${process.env.NEXT_PUBLIC_PROTOCOL}://elimika.${process.env.NEXT_PUBLIC_HOST}`,
         zoneHref: "https://elimika.swizzyindustries.com",
         icon: School,
         accent: "education",
@@ -193,7 +193,7 @@ export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
       {
         title: "Jumuika",
         description: "Connection and community, reimagined.",
-        href: "/products/jumuika",
+        href: `${process.env.NEXT_PUBLIC_PROTOCOL}://jumuika.${process.env.NEXT_PUBLIC_HOST}`,
         zoneHref: "https://jumuika.swizzyindustries.com",
         icon: UsersRound,
         accent: "social",
@@ -201,7 +201,7 @@ export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
       {
         title: "Nufaika",
         description: "Immersive tools for businesses and organizations.",
-        href: "/products/nufaika",
+        href: `${process.env.NEXT_PUBLIC_PROTOCOL}://nufaika.${process.env.NEXT_PUBLIC_HOST}`,
         zoneHref: "https://nufaika.swizzyindustries.com",
         icon: Building2,
         accent: "business",
@@ -209,7 +209,7 @@ export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
       {
         title: "Wajibika",
         description: "Immersive tools for government and public service.",
-        href: "/products/wajibika",
+        href: `${process.env.NEXT_PUBLIC_PROTOCOL}://wajibika.${process.env.NEXT_PUBLIC_HOST}`,
         zoneHref: "https://wajibika.swizzyindustries.com",
         icon: BriefcaseBusiness,
         accent: "government",

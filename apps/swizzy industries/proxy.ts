@@ -2,54 +2,25 @@ import { NextResponse, type NextRequest } from "next/server"
 
 import { microfrontendUpstreams } from "./lib/microfrontend-upstreams"
 
-const connectionFailureCodes = new Set([
-  "ECONNREFUSED",
-  "ConnectionRefused",
-  "ECONNRESET",
-  "ETIMEDOUT",
-  "EHOSTUNREACH",
-  "ENETUNREACH",
-  "UND_ERR_CONNECT_TIMEOUT",
-])
+import { connect } from "node:net"
 
-function hasConnectionFailure(error: unknown) {
-  const pending = [error]
-  const visited = new Set<object>()
+function isPortOpen(port: number, timeoutMs = 500): Promise<boolean> {
+  return new Promise((resolve) => {
+    const socket = connect({ port, host: "localhost" })
 
-  while (pending.length > 0) {
-    const current = pending.pop()
-    if (
-      typeof current !== "object" ||
-      current === null ||
-      visited.has(current)
-    ) {
-      continue
+    const finish = (result: boolean) => {
+      socket.destroy()
+      resolve(result)
     }
 
-    visited.add(current)
-    const details = current as {
-      code?: unknown
-      cause?: unknown
-      errors?: unknown
-    }
-
-    if (
-      typeof details.code === "string" &&
-      connectionFailureCodes.has(details.code)
-    ) {
-      return true
-    }
-
-    if (details.cause) {
-      pending.push(details.cause)
-    }
-
-    if (Array.isArray(details.errors)) {
-      pending.push(...details.errors)
-    }
-  }
-
-  return false
+    socket.setTimeout(timeoutMs)
+    socket.once("connect", () => finish(true))
+    // Slow but not refused: assume it's up and let the rewrite handle it
+    socket.once("timeout", () => finish(true))
+    socket.once("error", (error: NodeJS.ErrnoException) => {
+      finish(error.code !== "ECONNREFUSED" && error.code !== "EHOSTUNREACH")
+    })
+  })
 }
 
 function escapeHtml(value: string) {
@@ -66,20 +37,31 @@ function escapeHtml(value: string) {
   })
 }
 
-function unavailableResponse(request: NextRequest, serviceName: string) {
-  const gatewayUrl = new URL(request.url)
-  const gatewayHostname = request.nextUrl.hostname.split(".").slice(1).join(".")
-  gatewayUrl.hostname = gatewayHostname || "localhost"
-  gatewayUrl.pathname = "/"
-  gatewayUrl.search = ""
-  gatewayUrl.hash = ""
+function getRequestHost(request: NextRequest) {
+  const raw =
+    request.headers.get("x-forwarded-host") ?? request.headers.get("host") ?? ""
+  return raw.split(",")[0]
+    ? raw.split(" ")[0]!.trim().toLowerCase()
+    : raw.toLocaleLowerCase() // e.g. "nufaika.localhost:4200"
+}
 
+function unavailableResponse(request: NextRequest, serviceName: string) {
+  const requestHost = getRequestHost(request) // nufaika.localhost:4200
+  const port = requestHost.match(/:\d+$/)![0] ?? ""
+  const hostname = requestHost.replace(/:\d+$/, "")
+  const gatewayHostname = hostname.split(".").slice(1).join(".") || "localhost"
+  const protocol = request.nextUrl.protocol // "http:"
+
+  const gatewayUrl = new URL(`${protocol}//${gatewayHostname}${port}/`)
   const illustrationUrl = new URL(
     "/images/internal-server-error.svg",
     gatewayUrl
   )
+  const retryUrl = escapeHtml(
+    `${protocol}//${requestHost}${request.nextUrl.pathname}${request.nextUrl.search}`
+  )
+
   const title = escapeHtml(serviceName)
-  const retryUrl = escapeHtml(request.url)
   const homeUrl = escapeHtml(gatewayUrl.toString())
 
   return new Response(
@@ -138,33 +120,27 @@ function unavailableResponse(request: NextRequest, serviceName: string) {
 }
 
 export async function proxy(request: NextRequest) {
-  const service = microfrontendUpstreams.find(
-    ({ host }) => request.nextUrl.hostname === host
-  )
-  const acceptsHtml = request.headers.get("accept")?.includes("text/html")
+  const requestHost = getRequestHost(request)
+  const hostname = requestHost.replace(/:\d+$/, "")
+  const service = microfrontendUpstreams.find(({ host }) => hostname === host)
 
-  if (!service || request.method !== "GET" || !acceptsHtml) {
+  if (!service) {
     return NextResponse.next()
   }
 
-  try {
-    await fetch(`http://localhost:${service.port}/`, {
-      method: "HEAD",
-      cache: "no-store",
-      redirect: "manual",
-      signal: AbortSignal.timeout(1500),
-    })
-  } catch (error) {
-    if (hasConnectionFailure(error)) {
-      return unavailableResponse(request, service.name)
-    }
-
-    throw error
+  if (await isPortOpen(service.port)) {
+    return NextResponse.next()
   }
 
-  return NextResponse.next()
-}
+  const acceptsHtml = request.headers.get("accept")?.includes("text/html")
 
-export const config = {
-  matcher: ["/((?!_next/static|_next/image).*)"],
+  if (request.method === "GET" && acceptsHtml) {
+    return unavailableResponse(request, service.name)
+  }
+
+  // Assets, favicon, HMR, etc.: cheap 503 instead of a noisy proxy error
+  return new Response(null, {
+    status: 503,
+    headers: { "cache-control": "no-store", "retry-after": "10" },
+  })
 }

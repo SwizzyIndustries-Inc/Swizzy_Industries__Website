@@ -56,25 +56,25 @@ function MobileNavigationSection({ menuKey }: { menuKey: MegaMenuKey }) {
       </div>
       <CollapsibleContent className="overflow-hidden data-[closed]:animate-accordion-up data-[open]:animate-accordion-down">
         <div className="space-y-4 py-3 pl-2">
-          {menu.pillars && (
+          {menu.products && (
             <div className="space-y-2">
               <Link
-                href="/pillars"
+                href="/products"
                 className="block min-h-10 px-2 py-2 text-sm font-semibold text-primary"
               >
-                Pillars overview
+                Products overview
               </Link>
-              {menu.pillars.map((pillar) => (
+              {menu.products.map((product) => (
                 <div
-                  key={pillar.href}
+                  key={product.href}
                   className="rounded-lg border border-border p-2"
                 >
-                  <NavigationEntryLink entry={pillar} compact />
+                  <NavigationEntryLink entry={product} compact />
                   <Link
-                    href={pillar.zoneHref}
+                    href={product.zoneHref}
                     className="ml-11 inline-flex min-h-9 items-center text-xs font-medium text-primary hover:text-accent-foreground"
                   >
-                    Visit Swizzy {pillar.title}
+                    Visit Swizzy {product.title}
                   </Link>
                 </div>
               ))}
@@ -117,7 +117,7 @@ export function MobileNavigation() {
             Swizzy Industries
           </SheetTitle>
           <SheetDescription className="sr-only">
-            Browse company pages, pillars, insights, and careers.
+            Browse company pages, products, insights, and careers.
           </SheetDescription>
           <SheetClose
             render={
@@ -154,7 +154,7 @@ export function MobileNavigation() {
         <div className="min-h-0 flex-1 overflow-y-auto px-4">
           <nav aria-label="Mobile navigation" className="py-2">
             <MobileNavigationSection menuKey="home" />
-            <MobileNavigationSection menuKey="pillars" />
+            <MobileNavigationSection menuKey="products" />
             <MobileNavigationSection menuKey="insights" />
             <MobileNavigationSection menuKey="careers" />
             <Link

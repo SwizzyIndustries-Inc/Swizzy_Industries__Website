@@ -18,7 +18,7 @@ const navigationRoutes: ConstructionRoute[] = [
   ...Object.values(megaMenus).flatMap((menu) => [
     menu.sectionLink,
     ...menu.groups.flatMap((group) => group.links),
-    ...(menu.pillars ?? []),
+    ...(menu.products ?? []),
     menu.featured,
   ]),
   {

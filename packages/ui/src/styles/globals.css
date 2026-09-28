@@ -44,7 +44,7 @@
   --color-foreground: var(--foreground);
   --color-background: var(--background);
 
-  /* Brand tokens from DESIGN.md (usable as bg-navy-deep, text-pillar-health, etc.) */
+  /* Brand tokens from DESIGN.md (usable as bg-navy-deep, text-product-health, etc.) */
   --color-navy-deep: #0a1f44;
   --color-blue-primary: #1b5fc1;
   --color-blue-hover: #154c9b;
@@ -57,11 +57,11 @@
   --color-ink-text: #0f172a;
   --color-slate-body: #334155;
   --color-slate-muted: #64748b;
-  --color-pillar-health: #0e9f8e;
-  --color-pillar-education: #3a5bd9;
-  --color-pillar-social: #e8735a;
-  --color-pillar-business: #f5c88a;
-  --color-pillar-government: #7cc0e2;
+  --color-product-health: #0e9f8e;
+  --color-product-education: #3a5bd9;
+  --color-product-social: #e8735a;
+  --color-product-business: #f5c88a;
+  --color-product-government: #7cc0e2;
   --color-feedback-success: #1e9e6a;
   --color-feedback-warning: #e0a100;
   --color-feedback-error: #d64545;
