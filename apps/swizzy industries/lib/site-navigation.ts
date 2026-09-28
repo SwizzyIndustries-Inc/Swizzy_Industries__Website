@@ -29,7 +29,7 @@ export type NavigationGroup = {
 
 export type PillarNavigationEntry = NavigationEntry & {
   zoneHref: string
-  accent: "health" | "education" | "social"
+  accent: "health" | "education" | "social" | "business" | "government"
 }
 
 export type MegaMenuDefinition = {
@@ -43,22 +43,22 @@ export type MegaMenuDefinition = {
     action: string
     icon: LucideIcon
   }
-  pillars?: PillarNavigationEntry[]
+  products?: PillarNavigationEntry[]
 }
 
 export const primaryNavigation = [
   { key: "home", label: "Home", href: "/" },
   {
-    key: "pillars",
-    label: "Pillars & Solutions",
-    href: "/pillars",
+    key: "products",
+    label: "products & Solutions",
+    href: "/products",
   },
   { key: "insights", label: "Blog & News", href: "/blog" },
   { key: "careers", label: "Careers", href: "/careers" },
   { key: "contacts", label: "Contacts", href: "/contact" },
 ] as const
 
-export type MegaMenuKey = "home" | "pillars" | "insights" | "careers"
+export type MegaMenuKey = "home" | "products" | "insights" | "careers"
 
 export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
   home: {
@@ -130,11 +130,11 @@ export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
       icon: Sparkles,
     },
   },
-  pillars: {
+  products: {
     sectionLink: {
-      title: "Pillars & Solutions",
-      description: "Explore Swizzy's pillars and solutions.",
-      href: "/pillars",
+      title: "products & Solutions",
+      description: "Explore Swizzy's products and solutions.",
+      href: "/products",
     },
     groups: [
       {
@@ -173,39 +173,55 @@ export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
         ],
       },
     ],
-    pillars: [
+    products: [
       {
-        title: "Health",
+        title: "Tibika",
         description: "Immersive tools for hospitals, clinics, and care.",
-        href: "/pillars/health",
-        zoneHref: "https://health.swizzy.co.ke",
+        href: "/products/tibika",
+        zoneHref: "https://tibika.swizzyindustries.com",
         icon: HeartPulse,
         accent: "health",
       },
       {
-        title: "Education",
+        title: "Elimika",
         description: "Immersive learning that reaches every classroom.",
-        href: "/pillars/education",
-        zoneHref: "https://education.swizzy.co.ke",
+        href: "/products/elimika",
+        zoneHref: "https://elimika.swizzyindustries.com",
         icon: School,
         accent: "education",
       },
       {
-        title: "Socialization",
+        title: "Jumuika",
         description: "Connection and community, reimagined.",
-        href: "/pillars/socialization",
-        zoneHref: "https://social.swizzy.co.ke",
+        href: "/products/jumuika",
+        zoneHref: "https://jumuika.swizzyindustries.com",
         icon: UsersRound,
         accent: "social",
       },
+      {
+        title: "Nufaika",
+        description: "Immersive tools for businesses and organizations.",
+        href: "/products/nufaika",
+        zoneHref: "https://nufaika.swizzyindustries.com",
+        icon: Building2,
+        accent: "business",
+      },
+      {
+        title: "Wajibika",
+        description: "Immersive tools for government and public service.",
+        href: "/products/wajibika",
+        zoneHref: "https://wajibika.swizzyindustries.com",
+        icon: BriefcaseBusiness,
+        accent: "government",
+      },
     ],
     featured: {
-      eyebrow: "Our pillars",
+      eyebrow: "Our products",
       title: "Three focus areas. One connected economy.",
       description:
         "Health, education, and socialization are where immersive technology can serve people directly.",
-      href: "/pillars",
-      action: "See all pillars",
+      href: "/products",
+      action: "See all products",
       icon: Target,
     },
   },

@@ -109,49 +109,55 @@ function FeaturedNavigationCard({
   )
 }
 
-function PillarNavigationCard({ pillar }: { pillar: PillarNavigationEntry }) {
-  const Icon = pillar.icon
+function PillarNavigationCard({ product }: { product: PillarNavigationEntry }) {
+  const Icon = product.icon
 
   return (
     <article
       className={cn(
         "group rounded-lg border border-l-4 border-border bg-card p-3 transition-shadow hover:shadow-medium",
-        pillar.accent === "health" && "border-l-pillar-health",
-        pillar.accent === "education" && "border-l-pillar-education",
-        pillar.accent === "social" && "border-l-pillar-social"
+        product.accent === "health" && "border-l-pillar-health",
+        product.accent === "education" && "border-l-pillar-education",
+        product.accent === "social" && "border-l-pillar-social",
+        product.accent === "business" && "border-l-pillar-business",
+        product.accent === "government" && "border-l-pillar-government"
       )}
     >
       <Link
-        href={pillar.href}
+        href={product.href}
         className="flex items-start gap-3 rounded-md focus-visible:ring-2 focus-visible:ring-teal-accent focus-visible:outline-none"
       >
         <span
           className={cn(
             "flex size-10 shrink-0 items-center justify-center rounded-lg",
-            pillar.accent === "health" &&
+            product.accent === "health" &&
               "bg-teal-tint text-pillar-health dark:bg-pillar-health/15 dark:text-teal-300",
-            pillar.accent === "education" &&
+            product.accent === "education" &&
               "bg-blue-tint text-pillar-education dark:bg-pillar-education/15 dark:text-blue-300",
-            pillar.accent === "social" &&
-              "bg-[#FCEAE6] text-pillar-social dark:bg-pillar-social/15 dark:text-[#F5A08D]"
+            product.accent === "social" &&
+              "bg-[#FCEAE6] text-pillar-social dark:bg-pillar-social/15 dark:text-[#F5A08D]",
+            product.accent === "business" &&
+              "text-pillar-business dark:bg-pillar-business/15 bg-[#FDF6E5] dark:text-[#F5C88A]",
+            product.accent === "government" &&
+              "text-pillar-government dark:bg-pillar-government/15 bg-[#E8F3F9] dark:text-[#7CC0E2]"
           )}
         >
           <Icon aria-hidden="true" className="size-5" />
         </span>
         <span>
           <span className="block text-sm font-semibold text-card-foreground group-hover:text-primary">
-            {pillar.title}
+            {product.title}
           </span>
           <span className="mt-1 block text-xs leading-5 text-muted-foreground">
-            {pillar.description}
+            {product.description}
           </span>
         </span>
       </Link>
       <Link
-        href={pillar.zoneHref}
+        href={product.zoneHref}
         className="mt-2 ml-[52px] inline-flex min-h-8 items-center gap-1 text-xs font-medium text-primary hover:text-accent-foreground focus-visible:ring-2 focus-visible:ring-teal-accent focus-visible:outline-none"
       >
-        Visit Swizzy {pillar.title}
+        Visit Swizzy {product.title}
         <ArrowUpRight aria-hidden="true" className="size-3.5" />
       </Link>
     </article>
@@ -159,26 +165,26 @@ function PillarNavigationCard({ pillar }: { pillar: PillarNavigationEntry }) {
 }
 
 function PillarsMegaMenu() {
-  const menu = megaMenus.pillars
+  const menu = megaMenus.products
 
   return (
     <div className="grid gap-5 p-5 lg:grid-cols-[1.2fr_0.8fr]">
-      <section aria-label="Our pillars">
+      <section aria-label="Our products">
         <div className="mb-3 flex items-center justify-between gap-3 px-1">
           <h3 className="text-[11px] font-semibold tracking-[0.08em] text-muted-foreground uppercase">
-            Our pillars
+            Our products
           </h3>
           <Link
-            href="/pillars"
+            href="/products"
             className="inline-flex min-h-9 items-center gap-1 text-xs font-semibold text-primary hover:text-accent-foreground"
           >
-            See all pillars{" "}
+            See all products{" "}
             <ArrowUpRight aria-hidden="true" className="size-3.5" />
           </Link>
         </div>
         <div className="grid gap-2">
-          {menu.pillars?.map((pillar) => (
-            <PillarNavigationCard key={pillar.href} pillar={pillar} />
+          {menu.products?.map((product) => (
+            <PillarNavigationCard key={product.href} product={product} />
           ))}
         </div>
       </section>
@@ -206,7 +212,7 @@ function PillarsMegaMenu() {
 function StandardMegaMenu({
   menuKey,
 }: {
-  menuKey: Exclude<keyof typeof megaMenus, "pillars">
+  menuKey: Exclude<keyof typeof megaMenus, "products">
 }) {
   const menu = megaMenus[menuKey]
 
@@ -234,14 +240,14 @@ export function MegaMenuPanel({
 }) {
   return (
     <div className="overflow-hidden rounded-b-xl border border-border bg-popover text-popover-foreground shadow-high">
-      {menuKey === "pillars" ? (
+      {menuKey === "products" ? (
         <PillarsMegaMenu />
       ) : (
         <StandardMegaMenu menuKey={menuKey} />
       )}
-      {menuKey === "pillars" && (
+      {menuKey === "products" && (
         <div className="border-t border-border bg-muted px-6 py-3 text-center text-xs text-muted-foreground">
-          {megaMenus.pillars.featured.description}
+          {megaMenus.products.featured.description}
         </div>
       )}
     </div>
