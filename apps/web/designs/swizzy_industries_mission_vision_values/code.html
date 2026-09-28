@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="web_standard" name="shell-type"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+    @layer base {
+      html, body { margin: 0; padding: 0; }
+      body { overscroll-behavior: none; }
+      main > :first-child { margin-top: 0 !important; }
+      main > :last-child { margin-bottom: 0 !important; }
+    }
+    ::-webkit-scrollbar { display: none; }
+  </style>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-bright": "#f8f9ff",
+            "blue-hover": "#154C9B",
+            "on-secondary-container": "#006b76",
+            "pillar-education": "#3A5BD9",
+            "on-tertiary-container": "#d3deff",
+            "on-secondary-fixed-variant": "#004f57",
+            "on-tertiary": "#ffffff",
+            "on-error-container": "#93000a",
+            "navy-deep": "#0A1F44",
+            "error": "#ba1a1a",
+            "on-primary": "#ffffff",
+            "on-tertiary-fixed": "#041a3f",
+            "outline": "#737784",
+            "surface-container": "#e6eeff",
+            "secondary-fixed": "#91f1ff",
+            "error-container": "#ffdad6",
+            "tertiary-container": "#50628a",
+            "inverse-primary": "#adc6ff",
+            "inverse-surface": "#233144",
+            "surface": "#f8f9ff",
+            "surface-dim": "#ccdbf4",
+            "teal-accent": "#12A5B4",
+            "secondary-container": "#78eefe",
+            "surface-container-high": "#dde9ff",
+            "blue-tint": "#E4EEFB",
+            "slate-body": "#334155",
+            "secondary-fixed-dim": "#5fd7e6",
+            "secondary": "#006973",
+            "cloud-border": "#E6ECF4",
+            "feedback-error": "#D64545",
+            "on-tertiary-fixed-variant": "#34466d",
+            "teal-tint": "#DDF3F5",
+            "primary": "#00479c",
+            "surface-variant": "#d5e3fd",
+            "primary-container": "#1b5fc1",
+            "on-secondary-fixed": "#001f23",
+            "mist-bg": "#F8FAFC",
+            "inverse-on-surface": "#ebf1ff",
+            "slate-muted": "#64748B",
+            "tertiary": "#384a71",
+            "feedback-success": "#1E9E6A",
+            "savannah-amber": "#F2A63B",
+            "feedback-warning": "#E0A100",
+            "on-primary-fixed-variant": "#004495",
+            "on-background": "#0d1c2f",
+            "blue-primary": "#1B5FC1",
+            "on-surface-variant": "#424752",
+            "on-primary-fixed": "#001a42",
+            "primary-fixed": "#d8e2ff",
+            "surface-container-lowest": "#ffffff",
+            "tertiary-fixed": "#d9e2ff",
+            "outline-variant": "#c2c6d5",
+            "surface-container-low": "#eff4ff",
+            "primary-fixed-dim": "#adc6ff",
+            "background": "#f8f9ff",
+            "surface-tint": "#135bbd",
+            "ink-text": "#0F172A",
+            "on-surface": "#0d1c2f",
+            "on-primary-container": "#d3dfff",
+            "tertiary-fixed-dim": "#b4c6f4",
+            "on-secondary": "#ffffff",
+            "on-error": "#ffffff",
+            "surface-container-highest": "#d5e3fd",
+            "pillar-social": "#E8735A",
+            "pillar-health": "#0E9F8E"
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "2xl": "1rem",
+            "3xl": "1.5rem",
+            "full": "9999px"
+          },
+          fontFamily: {
+            "sans": ["Inter", "sans-serif"],
+            "headline-1": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-2": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-3": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-4": ["Plus Jakarta Sans", "sans-serif"],
+            "display": ["Plus Jakarta Sans", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-[#FAFCFF] font-sans text-slate-body antialiased selection:bg-blue-100 selection:text-blue-900">
+<!-- ==================== HEADER / NAVIGATION ==================== -->
+<header class="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200/80 transition-all">
+<div class="h-20 max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
+<!-- Brand Logo -->
+<a class="flex items-center gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-lg" data-path="home" href="#">
+<img alt="Swizzy Industries Brand Mark" class="h-9 w-auto object-contain transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/AEtjO1WhX2L7azkZTZ48eYhqQLzWJsxc1hHx1PngY784fvU58hwqCADSLliNz_eMYq1WiEnQXxx9_PPCnjYxLOdsISC-LNElw0F6dETHdmeOO-tEdYiXPGkCJQo80YoC2KyHcllnqJKzuNdF3LY9HcFtg1bb7iebDkCdXReszMoWL061uHfWVPcazzWhAg_B2K645OKQtILrO26jlKUDasYeIuAkfhumIBdk4OGqLwfBgLS_131N9GAHFHPyPJw"/>
+<span class="font-headline-4 text-xl font-bold text-navy-deep tracking-tight group-hover:text-blue-primary transition-colors">Swizzy Industries</span>
+</a>
+<!-- Navigation Links: Generous Spacing (gap-9 to gap-10) with Chevrons & Clean Hover Underlines -->
+<nav aria-label="Main Navigation" class="hidden lg:flex items-center gap-9">
+<!-- Home -->
+<a class="p-3 rounded-xl hover:bg-slate-50 border border-transparent hover:border-slate-200/60 transition-all flex gap-3.5 items-start group/item" data-path="home" href="#">
+<span>Home</span>
+<span class="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-primary rounded-full"></span>
+</a>
+<!-- Pillars & Solutions with Mega Dropdown -->
+<div class="relative group py-2">
+<button aria-expanded="false" class="flex items-center gap-1 font-medium text-[15px] text-slate-600 hover:text-blue-primary transition-colors group-hover:text-blue-primary" type="button">
+<span>Pillars &amp; Solutions</span>
+<span class="material-symbols-outlined text-[18px] text-slate-400 group-hover:text-blue-primary group-hover:rotate-180 transition-transform duration-200">expand_more</span>
+</button>
+<div class="absolute top-full -left-12 w-[640px] bg-white rounded-2xl border border-slate-200/90 shadow-xl p-6 opacity-0 translate-y-3 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 grid grid-cols-12 gap-6 z-50">
+<div class="col-span-7 space-y-3">
+<span class="text-xs font-semibold uppercase tracking-wider text-slate-400 block px-2">Operational Pillars</span>
+<a class="p-3 rounded-xl hover:bg-slate-50 border border-transparent hover:border-slate-200/60 transition-all flex gap-3.5 items-start group/item" data-path="health-pillar" href="#">
+<div class="w-10 h-10 rounded-lg bg-teal-50 border border-teal-200/60 flex items-center justify-center shrink-0 group-hover/item:bg-teal-100/70 transition-colors">
+<span class="material-symbols-outlined text-teal-600 text-[20px]">medical_services</span>
+</div>
+<div>
+<span class="font-headline-4 text-sm font-bold text-navy-deep group-hover/item:text-teal-700 transition-colors block">Health Pillar</span>
+<p class="text-xs text-slate-500 leading-relaxed mt-0.5">Surgical, clinical &amp; patient telemetry simulations.</p>
+</div>
+</a>
+<a class="p-3 rounded-xl hover:bg-slate-50 border border-transparent hover:border-slate-200/60 transition-all flex gap-3.5 items-start group/item" data-path="education-pillar" href="#">
+<div class="w-10 h-10 rounded-lg bg-blue-50 border border-blue-200/60 flex items-center justify-center shrink-0 group-hover/item:bg-blue-100/70 transition-colors">
+<span class="material-symbols-outlined text-blue-600 text-[20px]">school</span>
+</div>
+<div>
+<span class="font-headline-4 text-sm font-bold text-navy-deep group-hover/item:text-blue-primary transition-colors block">Education Pillar</span>
+<p class="text-xs text-slate-500 leading-relaxed mt-0.5">CBC-aligned STEM &amp; vocational virtual laboratories.</p>
+</div>
+</a>
+<a class="p-3 rounded-xl hover:bg-slate-50 border border-transparent hover:border-slate-200/60 transition-all flex gap-3.5 items-start group/item" data-path="socialization-pillar" href="#">
+<div class="w-10 h-10 rounded-lg bg-orange-50 border border-orange-200/60 flex items-center justify-center shrink-0 group-hover/item:bg-orange-100/70 transition-colors">
+<span class="material-symbols-outlined text-orange-600 text-[20px]">public</span>
+</div>
+<div>
+<span class="font-headline-4 text-sm font-bold text-navy-deep group-hover/item:text-orange-700 transition-colors block">Socialization Pillar</span>
+<p class="text-xs text-slate-500 leading-relaxed mt-0.5">Shared civic forums &amp; Pan-African cultural heritage.</p>
+</div>
+</a>
+</div>
+<div class="col-span-5 bg-slate-50/80 rounded-xl p-5 flex flex-col justify-between border border-slate-200/60">
+<div>
+<span class="text-xs font-semibold uppercase tracking-wider text-slate-400 block mb-3">Enterprise</span>
+<ul class="space-y-2 text-xs font-medium text-slate-600">
+<li><a class="block hover:text-blue-primary transition-colors" data-path="bespoke-development" href="#">Bespoke XR Builds →</a></li>
+<li><a class="block hover:text-blue-primary transition-colors" data-path="devices-and-integration" href="#">Hardware &amp; Provisioning →</a></li>
+<li><a class="block hover:text-blue-primary transition-colors" data-path="case-studies" href="#">Case Studies &amp; Evidence →</a></li>
+</ul>
+</div>
+<div class="pt-4 border-t border-slate-200">
+<a class="text-xs font-semibold text-blue-primary hover:text-blue-hover inline-flex items-center gap-1" data-path="pillars-and-solutions" href="#">
+                  View Complete Architecture
+                  <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Blog & News -->
+<a class="relative font-medium text-[15px] text-slate-600 hover:text-blue-primary transition-colors py-2 group" data-path="blog-and-news" href="#">
+<span>Blog &amp; News</span>
+<span class="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
+</a>
+<!-- Careers -->
+<a class="relative font-medium text-[15px] text-slate-600 hover:text-blue-primary transition-colors py-2 group" data-path="careers" href="#">
+<span>Careers</span>
+<span class="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
+</a>
+<!-- Contacts -->
+<a class="relative font-medium text-[15px] text-slate-600 hover:text-blue-primary transition-colors py-2 group" data-path="contacts" href="#">
+<span>Contacts</span>
+<span class="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
+</a>
+</nav>
+<!-- Action Items: Theme Switcher, Search & Prominent CTA Button -->
+<div class="flex items-center gap-3">
+<!-- Search Button -->
+<button aria-label="Search portal" class="w-10 h-10 rounded-full border border-slate-200/90 text-slate-600 hover:text-navy-deep hover:bg-slate-100/70 flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</button>
+<!-- Theme Switcher Toggle Button (Sun/Moon for Dark Mode readiness) -->
+<button aria-label="Toggle Theme Mode" class="w-10 h-10 rounded-full border border-slate-200/90 text-slate-600 hover:text-navy-deep hover:bg-slate-100/70 flex items-center justify-center transition-colors" title="Toggle Light/Dark Theme" type="button">
+<span class="material-symbols-outlined text-[19px]">light_mode</span>
+</button>
+<!-- Prominent High-Contrast Call to Action Button: Swizzy Blue #1B5FC1, 12px radius, 46px height, arrow icon -->
+<a class="inline-flex h-[46px] px-6 rounded-xl bg-blue-primary text-white font-medium text-[14px] items-center justify-center gap-2 hover:bg-blue-hover shadow-[0_4px_14px_rgba(27,95,193,0.30)] hover:shadow-[0_6px_20px_rgba(27,95,193,0.40)] hover:-translate-y-0.5 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2" data-path="request-a-demo" href="#">
+<span>Request a Demo</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</header>
+<!-- ==================== MAIN CONTENT ==================== -->
+<main class="w-full pt-20 bg-[#FAFCFF] min-h-screen"><div class="flex flex-col w-full">
+<!-- BREADCRUMBS & COMPASS TICKER -->
+<section class="w-full bg-surface-container-lowest">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-8 pt-8 pb-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+<nav aria-label="Breadcrumb" class="flex items-center gap-2 font-caption text-caption text-slate-muted">
+<a class="hover:text-blue-primary transition-colors" data-path="home" href="#">Home</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-slate-muted">Company</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-ink-text font-semibold">Mission, Vision &amp; Values</span>
+</nav>
+<div class="inline-flex items-center gap-2 text-caption font-caption text-slate-muted bg-surface-container-low px-3 py-1.5 rounded-full">
+<span class="w-2 h-2 rounded-full bg-feedback-success animate-pulse"></span>
+<span class="font-medium text-slate-body">Charter v4.2 • Nairobi Engineering Command</span>
+</div>
+</div>
+</section>
+<!-- PAGE HEADER -->
+<section class="w-full bg-surface-container-lowest pb-16 pt-4">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
+<div class="max-w-3xl space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-tint text-blue-primary font-eyebrow text-eyebrow uppercase">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>WHAT GUIDES EVERY DECISION</span>
+</div>
+<h1 class="font-headline-1 text-headline-1 text-ink-text tracking-tight">
+          Mission, Vision &amp; Values
+        </h1>
+<p class="font-body-large text-body-large text-slate-muted leading-relaxed">
+          The institutional compass directing our engineering, partnerships, and spatial technology deployment across Kenya.
+        </p>
+</div>
+</div>
+</section>
+<!-- SECTION 3: THE MISSION (Clean White Canvas) -->
+<section class="w-full bg-surface-container-lowest py-20">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
+<div class="relative bg-surface-container-low rounded-3xl p-8 sm:p-12 lg:p-16 overflow-hidden shadow-sm">
+<div class="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-blue-tint/60 to-transparent rounded-full blur-3xl pointer-events-none -mr-20 -mt-20"></div>
+<div class="relative z-10 max-w-4xl space-y-8">
+<div class="flex items-center gap-3">
+<span class="px-3 py-1 rounded-full bg-primary-container text-on-primary font-eyebrow text-caption uppercase">
+              Our Institutional Mission
+            </span>
+<span class="text-caption font-caption text-slate-muted">Ratified at Nairobi HQ</span>
+</div>
+<h2 class="font-headline-2 text-headline-2 text-navy-deep tracking-tight leading-tight">
+            “To transform Kenya’s economy by making immersive spatial computing useful, accessible, and trusted across healthcare, education, and civic community.”
+          </h2>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 pt-6">
+<div class="md:col-span-8 space-y-4">
+<p class="font-body-regular text-body-regular text-slate-body leading-relaxed">
+                Swizzy Industries operates not as a speculative metaverse laboratory, but as institutional spatial infrastructure. We deploy WebXR and precision telemetry where physical simulation reduces clinical mortality, upgrades Technical and Vocational Education and Training (TVET) outcomes, and catalogs indigenous East African cultural heritage before historical artifacts deteriorate or disperse.
+              </p>
+<p class="font-small text-small text-slate-muted leading-relaxed">
+                Our deployments are anchored in local hardware realities: multi-platform browser playback, sub-20ms motion-to-photon responsiveness over commercial Safaricom LTE networks, and strict offline cached mode for peri-urban and rural county institutions.
+              </p>
+</div>
+<div class="md:col-span-4 bg-surface-container-lowest rounded-2xl p-6 shadow-sm flex flex-col justify-between space-y-4">
+<div class="space-y-1">
+<span class="font-eyebrow text-eyebrow uppercase text-teal-accent">Deployable Precision</span>
+<div class="font-headline-3 text-headline-3 text-ink-text font-bold">99.8%</div>
+<div class="font-caption text-caption text-slate-muted">Simulated telemetry congruence verified against surgical theater physical controls.</div>
+</div>
+<div class="space-y-2 pt-4">
+<div class="flex items-center justify-between text-caption font-caption text-slate-body">
+<span>CBC Aligned</span>
+<span class="font-semibold text-primary">Stage 7–9</span>
+</div>
+<div class="w-full bg-cloud-border h-1.5 rounded-full overflow-hidden">
+<div class="bg-blue-primary h-full rounded-full w-full"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: THE VISION (Mist Surface Band) -->
+<section class="w-full bg-mist-bg py-20">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
+<div class="text-center max-w-4xl mx-auto space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-tint text-secondary font-eyebrow text-caption uppercase">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>Pan-African Spatial Horizon</span>
+</div>
+<h2 class="font-headline-1 text-headline-1 text-ink-text tracking-tight">
+          “A Kenya where every hospital, classroom, and community can reach the future through immersive experiences that eliminate geographical and resource barriers.”
+        </h2>
+<p class="font-body-large text-body-large text-slate-muted max-w-2xl mx-auto">
+          Whether a medical intern training in Lodwar, a Junior Secondary student simulating molecular biology in Kilifi, or an archivist recording Maasai oral genealogies in Narok, spatial computing creates immediate parity.
+        </p>
+<!-- Vision Metric Mosaic -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-10 text-left">
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm">
+<span class="material-symbols-outlined text-pillar-health text-[28px] mb-3">medical_information</span>
+<div class="font-headline-3 text-headline-3 text-ink-text">47 Counties</div>
+<p class="font-caption text-caption text-slate-muted mt-1">Universal XR clinical training access by 2030, bypassing geographic equipment scarcity.</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm">
+<span class="material-symbols-outlined text-pillar-education text-[28px] mb-3">science</span>
+<div class="font-headline-3 text-headline-3 text-ink-text">100% CBC Lab</div>
+<p class="font-caption text-caption text-slate-muted mt-1">Chemistry and Physics virtual apparatus zero-capex labs for under-resourced schools.</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm">
+<span class="material-symbols-outlined text-pillar-social text-[28px] mb-3">history_edu</span>
+<div class="font-headline-3 text-headline-3 text-ink-text">35,000+</div>
+<p class="font-caption text-caption text-slate-muted mt-1">Indigenous historical artifacts scanned in millimeter-accurate photogrammetry.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: SIX CORE VALUES GRID -->
+<section class="w-full bg-surface-container-lowest py-24">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
+<div class="max-w-2xl mb-16 space-y-3">
+<span class="font-eyebrow text-eyebrow uppercase text-blue-primary">The Operating Principles</span>
+<h2 class="font-headline-2 text-headline-2 text-ink-text tracking-tight">Six Non-Negotiable Core Values</h2>
+<p class="font-body-regular text-body-regular text-slate-muted">
+          Every simulation compiled, data pipeline maintained, and county engagement held answers to these foundational tenets.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Card 01: Trust & Clinical Rigor -->
+<div class="group bg-surface-container-lowest p-8 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between relative overflow-hidden">
+<div class="w-full h-1 bg-pillar-health absolute top-0 left-0"></div>
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-xl bg-teal-tint flex items-center justify-center text-pillar-health">
+<span class="material-symbols-outlined text-[24px]">verified_user</span>
+</div>
+<span class="font-headline-4 text-headline-4 text-slate-muted/40 font-bold">01</span>
+</div>
+<h3 class="font-headline-4 text-headline-4 text-ink-text mb-3">Trust &amp; Clinical Rigor</h3>
+<p class="font-body-regular text-body-regular text-slate-body leading-relaxed">
+              Evidence-backed simulation architecture designed alongside senior surgeon boards, guaranteeing zero downstream risk to patient lives.
+            </p>
+</div>
+<div class="pt-6 mt-6 flex items-center gap-2 text-caption font-caption text-pillar-health">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>Kenya Medical Practitioners Board certified workflow</span>
+</div>
+</div>
+<!-- Card 02: Measured National Impact -->
+<div class="group bg-surface-container-lowest p-8 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between relative overflow-hidden">
+<div class="w-full h-1 bg-pillar-education absolute top-0 left-0"></div>
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-xl bg-blue-tint flex items-center justify-center text-blue-primary">
+<span class="material-symbols-outlined text-[24px]">query_stats</span>
+</div>
+<span class="font-headline-4 text-headline-4 text-slate-muted/40 font-bold">02</span>
+</div>
+<h3 class="font-headline-4 text-headline-4 text-ink-text mb-3">Measured National Impact</h3>
+<p class="font-body-regular text-body-regular text-slate-body leading-relaxed">
+              Real clinical and classroom outcomes across Kenyan wards and schools over speculative hype or unverified digital novelty.
+            </p>
+</div>
+<div class="pt-6 mt-6 flex items-center gap-2 text-caption font-caption text-blue-primary">
+<span class="material-symbols-outlined text-[16px]">assessment</span>
+<span>Empirical baseline metric tracking</span>
+</div>
+</div>
+<!-- Card 03: Radical Inclusion -->
+<div class="group bg-surface-container-lowest p-8 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between relative overflow-hidden">
+<div class="w-full h-1 bg-savannah-amber absolute top-0 left-0"></div>
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-savannah-amber">
+<span class="material-symbols-outlined text-[24px]">signal_cellular_alt_2_bar</span>
+</div>
+<span class="font-headline-4 text-headline-4 text-slate-muted/40 font-bold">03</span>
+</div>
+<h3 class="font-headline-4 text-headline-4 text-ink-text mb-3">Radical Inclusion</h3>
+<p class="font-body-regular text-body-regular text-slate-body leading-relaxed">
+              Engineered intentionally for low bandwidth, offline edge computing, accessible headsets, and ubiquitous Android browser accessibility.
+            </p>
+</div>
+<div class="pt-6 mt-6 flex items-center gap-2 text-caption font-caption text-savannah-amber">
+<span class="material-symbols-outlined text-[16px]">cloud_off</span>
+<span>Local edge caching enabled</span>
+</div>
+</div>
+<!-- Card 04: Engineering Excellence -->
+<div class="group bg-surface-container-lowest p-8 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between relative overflow-hidden">
+<div class="w-full h-1 bg-pillar-education absolute top-0 left-0"></div>
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-xl bg-blue-tint flex items-center justify-center text-pillar-education">
+<span class="material-symbols-outlined text-[24px]">terminal</span>
+</div>
+<span class="font-headline-4 text-headline-4 text-slate-muted/40 font-bold">04</span>
+</div>
+<h3 class="font-headline-4 text-headline-4 text-ink-text mb-3">Engineering Excellence</h3>
+<p class="font-body-regular text-body-regular text-slate-body leading-relaxed">
+              World-class spatial physics, sub-millimeter anatomical precision, and native WebXR fidelity designed and authored locally in Nairobi.
+            </p>
+</div>
+<div class="pt-6 mt-6 flex items-center gap-2 text-caption font-caption text-pillar-education">
+<span class="material-symbols-outlined text-[16px]">speed</span>
+<span>Sub-20ms frame budget on low-tier silicon</span>
+</div>
+</div>
+<!-- Card 05: Intellectual & Cultural Sovereignty -->
+<div class="group bg-surface-container-lowest p-8 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between relative overflow-hidden">
+<div class="w-full h-1 bg-pillar-social absolute top-0 left-0"></div>
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-pillar-social">
+<span class="material-symbols-outlined text-[24px]">lock</span>
+</div>
+<span class="font-headline-4 text-headline-4 text-slate-muted/40 font-bold">05</span>
+</div>
+<h3 class="font-headline-4 text-headline-4 text-ink-text mb-3">Intellectual &amp; Cultural Sovereignty</h3>
+<p class="font-body-regular text-body-regular text-slate-body leading-relaxed">
+              Safeguarding sensitive Kenyan citizen biometric data under local Data Protection Act regulations while preserving authentic African heritage.
+            </p>
+</div>
+<div class="pt-6 mt-6 flex items-center gap-2 text-caption font-caption text-pillar-social">
+<span class="material-symbols-outlined text-[16px]">policy</span>
+<span>ODPC Kenya compliant data silos</span>
+</div>
+</div>
+<!-- Card 06: Institutional Accountability -->
+<div class="group bg-surface-container-lowest p-8 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between relative overflow-hidden">
+<div class="w-full h-1 bg-navy-deep absolute top-0 left-0"></div>
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-navy-deep">
+<span class="material-symbols-outlined text-[24px]">account_balance</span>
+</div>
+<span class="font-headline-4 text-headline-4 text-slate-muted/40 font-bold">06</span>
+</div>
+<h3 class="font-headline-4 text-headline-4 text-ink-text mb-3">Institutional Accountability</h3>
+<p class="font-body-regular text-body-regular text-slate-body leading-relaxed">
+              Multi-year stewardship models forged with county governments, regional universities, and referral hospitals to guarantee enduring adoption.
+            </p>
+</div>
+<div class="pt-6 mt-6 flex items-center gap-2 text-caption font-caption text-navy-deep">
+<span class="material-symbols-outlined text-[16px]">handshake</span>
+<span>Tenured institutional support mandates</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: VALUES IN ACTION (Practitioner Quotes) -->
+<section class="w-full bg-mist-bg py-24">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div class="max-w-2xl space-y-3">
+<span class="font-eyebrow text-eyebrow uppercase text-teal-accent">Real-World Execution</span>
+<h2 class="font-headline-2 text-headline-2 text-ink-text tracking-tight">Values in Action</h2>
+<p class="font-body-regular text-body-regular text-slate-muted">
+            How these principles translate into day-to-day operations across Kenyan operating theatres, public schools, and cultural repositories.
+          </p>
+</div>
+<div class="inline-flex items-center gap-2 text-caption font-caption text-slate-muted bg-surface-container-lowest px-4 py-2 rounded-xl shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-blue-primary">groups</span>
+<span>Field Practitioner Dispatches</span>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<!-- Perspective 01 -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<div class="flex items-center gap-1 text-savannah-amber">
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+</div>
+<p class="font-body-regular text-body-regular text-slate-body italic leading-relaxed">
+              “Before Swizzy arrived, our surgical residents competed for limited clinical observation slots in our main theater. With their sub-millimeter biliary tree simulations, students complete 40 zero-risk simulated procedures before ever touching a live patient.”
+            </p>
+</div>
+<div class="pt-6 flex items-center gap-4">
+<img class="w-12 h-12 rounded-full object-cover shadow-sm" data-alt="Portrait of an African female chief medical instructor wearing a laboratory coat and stethoscope in a well-lit modern Nairobi teaching hospital, professional corporate photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyH7Rz8HsqEH8yJIjXY-k-pMPLUtbtNlKnr92xBmaS7zaeSqlV7aA-fLXlpDdB2s_9M5oshrPewKzD1bNDUxUD4bWuRSfr3YOE5NkKrQviTcbVb56s-LUspDjCwUoodYRvss5t5BoB9mtu9pq9LWNVz4OewHgowsFvUR_FVVTzMZO1sbd03PYO6qSKUS4bPLxr0bIrgXkZD5WIxAWt60e_h2xkE0RufKPTPgQPtCzLFEkhbKnJlKkU"/>
+<div>
+<div class="font-headline-4 text-headline-4 text-ink-text text-base">Dr. Faith Wanjiku</div>
+<div class="font-caption text-caption text-slate-muted">Lead Biomedical Instructor, Kenyatta National Hospital</div>
+</div>
+</div>
+</div>
+<!-- Perspective 02 -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<div class="flex items-center gap-1 text-savannah-amber">
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+</div>
+<p class="font-body-regular text-body-regular text-slate-body italic leading-relaxed">
+              “Our Junior Secondary classroom had no running water or chemical reagents for CBC Grade 8 chemistry. Swizzy’s offline browser simulations allowed our 64 students to balance reactions and observe thermal volatility without requiring imported lab equipment.”
+            </p>
+</div>
+<div class="pt-6 flex items-center gap-4">
+<img class="w-12 h-12 rounded-full object-cover shadow-sm" data-alt="Portrait of an African male secondary STEM school teacher smiling warmly in a bright classroom in Machakos County Kenya, natural soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXyrEly_QFopKrDR0edhDdb_hP2GL2sJwcAlJ9-rf29ha0O_evkJwIhe581_Qm14I5dg_WjsH_3rfhL91uF4a6K8KNAJqtfXLebthhgqPFz-ZzojIj55JWXTFFxikpsDVS1-ry3LJ84rx9VOtbz28cvuDDFFdYp1yR10Wqd0nKnqPDz9-pdEy9zuS0xoWRy_PKSSea3m2GdyOY53A8M3xEmYxVGsI75l-Lnf0oeJSEOHfoKJXzL_kb"/>
+<div>
+<div class="font-headline-4 text-headline-4 text-ink-text text-base">Meshack Kiprono</div>
+<div class="font-caption text-caption text-slate-muted">Junior Secondary STEM Lead, Machakos Central</div>
+</div>
+</div>
+</div>
+<!-- Perspective 03 -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<div class="flex items-center gap-1 text-savannah-amber">
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+</div>
+<p class="font-body-regular text-body-regular text-slate-body italic leading-relaxed">
+              “Cultural sovereignty isn’t theoretical. Western institutions have hoarded our historical artifacts for centuries. Creating photogrammetric twin archives here in Nairobi under Kenya data laws guarantees our ancestors’ physical legacy remains in African hands.”
+            </p>
+</div>
+<div class="pt-6 flex items-center gap-4">
+<img class="w-12 h-12 rounded-full object-cover shadow-sm" data-alt="Portrait of an African female digital 3D heritage archivist with headphones around neck working in a creative tech studio in Nairobi, soft cinematic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYTTTePpKmJpgBeeQd9jwSr2YRX2OaUd4xY4m9sIz3XQa1mKq34OgOOAbupAGknpOpp46MJf9v46mpC-wc5MNT4WyHH0pmCrISF7eLsDqq_7OGa7spQ95QkqKbM7WzO5yNff7TDhdoFwW87PhPTpgh9H1fZrc1Brw6DK4SJJRxhThPat5V6RknDg0E9Qh0WoEFjlSZzdHp72AAMJp0AGhHXboy3xf-_bZeMIpr6zn8jMDqt1TLSMiP"/>
+<div>
+<div class="font-headline-4 text-headline-4 text-ink-text text-base">Amina Oduor</div>
+<div class="font-caption text-caption text-slate-muted">Senior 3D Cultural Archivist, Kenya Heritage XR Lab</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 7: COMMITMENT TO KENYA (Split Layout) -->
+<section class="w-full bg-surface-container-lowest py-24">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Visual & Metric Column -->
+<div class="lg:col-span-6 space-y-6">
+<div class="relative rounded-3xl overflow-hidden shadow-md">
+<img class="w-full h-[420px] object-cover" data-alt="A diverse team of young Kenyan spatial software engineers, 3D artists, and computer science students collaborating over augmented reality models on monitors at a sleek Nairobi innovation workspace, bright sunlight streaming through windows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHXjzMqSoohjN0PgB1M1SKgYnNqaKPdzDCKD8TUfsuywE1AGZfM2mt8EmgxXIhbrfh383aVlLwl2CuNT8JD6VLerYXVMjThcu4_fDVlIt8618vbxv9cUjMy3cmVS2pFeLHNvWiZEMJWX0Qa5Qw8X2hLMo24vb_uDq-lkrPlWDZILCbfgWQZOt058DWDNd9dPjFIjpeXtzPeU3-YQ0Flc-_IxqBZmSDPIj68f9c5WNg1V--nNQt1N5N"/>
+<div class="absolute inset-0 bg-gradient-to-t from-navy-deep/90 via-navy-deep/20 to-transparent flex flex-col justify-end p-8 text-on-primary">
+<span class="font-eyebrow text-eyebrow uppercase text-teal-accent mb-1">Human Capital Investment</span>
+<h3 class="font-headline-3 text-headline-3 font-bold text-on-primary">Rooted in Nairobi. Engineered for Africa.</h3>
+<p class="font-caption text-caption text-slate-dim mt-2">100% of our software architects, modelers, and technical researchers are recruited and trained locally.</p>
+</div>
+</div>
+<!-- Academic Partnerships Ribbon -->
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-surface-container-low p-5 rounded-xl">
+<div class="flex items-center gap-2 text-primary font-headline-4 text-headline-4 font-bold">
+<span class="material-symbols-outlined">school</span>
+<span>UoN FabLab</span>
+</div>
+<p class="font-caption text-caption text-slate-muted mt-1">Joint curriculum research in WebXR engine optimization.</p>
+</div>
+<div class="bg-surface-container-low p-5 rounded-xl">
+<div class="flex items-center gap-2 text-primary font-headline-4 text-headline-4 font-bold">
+<span class="material-symbols-outlined">hub</span>
+<span>@iLabAfrica</span>
+</div>
+<p class="font-caption text-caption text-slate-muted mt-1">Strathmore fellowship pipeline for healthcare simulation engines.</p>
+</div>
+</div>
+</div>
+<!-- Narrative Column -->
+<div class="lg:col-span-6 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-tint text-blue-primary font-eyebrow text-eyebrow uppercase">
+<span class="material-symbols-outlined text-[16px]">handshake</span>
+<span>NATIVE TALENT DEVELOPMENT</span>
+</div>
+<h2 class="font-headline-2 text-headline-2 text-navy-deep tracking-tight">
+            Building the next generation of African spatial computing architects.
+          </h2>
+<p class="font-body-regular text-body-regular text-slate-body leading-relaxed">
+            We reject the offshore assembly line model. Spatial computing cannot be sustained in East Africa if its engineers and systems architects reside thousands of miles away. By anchoring our core IP generation inside Nairobi and actively financing university fellowships, Swizzy guarantees that institutional know-how remains within Kenya.
+          </p>
+<blockquote class="bg-surface-container-low p-6 rounded-2xl">
+<p class="font-body-regular text-body-regular text-slate-body italic font-medium">
+              “Our core engineering thesis is unambiguous: every line of our clinical and educational physics engine is written right here on Riverside Drive. We are creating generational intellectual property that Kenyans own, scale, and govern.”
+            </p>
+<div class="mt-4 flex items-center justify-between text-caption font-caption text-slate-muted">
+<span class="font-semibold text-ink-text">— Executive Engineering Committee, Nairobi HQ</span>
+<span class="text-blue-primary font-medium">Internal Directive #09</span>
+</div>
+</blockquote>
+<div class="flex flex-wrap items-center gap-6 pt-2">
+<div class="space-y-1">
+<div class="font-headline-3 text-headline-3 text-ink-text font-bold">120+</div>
+<div class="font-caption text-caption text-slate-muted">Student Fellows Graduated</div>
+</div>
+<div class="h-10 w-px bg-cloud-border"></div>
+<div class="space-y-1">
+<div class="font-headline-3 text-headline-3 text-ink-text font-bold">4 National</div>
+<div class="font-caption text-caption text-slate-muted">Research Lab Affiliations</div>
+</div>
+<div class="h-10 w-px bg-cloud-border"></div>
+<div class="space-y-1">
+<div class="font-headline-3 text-headline-3 text-ink-text font-bold">100%</div>
+<div class="font-caption text-caption text-slate-muted">Local IP Jurisdiction</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 8: PILLAR ALIGNMENT MATRIX -->
+<section class="w-full bg-mist-bg py-24">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
+<div class="max-w-3xl mb-16 space-y-3">
+<span class="font-eyebrow text-eyebrow uppercase text-blue-primary">Institutional Alignment</span>
+<h2 class="font-headline-2 text-headline-2 text-ink-text tracking-tight">Pillar Alignment Matrix</h2>
+<p class="font-body-regular text-body-regular text-slate-muted">
+          Mapping Swizzy’s three foundational spatial computing pillars to Kenya’s national developmental goals and ministry targets.
+        </p>
+</div>
+<!-- Matrix Table Card -->
+<div class="bg-surface-container-lowest rounded-2xl shadow-sm overflow-hidden">
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead class="bg-surface-container-low text-ink-text font-headline-4 text-small">
+<tr>
+<th class="py-5 px-6 font-semibold">Operational Pillar</th>
+<th class="py-5 px-6 font-semibold">National Development Mandate</th>
+<th class="py-5 px-6 font-semibold">Institutional Metric</th>
+<th class="py-5 px-6 font-semibold">Deployment Status</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-cloud-border/60 font-body-regular text-small text-slate-body">
+<!-- Health Pillar Row -->
+<tr class="hover:bg-surface-container-lowest/50 transition-colors">
+<td class="py-5 px-6">
+<div class="flex items-center gap-3">
+<span class="w-3 h-3 rounded-full bg-pillar-health"></span>
+<div>
+<div class="font-semibold text-ink-text">Health Pillar</div>
+<div class="text-caption font-caption text-slate-muted">Clinical Telemetry &amp; Surgery</div>
+</div>
+</div>
+</td>
+<td class="py-5 px-6">
+<div class="font-medium text-ink-text">Universal Health Coverage (UHC)</div>
+<div class="text-caption font-caption text-slate-muted">Decentralized surgical training to Level 4 &amp; 5 county hospitals.</div>
+</td>
+<td class="py-5 px-6">
+<span class="font-semibold text-ink-text">70% reduction</span> in clinical training cost per intern per specialized rotation.
+                </td>
+<td class="py-5 px-6">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-tint text-pillar-health font-caption text-caption font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-pillar-health"></span> Active Cohorts
+                  </span>
+</td>
+</tr>
+<!-- Education Pillar Row -->
+<tr class="hover:bg-surface-container-lowest/50 transition-colors">
+<td class="py-5 px-6">
+<div class="flex items-center gap-3">
+<span class="w-3 h-3 rounded-full bg-pillar-education"></span>
+<div>
+<div class="font-semibold text-ink-text">Education Pillar</div>
+<div class="text-caption font-caption text-slate-muted">CBC STEM &amp; TVET Simulation</div>
+</div>
+</div>
+</td>
+<td class="py-5 px-6">
+<div class="font-medium text-ink-text">Competency Based Curriculum (CBC)</div>
+<div class="text-caption font-caption text-slate-muted">Equitable STEM lab access across all 8-4-4 to CBC transition zones.</div>
+</td>
+<td class="py-5 px-6">
+<span class="font-semibold text-ink-text">100% apparatus coverage</span> with zero chemical consumables expenditure.
+                </td>
+<td class="py-5 px-6">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-tint text-blue-primary font-caption text-caption font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-blue-primary"></span> County Pilot
+                  </span>
+</td>
+</tr>
+<!-- Socialization Pillar Row -->
+<tr class="hover:bg-surface-container-lowest/50 transition-colors">
+<td class="py-5 px-6">
+<div class="flex items-center gap-3">
+<span class="w-3 h-3 rounded-full bg-pillar-social"></span>
+<div>
+<div class="font-semibold text-ink-text">Socialization Pillar</div>
+<div class="text-caption font-caption text-slate-muted">Civic Forums &amp; Heritage XR</div>
+</div>
+</div>
+</td>
+<td class="py-5 px-6">
+<div class="font-medium text-ink-text">Creative Economy Digitization</div>
+<div class="text-caption font-caption text-slate-muted">Preservation of national memory under National Museums of Kenya guidance.</div>
+</td>
+<td class="py-5 px-6">
+<span class="font-semibold text-ink-text">100% digital sovereignty</span> hosted within verified Kenyan sovereign data centers.
+                </td>
+<td class="py-5 px-6">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-slate-body font-caption text-caption font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-pillar-social"></span> Production Scan
+                  </span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 9: FINAL GRADIENT CTA BAND -->
+<section class="w-full bg-surface-container-lowest py-20">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
+<div class="relative rounded-3xl overflow-hidden bg-gradient-to-r from-blue-primary via-navy-deep to-pillar-health p-10 sm:p-16 text-center text-on-primary shadow-xl">
+<div class="relative z-10 max-w-2xl mx-auto space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-on-primary font-eyebrow text-caption uppercase backdrop-blur-sm">
+<span>ENGAGE WITH OUR ARCHITECTURE</span>
+</div>
+<h2 class="font-headline-1 text-headline-1 text-on-primary tracking-tight">
+            Ready to explore our work?
+          </h2>
+<p class="font-body-large text-body-large text-on-primary-container leading-relaxed">
+            Review technical architecture across our three operational pillars, or request a structured pilot demonstration for your hospital, university, or county department.
+          </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+<a class="w-full sm:w-auto h-[48px] px-8 rounded-xl bg-surface-container-lowest text-blue-primary font-button text-button flex items-center justify-center gap-2 hover:bg-blue-tint transition-all duration-200 shadow-md" data-path="pillars-and-solutions" href="#">
+<span>Explore Pillars</span>
+<span class="material-symbols-outlined text-[18px]">view_quilt</span>
+</a>
+<a class="w-full sm:w-auto h-[48px] px-8 rounded-xl bg-teal-accent text-on-primary font-button text-button flex items-center justify-center gap-2 hover:opacity-90 transition-all duration-200 shadow-md" data-path="request-a-demo" href="#">
+<span>Request a Demo</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Decorative Spatial Horizon Circles -->
+<div class="absolute -bottom-24 -left-24 w-80 h-80 rounded-full bg-teal-accent/20 blur-3xl pointer-events-none"></div>
+<div class="absolute -top-24 -right-24 w-80 h-80 rounded-full bg-blue-hover/30 blur-3xl pointer-events-none"></div>
+</div>
+</div>
+</section>
+</div></main>
+<!-- ==================== FOOTER ==================== -->
+<footer class="w-full bg-navy-deep text-white border-t border-slate-800">
+<div class="max-w-7xl mx-auto px-6 lg:px-8 py-16">
+<!-- Top Grid: Brand & Links -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-16">
+<!-- Brand Info -->
+<div class="space-y-4 lg:col-span-1">
+<div class="flex items-center gap-2.5">
+<img alt="Swizzy Industries Brand Mark" class="h-8 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida/AEtjO1WhX2L7azkZTZ48eYhqQLzWJsxc1hHx1PngY784fvU58hwqCADSLliNz_eMYq1WiEnQXxx9_PPCnjYxLOdsISC-LNElw0F6dETHdmeOO-tEdYiXPGkCJQo80YoC2KyHcllnqJKzuNdF3LY9HcFtg1bb7iebDkCdXReszMoWL061uHfWVPcazzWhAg_B2K645OKQtILrO26jlKUDasYeIuAkfhumIBdk4OGqLwfBgLS_131N9GAHFHPyPJw"/>
+<span class="font-headline-4 text-lg font-bold text-white tracking-tight">Swizzy Industries</span>
+</div>
+<p class="text-xs text-slate-400 leading-relaxed">
+            Kenya reimagined through immersive technology. Engineering institutional-grade XR ecosystems across East Africa.
+          </p>
+<div class="flex items-center gap-2 pt-2">
+<a aria-label="LinkedIn" class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-300 hover:text-white hover:bg-blue-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">corporate_fare</span>
+</a>
+<a aria-label="X" class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-300 hover:text-white hover:bg-blue-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">alternate_email</span>
+</a>
+<a aria-label="YouTube" class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-300 hover:text-white hover:bg-blue-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">play_arrow</span>
+</a>
+</div>
+</div>
+<!-- Pillar Links -->
+<div class="space-y-3">
+<h5 class="text-xs font-bold uppercase tracking-wider text-teal-400">Pillars &amp; Solutions</h5>
+<ul class="space-y-2 text-xs text-slate-400">
+<li><a class="hover:text-white transition-colors" data-path="health-pillar" href="#">Health Pillar</a></li>
+<li><a class="hover:text-white transition-colors" data-path="education-pillar" href="#">Education Pillar</a></li>
+<li><a class="hover:text-white transition-colors" data-path="socialization-pillar" href="#">Socialization Pillar</a></li>
+<li><a class="hover:text-white transition-colors" data-path="pillars-and-solutions" href="#">Solutions Overview</a></li>
+<li><a class="hover:text-white transition-colors" data-path="case-studies" href="#">Case Studies</a></li>
+</ul>
+</div>
+<!-- Company Links -->
+<div class="space-y-3">
+<h5 class="text-xs font-bold uppercase tracking-wider text-teal-400">Company</h5>
+<ul class="space-y-2 text-xs text-slate-400">
+<li><a class="hover:text-white transition-colors" data-path="about" href="#">About Us</a></li>
+<li><a class="hover:text-white transition-colors" data-path="mission-and-values" href="#">Mission &amp; Values</a></li>
+<li><a class="hover:text-white transition-colors" data-path="team" href="#">Leadership Team</a></li>
+<li><a class="hover:text-white transition-colors" data-path="partners" href="#">Partner Network</a></li>
+<li><a class="hover:text-white transition-colors" data-path="careers" href="#">Careers &amp; Fellowships</a></li>
+</ul>
+</div>
+<!-- Resources -->
+<div class="space-y-3">
+<h5 class="text-xs font-bold uppercase tracking-wider text-teal-400">Resources</h5>
+<ul class="space-y-2 text-xs text-slate-400">
+<li><a class="hover:text-white transition-colors" data-path="blog-and-news" href="#">Engineering Journal</a></li>
+<li><a class="hover:text-white transition-colors" data-path="case-studies" href="#">Clinical White Papers</a></li>
+<li><a class="hover:text-white transition-colors" data-path="press-kit" href="#">Press Kit</a></li>
+<li><a class="hover:text-white transition-colors" data-path="events" href="#">Events &amp; Webinars</a></li>
+</ul>
+</div>
+<!-- Contact & HQ -->
+<div class="space-y-3">
+<h5 class="text-xs font-bold uppercase tracking-wider text-teal-400">Regional HQ</h5>
+<div class="text-xs text-slate-400 leading-relaxed space-y-1">
+<p class="text-slate-200 font-medium">Riverside Green Suites, 4th Floor</p>
+<p>Riverside Drive, Nairobi, Kenya</p>
+<p class="pt-1"><a class="text-teal-400 hover:underline" href="mailto:info@swizzy.co.ke">info@swizzy.co.ke</a></p>
+</div>
+</div>
+</div>
+<!-- Newsletter Bar -->
+<div class="p-6 rounded-2xl bg-white/5 border border-white/10 flex flex-col md:flex-row items-center justify-between gap-6 mb-12">
+<div class="space-y-1 text-center md:text-left">
+<span class="text-sm font-bold text-white block">Stay informed on African spatial computing</span>
+<span class="text-xs text-slate-400">Quarterly clinical updates, CBC white papers, and deployment notices.</span>
+</div>
+<form class="flex items-center gap-2 w-full md:w-auto">
+<input class="h-10 px-4 rounded-xl bg-white/10 border border-white/15 text-white placeholder:text-slate-500 text-xs focus:outline-none focus:ring-2 focus:ring-teal-400 w-full sm:w-64" placeholder="Enter institutional email" type="email"/>
+<button class="h-10 px-5 rounded-xl bg-blue-primary text-white text-xs font-semibold hover:bg-blue-hover transition-colors shrink-0 shadow-sm" type="button">Subscribe</button>
+</form>
+</div>
+<!-- Bottom Legal Row -->
+<div class="pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+<p>© 2025 Swizzy Industries Ltd. All rights reserved.</p>
+<div class="flex flex-wrap items-center gap-6">
+<a class="hover:text-slate-300 transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a>
+<a class="hover:text-slate-300 transition-colors" data-path="terms-of-use" href="#">Terms of Service</a>
+<a class="hover:text-slate-300 transition-colors" data-path="cookie-policy" href="#">Cookie Policy</a>
+<a class="hover:text-slate-300 transition-colors" data-path="accessibility" href="#">Accessibility</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
