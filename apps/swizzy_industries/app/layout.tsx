@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google"
 import "@workspace/ui/globals.css"
 
 import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { ThemeProvider } from "@/components/theme-provider"
 import { LanguageProvider } from "@/components/language-provider"
 import { SiteHeader } from "@/components/site-header"
@@ -41,6 +42,7 @@ export default function RootLayout({
               {children}
               <SiteFooter />
               <Analytics />
+              <SpeedInsights />
             </TooltipProvider>
           </LanguageProvider>
         </ThemeProvider>
