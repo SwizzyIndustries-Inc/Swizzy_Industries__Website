@@ -17,13 +17,33 @@
     },
     "swizzy_industries#build": {
       "dependsOn": [
-        "^build",
         "elimika_foundation#build",
         "jumuika_foundation#build",
         "nufaika_foundation#build",
         "tibika_foundation#build",
         "wajibika_foundation#build"
       ]
+    },
+    "start": {
+      "dependsOn": [
+        "build"
+      ],
+      "cache": false,
+      "persistent": true
+    },
+    "swizzy_industries#start": {
+      "dependsOn": [
+        "build"
+      ],
+      "with": [
+        "elimika_foundation#start",
+        "jumuika_foundation#start",
+        "nufaika_foundation#start",
+        "tibika_foundation#start",
+        "wajibika_foundation#start"
+      ],
+      "persistent": true,
+      "cache": false
     },
     "lint": {
       "dependsOn": [
@@ -41,13 +61,6 @@
       ]
     },
     "dev": {
-      "cache": false,
-      "persistent": true
-    },
-    "start": {
-      "dependsOn": [
-        "build"
-      ],
       "cache": false,
       "persistent": true
     }

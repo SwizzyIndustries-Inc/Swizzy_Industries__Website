@@ -1,5 +1,6 @@
 "use client"
 
+import { useEffect, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
@@ -33,6 +34,11 @@ function isCurrentPage(pathname: string, href: string) {
 export function SiteHeader() {
   const pathname = usePathname()
   const { resolvedTheme, setTheme } = useTheme()
+  const [menuValue, setMenuValue] = useState<string | null>(null)
+
+  useEffect(() => {
+    setMenuValue(null)
+  }, [pathname])
 
   if (!isSitePage(pathname)) {
     return (
@@ -74,7 +80,12 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <NavigationMenu className="hidden flex-1 lg:flex" align="center">
+        <NavigationMenu
+          className="hidden flex-1 lg:flex"
+          align="center"
+          value={menuValue}
+          onValueChange={(value) => setMenuValue(value as string | null)}
+        >
           <NavigationMenuList className="gap-1">
             {primaryNavigation.map((item) => {
               const active = isCurrentPage(pathname, item.href)
@@ -91,8 +102,7 @@ export function SiteHeader() {
                       }
                       className={cn(
                         "relative h-10 rounded-lg px-3 text-sm font-medium text-foreground hover:bg-muted hover:text-primary",
-                        active &&
-                          "text-blue-primary after:absolute after:right-3 after:bottom-0 after:left-3 after:h-0.5 after:rounded-full after:bg-teal-accent"
+                        active && "text-blue-primary"
                       )}
                     >
                       {item.label}
@@ -112,18 +122,25 @@ export function SiteHeader() {
                       <Link
                         href={sectionLink.href}
                         aria-current={active ? "page" : undefined}
+                        onClick={() => setMenuValue(null)}
                       />
                     }
                     className={cn(
                       "relative h-10 rounded-lg px-3 text-sm font-medium text-foreground hover:bg-muted hover:text-primary",
-                      active &&
-                        "text-blue-primary after:absolute after:right-3 after:bottom-0 after:left-3 after:h-0.5 after:rounded-full after:bg-teal-accent"
+                      active && "text-blue-primary"
                     )}
                   >
                     {sectionLink.title}
                   </NavigationMenuTrigger>
                   <NavigationMenuContent className="!w-[min(calc(100vw-2rem),1200px)] !p-0">
-                    <MegaMenuPanel menuKey={menuKey} />
+                    <div
+                      onClickCapture={(event) => {
+                        if ((event.target as HTMLElement).closest("a"))
+                          setMenuValue(null)
+                      }}
+                    >
+                      <MegaMenuPanel menuKey={menuKey} />
+                    </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
               )

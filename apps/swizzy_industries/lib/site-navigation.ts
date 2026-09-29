@@ -50,7 +50,7 @@ export const primaryNavigation = [
   { key: "home", label: "Home", href: "/" },
   {
     key: "products",
-    label: "products & Solutions",
+    label: "Products & Solutions",
     href: "/products",
   },
   { key: "insights", label: "Blog & News", href: "/blog" },
@@ -132,7 +132,7 @@ export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
   },
   products: {
     sectionLink: {
-      title: "products & Solutions",
+      title: "Products & Solutions",
       description: "Explore Swizzy's products and solutions.",
       href: "/products",
     },

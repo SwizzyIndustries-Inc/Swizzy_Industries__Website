@@ -40,14 +40,12 @@ function escapeHtml(value: string) {
 function getRequestHost(request: NextRequest) {
   const raw =
     request.headers.get("x-forwarded-host") ?? request.headers.get("host") ?? ""
-  return raw.split(",")[0]
-    ? raw.split(" ")[0]!.trim().toLowerCase()
-    : raw.toLocaleLowerCase() // e.g. "nufaika.localhost:4200"
+  return (raw.split(",")[0] ?? "").trim().toLowerCase() // e.g. "nufaika.localhost:4200"
 }
 
 function unavailableResponse(request: NextRequest, serviceName: string) {
   const requestHost = getRequestHost(request) // nufaika.localhost:4200
-  const port = requestHost.match(/:\d+$/)![0] ?? ""
+  const port = requestHost.match(/:\d+$/)?.[0] ?? ""
   const hostname = requestHost.replace(/:\d+$/, "")
   const gatewayHostname = hostname.split(".").slice(1).join(".") || "localhost"
   const protocol = request.nextUrl.protocol // "http:"

@@ -1,7 +1,8 @@
 "use client"
 
+import { usePathname } from "next/navigation"
+import { useEffect, useState } from "react"
 import Link from "next/link"
-import { useState } from "react"
 import { ChevronDown, Menu, Search, X } from "lucide-react"
 
 import { Button } from "@workspace/ui/components/button"
@@ -91,6 +92,11 @@ function MobileNavigationSection({ menuKey }: { menuKey: MegaMenuKey }) {
 
 export function MobileNavigation() {
   const [open, setOpen] = useState(false)
+  const pathname = usePathname()
+
+  useEffect(() => {
+    setOpen(false)
+  }, [pathname])
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
@@ -107,76 +113,83 @@ export function MobileNavigation() {
       >
         <Menu aria-hidden="true" />
       </SheetTrigger>
-      <SheetContent
-        side="right"
-        showCloseButton={false}
-        className="w-full max-w-none gap-0 overflow-hidden border-0 p-0 sm:max-w-none"
+      <div
+        className="min-h-0 flex-1 overflow-y-auto px-4"
+        onClick={(event) => {
+          if ((event.target as HTMLElement).closest("a")) setOpen(false)
+        }}
       >
-        <SheetHeader className="relative border-b border-border px-5 py-4 pr-16">
-          <SheetTitle className="text-left text-foreground">
-            Swizzy Industries
-          </SheetTitle>
-          <SheetDescription className="sr-only">
-            Browse company pages, products, insights, and careers.
-          </SheetDescription>
-          <SheetClose
-            render={
-              <Button
-                variant="ghost"
-                size="icon-lg"
-                aria-label="Close navigation menu"
-                className="absolute top-2 right-3"
-              />
-            }
-          >
-            <X aria-hidden="true" />
-          </SheetClose>
-        </SheetHeader>
-
-        <form action="/search" className="border-b border-border p-4">
-          <label htmlFor="mobile-site-search" className="sr-only">
-            Search Swizzy Industries
-          </label>
-          <div className="relative">
-            <Search
-              aria-hidden="true"
-              className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground"
-            />
-            <Input
-              id="mobile-site-search"
-              name="q"
-              placeholder="Search Swizzy"
-              className="h-11 pl-10"
-            />
-          </div>
-        </form>
-
-        <div className="min-h-0 flex-1 overflow-y-auto px-4">
-          <nav aria-label="Mobile navigation" className="py-2">
-            <MobileNavigationSection menuKey="home" />
-            <MobileNavigationSection menuKey="products" />
-            <MobileNavigationSection menuKey="insights" />
-            <MobileNavigationSection menuKey="careers" />
-            <Link
-              href="/contact"
-              className="flex min-h-12 items-center border-b border-border px-2 text-base font-semibold text-foreground hover:text-primary"
+        <SheetContent
+          side="right"
+          showCloseButton={false}
+          className="w-full max-w-none gap-0 overflow-hidden border-0 p-0 sm:max-w-none"
+        >
+          <SheetHeader className="relative border-b border-border px-5 py-4 pr-16">
+            <SheetTitle className="text-left text-foreground">
+              Swizzy Industries
+            </SheetTitle>
+            <SheetDescription className="sr-only">
+              Browse company pages, products, insights, and careers.
+            </SheetDescription>
+            <SheetClose
+              render={
+                <Button
+                  variant="ghost"
+                  size="icon-lg"
+                  aria-label="Close navigation menu"
+                  className="absolute top-2 right-3"
+                />
+              }
             >
-              Contacts
-            </Link>
-          </nav>
-        </div>
+              <X aria-hidden="true" />
+            </SheetClose>
+          </SheetHeader>
 
-        <div className="border-t border-border bg-background p-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
-          <Button
-            render={<Link href="/solutions/request-a-demo" />}
-            nativeButton={false}
-            className="h-12 w-full justify-center rounded-xl text-base"
-            onClick={() => setOpen(false)}
-          >
-            Request a Demo
-          </Button>
-        </div>
-      </SheetContent>
+          <form action="/search" className="border-b border-border p-4">
+            <label htmlFor="mobile-site-search" className="sr-only">
+              Search Swizzy Industries
+            </label>
+            <div className="relative">
+              <Search
+                aria-hidden="true"
+                className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground"
+              />
+              <Input
+                id="mobile-site-search"
+                name="q"
+                placeholder="Search Swizzy"
+                className="h-11 pl-10"
+              />
+            </div>
+          </form>
+
+          <div className="min-h-0 flex-1 overflow-y-auto px-4">
+            <nav aria-label="Mobile navigation" className="py-2">
+              <MobileNavigationSection menuKey="home" />
+              <MobileNavigationSection menuKey="products" />
+              <MobileNavigationSection menuKey="insights" />
+              <MobileNavigationSection menuKey="careers" />
+              <Link
+                href="/contact"
+                className="flex min-h-12 items-center border-b border-border px-2 text-base font-semibold text-foreground hover:text-primary"
+              >
+                Contacts
+              </Link>
+            </nav>
+          </div>
+
+          <div className="border-t border-border bg-background p-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+            <Button
+              render={<Link href="/solutions/request-a-demo" />}
+              nativeButton={false}
+              className="h-12 w-full justify-center rounded-xl text-base"
+              onClick={() => setOpen(false)}
+            >
+              Request a Demo
+            </Button>
+          </div>
+        </SheetContent>
+      </div>
     </Sheet>
   )
 }
