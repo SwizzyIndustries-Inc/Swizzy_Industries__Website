@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 
 import { ChevronRight } from "lucide-react"
@@ -14,17 +15,44 @@ export function PageHero({
   title,
   description,
   breadcrumbs,
+  image,
   children,
 }: {
   section: string
   title: string
   description: string
   breadcrumbs: BreadcrumbItem[]
+  image?: string
   children?: React.ReactNode
 }) {
   return (
-    <header className="border-b border-border bg-muted/50">
-      <div className="mx-auto max-w-[1200px] px-5 py-10 sm:px-8 sm:py-14 lg:py-16">
+    <header className="relative isolate overflow-hidden border-b border-border bg-muted/50">
+      {/* Background image: blends with the header's own background color */}
+      <Image
+        src={image ?? "/images/hero-light.jpg"}
+        alt=""
+        aria-hidden="true"
+        fill
+        priority
+        sizes="100vw"
+        className="-z-20 object-cover opacity-40 mix-blend-multiply dark:hidden dark:opacity-25 dark:mix-blend-screen"
+      />
+      <Image
+        src={image ?? "/images/hero-dark.jpg"}
+        alt=""
+        aria-hidden="true"
+        fill
+        priority
+        sizes="100vw"
+        className="-z-20 hidden object-cover opacity-40 mix-blend-multiply dark:block dark:opacity-25 dark:mix-blend-screen"
+      />
+      {/* Readability scrim: solid behind the text, fades out toward the image */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 -z-10 bg-linear-to-r from-background via-background/80 to-transparent"
+      />
+
+      <div className="relative mx-auto max-w-[1200px] px-5 py-10 sm:px-8 sm:py-14 lg:py-16">
         <nav aria-label="Breadcrumb" className="mb-8">
           <ol className="flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
             <li>

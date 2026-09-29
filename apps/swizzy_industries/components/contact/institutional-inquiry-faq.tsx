@@ -22,7 +22,7 @@ export function InstitutionalInquiryFaq() {
           ],
           [
             "How do I contact the team directly?",
-            "Email info@swizzy.co.ke or call +254 (0) 20 794 3000.",
+            "Email info@swizzyindustries.co.ke or call +254 (0) 20 794 3000.",
           ],
         ].map(([question, answer]) => (
           <details key={question} className="group py-4">

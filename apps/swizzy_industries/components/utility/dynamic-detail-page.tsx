@@ -89,9 +89,9 @@ export function DynamicDetailPage() {
                   For information about this page, contact{" "}
                   <a
                     className="text-primary underline"
-                    href="mailto:info@swizzy.co.ke"
+                    href="mailto:info@swizzyindustries.co.ke"
                   >
-                    info@swizzy.co.ke
+                    info@swizzyindustries.co.ke
                   </a>
                   .
                 </p>

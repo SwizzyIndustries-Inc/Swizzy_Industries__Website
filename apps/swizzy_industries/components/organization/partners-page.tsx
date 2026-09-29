@@ -104,7 +104,7 @@ export function PartnersPage() {
     const body = encodeURIComponent(
       `Name: ${formData.get("name")}\nOrganization: ${formData.get("organization")}\nPartnership type: ${formData.get("type")}\n\n${formData.get("message")}`
     )
-    window.location.href = `mailto:info@swizzy.co.ke?subject=${subject}&body=${body}`
+    window.location.href = `mailto:info@swizzyindustries.co.ke?subject=${subject}&body=${body}`
     setStatus(
       "Your email app should open with a draft. Review and send it to contact the Swizzy Industries team."
     )

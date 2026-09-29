@@ -26,7 +26,7 @@ export function TalentCommunityPage() {
     const body = encodeURIComponent(
       `Name: ${data.get("name")}\nEmail: ${data.get("email")}\nInterest: ${data.get("interest")}\nLocation: ${data.get("location")}\nLinkedIn: ${data.get("linkedin")}`
     )
-    window.location.href = `mailto:info@swizzy.co.ke?subject=${subject}&body=${body}`
+    window.location.href = `mailto:info@swizzyindustries.co.ke?subject=${subject}&body=${body}`
     setStatus(
       "Your email app should open with a draft. Review and send it to share your interest."
     )

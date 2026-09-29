@@ -1144,7 +1144,7 @@ export const swahiliTranslations = new Map<string, string>([
   ["Nairobi location", "Eneo la Nairobi"],
   ["Westlands innovation precinct", "Eneo la uvumbuzi la Westlands"],
   [
-    "Let's talk about your Kenya, reimagined",
+    "Let's talk about our reimagined Kenya",
     "Zungumza kuhusu Kenya yako iliyobuniwa upya",
   ],
   ["A growing footprint", "Mikondo inayokua"],
@@ -2174,7 +2174,7 @@ export const swahiliTranslations = new Map<string, string>([
   ["Swizzy Industries", "Swizzy Industries"],
   ["Swizzy Industries", "Swizzy Industries"],
   ["Industries", "Industries"],
-  ["info@swizzy.co.ke", "info@swizzy.co.ke"],
+  ["info@swizzyindustries.co.ke", "info@swizzyindustries.co.ke"],
   ["Hardware integration", "Muunganisho wa vifaa"],
   ["Other", "Nyingine"],
   ["Clinical learning", "Mafunzo ya kliniki"],
@@ -2659,7 +2659,10 @@ export const swahiliTranslations = new Map<string, string>([
     "Vichwa: Plus Jakarta Sans. Maandishi na kiolesura: Inter.",
   ],
   ["Swizzy Industries media desk", "Dawati la habari la Swizzy Industries"],
-  ["Nairobi, Kenya | info@swizzy.co.ke", "Nairobi, Kenya | info@swizzy.co.ke"],
+  [
+    "Nairobi, Kenya | info@swizzyindustries.co.ke",
+    "Nairobi, Kenya | info@swizzyindustries.co.ke",
+  ],
   ["Contact media desk", "Wasiliana na dawati la habari"],
   [
     "We welcome approved partner stories and images. Please do not send identifiable patient or child imagery without the required consent.",
@@ -2668,7 +2671,7 @@ export const swahiliTranslations = new Map<string, string>([
   ["Share with Swizzy Industries", "Shiriki na Swizzy Industries"],
   ["Be part of the next chapter", "Kuwa sehemu ya hatua inayofuata"],
   [
-    "Let's talk about your Kenya, reimagined",
+    "Let's talk about our reimagined Kenya",
     "Tuzungumzie Kenya iliyobuniwa upya",
   ],
   [
@@ -3514,8 +3517,8 @@ export const swahiliTranslations = new Map<string, string>([
     "Ninawezaje kuwasiliana moja kwa moja na timu?",
   ],
   [
-    "Email info@swizzy.co.ke or call +254 (0) 20 794 3000.",
-    "Tuma barua pepe info@swizzy.co.ke au piga +254 (0) 20 794 3000.",
+    "Email info@swizzyindustries.co.ke or call +254 (0) 20 794 3000.",
+    "Tuma barua pepe info@swizzyindustries.co.ke au piga +254 (0) 20 794 3000.",
   ],
   [
     "Scenario-based practice for clinical, technical, and operational skills.",

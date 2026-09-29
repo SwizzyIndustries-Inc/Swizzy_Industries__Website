@@ -12,24 +12,32 @@ import {
 const departments = [
   {
     title: "Sales and county pilots",
-    email: "info@swizzy.co.ke",
+    email: "sales@swizzyindustries.co.ke",
     tag: "Institutional",
   },
   {
     title: "Academic partnerships",
-    email: "info@swizzy.co.ke",
+    email: "academics@swizzyindustries.co.ke",
     tag: "Education",
   },
-  { title: "Biomedical AR support", email: "info@swizzy.co.ke", tag: "Health" },
-  { title: "Media and press bureau", email: "info@swizzy.co.ke", tag: "Media" },
+  {
+    title: "Biomedical AR support",
+    email: "health@swizzyindustries.co.ke",
+    tag: "Health",
+  },
+  {
+    title: "Media and press bureau",
+    email: "media@swizzyindustries.co.ke",
+    tag: "Media",
+  },
   {
     title: "Careers and fellowships",
-    email: "info@swizzy.co.ke",
+    email: "careers@swizzyindustries.co.ke",
     tag: "People",
   },
   {
     title: "Data protection inquiries",
-    email: "info@swizzy.co.ke",
+    email: "privacy@swizzyindustries.co.ke",
     tag: "Privacy",
   },
 ]
@@ -49,10 +57,11 @@ export function DirectContactChannels() {
         </CardHeader>
         <CardContent className="space-y-3 text-sm">
           <a
-            href="mailto:info@swizzy.co.ke"
+            href="mailto:info@swizzyindustries.co.ke"
             className="flex min-h-10 items-center gap-2 text-primary hover:underline"
           >
-            <Mail aria-hidden="true" className="size-4" /> info@swizzy.co.ke
+            <Mail aria-hidden="true" className="size-4" />{" "}
+            info@swizzyindustries.co.ke
           </a>
           <a
             href="tel:+254207943000"

@@ -193,7 +193,7 @@ export function NewsPage() {
             <Button
               nativeButton={false}
               render={
-                <Link href="mailto:info@swizzy.co.ke?subject=Media%20inquiry" />
+                <Link href="mailto:info@swizzyindustries.co.ke?subject=Media%20inquiry" />
               }
               variant="outline"
               className="h-10 gap-2"

@@ -17,7 +17,7 @@ export function ContactPage() {
     <main className="design-page bg-background text-foreground">
       <PageHero
         section="Direct collaboration and inquiries"
-        title="Let's talk about your Kenya, reimagined"
+        title="Let's talk about our reimagined Kenya"
         description="Connect directly with our spatial engineering lab, clinical simulation advisors, and institutional deployment teams in Nairobi."
         breadcrumbs={[{ label: "Contacts" }]}
       >

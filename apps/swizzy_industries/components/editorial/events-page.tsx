@@ -154,7 +154,7 @@ export function EventsPage() {
                 <Button
                   nativeButton={false}
                   render={
-                    <Link href="mailto:info@swizzy.co.ke?subject=Webinar%20registration" />
+                    <Link href="mailto:info@swizzyindustries.co.ke?subject=Webinar%20registration" />
                   }
                   className="mt-2 h-10 w-full gap-2 rounded-lg bg-blue-primary text-white hover:bg-blue-hover dark:bg-blue-primary dark:text-white"
                 >

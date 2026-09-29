@@ -48,7 +48,7 @@ export function PressKitPage() {
         <Button
           nativeButton={false}
           render={
-            <Link href="mailto:info@swizzy.co.ke?subject=Press%20kit%20request" />
+            <Link href="mailto:info@swizzyindustries.co.ke?subject=Press%20kit%20request" />
           }
           className="h-11 gap-2 rounded-xl bg-blue-primary px-5 text-white hover:bg-blue-hover dark:bg-blue-primary dark:text-white"
         >
@@ -107,7 +107,7 @@ export function PressKitPage() {
               <Button
                 nativeButton={false}
                 render={
-                  <Link href="mailto:info@swizzy.co.ke?subject=Logo%20asset%20request" />
+                  <Link href="mailto:info@swizzyindustries.co.ke?subject=Logo%20asset%20request" />
                 }
                 variant="outline"
                 className="h-10 gap-2"
@@ -186,13 +186,13 @@ export function PressKitPage() {
                 Swizzy Industries media desk
               </h3>
               <p className="mt-1 text-sm text-muted-foreground">
-                Nairobi, Kenya | info@swizzy.co.ke
+                Nairobi, Kenya | info@swizzyindustries.co.ke
               </p>
             </div>
             <Button
               nativeButton={false}
               render={
-                <Link href="mailto:info@swizzy.co.ke?subject=Media%20inquiry" />
+                <Link href="mailto:info@swizzyindustries.co.ke?subject=Media%20inquiry" />
               }
               variant="outline"
               className="h-10 gap-2"

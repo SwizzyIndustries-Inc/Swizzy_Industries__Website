@@ -33,7 +33,7 @@ export function RequestDemoPage() {
     const body = encodeURIComponent(
       `Name: ${data.get("name")}\nEmail: ${data.get("email")}\nOrganization: ${data.get("organization")}\nRole: ${data.get("role")}\nSector: ${data.get("sector")}\nFormat: ${data.get("format")}\n\n${data.get("message")}`
     )
-    window.location.href = `mailto:info@swizzy.co.ke?subject=${subject}&body=${body}`
+    window.location.href = `mailto:info@swizzyindustries.co.ke?subject=${subject}&body=${body}`
     setStatus(
       "Your email app should open with a draft. Review and send it to request your demo."
     )

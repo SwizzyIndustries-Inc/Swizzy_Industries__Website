@@ -42,7 +42,7 @@ export function ContactInquiryForm() {
       ].join("\n")
     )
 
-    window.location.href = `mailto:info@swizzy.co.ke?subject=${subject}&body=${body}`
+    window.location.href = `mailto:info@swizzyindustries.co.ke?subject=${subject}&body=${body}`
     setStatus(
       "Your email app should open with a draft. Review and send it there to reach our team."
     )

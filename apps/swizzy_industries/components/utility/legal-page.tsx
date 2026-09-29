@@ -143,9 +143,9 @@ export function LegalPage() {
                   about {section.toLowerCase()}, contact{" "}
                   <a
                     className="text-primary underline"
-                    href="mailto:info@swizzy.co.ke"
+                    href="mailto:info@swizzyindustries.co.ke"
                   >
-                    info@swizzy.co.ke
+                    info@swizzyindustries.co.ke
                   </a>
                   .
                 </p>
