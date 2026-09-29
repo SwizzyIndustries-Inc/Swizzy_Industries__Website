@@ -34,7 +34,7 @@ export function SiteFooter() {
         }
 
   return (
-    <footer className="bg-navy-900 text-white">
+    <footer className="bg-navy-deep text-white">
       <div className="border-b border-white/15">
         <div className="mx-auto flex max-w-[1320px] flex-col gap-5 px-5 py-8 sm:px-8 md:flex-row md:items-center md:justify-between lg:py-10">
           <div>

@@ -234,36 +234,6 @@ export function HomepageSections() {
           </div>
         </div>
       </section>
-      <section className="bg-instrument-navy py-14 text-white sm:py-16 lg:py-20">
-        <div className="mx-auto flex max-w-[1200px] flex-col gap-6 px-5 sm:px-8 md:flex-row md:items-center md:justify-between">
-          <div className="max-w-2xl">
-            <p className="mb-2 text-xs font-bold tracking-wide text-teal-200 uppercase">
-              {sw
-                ? "Kwa hospitali na taasisi za elimu"
-                : "For hospitals and academic institutions"}
-            </p>
-            <h2 className="font-heading text-3xl font-bold">
-              {sw
-                ? "Jadili mazingira yako ya kitabibu."
-                : "Discuss your clinical context."}
-            </h2>
-            <p className="mt-3 text-base leading-7 text-white/70">
-              {sw
-                ? "Tuambie timu yako inahitaji kufanyia mazoezi, kuunda mfano au kukagua nini."
-                : "Tell us what your team needs to rehearse, model, or review."}
-            </p>
-          </div>
-          <Button
-            render={<Link href="/contact" />}
-            nativeButton={false}
-            variant="secondary"
-            className="h-12 shrink-0 rounded-xl px-5"
-          >
-            {sw ? "Omba ushauri" : "Request a consultation"}
-            <ArrowRight aria-hidden="true" className="ml-2 size-4" />
-          </Button>
-        </div>
-      </section>
     </main>
   )
 }

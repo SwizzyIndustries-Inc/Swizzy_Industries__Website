@@ -13,7 +13,7 @@ export function SiteFooter() {
   const parent = productLinks.find((product) => product.parent)
   const sw = language === "sw"
   return (
-    <footer className="bg-navy-900 text-white">
+    <footer className="bg-primary text-white">
       <div className="border-b border-white/15">
         <div className="mx-auto flex max-w-[1320px] flex-col gap-5 px-5 py-8 sm:px-8 md:flex-row md:items-center md:justify-between">
           <div>
