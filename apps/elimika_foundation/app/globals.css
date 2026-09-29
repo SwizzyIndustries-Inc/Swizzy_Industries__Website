@@ -1,0 +1,42 @@
+:root {
+  --background: #ffffff;
+  --foreground: #12132b;
+  --card: #ffffff;
+  --card-foreground: #12132b;
+  --popover: #ffffff;
+  --popover-foreground: #12132b;
+  --primary: #3a3bd9;
+  --primary-foreground: #ffffff;
+  --secondary: #fcf1dc;
+  --secondary-foreground: #523900;
+  --muted: #f7f8ff;
+  --muted-foreground: #6b6d87;
+  --accent: #e9e9fb;
+  --accent-foreground: #2e2ead;
+  --border: #e4e5f5;
+  --input: #e4e5f5;
+  --ring: #3a3bd9;
+  --radius: 0.75rem;
+}
+
+@theme inline {
+  --font-heading: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-indigo-learning: #3a3bd9;
+  --color-gold-achievement: #f2b33b;
+  --color-navy-900: #101b3a;
+}
+
+@layer base {
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-heading);
+  }
+}
