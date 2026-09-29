@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container-lowest":"#ffffff","on-secondary":"#ffffff","surface-container-low":"#fff0f1","primary-fixed":"#ffdadb","inverse-surface":"#3e2b2f","secondary-fixed-dim":"#ffb873","on-background":"#27171a","surface-container":"#ffe9eb","inverse-primary":"#ffb2b8","issue-community":"#8C5FD9","background":"#fff8f7","primary-container":"#7a2331","surface-container-highest":"#fadbdf","surface-container-high":"#ffe1e5","primary":"#5c0b1c","tertiary-fixed-dim":"#b8c4ff","on-surface-variant":"#554243","issue-governance":"#3A5BD9","tertiary-fixed":"#dde1ff","on-tertiary-fixed":"#001354","feedback-success":"#1E9E6A","slate-body":"#4A3438","on-tertiary":"#ffffff","outline":"#887273","on-primary-container":"#ff8f99","on-error-container":"#93000a","ochre-tint":"#FBEEDD","on-tertiary-fixed-variant":"#0637b8","maroon-hover":"#611B27","feedback-warning":"#E0A100","secondary":"#8c5000","issue-economy":"#1E8F6B","on-tertiary-container":"#99abff","feedback-error":"#D64545","outline-variant":"#dbc0c1","on-error":"#ffffff","maroon-tint":"#F5E6E8","on-secondary-container":"#734100","surface-dim":"#f1d3d7","on-secondary-fixed-variant":"#6a3b00","secondary-fixed":"#ffdcbf","surface-bright":"#fff8f7","on-primary-fixed-variant":"#7f2735","mist-bg":"#FAF5F4","primary-fixed-dim":"#ffb2b8","tertiary":"#00217d","secondary-container":"#ffac58","surface-variant":"#fadbdf","surface":"#fff8f7","on-primary-fixed":"#40000e","inverse-on-surface":"#ffecee","error-container":"#ffdad6","cloud-border":"#EADDDB","error":"#ba1a1a","slate-muted":"#7A666A","issue-social":"#E8735A","on-primary":"#ffffff","on-secondary-fixed":"#2d1600","on-surface":"#27171a","tertiary-container":"#0033b2","surface-tint":"#9e3e4b"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xs":"0.25rem","margin-lg":"5rem","space-lg":"1.5rem","margin-sm":"1rem","space-xl":"2rem","margin":"2rem","space-md":"1rem","gutter":"1.5rem","gutter-sm":"1rem","space-sm":"0.5rem"},"fontFamily":{"display":["Plus Jakarta Sans"],"label-sm":["Inter"],"headline-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"label-lg":["Inter"],"headline-md":["Plus Jakarta Sans"],"body-sm":["Inter"],"display-mobile":["Plus Jakarta Sans"],"eyebrow":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"label-md":["Inter"],"headline-md-mobile":["Plus Jakarta Sans"],"headline-sm-mobile":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-md":["Inter"],"body-lg":["Inter"]},"fontSize":{"display":["60px",{"lineHeight":"72px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["12px",{"lineHeight":"16px","fontWeight":"500"}],"headline-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-lg":["16px",{"lineHeight":"24px","fontWeight":"600"}],"headline-md":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"display-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.015em","fontWeight":"700"}],"eyebrow":["12px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"700"}],"title-md":["20px",{"lineHeight":"28px","fontWeight":"600"}],"label-md":["14px",{"lineHeight":"20px","fontWeight":"500"}],"headline-md-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.005em","fontWeight":"600"}],"headline-sm-mobile":["22px",{"lineHeight":"30px","fontWeight":"600"}],"headline-sm":["28px",{"lineHeight":"36px","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1200px] mx-auto px-6 flex items-center justify-between gap-4"><div class="flex items-center gap-6"><a class="flex items-center gap-3 group" data-path="home" href="#"><img alt="Brand logo. - Primary color: #7a2331
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UKr7LPNeHnuyNK8sv9s0FgyN5Ye_QI7vMmHWWhfQrme0fqus8494jAmTU2HTs3ilyvKpQF4v209wW_M60W42LQxjps3_yXGwIdUwDkQNWjma1IqqPFMiUikyrlcwafCVTDh2vZihf8RJnjdTTJlT2g3fmsZuWrITfnxjz8I7dafTTKx7fWly9cVnaKQ-Ui75aB1UyO8m9QUO9x-opzIlzTOD-2CwHYeSTvPjYB4N4xcvcTHfcE3VvGlTeg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold leading-none">Wajibika</span><span class="font-eyebrow text-eyebrow uppercase text-slate-muted tracking-wider text-[10px] leading-tight">Swizzy Industries</span></div></a><nav class="hidden xl:flex items-center gap-6" data-active-classes="text-primary font-title-md font-semibold border-b-2 border-primary"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="home" href="#">Home</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="issues-and-campaigns" href="#">Issues &amp; Campaigns</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="voices-and-stories" href="#">Voices &amp; Stories</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="accountability-tracker" href="#">Accountability Tracker</a><a aria-current="page" class="py-2 transition-colors text-primary font-title-md font-semibold border-b-2 border-primary" data-path="careers" href="#">Careers</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="about-and-partners" href="#">About &amp; Partners</a></nav></div><div class="flex items-center gap-4"><button aria-label="Search issues, campaigns, and reports" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">search</span></button><a class="hidden sm:inline-flex font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-2 py-1 transition-colors" data-path="contact" href="#">Contact</a><a class="inline-flex items-center justify-center px-5 h-12 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-maroon-hover focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2 transition-all shadow-sm" data-path="raise-an-issue" href="#">Raise an Issue</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0 ml-1"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Status & Breadcrumb Header Bar -->
+<section class="w-full bg-surface-container-low py-4">
+<div class="max-w-[1200px] mx-auto px-6 flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+<nav aria-label="Breadcrumb" class="flex items-center gap-2">
+<a class="font-label-md text-label-md text-slate-muted hover:text-primary transition-colors" data-path="home" href="#">Home</a>
+<span class="material-symbols-outlined text-[16px] text-slate-muted">chevron_right</span>
+<span class="font-label-md text-label-md text-primary font-semibold">Careers</span>
+</nav>
+<div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-surface-container-lowest shadow-sm">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-feedback-success opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-feedback-success"></span>
+</span>
+<p class="font-label-sm text-label-sm text-slate-body font-medium">
+          Now Hiring for 2025 Civic Impact Expansion <span class="text-slate-muted">•</span> Nairobi HQ &amp; Remote County Hubs
+        </p>
+</div>
+</div>
+</section>
+<!-- Editorial Hero Section -->
+<section class="relative w-full overflow-hidden bg-surface py-16 md:py-24">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7 space-y-6">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-maroon-tint text-primary font-eyebrow text-eyebrow tracking-wider uppercase">
+<span class="material-symbols-outlined text-[15px]">work_history</span>
+            Open Civic Opportunities
+          </div>
+<h1 class="font-display text-display text-primary tracking-tight font-bold">
+            Build the technology and journalism that holds power accountable.
+          </h1>
+<p class="font-body-lg text-body-lg text-slate-body leading-relaxed max-w-2xl">
+            Join an interdisciplinary collective of investigative journalists, civic paralegals, full-stack engineers, and community organizers building the digital backbone for grassroots democracy in Kenya.
+          </p>
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="inline-flex items-center justify-center gap-2 px-7 h-12 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-maroon-hover focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2 shadow-sm transition-all" href="#open-roles">
+<span>Explore 9 Open Roles</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 px-6 h-12 rounded-xl bg-surface-container text-primary font-label-lg text-label-lg hover:bg-surface-container-high transition-colors" href="#civic-fellowship">
+<span>2025 Devolution Fellowship</span>
+<span class="material-symbols-outlined text-[18px]">school</span>
+</a>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-2xl overflow-hidden bg-surface-container-highest shadow-xl">
+<img class="w-full h-[400px] object-cover" data-alt="A dedicated, diverse team of Kenyan journalists, technologists, and legal advocates collaborating intently around wooden tables covered with data flowcharts, printouts of county assembly petitions, and laptops inside an open-plan, natural-light civic newsroom studio in Nairobi with warm earthy tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7TDMKbViizw9y_6W9119d2B1fyeKgvbbbHhVUtK9nJXP61xw69rZxTIzPfTqbl0Xha9fmbd4-BWHxlAxOHGOO-LRj4fu_NI-i4y7e14yjycS5gRS1JnQrtrZN2agAsvGmchKwjIDjV_GlJrNd8-8g-gFEwhhq4q4oPrM0Ne1lGgDL33woiKlvjnQ6NPc5DguoLdSvoJO-k5Nno8BKO4VqgKaLxoO1IABy3B4dIviAEqNol_Q9NlxnZA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent flex flex-col justify-end p-6 text-on-primary">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed">Dispatches From The Ground</span>
+<p class="font-title-md text-title-md font-bold mt-1">Cross-Functional Field Reporting</p>
+<p class="font-body-sm text-body-sm text-primary-fixed-dim mt-0.5">Engineers and investigative researchers analyzing devolution budgets across 47 counties.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Trust & Value Props Ribbon -->
+<div class="mt-14 pt-8 rounded-2xl bg-surface-container-lowest p-6 shadow-sm">
+<div class="grid grid-cols-2 md:grid-cols-5 gap-6 text-center md:text-left">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">payments</span>
+</div>
+<div>
+<p class="font-label-md text-label-md font-bold text-on-surface">Competitive Pay</p>
+<p class="font-body-sm text-body-sm text-slate-muted">Transparent equity &amp; living tiers</p>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-issue-economy shrink-0">
+<span class="material-symbols-outlined text-[20px]">public</span>
+</div>
+<div>
+<p class="font-label-md text-label-md font-bold text-on-surface">Public Benefit</p>
+<p class="font-body-sm text-body-sm text-slate-muted">Open-source &amp; non-partisan</p>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">handshake</span>
+</div>
+<div>
+<p class="font-label-md text-label-md font-bold text-on-surface">High-Trust Culture</p>
+<p class="font-body-sm text-body-sm text-slate-muted">Asynchronous, outcome-first</p>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-issue-governance shrink-0">
+<span class="material-symbols-outlined text-[20px]">gavel</span>
+</div>
+<div>
+<p class="font-label-md text-label-md font-bold text-on-surface">Legal Escrow</p>
+<p class="font-body-sm text-body-sm text-slate-muted">Comprehensive litigation defense</p>
+</div>
+</div>
+<div class="flex items-center gap-3 col-span-2 md:col-span-1 justify-center md:justify-start">
+<div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-issue-community shrink-0">
+<span class="material-symbols-outlined text-[20px]">psychology</span>
+</div>
+<div>
+<p class="font-label-md text-label-md font-bold text-on-surface">Lifelong Learning</p>
+<p class="font-body-sm text-body-sm text-slate-muted">KES 250k yearly training grant</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Culture & Working Model -->
+<section class="w-full bg-mist-bg py-20">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="max-w-2xl mx-auto text-center space-y-3 mb-16">
+<span class="font-eyebrow text-eyebrow text-secondary uppercase tracking-widest font-bold">Why Wajibika</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight font-bold">Dignified Labor in Service of the Republic</h2>
+<p class="font-body-md text-body-md text-slate-body">We are building an institution crafted to outlast election cycles. Our workplace mirrors our external pledge: radical transparency, psychological safety, and unrelenting precision.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Feature Card 1 -->
+<div class="rounded-2xl bg-surface-container-lowest p-8 flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div class="space-y-5">
+<div class="w-12 h-12 rounded-xl bg-maroon-tint flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">balance</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Civic Gravitas, Not Clickbait</h3>
+<p class="font-body-md text-body-md text-slate-body leading-relaxed">
+              We measure impact in gazetted county policies, recovered public funds, and protected citizen rights, never ad clicks or rage metrics. Your code, writing, and legal briefs directly support democratic resilience.
+            </p>
+</div>
+<div class="pt-6 mt-6 bg-surface-container-low rounded-xl p-4">
+<div class="flex items-center justify-between text-xs text-slate-muted font-label-sm">
+<span>Metric Focus</span>
+<span class="font-semibold text-primary">Policy Impact Score</span>
+</div>
+<div class="w-full bg-surface-container-highest h-2 rounded-full mt-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 88%"></div>
+</div>
+</div>
+</div>
+<!-- Feature Card 2 -->
+<div class="rounded-2xl bg-surface-container-lowest p-8 flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div class="space-y-5">
+<div class="w-12 h-12 rounded-xl bg-ochre-tint flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[26px]">hub</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Engineers, Reporters, and Advocates Side-by-Side</h3>
+<p class="font-body-md text-body-md text-slate-body leading-relaxed">
+              Product engineers work directly with grassroots CBO leaders and investigative journalists in market stalls and county assembly chambers. No siloed technology without direct community accountability.
+            </p>
+</div>
+<div class="pt-6 mt-6 bg-surface-container-low rounded-xl p-4">
+<div class="flex items-center justify-between text-xs text-slate-muted font-label-sm">
+<span>Field Engagement</span>
+<span class="font-semibold text-secondary">25% Time In-Hub</span>
+</div>
+<div class="w-full bg-surface-container-highest h-2 rounded-full mt-2 overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 74%"></div>
+</div>
+</div>
+</div>
+<!-- Feature Card 3 -->
+<div class="rounded-2xl bg-surface-container-lowest p-8 flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div class="space-y-5">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-issue-economy">
+<span class="material-symbols-outlined text-[26px]">shield_person</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Security, Safety &amp; Integrity First</h3>
+<p class="font-body-md text-body-md text-slate-body leading-relaxed">
+              We invest heavily in digital operational security, end-to-end evidence encryption, whistleblower safety protocols, dedicated trauma counseling, and rapid legal defense for every team member.
+            </p>
+</div>
+<div class="pt-6 mt-6 bg-surface-container-low rounded-xl p-4">
+<div class="flex items-center justify-between text-xs text-slate-muted font-label-sm">
+<span>Security Protocols</span>
+<span class="font-semibold text-issue-economy">Zero-Knowledge Tier</span>
+</div>
+<div class="w-full bg-surface-container-highest h-2 rounded-full mt-2 overflow-hidden">
+<div class="bg-issue-economy h-full rounded-full" style="width: 100%"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Open Roles Directory -->
+<section class="w-full bg-surface py-20" id="open-roles">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+<div class="space-y-2">
+<span class="font-eyebrow text-eyebrow text-primary uppercase tracking-widest font-bold">Positions Available</span>
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">Current Opportunities Across Kenya</h2>
+</div>
+<p class="font-body-sm text-body-sm text-slate-muted max-w-sm">All salaries calibrated to market competitive rates with comprehensive healthcare and legal indemnification.</p>
+</div>
+<!-- Department Filter Pills -->
+<div class="flex flex-wrap gap-2.5 mb-10" id="filter-container">
+<button class="filter-btn px-4 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md font-semibold transition-all" data-filter="all" type="button">All Roles (9)</button>
+<button class="filter-btn px-4 py-2 rounded-full bg-surface-container-lowest text-slate-body hover:bg-surface-container font-label-md text-label-md transition-all" data-filter="tech" type="button">Civic Tech &amp; Engineering (3)</button>
+<button class="filter-btn px-4 py-2 rounded-full bg-surface-container-lowest text-slate-body hover:bg-surface-container font-label-md text-label-md transition-all" data-filter="editorial" type="button">Investigative Editorial &amp; Audio (2)</button>
+<button class="filter-btn px-4 py-2 rounded-full bg-surface-container-lowest text-slate-body hover:bg-surface-container font-label-md text-label-md transition-all" data-filter="legal" type="button">Legal Aid &amp; Policy Research (2)</button>
+<button class="filter-btn px-4 py-2 rounded-full bg-surface-container-lowest text-slate-body hover:bg-surface-container font-label-md text-label-md transition-all" data-filter="field" type="button">Community Organizing &amp; Field (2)</button>
+</div>
+<!-- Roles Grid -->
+<div class="space-y-4" id="roles-grid">
+<!-- Role 1 -->
+<article class="role-item rounded-2xl bg-surface-container-lowest p-6 md:p-8 shadow-sm hover:shadow-md transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-6" data-department="tech">
+<div class="space-y-3 max-w-2xl">
+<div class="flex flex-wrap items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>Tech &amp; Systems
+              </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-low text-slate-muted font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">location_on</span>Nairobi HQ / Hybrid
+              </span>
+<span class="inline-flex items-center px-2.5 py-1 rounded-full bg-surface-container-low text-slate-muted font-label-sm text-label-sm">
+                Full-time
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Senior Civic-Tech Full Stack Engineer (Next.js / Python / Rust)</h3>
+<p class="font-body-md text-body-md text-slate-body">Leading our offline-first encrypted evidence submission engine and county budget transparency ingestion pipelines. High resilience under bandwidth constraints.</p>
+<div class="flex flex-wrap gap-2 pt-1">
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">Distributed Systems</span>
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">Cryptography / PGP</span>
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">5+ Years Exp</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center lg:flex-col justify-between lg:justify-center gap-4">
+<span class="font-label-md text-label-md font-semibold text-secondary">KES 320k - 420k / mo</span>
+<button class="inline-flex items-center justify-center px-6 h-12 rounded-xl bg-primary text-on-primary font-label-md text-label-md hover:bg-maroon-hover transition-colors shadow-sm" onclick="openApplyModal('Senior Civic-Tech Full Stack Engineer')" type="button">
+              Apply for this Role
+            </button>
+</div>
+</article>
+<!-- Role 2 -->
+<article class="role-item rounded-2xl bg-surface-container-lowest p-6 md:p-8 shadow-sm hover:shadow-md transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-6" data-department="editorial">
+<div class="space-y-3 max-w-2xl">
+<div class="flex flex-wrap items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-ochre-tint text-secondary font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Editorial &amp; Media
+              </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-low text-slate-muted font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">location_on</span>Nakuru / Field-based
+              </span>
+<span class="inline-flex items-center px-2.5 py-1 rounded-full bg-surface-container-low text-slate-muted font-label-sm text-label-sm">
+                Full-time
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Lead County Devolution Investigator (Central &amp; Rift Valley)</h3>
+<p class="font-body-md text-body-md text-slate-body">Directing investigative dossiers and municipal audit reporting across 8 Rift Valley and Central counties. Documenting uncompleted ward development fund projects.</p>
+<div class="flex flex-wrap gap-2 pt-1">
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">Public Finance Analysis</span>
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">FOI / Access to Info Act</span>
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">OSINT Vetting</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center lg:flex-col justify-between lg:justify-center gap-4">
+<span class="font-label-md text-label-md font-semibold text-secondary">KES 240k - 310k / mo</span>
+<button class="inline-flex items-center justify-center px-6 h-12 rounded-xl bg-primary text-on-primary font-label-md text-label-md hover:bg-maroon-hover transition-colors shadow-sm" onclick="openApplyModal('Lead County Devolution Investigator')" type="button">
+              Apply for this Role
+            </button>
+</div>
+</article>
+<!-- Role 3 -->
+<article class="role-item rounded-2xl bg-surface-container-lowest p-6 md:p-8 shadow-sm hover:shadow-md transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-6" data-department="legal">
+<div class="space-y-3 max-w-2xl">
+<div class="flex flex-wrap items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-issue-governance font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-issue-governance"></span>Legal &amp; Policy
+              </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-low text-slate-muted font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">location_on</span>Nairobi HQ
+              </span>
+<span class="inline-flex items-center px-2.5 py-1 rounded-full bg-surface-container-low text-slate-muted font-label-sm text-label-sm">
+                Full-time
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Public Interest Paralegal &amp; Legislative Draftsperson</h3>
+<p class="font-body-md text-body-md text-slate-body">Translating citizen complaints into legally actionable County Assembly petitions under Standing Order 218 and supporting judicial review submissions.</p>
+<div class="flex flex-wrap gap-2 pt-1">
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">Kenya Law LLB / Diploma</span>
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">Standing Orders</span>
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">Community Lawyering</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center lg:flex-col justify-between lg:justify-center gap-4">
+<span class="font-label-md text-label-md font-semibold text-secondary">KES 220k - 280k / mo</span>
+<button class="inline-flex items-center justify-center px-6 h-12 rounded-xl bg-primary text-on-primary font-label-md text-label-md hover:bg-maroon-hover transition-colors shadow-sm" onclick="openApplyModal('Public Interest Paralegal &amp; Legislative Draftsperson')" type="button">
+              Apply for this Role
+            </button>
+</div>
+</article>
+<!-- Role 4 -->
+<article class="role-item rounded-2xl bg-surface-container-lowest p-6 md:p-8 shadow-sm hover:shadow-md transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-6" data-department="field">
+<div class="space-y-3 max-w-2xl">
+<div class="flex flex-wrap items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-issue-community font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-issue-community"></span>Grassroots Field
+              </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-low text-slate-muted font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">location_on</span>Kisumu &amp; Western Hub
+              </span>
+<span class="inline-flex items-center px-2.5 py-1 rounded-full bg-surface-container-low text-slate-muted font-label-sm text-label-sm">
+                Full-time
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Community Network Mobilization Lead</h3>
+<p class="font-body-md text-body-md text-slate-body">Coordinating directly with market trader associations, bodaboda SACCOs, and community-based organizations to deploy verified civic incident logging modules.</p>
+<div class="flex flex-wrap gap-2 pt-1">
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">Grassroots Organizing</span>
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">Luo &amp; Luhya Fluency</span>
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">Civic Education</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center lg:flex-col justify-between lg:justify-center gap-4">
+<span class="font-label-md text-label-md font-semibold text-secondary">KES 180k - 240k / mo</span>
+<button class="inline-flex items-center justify-center px-6 h-12 rounded-xl bg-primary text-on-primary font-label-md text-label-md hover:bg-maroon-hover transition-colors shadow-sm" onclick="openApplyModal('Community Network Mobilization Lead')" type="button">
+              Apply for this Role
+            </button>
+</div>
+</article>
+<!-- Role 5 -->
+<article class="role-item rounded-2xl bg-surface-container-lowest p-6 md:p-8 shadow-sm hover:shadow-md transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-6" data-department="tech">
+<div class="space-y-3 max-w-2xl">
+<div class="flex flex-wrap items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>Trust &amp; Safety
+              </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-low text-slate-muted font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">location_on</span>Nairobi / Remote
+              </span>
+<span class="inline-flex items-center px-2.5 py-1 rounded-full bg-surface-container-low text-slate-muted font-label-sm text-label-sm">
+                Full-time
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Senior Whistleblower Safety &amp; Security Specialist</h3>
+<p class="font-body-md text-body-md text-slate-body">Overseeing source protection infrastructure, Kenya Data Protection Act compliance, cryptographic pseudonymity architectures, and physical threat mitigations.</p>
+<div class="flex flex-wrap gap-2 pt-1">
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">KDPA / InfoSec</span>
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">OpSec Training</span>
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">Digital Forensics</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center lg:flex-col justify-between lg:justify-center gap-4">
+<span class="font-label-md text-label-md font-semibold text-secondary">KES 300k - 380k / mo</span>
+<button class="inline-flex items-center justify-center px-6 h-12 rounded-xl bg-primary text-on-primary font-label-md text-label-md hover:bg-maroon-hover transition-colors shadow-sm" onclick="openApplyModal('Senior Whistleblower Safety Specialist')" type="button">
+              Apply for this Role
+            </button>
+</div>
+</article>
+<!-- Role 6 -->
+<article class="role-item rounded-2xl bg-surface-container-lowest p-6 md:p-8 shadow-sm hover:shadow-md transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-6" data-department="editorial">
+<div class="space-y-3 max-w-2xl">
+<div class="flex flex-wrap items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-ochre-tint text-secondary font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Editorial &amp; Media
+              </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-low text-slate-muted font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">location_on</span>Mombasa / Coast Hub
+              </span>
+<span class="inline-flex items-center px-2.5 py-1 rounded-full bg-surface-container-low text-slate-muted font-label-sm text-label-sm">
+                Full-time
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Field Audio Producer &amp; Swahili Storyteller</h3>
+<p class="font-body-md text-body-md text-slate-body">Producing rigorous serialized investigative podcasts and hyper-local audio briefs for community radio stations on port privatization, land registry, and fishing rights.</p>
+<div class="flex flex-wrap gap-2 pt-1">
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">Pro Tools / Reaper</span>
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">Kiswahili Sanifu</span>
+<span class="px-2.5 py-0.5 rounded-md bg-mist-bg text-slate-muted font-label-sm text-label-sm">Field Sound Gear</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center lg:flex-col justify-between lg:justify-center gap-4">
+<span class="font-label-md text-label-md font-semibold text-secondary">KES 190k - 250k / mo</span>
+<button class="inline-flex items-center justify-center px-6 h-12 rounded-xl bg-primary text-on-primary font-label-md text-label-md hover:bg-maroon-hover transition-colors shadow-sm" onclick="openApplyModal('Field Audio Producer &amp; Swahili Storyteller')" type="button">
+              Apply for this Role
+            </button>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Civic Fellowship & Student Internships Program -->
+<section class="w-full bg-ochre-tint py-16" id="civic-fellowship">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="rounded-3xl bg-surface-container-lowest p-8 md:p-12 shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-8 space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary text-on-secondary font-eyebrow text-eyebrow uppercase tracking-wider">
+              Early Career Accelerator
+            </div>
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">Wajibika 2025 Open Devolution Fellowship</h2>
+<p class="font-body-md text-body-md text-slate-body leading-relaxed">
+              A 6-month intensive, fully paid fellowship program for 12 early-career Kenyan investigative journalists, junior open-source developers, and law graduates. Fellows receive direct mentorship from seasoned editors, KES 95,000 monthly living stipend, dedicated hardware, and legal accreditation.
+            </p>
+<div class="flex flex-wrap gap-4 pt-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-feedback-success text-[20px]">check_circle</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">100% Fully Funded</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-feedback-success text-[20px]">check_circle</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">47-County Field Access</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-feedback-success text-[20px]">check_circle</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Direct Path to Full-Time</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col items-start lg:items-end justify-center gap-3">
+<span class="font-label-sm text-label-sm text-slate-muted">Cohort III Begins August 1, 2025</span>
+<button class="w-full lg:w-auto inline-flex items-center justify-center gap-2 px-6 h-12 rounded-xl bg-secondary text-on-secondary font-label-md text-label-md font-semibold hover:bg-secondary-fixed-dim transition-colors shadow-sm" onclick="openApplyModal('Wajibika 2025 Open Devolution Fellowship')" type="button">
+<span>Apply for Cohort III</span>
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</button>
+<span class="text-xs text-slate-muted">Deadline: June 30, 2025 • 23:59 EAT</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Hiring Process Transparency -->
+<section class="w-full bg-surface py-20">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="max-w-2xl mx-auto text-center space-y-3 mb-16">
+<span class="font-eyebrow text-eyebrow text-primary uppercase tracking-widest font-bold">Fair &amp; Respectful</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight font-bold">Our 4-Step Deliberation Process</h2>
+<p class="font-body-md text-body-md text-slate-body">No endless rounds. No unpaid spec work. Every applicant is reviewed by humans and guaranteed timely, constructive feedback.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+<!-- Step 1 -->
+<div class="rounded-2xl bg-surface-container-low p-6 space-y-4">
+<div class="flex items-center justify-between">
+<span class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-sm">1</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">48-Hr SLA</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Application Review</h3>
+<p class="font-body-sm text-body-sm text-slate-body leading-relaxed">
+            Our talent committee evaluates your past works, public GitHub repos, investigative portfolios, or legal memos without algorithmic filtering.
+          </p>
+</div>
+<!-- Step 2 -->
+<div class="rounded-2xl bg-surface-container-low p-6 space-y-4">
+<div class="flex items-center justify-between">
+<span class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-sm">2</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Paid Stipend</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Practical Civic Case</h3>
+<p class="font-body-sm text-body-sm text-slate-body leading-relaxed">
+            A realistic 3-hour scenario (e.g., anonymizing an audit dataset or outlining an Access to Information appeal). We compensate your time with KES 15,000.
+          </p>
+</div>
+<!-- Step 3 -->
+<div class="rounded-2xl bg-surface-container-low p-6 space-y-4">
+<div class="flex items-center justify-between">
+<span class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-sm">3</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">60 Minutes</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Team &amp; Ethics Call</h3>
+<p class="font-body-sm text-body-sm text-slate-body leading-relaxed">
+            An open conversation with future peers covering editorial independence, conflict-of-interest declarations, and psychological safety standards.
+          </p>
+</div>
+<!-- Step 4 -->
+<div class="rounded-2xl bg-surface-container-low p-6 space-y-4">
+<div class="flex items-center justify-between">
+<span class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-sm">4</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Welcome Pack</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Offer &amp; Onboarding</h3>
+<p class="font-body-sm text-body-sm text-slate-body leading-relaxed">
+            Transparent compensation offer with fully covered medical insurance (inpatient &amp; outpatient), equipment allocation, and remote setup allowance.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Bottom Pitch & Talent Pool Banner -->
+<section class="w-full bg-maroon-tint py-16">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="flex flex-col md:flex-row items-center justify-between gap-8 rounded-2xl bg-surface-container-lowest p-8 md:p-10 shadow-sm">
+<div class="space-y-2 max-w-xl">
+<span class="font-eyebrow text-eyebrow text-primary uppercase tracking-widest font-bold">Unlisted Discipline?</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Don't see your specific role? Send an open pitch.</h3>
+<p class="font-body-md text-body-md text-slate-body">
+            If you possess extraordinary capabilities in data visualization, geospatial satellite auditing, constitutional litigation, or Swahili translation, we always create seats for dedicated civic minds.
+          </p>
+</div>
+<button class="shrink-0 inline-flex items-center justify-center gap-2 px-6 h-12 rounded-xl bg-primary text-on-primary font-label-md text-label-md hover:bg-maroon-hover transition-colors shadow-sm" onclick="openApplyModal('Spontaneous Civic Talent Application')" type="button">
+<span class="material-symbols-outlined text-[18px]">outgoing_mail</span>
+<span>Submit Spontaneous Application</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Interactive Application Modal -->
+<div class="hidden fixed inset-0 z-50 overflow-y-auto bg-inverse-surface/60 backdrop-blur-sm flex items-center justify-center p-4" id="application-modal">
+<div class="relative w-full max-w-lg rounded-2xl bg-surface-container-lowest p-6 md:p-8 shadow-2xl space-y-6">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-eyebrow text-eyebrow text-secondary uppercase tracking-wider font-bold">Wajibika Civic Application</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mt-1" id="modal-role-title">Role Application</h3>
+</div>
+<button class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-slate-muted hover:text-on-surface transition-colors" onclick="closeApplyModal()" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<form class="space-y-4" id="civic-job-form" onsubmit="handleFormSubmit(event)">
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface font-semibold mb-1.5" for="applicant-name">Full Legal Name</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-secondary" id="applicant-name" placeholder="e.g. Wanjiku Odhiambo" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface font-semibold mb-1.5" for="applicant-email">Secure Contact Email</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-secondary" id="applicant-email" placeholder="wanjiku@domain.org" required="" type="email"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface font-semibold mb-1.5" for="portfolio-url">Portfolio, GitHub, or Case Dossier Link</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-secondary" id="portfolio-url" placeholder="https://github.com/... or https://drive.google.com/..." required="" type="url"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface font-semibold mb-1.5" for="civic-statement">Why do you want to hold public institutions accountable? (2-3 sentences)</label>
+<textarea class="w-full p-4 rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-secondary" id="civic-statement" placeholder="Briefly state your commitment to public interest..." required="" rows="3"></textarea>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<input class="w-4 h-4 rounded text-primary focus:ring-secondary accent-primary" id="ethics-agree" required="" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-slate-body" for="ethics-agree">I affirm non-partisanship and strict adherence to whistleblower safety standards.</label>
+</div>
+<div class="pt-4 flex items-center justify-end gap-3">
+<button class="px-5 h-12 rounded-xl bg-surface-container text-slate-body font-label-md text-label-md hover:bg-surface-container-high transition-colors" onclick="closeApplyModal()" type="button">
+            Cancel
+          </button>
+<button class="px-6 h-12 rounded-xl bg-primary text-on-primary font-label-md text-label-md hover:bg-maroon-hover transition-colors font-semibold shadow-sm" type="submit">
+            Transmit Application
+          </button>
+</div>
+</form>
+<div class="hidden text-center py-8 space-y-3" id="modal-success-state">
+<span class="material-symbols-outlined text-[48px] text-feedback-success">check_circle</span>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface">Application Received</h4>
+<p class="font-body-sm text-body-sm text-slate-body max-w-sm mx-auto">
+          Your transmission has been encrypted and routed to the talent committee. We will respond within 48 hours.
+        </p>
+<button class="mt-4 px-6 h-11 rounded-xl bg-primary text-on-primary font-label-md text-label-md" onclick="closeApplyModal()" type="button">
+          Return to Careers
+        </button>
+</div>
+</div>
+</div>
+<!-- Interactive Scripts -->
+<script>
+    // Filtering logic for open roles
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const roleItems = document.querySelectorAll('.role-item');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Reset styles
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-primary', 'text-on-primary', 'font-semibold');
+          b.classList.add('bg-surface-container-lowest', 'text-slate-body');
+        });
+        
+        // Active style
+        btn.classList.add('bg-primary', 'text-on-primary', 'font-semibold');
+        btn.classList.remove('bg-surface-container-lowest', 'text-slate-body');
+
+        const filter = btn.getAttribute('data-filter');
+
+        roleItems.forEach(item => {
+          if (filter === 'all' || item.getAttribute('data-department') === filter) {
+            item.style.display = 'flex';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Modal Interactions
+    const modal = document.getElementById('application-modal');
+    const modalTitle = document.getElementById('modal-role-title');
+    const jobForm = document.getElementById('civic-job-form');
+    const successState = document.getElementById('modal-success-state');
+
+    function openApplyModal(roleName) {
+      modalTitle.textContent = roleName;
+      jobForm.classList.remove('hidden');
+      successState.classList.add('hidden');
+      jobForm.reset();
+      modal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeApplyModal() {
+      modal.classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      jobForm.classList.add('hidden');
+      successState.classList.remove('hidden');
+    }
+
+    // Close on click outside modal panel
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        closeApplyModal();
+      }
+    });
+  </script>
+</div></main><footer class="w-full bg-primary text-on-primary"><div class="w-full bg-ochre-tint text-on-surface py-6 px-6 shadow-inner"><div class="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4"><div class="flex items-center gap-3 text-center md:text-left"><span class="material-symbols-outlined text-secondary text-[28px] shrink-0">campaign</span><p class="font-body-md text-body-md text-on-surface"><strong class="font-semibold">Start a campaign in your area</strong> — Bring tangible change to your neighborhood or sector.</p></div><a class="inline-flex items-center justify-center px-6 h-11 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md hover:bg-maroon-hover transition-colors shrink-0" data-path="raise-an-issue" href="#">Launch Campaign</a></div></div><div class="max-w-[1200px] mx-auto px-6 pt-16 pb-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8"><div class="lg:col-span-2 space-y-4 pr-0 lg:pr-6"><div class="flex items-center gap-3"><img alt="Brand logo. - Primary color: #7a2331
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida/AEtjO1UKr7LPNeHnuyNK8sv9s0FgyN5Ye_QI7vMmHWWhfQrme0fqus8494jAmTU2HTs3ilyvKpQF4v209wW_M60W42LQxjps3_yXGwIdUwDkQNWjma1IqqPFMiUikyrlcwafCVTDh2vZihf8RJnjdTTJlT2g3fmsZuWrITfnxjz8I7dafTTKx7fWly9cVnaKQ-Ui75aB1UyO8m9QUO9x-opzIlzTOD-2CwHYeSTvPjYB4N4xcvcTHfcE3VvGlTeg"/><span class="font-headline-sm text-headline-sm font-bold text-on-primary tracking-tight">Wajibika</span></div><p class="font-body-sm text-body-sm text-primary-fixed-dim leading-relaxed">An initiative of Swizzy Industries empowering citizens, investigative journalists, and community builders to document governance pledges, surface verified grievances, and catalyze institutional response.</p><div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-maroon-hover text-primary-fixed text-label-sm font-label-sm"><span class="w-2 h-2 rounded-full bg-feedback-success"></span>Independent • Non-Partisan • Civic Utility</div></div><div class="space-y-3"><h4 class="font-label-lg text-label-lg font-bold text-on-primary uppercase tracking-wider text-xs">Issues &amp; Campaigns</h4><ul class="space-y-2.5 font-body-sm text-body-sm"><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-issue-governance"></span><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="issues-and-campaigns" href="#">Governance &amp; Rule of Law</a></li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-issue-economy"></span><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="issues-and-campaigns" href="#">Economy &amp; Taxation</a></li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-issue-social"></span><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="issues-and-campaigns" href="#">Public Infrastructure</a></li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-issue-community"></span><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="issues-and-campaigns" href="#">Healthcare &amp; Sanitation</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="accountability-tracker" href="#">County Performance Index</a></li></ul></div><div class="space-y-3"><h4 class="font-label-lg text-label-lg font-bold text-on-primary uppercase tracking-wider text-xs">Platform &amp; Media</h4><ul class="space-y-2.5 font-body-sm text-body-sm"><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="voices-and-stories" href="#">Citizen Dispatches</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="voices-and-stories" href="#">Field Investigation Dossiers</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="accountability-tracker" href="#">Parliamentary Pledge Tracker</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="about-and-partners" href="#">Institutional Partners</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="careers" href="#">Careers &amp; Fellowships</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="contact" href="#">Secure Whistleblower Desk</a></li></ul></div><div class="space-y-4"><h4 class="font-label-lg text-label-lg font-bold text-on-primary uppercase tracking-wider text-xs">Civic Dispatch</h4><p class="font-body-sm text-body-sm text-primary-fixed-dim">Weekly vetted oversight intelligence, policy analyses, and active local mobilization updates.</p><form class="space-y-2"><div class="flex flex-col gap-2"><input aria-label="Email Address for Civic Dispatch" class="h-11 px-3.5 rounded-xl bg-surface-container-lowest text-on-surface placeholder:text-slate-muted text-body-sm font-body-sm focus:outline-none focus:ring-2 focus:ring-secondary" placeholder="name@organization.org" type="email"/><button class="h-11 px-4 rounded-xl bg-secondary-container text-on-secondary-container font-label-md text-label-md hover:bg-secondary-fixed transition-colors font-semibold" type="button">Subscribe</button></div><span class="text-[11px] text-primary-fixed-dim block">Zero spam. Cryptographically secure storage.</span></form></div></div><div class="mt-12 pt-8 border-t border-maroon-hover/60 flex flex-col md:flex-row items-center justify-between gap-4 text-primary-fixed-dim font-body-sm text-body-sm"><p>A Swizzy Industries Brand • © 2025 Wajibika Platform. All rights reserved.</p><div class="flex flex-wrap items-center gap-6 text-xs"><a class="hover:text-on-primary transition-colors" data-path="privacy-notice" href="#">Privacy Notice</a><a class="hover:text-on-primary transition-colors" data-path="terms-of-use" href="#">Terms of Use</a><a class="hover:text-on-primary transition-colors" data-path="community-guidelines" href="#">Community Guidelines</a><a class="hover:text-on-primary transition-colors" data-path="accessibility-statement" href="#">Accessibility Statement</a></div></div></div></footer></body></html>

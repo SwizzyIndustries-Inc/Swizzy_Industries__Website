@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container-lowest":"#ffffff","on-secondary":"#ffffff","surface-container-low":"#fff0f1","primary-fixed":"#ffdadb","inverse-surface":"#3e2b2f","secondary-fixed-dim":"#ffb873","on-background":"#27171a","surface-container":"#ffe9eb","inverse-primary":"#ffb2b8","issue-community":"#8C5FD9","background":"#fff8f7","primary-container":"#7a2331","surface-container-highest":"#fadbdf","surface-container-high":"#ffe1e5","primary":"#5c0b1c","tertiary-fixed-dim":"#b8c4ff","on-surface-variant":"#554243","issue-governance":"#3A5BD9","tertiary-fixed":"#dde1ff","on-tertiary-fixed":"#001354","feedback-success":"#1E9E6A","slate-body":"#4A3438","on-tertiary":"#ffffff","outline":"#887273","on-primary-container":"#ff8f99","on-error-container":"#93000a","ochre-tint":"#FBEEDD","on-tertiary-fixed-variant":"#0637b8","maroon-hover":"#611B27","feedback-warning":"#E0A100","secondary":"#8c5000","issue-economy":"#1E8F6B","on-tertiary-container":"#99abff","feedback-error":"#D64545","outline-variant":"#dbc0c1","on-error":"#ffffff","maroon-tint":"#F5E6E8","on-secondary-container":"#734100","surface-dim":"#f1d3d7","on-secondary-fixed-variant":"#6a3b00","secondary-fixed":"#ffdcbf","surface-bright":"#fff8f7","on-primary-fixed-variant":"#7f2735","mist-bg":"#FAF5F4","primary-fixed-dim":"#ffb2b8","tertiary":"#00217d","secondary-container":"#ffac58","surface-variant":"#fadbdf","surface":"#fff8f7","on-primary-fixed":"#40000e","inverse-on-surface":"#ffecee","error-container":"#ffdad6","cloud-border":"#EADDDB","error":"#ba1a1a","slate-muted":"#7A666A","issue-social":"#E8735A","on-primary":"#ffffff","on-secondary-fixed":"#2d1600","on-surface":"#27171a","tertiary-container":"#0033b2","surface-tint":"#9e3e4b"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xs":"0.25rem","margin-lg":"5rem","space-lg":"1.5rem","margin-sm":"1rem","space-xl":"2rem","margin":"2rem","space-md":"1rem","gutter":"1.5rem","gutter-sm":"1rem","space-sm":"0.5rem"},"fontFamily":{"display":["Plus Jakarta Sans"],"label-sm":["Inter"],"headline-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"label-lg":["Inter"],"headline-md":["Plus Jakarta Sans"],"body-sm":["Inter"],"display-mobile":["Plus Jakarta Sans"],"eyebrow":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"label-md":["Inter"],"headline-md-mobile":["Plus Jakarta Sans"],"headline-sm-mobile":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-md":["Inter"],"body-lg":["Inter"]},"fontSize":{"display":["60px",{"lineHeight":"72px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["12px",{"lineHeight":"16px","fontWeight":"500"}],"headline-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-lg":["16px",{"lineHeight":"24px","fontWeight":"600"}],"headline-md":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"display-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.015em","fontWeight":"700"}],"eyebrow":["12px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"700"}],"title-md":["20px",{"lineHeight":"28px","fontWeight":"600"}],"label-md":["14px",{"lineHeight":"20px","fontWeight":"500"}],"headline-md-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.005em","fontWeight":"600"}],"headline-sm-mobile":["22px",{"lineHeight":"30px","fontWeight":"600"}],"headline-sm":["28px",{"lineHeight":"36px","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1200px] mx-auto px-6 flex items-center justify-between gap-4"><div class="flex items-center gap-6"><a class="flex items-center gap-3 group" data-path="home" href="#"><img alt="Brand logo. - Primary color: #7a2331
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UKr7LPNeHnuyNK8sv9s0FgyN5Ye_QI7vMmHWWhfQrme0fqus8494jAmTU2HTs3ilyvKpQF4v209wW_M60W42LQxjps3_yXGwIdUwDkQNWjma1IqqPFMiUikyrlcwafCVTDh2vZihf8RJnjdTTJlT2g3fmsZuWrITfnxjz8I7dafTTKx7fWly9cVnaKQ-Ui75aB1UyO8m9QUO9x-opzIlzTOD-2CwHYeSTvPjYB4N4xcvcTHfcE3VvGlTeg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold leading-none">Wajibika</span><span class="font-eyebrow text-eyebrow uppercase text-slate-muted tracking-wider text-[10px] leading-tight">Swizzy Industries</span></div></a><nav class="hidden xl:flex items-center gap-6" data-active-classes="text-primary font-title-md font-semibold border-b-2 border-primary"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="home" href="#">Home</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="issues-and-campaigns" href="#">Issues &amp; Campaigns</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="voices-and-stories" href="#">Voices &amp; Stories</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="accountability-tracker" href="#">Accountability Tracker</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="careers" href="#">Careers</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="about-and-partners" href="#">About &amp; Partners</a></nav></div><div class="flex items-center gap-4"><button aria-label="Search issues, campaigns, and reports" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">search</span></button><a class="hidden sm:inline-flex font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-2 py-1 transition-colors" data-path="contact" href="#">Contact</a><a class="inline-flex items-center justify-center px-5 h-12 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-maroon-hover focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2 transition-all shadow-sm" data-path="raise-an-issue" href="#">Raise an Issue</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0 ml-1"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Utility Context & Trust Banner -->
+<section class="w-full bg-mist-bg py-5">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+<nav aria-label="Breadcrumb" class="flex items-center gap-2 font-label-sm text-label-sm text-slate-muted">
+<a class="hover:text-primary transition-colors flex items-center gap-1" data-path="home" href="#">
+<span class="material-symbols-outlined text-[16px]">home</span>
+<span>Home</span>
+</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-primary font-semibold">About &amp; Editorial Standards</span>
+</nav>
+<div class="inline-flex items-center gap-2 self-start md:self-auto px-3.5 py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-feedback-success animate-pulse"></span>
+<span class="tracking-wide">A Swizzy Industries Public Benefit Initiative • Established 2024 • Non-Partisan Protected Platform</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Hero Section -->
+<section class="relative w-full bg-surface-container-lowest overflow-hidden py-16 lg:py-24">
+<div class="absolute -top-32 right-0 w-[520px] h-[520px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 -left-20 w-[420px] h-[420px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+<div class="max-w-[1200px] mx-auto px-6 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<div class="lg:col-span-7 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-maroon-tint text-primary font-eyebrow text-eyebrow uppercase">
+<span class="material-symbols-outlined text-[15px]">verified_user</span>
+            Constitutional Mandate • Civic Infrastructure
+          </div>
+<h1 class="font-display text-display text-on-surface tracking-tight leading-[1.15]">
+            Democratizing public accountability through <span class="text-primary underline decoration-secondary-container decoration-4 underline-offset-8">verified evidence</span> and civic action.
+          </h1>
+<p class="font-body-lg text-body-lg text-slate-body leading-relaxed max-w-[620px]">
+            Wajibika provides the digital, legal, and evidentiary infrastructure for Kenyans to transform everyday grievances into legally binding petitions, tracked county assembly resolutions, and verified institutional follow-through.
+          </p>
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="inline-flex items-center justify-center gap-2 px-6 h-12 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-maroon-hover shadow-md transition-all" data-path="raise-an-issue" href="#">
+<span class="material-symbols-outlined text-[20px]">flag</span>
+              File a Grounded Petition
+            </a>
+<a class="inline-flex items-center justify-center gap-2 px-6 h-12 rounded-xl bg-surface-container-low text-primary font-label-lg text-label-lg hover:bg-maroon-tint transition-all" href="#charter">
+<span class="material-symbols-outlined text-[20px]">policy</span>
+              Read Editorial Charter
+            </a>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="relative bg-mist-bg rounded-2xl p-6 shadow-xl space-y-6">
+<div class="relative h-64 w-full rounded-xl overflow-hidden shadow-inner">
+<img class="w-full h-full object-cover" data-alt="A dignified photograph of modern Kenyan civic leaders and legal researchers conferring around archival records and legislative gazettes in a warmly lit contemporary institution. Rich warm tones with subtle maroon accents, natural morning sunlight through floor-to-ceiling windows, and high photographic clarity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBE0J0D8XyOKxjRTrbNlpi7menY1IofwvHIM4ZWo2r756Qf4ACxIxJerONI-BcpOfr4pb_f7VHlVNtMzpCFajgEeiAhQK7OKf-_pHTiqSTF-GsYyW4fIxRj1dfBnQpB_pHvPxYZuRnbFFrTt3kpaysfLBVKCN3ua8rH7FnIosczGjj3QxVgN15Bzuvm0ODb8zaZtNYHAGuRM0nbEqnkVpFNI9EXgbOXD1g5atSQzSmX-J5qRH72eMOKAg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-transparent flex items-end p-5">
+<span class="text-on-primary font-label-sm text-label-sm font-semibold tracking-wide">Supreme Court &amp; County Assembly Public Petitions Portal Integration</span>
+</div>
+</div>
+<!-- Mini Live Verification Ledger Graphic -->
+<div class="space-y-3 bg-surface-container-lowest p-4 rounded-xl shadow-sm">
+<div class="flex items-center justify-between text-xs text-slate-muted">
+<span class="flex items-center gap-1.5 font-semibold text-primary">
+<span class="w-2 h-2 rounded-full bg-feedback-success"></span>
+                  Active Cryptographic Escrow
+                </span>
+<span class="font-mono text-[11px]">KDPA COMPLIANT</span>
+</div>
+<div class="font-mono text-[12px] bg-mist-bg p-2.5 rounded text-on-surface-variant flex items-center justify-between">
+<span>SHA256: 8f3c...d921</span>
+<span class="text-feedback-success font-semibold">Immutable Hash</span>
+</div>
+<p class="font-body-sm text-body-sm text-slate-body">All public records undergo triple cryptographic sealing prior to parliamentary delivery.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Key Platform Metrics Strip -->
+<section class="w-full bg-primary-container text-on-primary py-10 shadow-md">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 divide-x-0 md:divide-x divide-on-primary/15">
+<div class="space-y-1 text-center md:text-left md:px-4 first:pl-0">
+<div class="flex items-baseline justify-center md:justify-start gap-1">
+<span class="font-headline-lg text-headline-lg font-bold text-on-primary">47</span>
+<span class="text-secondary-fixed text-title-md font-bold">/ 47</span>
+</div>
+<p class="font-label-md text-label-md text-primary-fixed-dim">Counties Monitored</p>
+<span class="text-[11px] text-primary-fixed block opacity-80">Full devolution assembly coverage</span>
+</div>
+<div class="space-y-1 text-center md:text-left md:px-4">
+<div class="flex items-baseline justify-center md:justify-start gap-1">
+<span class="font-headline-lg text-headline-lg font-bold text-on-primary">142</span>
+<span class="text-secondary-fixed font-bold text-headline-sm">+</span>
+</div>
+<p class="font-label-md text-label-md text-primary-fixed-dim">Petitions Formatted</p>
+<span class="text-[11px] text-primary-fixed block opacity-80">Under Standing Order 218</span>
+</div>
+<div class="space-y-1 text-center md:text-left md:px-4">
+<div class="flex items-baseline justify-center md:justify-start gap-1">
+<span class="font-headline-lg text-headline-lg font-bold text-on-primary">2.45B</span>
+<span class="text-secondary-fixed font-bold text-title-md">KES</span>
+</div>
+<p class="font-label-md text-label-md text-primary-fixed-dim">Public Funds Audited</p>
+<span class="text-[11px] text-primary-fixed block opacity-80">Auditor-General record tracking</span>
+</div>
+<div class="space-y-1 text-center md:text-left md:px-4 last:pr-0">
+<div class="flex items-baseline justify-center md:justify-start gap-1">
+<span class="font-headline-lg text-headline-lg font-bold text-on-primary">100%</span>
+</div>
+<p class="font-label-md text-label-md text-primary-fixed-dim">Non-Partisan Sourcing</p>
+<span class="text-[11px] text-primary-fixed block opacity-80">Autonomous civil oversight</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Platform Pillars (Three Core Tenets) -->
+<section class="w-full bg-mist-bg py-20">
+<div class="max-w-[1200px] mx-auto px-6 space-y-14">
+<div class="text-center max-w-[760px] mx-auto space-y-3">
+<span class="font-eyebrow text-eyebrow text-secondary uppercase tracking-widest">Our Methodological Foundation</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">The Three Structural Pillars of Wajibika</h2>
+<p class="font-body-md text-body-md text-slate-body">
+          We move past unstructured social outrage by building hardened, legally grounded pathways from localized citizen grievance to institutional remediation.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm flex flex-col justify-between hover:shadow-lg transition-all group">
+<div class="space-y-6">
+<div class="w-14 h-14 rounded-xl bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary-container group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[30px]">fingerprint</span>
+</div>
+<div class="space-y-2">
+<span class="font-mono text-xs uppercase tracking-wider text-slate-muted">Pillar 01 • Evidentiary Rigor</span>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Grounded Evidentiary Custody</h3>
+</div>
+<p class="font-body-sm text-body-sm text-slate-body leading-relaxed">
+              Petitions are never rooted in abstract speculation. Every entry on Wajibika requires SHA-256 hashed documentation, itemized procurement receipts, high-resolution EXIF geo-tagged media, and cross-referenced public records.
+            </p>
+</div>
+<div class="mt-8 pt-6 bg-mist-bg -mx-8 -mb-8 px-8 py-4 rounded-b-2xl flex items-center justify-between text-xs text-primary font-label-sm">
+<span>Cryptographic Chain of Custody</span>
+<span class="material-symbols-outlined text-[16px]">verified</span>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm flex flex-col justify-between hover:shadow-lg transition-all group">
+<div class="space-y-6">
+<div class="w-14 h-14 rounded-xl bg-ochre-tint flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[30px]">gavel</span>
+</div>
+<div class="space-y-2">
+<span class="font-mono text-xs uppercase tracking-wider text-slate-muted">Pillar 02 • Constitutional Anchoring</span>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Statutory Channeling</h3>
+</div>
+<p class="font-body-sm text-body-sm text-slate-body leading-relaxed">
+              Every filing aligns strictly with Articles 37 and 119 of the Constitution of Kenya and County Assemblies Standing Order 218. We auto-format public grievances into ready-for-tabling legislative memoranda for direct assembly transmission.
+            </p>
+</div>
+<div class="mt-8 pt-6 bg-ochre-tint/50 -mx-8 -mb-8 px-8 py-4 rounded-b-2xl flex items-center justify-between text-xs text-secondary font-label-sm">
+<span>Articles 37 • 119 • SO 218</span>
+<span class="material-symbols-outlined text-[16px]">balance</span>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm flex flex-col justify-between hover:shadow-lg transition-all group">
+<div class="space-y-6">
+<div class="w-14 h-14 rounded-xl bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary-container group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[30px]">shield_person</span>
+</div>
+<div class="space-y-2">
+<span class="font-mono text-xs uppercase tracking-wider text-slate-muted">Pillar 03 • Citizen Safety</span>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Protected Whistleblower Escrow</h3>
+</div>
+<p class="font-body-sm text-body-sm text-slate-body leading-relaxed">
+              Strict adherence to the Kenya Data Protection Act (KDPA 2019) ensures full zero-knowledge pseudonymity for frontline community investigators. Identity hashes are partitioned in air-gapped legal escrow to shield organizers from intimidation.
+            </p>
+</div>
+<div class="mt-8 pt-6 bg-mist-bg -mx-8 -mb-8 px-8 py-4 rounded-b-2xl flex items-center justify-between text-xs text-primary font-label-sm">
+<span>Zero-Knowledge Escrow Architecture</span>
+<span class="material-symbols-outlined text-[16px]">lock</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Leadership & Governance Council -->
+<section class="w-full bg-surface-container-lowest py-20">
+<div class="max-w-[1200px] mx-auto px-6 space-y-14">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div class="space-y-3 max-w-[680px]">
+<span class="font-eyebrow text-eyebrow text-secondary uppercase tracking-widest">Leadership &amp; Independent Oversight</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">The Governance Council</h2>
+<p class="font-body-md text-body-md text-slate-body">
+            Our governance council combines constitutional legal practice, forensic data journalism, civic software engineering, and independent academic moderation to safeguard system autonomy.
+          </p>
+</div>
+<div class="flex items-center gap-2 self-start md:self-auto px-4 py-2 rounded-xl bg-surface-container text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+          Fiduciary &amp; Legal Autonomy Guaranteed
+        </div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Leader 1 -->
+<div class="bg-mist-bg rounded-2xl p-6 shadow-sm flex flex-col justify-between space-y-6 hover:shadow-md transition-shadow">
+<div class="space-y-4">
+<div class="w-24 h-24 rounded-2xl overflow-hidden shadow-inner bg-surface-container mx-auto">
+<img class="w-full h-full object-cover" data-alt="Dignified, warm studio portrait of Dr. Amina Mwenda, a distinguished Kenyan female investigative journalist in her early forties wearing smart business attire with deep burgundy and earth tones. Thoughtful, confident expression, soft natural background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuASgMEyi-8bn2xDyh9ya8TUBhJVtsG5k7JhiBLYH3LQtb7Fy5Wiqc34yRseGyyYM5dTbVf-egDxrHAVUyPvzpQkKJ5VlXxpq2p6laS9I_E-9RbXUDedpTxjhv99SZ8X82dl_xoWMHks9uqFAqFqwLFdjZjuoBUSYO1jzOQCpdEQV1eZvEngK8QAU72JwT3FqDpo5RMj_-eWch3HzlHHc7x5YkUEKmkon1Mi9eHIxPUk8-n_390DxM0pvQ"/>
+</div>
+<div class="text-center space-y-1">
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Dr. Amina Mwenda</h3>
+<p class="font-label-sm text-label-sm text-primary font-semibold">Lead Investigative Editor &amp; Devolution Fellow</p>
+<p class="font-body-sm text-body-sm text-slate-muted text-xs pt-1">Former Nation Media Group &amp; Open Governance Initiative</p>
+</div>
+<p class="font-body-sm text-body-sm text-slate-body text-xs leading-relaxed text-center">
+              Directs Wajibika’s 3-tier dossier verification protocols and devises forensic evidence standards across all 47 counties.
+            </p>
+</div>
+<div class="pt-4 bg-surface-container-lowest -mx-6 -mb-6 p-4 rounded-b-2xl flex items-center justify-between text-xs text-slate-muted">
+<span class="font-mono text-[11px]">BAR ID #OGI-992</span>
+<span class="material-symbols-outlined text-[16px] text-primary">badge</span>
+</div>
+</div>
+<!-- Leader 2 -->
+<div class="bg-mist-bg rounded-2xl p-6 shadow-sm flex flex-col justify-between space-y-6 hover:shadow-md transition-shadow">
+<div class="space-y-4">
+<div class="w-24 h-24 rounded-2xl overflow-hidden shadow-inner bg-surface-container mx-auto">
+<img class="w-full h-full object-cover" data-alt="Professional, dignified portrait of Barr. John Karanja, an African male advocate in his late forties wearing formal dark bespoke suit with a crimson lapel pin. Clean, scholarly, institutional lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAg7KQtooxW1DbJZ_9Ds86ZM98bpN3ObWMKBwvRrpcTeQapUen-gKcJj7yF4b930zOsu0l8sdyHPjgp5_e_Ht-8t_vjfDPKY1YzmL2HvWrmdxbik6GGDRxjn3x3eLm0Zr9oWgRI5D9VEDIweSd0gpPiNKNivlS00HYSFlHh5W4bmq690OQ8CYB6ZxLofaQShDBNJ2-PLElJEeGqVlUrzq-UB8uFNdLilsfRk70xbiBtPSIR1dUHkIJMw"/>
+</div>
+<div class="text-center space-y-1">
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Barr. John Karanja</h3>
+<p class="font-label-sm text-label-sm text-primary font-semibold">Head of Public Interest Legal Aid</p>
+<p class="font-body-sm text-body-sm text-slate-muted text-xs pt-1">Advocate of the High Court of Kenya (18+ Yrs Practice)</p>
+</div>
+<p class="font-body-sm text-body-sm text-slate-body text-xs leading-relaxed text-center">
+              Leads the legislative drafting wing ensuring public grievances conform strictly to Senate, National Assembly, and County Standing Orders.
+            </p>
+</div>
+<div class="pt-4 bg-surface-container-lowest -mx-6 -mb-6 p-4 rounded-b-2xl flex items-center justify-between text-xs text-slate-muted">
+<span class="font-mono text-[11px]">LSK REG #P105/4412</span>
+<span class="material-symbols-outlined text-[16px] text-primary">gavel</span>
+</div>
+</div>
+<!-- Leader 3 -->
+<div class="bg-mist-bg rounded-2xl p-6 shadow-sm flex flex-col justify-between space-y-6 hover:shadow-md transition-shadow">
+<div class="space-y-4">
+<div class="w-24 h-24 rounded-2xl overflow-hidden shadow-inner bg-surface-container mx-auto">
+<img class="w-full h-full object-cover" data-alt="High quality headshot of Faith Muthoni Chege, an East African woman in her mid-thirties with minimalist wireframe spectacles, dressed in dark professional attire. Tech-informed civic executive, calm authoritative lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQ030U7EymRTyfbwJ5h-_L0ANUaPuE5X9KUVE_KdihQttuxFQmayBz2GpV9LAR9ABdq6k0NH-hohh8opizmiV1fGrajYZ5zy5GmVsPRiVp2-XsA8g-ilnzBbXTT1U-je08C9uIAz_-0TwrXplxoX7zF_Y0H8AJ_nIs-Tv-TjhrMez3HK3SjAjH2-5OKNJLww-B6tS1848tzGTONp4sMw-s9WGWvbox6jx4Os7hJ1FWWlOh4egLULuouA"/>
+</div>
+<div class="text-center space-y-1">
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Faith Muthoni Chege</h3>
+<p class="font-label-sm text-label-sm text-primary font-semibold">Director of Civic Technology</p>
+<p class="font-body-sm text-body-sm text-slate-muted text-xs pt-1">Swizzy Industries Civic Infrastructure Fellow</p>
+</div>
+<p class="font-body-sm text-body-sm text-slate-body text-xs leading-relaxed text-center">
+              Architect of Wajibika’s immutable tamper-evident record stores and the encrypted zero-knowledge whistleblower conduit.
+            </p>
+</div>
+<div class="pt-4 bg-surface-container-lowest -mx-6 -mb-6 p-4 rounded-b-2xl flex items-center justify-between text-xs text-slate-muted">
+<span class="font-mono text-[11px]">KEY ID: 0x9AF831</span>
+<span class="material-symbols-outlined text-[16px] text-primary">terminal</span>
+</div>
+</div>
+<!-- Leader 4 -->
+<div class="bg-mist-bg rounded-2xl p-6 shadow-sm flex flex-col justify-between space-y-6 hover:shadow-md transition-shadow">
+<div class="space-y-4">
+<div class="w-24 h-24 rounded-2xl overflow-hidden shadow-inner bg-surface-container mx-auto">
+<img class="w-full h-full object-cover" data-alt="Senior African academic scholar, Prof. Mutua Kaveke, silver-haired gentleman in his late fifties with academic regalia tie and tweed jacket. Academic library setting with soft bookshelf background, wise and judicial poise." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDncNBVZy4Y2T_8ILagJVAI3eOeLqwd3jIvdBX-3NVcGURew84CsYTTaWzXnudN0xzdgIfFgjXNxSGwhRIl2Ppr2cCXAp_WbU0GprNlkBe36MqanMn76ANoR6esWmuQJPPemjTCJiM9tc3ffOnwq8O8Rrsq0MSRPMGE2zGqKC-duD6rRHVtGihStfYBOqytCr3IsyIKL95BzDPBSZyO9KEtLYbiZsopRUAg9d_Yf0q7kcNcwtfuNT3F_A"/>
+</div>
+<div class="text-center space-y-1">
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Prof. Mutua Kaveke</h3>
+<p class="font-label-sm text-label-sm text-primary font-semibold">Chair, Independent Moderation Board</p>
+<p class="font-body-sm text-body-sm text-slate-muted text-xs pt-1">Constitutional Scholar • University of Nairobi</p>
+</div>
+<p class="font-body-sm text-body-sm text-slate-body text-xs leading-relaxed text-center">
+              Presides over contested appeals, public right-to-know determinations, and statutory compliance audits without executive interference.
+            </p>
+</div>
+<div class="pt-4 bg-surface-container-lowest -mx-6 -mb-6 p-4 rounded-b-2xl flex items-center justify-between text-xs text-slate-muted">
+<span class="font-mono text-[11px]">UoN CHAIR CIV-LAW</span>
+<span class="material-symbols-outlined text-[16px] text-primary">account_balance</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial & Moderation Charter (Comprehensive Section) -->
+<section class="w-full bg-mist-bg py-24" id="charter">
+<div class="max-w-[1200px] mx-auto px-6 space-y-12">
+<div class="text-center max-w-[800px] mx-auto space-y-3">
+<span class="font-eyebrow text-eyebrow text-secondary uppercase tracking-widest">Public Accountability Operating Charter</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">Editorial Standards &amp; Moderation Code</h2>
+<p class="font-body-md text-body-md text-slate-body">
+          We operate as an uncompromised institutional record keeper. Our editorial code ensures truthfulness, shields public-interest disclosures, and strictly prohibits defamation or political manipulation.
+        </p>
+</div>
+<!-- Interactive Charter Component -->
+<div class="bg-surface-container-lowest rounded-2xl shadow-md overflow-hidden grid grid-cols-1 lg:grid-cols-12">
+<!-- Navigation Sidebar / Tabs -->
+<div class="lg:col-span-4 bg-surface-container-low p-6 lg:p-8 space-y-3">
+<p class="font-label-sm text-label-sm font-semibold uppercase tracking-wider text-slate-muted mb-4">Charter Protocols</p>
+<button class="charter-tab-btn active w-full text-left p-4 rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between transition-all" id="tab-btn-0" onclick="showCharterTab(0)" type="button">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[22px]">policy</span>
+<div>
+<p class="font-label-md text-label-md font-bold text-primary">Non-Partisanship Protocol</p>
+<p class="font-body-sm text-body-sm text-slate-muted text-xs">Neutrality &amp; Zero Endorsement</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary text-[18px]">chevron_right</span>
+</button>
+<button class="charter-tab-btn w-full text-left p-4 rounded-xl hover:bg-surface-container transition-all flex items-center justify-between" id="tab-btn-1" onclick="showCharterTab(1)" type="button">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-slate-muted text-[22px]">fact_check</span>
+<div>
+<p class="font-label-md text-label-md font-bold text-on-surface">3-Tier Verification</p>
+<p class="font-body-sm text-body-sm text-slate-muted text-xs">Corroboration Methodology</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-muted text-[18px]">chevron_right</span>
+</button>
+<button class="charter-tab-btn w-full text-left p-4 rounded-xl hover:bg-surface-container transition-all flex items-center justify-between" id="tab-btn-2" onclick="showCharterTab(2)" type="button">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-slate-muted text-[22px]">security</span>
+<div>
+<p class="font-label-md text-label-md font-bold text-on-surface">Anti-Defamation Filter</p>
+<p class="font-body-sm text-body-sm text-slate-muted text-xs">Public Interest Whistleblowing</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-muted text-[18px]">chevron_right</span>
+</button>
+<button class="charter-tab-btn w-full text-left p-4 rounded-xl hover:bg-surface-container transition-all flex items-center justify-between" id="tab-btn-3" onclick="showCharterTab(3)" type="button">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-slate-muted text-[22px]">history_edu</span>
+<div>
+<p class="font-label-md text-label-md font-bold text-on-surface">Takedown &amp; Appeals</p>
+<p class="font-body-sm text-body-sm text-slate-muted text-xs">72-Hour Published Remedy</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-muted text-[18px]">chevron_right</span>
+</button>
+<div class="mt-8 p-4 rounded-xl bg-ochre-tint text-on-surface text-xs space-y-2">
+<div class="flex items-center gap-1.5 font-bold text-secondary">
+<span class="material-symbols-outlined text-[16px]">info</span>
+<span>Binding Legal Clause</span>
+</div>
+<p class="text-slate-body leading-relaxed">All staff, volunteers, and legal draftsmen execute an annual sworn neutrality affirmation on file with the High Court Registrar.</p>
+</div>
+</div>
+<!-- Content Area -->
+<div class="lg:col-span-8 p-8 lg:p-12 space-y-6 flex flex-col justify-between">
+<!-- Tab 0: Non-Partisanship -->
+<div class="charter-panel space-y-6" id="tab-panel-0">
+<div class="flex items-center justify-between">
+<span class="font-eyebrow text-eyebrow text-secondary uppercase tracking-widest">Protocol Code WJB-NP-01</span>
+<span class="px-3 py-1 rounded-full bg-feedback-success/10 text-feedback-success font-label-sm text-label-sm font-semibold">Strict Compliance</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Absolute Political Neutrality &amp; Zero Affiliation</h3>
+<p class="font-body-md text-body-md text-slate-body leading-relaxed">
+              Wajibika is strictly independent of any political coalition, party faction, or elected official. We accept zero financial contributions, in-kind technical grants, or advertising revenue from partisan political entities.
+            </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+<div class="p-4 rounded-xl bg-mist-bg space-y-2">
+<span class="font-label-md text-label-md font-bold text-primary flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-primary">do_not_disturb_on</span>
+                  Zero Party Endorsements
+                </span>
+<p class="font-body-sm text-body-sm text-slate-body text-xs">Platform algorithms never boost candidates or political campaigns during election cycles or by-elections.</p>
+</div>
+<div class="p-4 rounded-xl bg-mist-bg space-y-2">
+<span class="font-label-md text-label-md font-bold text-primary flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-primary">rule_folder</span>
+                  Symmetric Scrutiny
+                </span>
+<p class="font-body-sm text-body-sm text-slate-body text-xs">Identical forensic criteria are applied across majority, minority, and independent devolved administrations.</p>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-surface-container flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-[28px] shrink-0">verified</span>
+<p class="font-body-sm text-body-sm text-slate-body text-xs">
+                Audited biannually by an external civil society commission. Download the current 
+                <a class="text-primary font-semibold underline underline-offset-2" href="#">Non-Partisanship Compliance Certificate (PDF)</a>.
+              </p>
+</div>
+</div>
+<!-- Tab 1: Verification -->
+<div class="charter-panel hidden space-y-6" id="tab-panel-1">
+<div class="flex items-center justify-between">
+<span class="font-eyebrow text-eyebrow text-secondary uppercase tracking-widest">Protocol Code WJB-VER-02</span>
+<span class="px-3 py-1 rounded-full bg-feedback-success/10 text-feedback-success font-label-sm text-label-sm font-semibold">Triangulation Model</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">3-Tier Verification &amp; Corroboration Framework</h3>
+<p class="font-body-md text-body-md text-slate-body leading-relaxed">
+              Before an issue dossier receives the official "Verified Public Petition" stamp, it must satisfy three sequential forensic milestones to prevent disinformation.
+            </p>
+<div class="space-y-3">
+<div class="p-4 rounded-xl bg-mist-bg flex items-start gap-4">
+<span class="w-7 h-7 rounded-full bg-primary text-on-primary font-mono text-xs flex items-center justify-center shrink-0">1</span>
+<div>
+<h4 class="font-label-md text-label-md font-bold text-on-surface">Physical or Cryptographic Proof</h4>
+<p class="font-body-sm text-body-sm text-slate-body text-xs">Receipts, tenders, public notices, geotagged photographs, or video files verified against spoofing and tampering.</p>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-mist-bg flex items-start gap-4">
+<span class="w-7 h-7 rounded-full bg-primary text-on-primary font-mono text-xs flex items-center justify-center shrink-0">2</span>
+<div>
+<h4 class="font-label-md text-label-md font-bold text-on-surface">Institutional Sourcing Cross-Reference</h4>
+<p class="font-body-sm text-body-sm text-slate-body text-xs">Cross-checking against the Kenya National Audit Office (KNAO), Controller of Budget, or County Integrated Development Plans (CIDP).</p>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-mist-bg flex items-start gap-4">
+<span class="w-7 h-7 rounded-full bg-primary text-on-primary font-mono text-xs flex items-center justify-center shrink-0">3</span>
+<div>
+<h4 class="font-label-md text-label-md font-bold text-on-surface">Legal Review Sign-Off</h4>
+<p class="font-body-sm text-body-sm text-slate-body text-xs">Vetting by our public interest legal panel to confirm actionable legal standing under Articles 37 &amp; 119.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Tab 2: Defamation -->
+<div class="charter-panel hidden space-y-6" id="tab-panel-2">
+<div class="flex items-center justify-between">
+<span class="font-eyebrow text-eyebrow text-secondary uppercase tracking-widest">Protocol Code WJB-DEF-03</span>
+<span class="px-3 py-1 rounded-full bg-feedback-warning/15 text-secondary font-label-sm text-label-sm font-semibold">Triage Algorithm</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Anti-Defamation &amp; Malicious Filing Quarantine</h3>
+<p class="font-body-md text-body-md text-slate-body leading-relaxed">
+              We enforce a zero-tolerance boundary between protected public-interest accountability and personal slander, tribal rhetoric, or uncorroborated character attacks.
+            </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="p-4 rounded-xl bg-mist-bg space-y-2">
+<span class="font-label-md text-label-md font-bold text-feedback-error flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px]">block</span>
+                  Instant Rejection Criteria
+                </span>
+<p class="font-body-sm text-body-sm text-slate-body text-xs">Personal domestic allegations, ethnic slurs, leaked private communications without governance nexus, or extortion threats.</p>
+</div>
+<div class="p-4 rounded-xl bg-mist-bg space-y-2">
+<span class="font-label-md text-label-md font-bold text-feedback-success flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px]">shield</span>
+                  Protected Whistleblowing
+                </span>
+<p class="font-body-sm text-body-sm text-slate-body text-xs">Misuse of public assets, ghost workers on county payrolls, rigged procurement pipelines, and environmental non-compliance.</p>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-slate-muted text-xs">
+              Every filing flagged for potential libel is routed to our duty counsel within 4 hours before any public ledger listing.
+            </p>
+</div>
+<!-- Tab 3: Appeals -->
+<div class="charter-panel hidden space-y-6" id="tab-panel-3">
+<div class="flex items-center justify-between">
+<span class="font-eyebrow text-eyebrow text-secondary uppercase tracking-widest">Protocol Code WJB-APP-04</span>
+<span class="px-3 py-1 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm font-semibold">Statutory Remedy</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Takedown, Right-to-Reply &amp; 72-Hour Appeals</h3>
+<p class="font-body-md text-body-md text-slate-body leading-relaxed">
+              Institutions, state officers, and named contractors hold an unfettered Right-to-Reply. If newly surfaced evidence invalidates a petition claim, our formal correction pipeline executes with complete public audit visibility.
+            </p>
+<div class="space-y-3">
+<div class="p-4 rounded-xl bg-mist-bg flex items-center justify-between">
+<div class="space-y-1">
+<p class="font-label-md text-label-md font-bold text-on-surface">Right-to-Reply Counter-Memorandum</p>
+<p class="font-body-sm text-body-sm text-slate-muted text-xs">Official government statements pinned prominently alongside community grievances.</p>
+</div>
+<span class="px-3 py-1 rounded-full bg-surface-container font-mono text-xs text-primary font-bold">24 Hrs SLA</span>
+</div>
+<div class="p-4 rounded-xl bg-mist-bg flex items-center justify-between">
+<div class="space-y-1">
+<p class="font-label-md text-label-md font-bold text-on-surface">Independent Moderation Board Hearing</p>
+<p class="font-body-sm text-body-sm text-slate-muted text-xs">Chaired by Prof. Mutua Kaveke for contested removal petitions.</p>
+</div>
+<span class="px-3 py-1 rounded-full bg-surface-container font-mono text-xs text-primary font-bold">72 Hrs SLA</span>
+</div>
+<div class="p-4 rounded-xl bg-mist-bg flex items-center justify-between">
+<div class="space-y-1">
+<p class="font-label-md text-label-md font-bold text-on-surface">Public Correction Notice</p>
+<p class="font-body-sm text-body-sm text-slate-muted text-xs">Permanent immutable ledger entry documenting updates, retractions, or resolved items.</p>
+</div>
+<span class="px-3 py-1 rounded-full bg-surface-container font-mono text-xs text-primary font-bold">Permanent</span>
+</div>
+</div>
+</div>
+<div class="pt-6 flex items-center justify-between">
+<span class="text-xs text-slate-muted">Version 2.4 • Last Revised January 2025</span>
+<a class="font-label-sm text-label-sm text-primary font-bold flex items-center gap-1 hover:underline" href="#">
+<span>Full Moderation Manual (68 Pages PDF)</span>
+<span class="material-symbols-outlined text-[16px]">download</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Public Transparency & Funding Disclosure -->
+<section class="w-full bg-surface-container-lowest py-20">
+<div class="max-w-[1200px] mx-auto px-6 space-y-12">
+<div class="space-y-3 max-w-[700px]">
+<span class="font-eyebrow text-eyebrow text-secondary uppercase tracking-widest">Structural Transparency</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">Institutional Backing &amp; Open Funding Registry</h2>
+<p class="font-body-md text-body-md text-slate-body">
+          We maintain absolute radical financial transparency. To hold power to account, we disclose every shilling of capital underwriting our digital infrastructure.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<!-- Funding Source 1 -->
+<div class="bg-mist-bg rounded-2xl p-8 shadow-sm space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-primary/10 text-primary font-mono text-xs font-semibold">PRIMARY UNDERWRITER</span>
+<span class="font-mono text-xs text-slate-muted">65% ALLOCATION</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Swizzy Industries Civic Infrastructure Fund</h3>
+<p class="font-body-sm text-body-sm text-slate-body leading-relaxed text-xs">
+            Multi-year endowment providing continuous server hosting, cryptographic database redundancy, and full-time civic engineering salaries. Operates under an irrevocable zero-editorial-interference deed.
+          </p>
+<div class="pt-4 flex items-center justify-between text-xs text-slate-muted font-mono">
+<span>Direct Operating Grant</span>
+<span class="text-primary font-bold">KES 32.5M / Year</span>
+</div>
+</div>
+<!-- Funding Source 2 -->
+<div class="bg-mist-bg rounded-2xl p-8 shadow-sm space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-secondary/15 text-secondary font-mono text-xs font-semibold">CIVIC FOUNDATIONS</span>
+<span class="font-mono text-xs text-slate-muted">25% ALLOCATION</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">International Open Governance Grants</h3>
+<p class="font-body-sm text-body-sm text-slate-body leading-relaxed text-xs">
+            Restricted project grants specifically funding paralegal field clinics, county assembly tracking fellowships, and whistleblowing digital security workshops in marginalized pastoralist counties.
+          </p>
+<div class="pt-4 flex items-center justify-between text-xs text-slate-muted font-mono">
+<span>Competitive Peer Grants</span>
+<span class="text-primary font-bold">KES 12.5M / Year</span>
+</div>
+</div>
+<!-- Funding Source 3 -->
+<div class="bg-mist-bg rounded-2xl p-8 shadow-sm space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-feedback-success/15 text-feedback-success font-mono text-xs font-semibold">GRASSROOTS ESROW</span>
+<span class="font-mono text-xs text-slate-muted">10% ALLOCATION</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Micro-Citizens Civic Registry</h3>
+<p class="font-body-sm text-body-sm text-slate-body leading-relaxed text-xs">
+            Micro-donations from individual Kenyan citizens capped at a maximum of KES 5,000 per donor per year to guarantee zero elite capture or special interest influence over our reporting.
+          </p>
+<div class="pt-4 flex items-center justify-between text-xs text-slate-muted font-mono">
+<span>Audited Micro-Ledger</span>
+<span class="text-primary font-bold">KES 5.0M / Year</span>
+</div>
+</div>
+</div>
+<!-- Financial Disclosure Table Preview -->
+<div class="bg-surface-container-low rounded-2xl p-6 lg:p-8 space-y-4">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div>
+<h4 class="font-title-md text-title-md text-primary font-bold">Real-Time Expenditure Ledger</h4>
+<p class="font-body-sm text-body-sm text-slate-muted text-xs">Public accounting verified quarterly by PKF Kenya Certified Public Accountants.</p>
+</div>
+<div class="flex items-center gap-3">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-feedback-success/15 text-feedback-success font-mono text-xs font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-feedback-success"></span>
+              FY 2024/2025 Current
+            </span>
+<a class="px-3.5 py-1.5 rounded-xl bg-surface-container-lowest text-primary font-label-sm text-label-sm font-semibold hover:bg-surface-container transition-colors shadow-sm" href="#">Download Financials</a>
+</div>
+</div>
+<!-- Visual Bar Breakdown -->
+<div class="space-y-2 pt-2">
+<div class="h-3 w-full bg-cloud-border/60 rounded-full overflow-hidden flex">
+<div class="bg-primary h-full" style="width: 48%" title="Legal Drafting &amp; Assembly Tracking: 48%"></div>
+<div class="bg-secondary h-full" style="width: 28%" title="Field Investigations &amp; Whistleblower Defense: 28%"></div>
+<div class="bg-feedback-success h-full" style="width: 14%" title="Platform Security &amp; Hosting: 14%"></div>
+<div class="bg-slate-muted h-full" style="width: 10%" title="Administration &amp; Independent Audit: 10%"></div>
+</div>
+<div class="flex flex-wrap items-center justify-between text-xs text-slate-muted font-mono pt-1">
+<span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-primary"></span> Legal Drafting (48%)</span>
+<span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-secondary"></span> Field Investigations (28%)</span>
+<span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-feedback-success"></span> Data Security (14%)</span>
+<span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-slate-muted"></span> Audit &amp; Admin (10%)</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- High-Impact Civic CTA Section -->
+<section class="w-full bg-gradient-to-br from-primary via-maroon-hover to-primary text-on-primary py-20 relative overflow-hidden">
+<div class="absolute -right-20 -bottom-20 w-96 h-96 bg-secondary/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="max-w-[1200px] mx-auto px-6 relative z-10">
+<div class="bg-primary-container/60 backdrop-blur-sm rounded-3xl p-8 lg:p-14 shadow-2xl flex flex-col lg:flex-row lg:items-center justify-between gap-10">
+<div class="space-y-4 max-w-[650px]">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-maroon-tint text-primary font-eyebrow text-eyebrow uppercase">
+<span class="material-symbols-outlined text-[16px]">campaign</span>
+            Participatory Democracy in Action
+          </div>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-primary tracking-tight">
+            Join the Movement for Institutional Integrity.
+          </h2>
+<p class="font-body-lg text-body-lg text-primary-fixed-dim leading-relaxed">
+            Whether you are documenting an unbuilt clinic in Turkana, tracking road repair funds in Machakos, or reviewing legislation in Nairobi, Wajibika equips you with verified legal force.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row lg:flex-col gap-4 shrink-0">
+<a class="inline-flex items-center justify-center gap-2 px-8 h-14 rounded-xl bg-secondary-container text-on-secondary-container font-label-lg text-label-lg font-bold hover:bg-secondary-fixed shadow-lg hover:shadow-xl transition-all" data-path="raise-an-issue" href="#">
+<span class="material-symbols-outlined text-[22px]">add_circle</span>
+            Raise an Issue
+          </a>
+<a class="inline-flex items-center justify-center gap-2 px-8 h-14 rounded-xl bg-surface-container-lowest text-primary font-label-lg text-label-lg font-bold hover:bg-surface-container-low transition-all" href="#charter">
+<span class="material-symbols-outlined text-[22px]">download</span>
+            Download Guidelines
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Logic for Editorial Charter Tabs -->
+<script>
+    function showCharterTab(index) {
+      // Hide all panels
+      const panels = document.querySelectorAll('.charter-panel');
+      panels.forEach((p, idx) => {
+        if (idx === index) {
+          p.classList.remove('hidden');
+        } else {
+          p.classList.add('hidden');
+        }
+      });
+
+      // Update button styles
+      const buttons = document.querySelectorAll('.charter-tab-btn');
+      buttons.forEach((btn, idx) => {
+        const title = btn.querySelector('.font-bold');
+        const icon = btn.querySelector('.material-symbols-outlined');
+        const arrow = btn.querySelector('.material-symbols-outlined:last-child');
+
+        if (idx === index) {
+          btn.classList.add('bg-surface-container-lowest', 'shadow-sm');
+          btn.classList.remove('hover:bg-surface-container');
+          if (title) {
+            title.classList.remove('text-on-surface');
+            title.classList.add('text-primary');
+          }
+          if (icon) {
+            icon.classList.remove('text-slate-muted');
+            icon.classList.add('text-primary');
+          }
+          if (arrow) {
+            arrow.classList.remove('text-slate-muted');
+            arrow.classList.add('text-primary');
+          }
+        } else {
+          btn.classList.remove('bg-surface-container-lowest', 'shadow-sm');
+          btn.classList.add('hover:bg-surface-container');
+          if (title) {
+            title.classList.remove('text-primary');
+            title.classList.add('text-on-surface');
+          }
+          if (icon) {
+            icon.classList.remove('text-primary');
+            icon.classList.add('text-slate-muted');
+          }
+          if (arrow) {
+            arrow.classList.remove('text-primary');
+            arrow.classList.add('text-slate-muted');
+          }
+        }
+      });
+    }
+  </script>
+</div></main><footer class="w-full bg-primary text-on-primary"><div class="w-full bg-ochre-tint text-on-surface py-6 px-6 shadow-inner"><div class="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4"><div class="flex items-center gap-3 text-center md:text-left"><span class="material-symbols-outlined text-secondary text-[28px] shrink-0">campaign</span><p class="font-body-md text-body-md text-on-surface"><strong class="font-semibold">Start a campaign in your area</strong> — Bring tangible change to your neighborhood or sector.</p></div><a class="inline-flex items-center justify-center px-6 h-11 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md hover:bg-maroon-hover transition-colors shrink-0" data-path="raise-an-issue" href="#">Launch Campaign</a></div></div><div class="max-w-[1200px] mx-auto px-6 pt-16 pb-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8"><div class="lg:col-span-2 space-y-4 pr-0 lg:pr-6"><div class="flex items-center gap-3"><img alt="Brand logo. - Primary color: #7a2331
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida/AEtjO1UKr7LPNeHnuyNK8sv9s0FgyN5Ye_QI7vMmHWWhfQrme0fqus8494jAmTU2HTs3ilyvKpQF4v209wW_M60W42LQxjps3_yXGwIdUwDkQNWjma1IqqPFMiUikyrlcwafCVTDh2vZihf8RJnjdTTJlT2g3fmsZuWrITfnxjz8I7dafTTKx7fWly9cVnaKQ-Ui75aB1UyO8m9QUO9x-opzIlzTOD-2CwHYeSTvPjYB4N4xcvcTHfcE3VvGlTeg"/><span class="font-headline-sm text-headline-sm font-bold text-on-primary tracking-tight">Wajibika</span></div><p class="font-body-sm text-body-sm text-primary-fixed-dim leading-relaxed">An initiative of Swizzy Industries empowering citizens, investigative journalists, and community builders to document governance pledges, surface verified grievances, and catalyze institutional response.</p><div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-maroon-hover text-primary-fixed text-label-sm font-label-sm"><span class="w-2 h-2 rounded-full bg-feedback-success"></span>Independent • Non-Partisan • Civic Utility</div></div><div class="space-y-3"><h4 class="font-label-lg text-label-lg font-bold text-on-primary uppercase tracking-wider text-xs">Issues &amp; Campaigns</h4><ul class="space-y-2.5 font-body-sm text-body-sm"><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-issue-governance"></span><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="issues-and-campaigns" href="#">Governance &amp; Rule of Law</a></li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-issue-economy"></span><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="issues-and-campaigns" href="#">Economy &amp; Taxation</a></li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-issue-social"></span><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="issues-and-campaigns" href="#">Public Infrastructure</a></li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-issue-community"></span><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="issues-and-campaigns" href="#">Healthcare &amp; Sanitation</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="accountability-tracker" href="#">County Performance Index</a></li></ul></div><div class="space-y-3"><h4 class="font-label-lg text-label-lg font-bold text-on-primary uppercase tracking-wider text-xs">Platform &amp; Media</h4><ul class="space-y-2.5 font-body-sm text-body-sm"><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="voices-and-stories" href="#">Citizen Dispatches</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="voices-and-stories" href="#">Field Investigation Dossiers</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="accountability-tracker" href="#">Parliamentary Pledge Tracker</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="about-and-partners" href="#">Institutional Partners</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="careers" href="#">Careers &amp; Fellowships</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="contact" href="#">Secure Whistleblower Desk</a></li></ul></div><div class="space-y-4"><h4 class="font-label-lg text-label-lg font-bold text-on-primary uppercase tracking-wider text-xs">Civic Dispatch</h4><p class="font-body-sm text-body-sm text-primary-fixed-dim">Weekly vetted oversight intelligence, policy analyses, and active local mobilization updates.</p><form class="space-y-2"><div class="flex flex-col gap-2"><input aria-label="Email Address for Civic Dispatch" class="h-11 px-3.5 rounded-xl bg-surface-container-lowest text-on-surface placeholder:text-slate-muted text-body-sm font-body-sm focus:outline-none focus:ring-2 focus:ring-secondary" placeholder="name@organization.org" type="email"/><button class="h-11 px-4 rounded-xl bg-secondary-container text-on-secondary-container font-label-md text-label-md hover:bg-secondary-fixed transition-colors font-semibold" type="button">Subscribe</button></div><span class="text-[11px] text-primary-fixed-dim block">Zero spam. Cryptographically secure storage.</span></form></div></div><div class="mt-12 pt-8 border-t border-maroon-hover/60 flex flex-col md:flex-row items-center justify-between gap-4 text-primary-fixed-dim font-body-sm text-body-sm"><p>A Swizzy Industries Brand • © 2025 Wajibika Platform. All rights reserved.</p><div class="flex flex-wrap items-center gap-6 text-xs"><a class="hover:text-on-primary transition-colors" data-path="privacy-notice" href="#">Privacy Notice</a><a class="hover:text-on-primary transition-colors" data-path="terms-of-use" href="#">Terms of Use</a><a class="hover:text-on-primary transition-colors" data-path="community-guidelines" href="#">Community Guidelines</a><a class="hover:text-on-primary transition-colors" data-path="accessibility-statement" href="#">Accessibility Statement</a></div></div></div></footer></body></html>

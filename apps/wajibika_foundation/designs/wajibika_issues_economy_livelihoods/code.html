@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"ochre-tint":"#FBEEDD","primary-container":"#7a2331","tertiary-fixed-dim":"#b8c4ff","inverse-primary":"#ffb2b8","cloud-border":"#EADDDB","feedback-success":"#1E9E6A","mist-bg":"#FAF5F4","error":"#ba1a1a","surface-bright":"#fff8f7","tertiary-fixed":"#dde1ff","surface-container-low":"#fff0f1","inverse-surface":"#3e2b2f","secondary-fixed-dim":"#ffb873","feedback-error":"#D64545","on-primary":"#ffffff","on-secondary-fixed-variant":"#6a3b00","on-secondary-container":"#734100","on-secondary":"#ffffff","surface":"#fff8f7","error-container":"#ffdad6","surface-variant":"#fadbdf","surface-container":"#ffe9eb","on-primary-fixed":"#40000e","secondary":"#8c5000","issue-social":"#E8735A","issue-community":"#8C5FD9","primary-fixed-dim":"#ffb2b8","tertiary-container":"#0033b2","surface-tint":"#9e3e4b","slate-muted":"#7A666A","outline":"#887273","slate-body":"#4A3438","maroon-hover":"#611B27","on-primary-fixed-variant":"#7f2735","maroon-tint":"#F5E6E8","on-surface":"#27171a","feedback-warning":"#E0A100","on-secondary-fixed":"#2d1600","surface-container-high":"#ffe1e5","surface-container-highest":"#fadbdf","issue-governance":"#3A5BD9","background":"#fff8f7","on-tertiary-fixed":"#001354","on-error-container":"#93000a","on-tertiary-container":"#99abff","on-primary-container":"#ff8f99","on-tertiary":"#ffffff","primary":"#5c0b1c","on-tertiary-fixed-variant":"#0637b8","on-background":"#27171a","issue-economy":"#1E8F6B","secondary-fixed":"#ffdcbf","on-surface-variant":"#554243","surface-dim":"#f1d3d7","surface-container-lowest":"#ffffff","on-error":"#ffffff","secondary-container":"#ffac58","tertiary":"#00217d","primary-fixed":"#ffdadb","inverse-on-surface":"#ffecee","outline-variant":"#dbc0c1"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter":"1.5rem","space-lg":"1.5rem","margin-lg":"5rem","space-xl":"2rem","space-xs":"0.25rem","margin":"2rem","space-md":"1rem","margin-sm":"1rem","space-sm":"0.5rem","gutter-sm":"1rem"},"fontFamily":{"eyebrow":["Plus Jakarta Sans"],"headline-md-mobile":["Plus Jakarta Sans"],"body-md":["Inter"],"body-sm":["Inter"],"display-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"label-md":["Inter"],"headline-sm-mobile":["Plus Jakarta Sans"],"display":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"label-sm":["Inter"],"title-md":["Plus Jakarta Sans"],"body-lg":["Inter"],"label-lg":["Inter"],"headline-md":["Plus Jakarta Sans"]},"fontSize":{"eyebrow":["12px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"700"}],"headline-md-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.005em","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"display-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-md":["14px",{"lineHeight":"20px","fontWeight":"500"}],"headline-sm-mobile":["22px",{"lineHeight":"30px","fontWeight":"600"}],"display":["60px",{"lineHeight":"72px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-sm":["28px",{"lineHeight":"36px","fontWeight":"600"}],"label-sm":["12px",{"lineHeight":"16px","fontWeight":"500"}],"title-md":["20px",{"lineHeight":"28px","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"label-lg":["16px",{"lineHeight":"24px","fontWeight":"600"}],"headline-md":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface-container-lowest font-body-md text-on-surface antialiased selection:bg-maroon-tint selection:text-primary"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Wajibika Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VKEdABbA1A0S2f0spETO7D0fyHk7JdGe7uFofuPz5Cwmwsxl_LCgGwrCcMycGykji0cqvzqEh3frOEaNBC4mPDarhT8nmHe4SlDjvzYUjbRsBdlXGY6Fj2nDKLtwpYeJbp5VVviGwp6q00SRkaL3dqNRUzdHT82atObosAo4zBXFVDRlOmWESByNTwFUd51eqjzCHoWQBP-76PbzJ4VP8GNNlnVA3cKleYUtPQ2LYs-gpB6ciklVtTyIjp"/><a class="flex flex-col text-decoration-none" data-path="home" href="#"><span class="font-title-md text-title-md text-primary tracking-tight leading-none">Wajibika</span><span class="font-eyebrow text-eyebrow text-slate-muted uppercase tracking-wider leading-none mt-1">By Swizzy Industries</span></a></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-on-surface font-semibold rounded-lg"><a class="px-space-md py-space-sm text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface rounded-lg transition-colors inline-flex items-center gap-1" data-path="home" href="#">Home</a><div class="group relative"><a class="px-space-md py-space-sm text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface rounded-lg transition-colors inline-flex items-center gap-1" data-path="issues-and-campaigns" href="#">Issues &amp; Campaigns<span class="material-symbols-outlined text-[18px] text-slate-muted transition-transform group-hover:rotate-180">expand_more</span></a><div class="invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200 absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[760px] bg-surface-container-lowest rounded-xl shadow-[0_20px_32px_-8px_rgba(36,20,23,0.12)] p-space-lg grid grid-cols-12 gap-space-lg"><div class="col-span-7 grid grid-cols-1 gap-space-xs"><span class="font-eyebrow text-eyebrow text-slate-muted uppercase mb-space-xs">Priority Arenas</span><a class="p-space-sm rounded-lg hover:bg-mist-bg flex items-start gap-space-sm transition-colors" data-path="economy-issues" href="#"><div class="w-9 h-9 rounded-lg bg-issue-economy/10 flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-issue-economy text-[20px]">payments</span></div><div><p class="font-label-md text-label-md text-on-surface">Economy</p><p class="font-body-sm text-body-sm text-slate-muted">Fiscal transparency, living wages, and fair public procurement.</p></div></a><a class="p-space-sm rounded-lg hover:bg-mist-bg flex items-start gap-space-sm transition-colors" data-path="governance-issues" href="#"><div class="w-9 h-9 rounded-lg bg-issue-governance/10 flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-issue-governance text-[20px]">account_balance</span></div><div><p class="font-label-md text-label-md text-on-surface">Politics &amp; Governance</p><p class="font-body-sm text-body-sm text-slate-muted">Electoral integrity, institutional oversight, and civil rights.</p></div></a><a class="p-space-sm rounded-lg hover:bg-mist-bg flex items-start gap-space-sm transition-colors" data-path="social-norms-issues" href="#"><div class="w-9 h-9 rounded-lg bg-issue-social/10 flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-issue-social text-[20px]">group_work</span></div><div><p class="font-label-md text-label-md text-on-surface">Social Norms</p><p class="font-body-sm text-body-sm text-slate-muted">Inclusion, dignity, public welfare, and equal protections.</p></div></a><a class="p-space-sm rounded-lg hover:bg-mist-bg flex items-start gap-space-sm transition-colors" data-path="community-voice-issues" href="#"><div class="w-9 h-9 rounded-lg bg-issue-community/10 flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-issue-community text-[20px]">record_voice_over</span></div><div><p class="font-label-md text-label-md text-on-surface">Community Voice</p><p class="font-body-sm text-body-sm text-slate-muted">Grassroots testimonies, local councils, and citizen reporting.</p></div></a></div><div class="col-span-5 bg-mist-bg p-space-md rounded-xl flex flex-col justify-between"><span class="font-eyebrow text-eyebrow text-slate-muted uppercase mb-space-xs">Trending Campaigns</span><div class="flex flex-col gap-space-sm"><a class="group/trend block p-space-xs hover:bg-surface-container-lowest rounded transition-colors" data-path="ward-health-budget-petition" href="#"><span class="font-label-sm text-label-sm text-primary group-hover/trend:underline">Ward Health Budget Allocation</span><p class="font-body-sm text-body-sm text-slate-muted line-clamp-1">8,420 citizens demanding clinic funds</p></a><a class="group/trend block p-space-xs hover:bg-surface-container-lowest rounded transition-colors" data-path="county-clean-water-audit" href="#"><span class="font-label-sm text-label-sm text-primary group-hover/trend:underline">County Clean Water Audit</span><p class="font-body-sm text-body-sm text-slate-muted line-clamp-1">Demanding laboratory report releases</p></a><a class="group/trend block p-space-xs hover:bg-surface-container-lowest rounded transition-colors" data-path="sub-county-road-safety-bill" href="#"><span class="font-label-sm text-label-sm text-primary group-hover/trend:underline">Sub-County Road Safety Bill</span><p class="font-body-sm text-body-sm text-slate-muted line-clamp-1">Public hearing scheduled next Tuesday</p></a></div><a class="font-label-sm text-label-sm text-primary hover:text-maroon-hover font-semibold inline-flex items-center gap-1 mt-space-sm" data-path="issues-and-campaigns" href="#">Explore all active petitions <span class="material-symbols-outlined text-[16px]">arrow_forward</span></a></div></div></div><a class="px-space-md py-space-sm text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface rounded-lg transition-colors" data-path="voices-and-stories" href="#">Voices &amp; Stories</a><a class="px-space-md py-space-sm text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface rounded-lg transition-colors" data-path="accountability-tracker" href="#">Accountability Tracker</a><a class="px-space-md py-space-sm text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface rounded-lg transition-colors" data-path="careers" href="#">Careers</a></nav><div class="flex items-center gap-space-sm"><a class="hidden sm:inline-block px-space-sm py-space-xs text-on-surface-variant font-label-md text-label-md hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a><button aria-label="Search Platform" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[20px]">search</span></button><a class="h-12 px-space-md bg-primary hover:bg-maroon-hover text-on-primary font-label-lg text-label-lg rounded-xl flex items-center justify-center transition-colors shadow-[0_8px_24px_-4px_rgba(36,20,23,0.06)]" data-path="raise-an-issue" href="#">Raise an Issue</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface-container-lowest"><div class="flex flex-col w-full">
+<!-- Top Utility Context & Breadcrumbs -->
+<section class="w-full bg-mist-bg py-space-md">
+<div class="max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter flex flex-wrap items-center justify-between gap-space-sm">
+<nav aria-label="Breadcrumb" class="flex items-center gap-space-xs font-label-sm text-label-sm text-slate-muted">
+<a class="hover:text-primary transition-colors" data-path="home" href="#">Home</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<a class="hover:text-primary transition-colors" data-path="issues-and-campaigns" href="#">Issues &amp; Campaigns</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-on-surface font-semibold">Economy &amp; Fair Livelihoods</span>
+</nav>
+<div class="flex items-center gap-space-xs text-issue-economy">
+<span class="w-2 h-2 rounded-full bg-issue-economy animate-pulse"></span>
+<span class="font-label-sm text-label-sm font-semibold tracking-wide uppercase">42 Active Local Inquiries Monitored</span>
+</div>
+</div>
+</section>
+<!-- Domain Hero -->
+<section class="w-full bg-surface-container-lowest py-16 lg:py-24">
+<div class="max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Left Content -->
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-2 self-start px-3 py-1 rounded-full bg-issue-economy/10 text-issue-economy">
+<span class="material-symbols-outlined text-[18px]">payments</span>
+<span class="font-eyebrow text-eyebrow uppercase tracking-widest">Issue Domain: Economy &amp; Livelihoods</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg font-bold text-on-surface tracking-tight max-w-3xl">
+            Protecting informal enterprise, fair taxation, and everyday purchasing power.
+          </h1>
+<p class="font-body-lg text-body-lg text-slate-body max-w-2xl">
+            Over 78% of Kenyans derive their livelihood from informal and micro-enterprises. Wajibika tracks unfair council levies, arbitrary market evictions, delayed agricultural payments, and trans-county trade barriers with verifiable municipal records.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-sm">
+<a class="h-12 px-space-xl bg-primary hover:bg-maroon-hover text-on-primary font-label-lg text-label-lg rounded-xl flex items-center justify-center gap-2 shadow-sm transition-all duration-150" data-path="raise-an-issue" href="#">
+<span class="material-symbols-outlined text-[20px]">add_circle</span>
+<span>Raise an Economic Issue</span>
+</a>
+<a class="h-12 px-space-lg bg-surface-container-low hover:bg-surface-container text-on-surface font-label-lg text-label-lg rounded-xl flex items-center justify-center gap-2 transition-colors" href="#county-trackers">
+<span class="material-symbols-outlined text-[20px]">table_chart</span>
+<span>Explore County Fee Trackers</span>
+</a>
+</div>
+</div>
+<!-- Right Visual & Live Metrics Bento -->
+<div class="lg:col-span-4 bg-mist-bg p-space-lg rounded-xl flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center justify-between pb-space-xs">
+<span class="font-label-md text-label-md font-semibold text-slate-body">Live Domain Ledger</span>
+<span class="font-label-sm text-label-sm text-issue-economy bg-issue-economy/10 px-2 py-0.5 rounded-full font-medium">Q1 2025 Audit</span>
+</div>
+<!-- Mini SVG Sparkline / Progress Ring -->
+<div class="p-space-md bg-surface-container-lowest rounded-lg flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-eyebrow text-eyebrow text-slate-muted uppercase">Resolution Index</span>
+<span class="font-headline-sm text-headline-sm font-bold text-issue-economy">74.2%</span>
+<span class="font-body-sm text-body-sm text-slate-muted">County response quota</span>
+</div>
+<div class="relative w-16 h-16 shrink-0">
+<svg class="w-full h-full -rotate-90" viewbox="0 0 36 36">
+<circle class="stroke-cloud-border" cx="18" cy="18" fill="none" r="15.5" stroke-width="3"></circle>
+<circle class="stroke-issue-economy" cx="18" cy="18" fill="none" r="15.5" stroke-dasharray="97.4" stroke-dashoffset="25.1" stroke-linecap="round" stroke-width="3"></circle>
+</svg>
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="material-symbols-outlined text-issue-economy text-[20px]">trending_up</span>
+</div>
+</div>
+</div>
+<!-- Metrics Matrix -->
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<div class="p-space-sm bg-surface-container-lowest rounded-lg flex flex-col">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">42</span>
+<span class="font-label-sm text-label-sm text-slate-muted">Active Petitions</span>
+</div>
+<div class="p-space-sm bg-surface-container-lowest rounded-lg flex flex-col">
+<span class="font-headline-sm text-headline-sm font-bold text-primary">KSh 480M</span>
+<span class="font-label-sm text-label-sm text-slate-muted">Fees Challenged</span>
+</div>
+<div class="p-space-sm bg-surface-container-lowest rounded-lg flex flex-col">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">19</span>
+<span class="font-label-sm text-label-sm text-slate-muted">Traders Unions</span>
+</div>
+<div class="p-space-sm bg-surface-container-lowest rounded-lg flex flex-col">
+<span class="font-headline-sm text-headline-sm font-bold text-issue-economy">9</span>
+<span class="font-label-sm text-label-sm text-slate-muted">Passed Acts</span>
+</div>
+</div>
+<div class="p-space-sm bg-ochre-tint rounded-lg flex items-center gap-space-xs text-on-secondary-container">
+<span class="material-symbols-outlined text-[18px] text-secondary">verified_user</span>
+<span class="font-body-sm text-body-sm">All figures authenticated by local civil court dockets.</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Why This Matters (Framing & Verified Context) -->
+<section class="w-full bg-mist-bg py-20">
+<div class="max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter flex flex-col gap-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<span class="font-eyebrow text-eyebrow uppercase text-issue-economy tracking-wider">Statutory &amp; Economic Context</span>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface">
+            Structural systemic issues impacting grassroots business viability.
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-slate-muted max-w-md">
+          Grounding community mobilization in empirical trade policies and Article 201 principles of public finance openness.
+        </p>
+</div>
+<!-- 3 Structured Context Columns -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Column 1 -->
+<article class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-issue-economy/10 text-issue-economy flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">receipt_long</span>
+</div>
+<h3 class="font-title-md text-title-md font-semibold text-on-surface">Municipal Cesses &amp; Multiple Taxation</h3>
+<p class="font-body-md text-body-md text-slate-body">
+              Trans-county agricultural freight frequently faces duplicate charges across adjacent boundary points, violating internal market free-flow conventions and inflating retail staple food costs by up to 22%.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex flex-col gap-1 bg-surface-container-low/60 p-space-sm rounded-lg">
+<span class="font-label-sm text-label-sm font-semibold text-primary">Sourced Citation:</span>
+<span class="font-body-sm text-body-sm text-slate-muted">Kenya Institute for Public Policy Research and Analysis (KIPPRA), Inter-County Freight Barrier Review §4.2.</span>
+</div>
+</article>
+<!-- Column 2 -->
+<article class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-secondary/10 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">storefront</span>
+</div>
+<h3 class="font-title-md text-title-md font-semibold text-on-surface">Informal Trader Security of Tenure</h3>
+<p class="font-body-md text-body-md text-slate-body">
+              Unregulated spatial relocations and municipal askari clearance drives destabilize micro-trader inventory without the statutory 30-day consultative notification mandated by County Physical Planning statutes.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex flex-col gap-1 bg-surface-container-low/60 p-space-sm rounded-lg">
+<span class="font-label-sm text-label-sm font-semibold text-primary">Legal Framework:</span>
+<span class="font-body-sm text-body-sm text-slate-muted">Urban Areas &amp; Cities Act (Cap 275) &amp; Model County Informal Trading Regulations Act 2021.</span>
+</div>
+</article>
+<!-- Column 3 -->
+<article class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-tertiary-container/10 text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">water_drop</span>
+</div>
+<h3 class="font-title-md text-title-md font-semibold text-on-surface">Transparent County Revenue Allocation</h3>
+<p class="font-body-md text-body-md text-slate-body">
+              While trading open-air centers generate over 35% of own-source county revenue, ring-fenced reinvestment into essential running water, safe drainage, and night-time security lighting remains below 6% nationally.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex flex-col gap-1 bg-surface-container-low/60 p-space-sm rounded-lg">
+<span class="font-label-sm text-label-sm font-semibold text-primary">Audit Authority:</span>
+<span class="font-body-sm text-body-sm text-slate-muted">Office of the Controller of Budget (OCOB) County Revenue Ring-Fencing Report (FY 2023/24).</span>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Section 3: Active Campaigns in Economy & Livelihoods -->
+<section class="w-full bg-surface-container-lowest py-20" id="campaigns-grid">
+<div class="max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter flex flex-col gap-space-lg">
+<!-- Section Header with Interactive Filter Pills -->
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div>
+<span class="font-eyebrow text-eyebrow uppercase text-issue-economy tracking-wider">Citizen Petitions</span>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface">Active Economic &amp; Labor Campaigns</h2>
+</div>
+<!-- Filter Sub-Controls -->
+<div class="flex flex-wrap items-center gap-space-xs p-1 bg-mist-bg rounded-xl">
+<button class="px-space-md py-2 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md font-semibold shadow-sm transition-colors">
+            All Statuses (42)
+          </button>
+<button class="px-space-md py-2 rounded-lg text-slate-muted hover:text-on-surface font-label-md text-label-md transition-colors">
+            Under Review (11)
+          </button>
+<button class="px-space-md py-2 rounded-lg text-slate-muted hover:text-on-surface font-label-md text-label-md transition-colors">
+            Responded (8)
+          </button>
+<button class="px-space-md py-2 rounded-lg text-slate-muted hover:text-on-surface font-label-md text-label-md transition-colors">
+            Gathering Signatures (23)
+          </button>
+</div>
+</div>
+<!-- Campaign Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-200">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full text-label-sm font-semibold bg-ochre-tint text-on-secondary-container flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                Under Review by Nairobi County Assembly
+              </span>
+<button aria-label="Flag or report campaign" class="text-slate-muted hover:text-feedback-error transition-colors p-1" title="Moderate / Report this campaign">
+<span class="material-symbols-outlined text-[20px]">flag</span>
+</button>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface hover:text-primary transition-colors cursor-pointer">
+              Formalise Mathare &amp; Gikomba Market Waste Management &amp; Drainage Services
+            </h3>
+<p class="font-body-md text-body-md text-slate-body line-clamp-2">
+              Demanding Nairobi City County invest 18% of stall fees collected daily back into covered storm drains, bi-weekly municipal garbage transport, and safe lighting towers.
+            </p>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-issue-economy">verified</span>
+<span class="font-label-sm text-label-sm text-issue-economy font-medium">Verified Cooperative Ledger · Kamukunji Traders Forum</span>
+</div>
+</div>
+<!-- Progress and Action Area -->
+<div class="pt-space-lg mt-space-md flex flex-col gap-space-sm">
+<div class="flex justify-between items-baseline font-label-sm text-label-sm">
+<span class="text-on-surface font-semibold">18,420 <span class="text-slate-muted font-normal">of 20,000 citizens</span></span>
+<span class="text-issue-economy font-bold">92% Target Reached</span>
+</div>
+<div class="w-full h-2 rounded-full bg-mist-bg overflow-hidden">
+<div class="h-full bg-issue-economy rounded-full" style="width: 92%"></div>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-body-sm text-body-sm text-slate-muted">7 days remaining in session</span>
+<a class="h-10 px-space-md bg-primary hover:bg-maroon-hover text-on-primary font-label-md text-label-md rounded-lg flex items-center gap-1 transition-colors" href="#">
+                Sign Petition
+                <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-200">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full text-label-sm font-semibold bg-issue-economy/10 text-issue-economy flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-issue-economy"></span>
+                Responded by Council of Governors
+              </span>
+<button aria-label="Flag or report campaign" class="text-slate-muted hover:text-feedback-error transition-colors p-1" title="Moderate / Report this campaign">
+<span class="material-symbols-outlined text-[20px]">flag</span>
+</button>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface hover:text-primary transition-colors cursor-pointer">
+              Standardise Trans-County Transit Permits for Perishable Fresh Produce
+            </h3>
+<p class="font-body-md text-body-md text-slate-body line-clamp-2">
+              Eliminate extortionate double-cess road barriers stopping lorries moving tomatoes, greens, and avocados across Kiambu, Murang’a, and Nairobi border posts.
+            </p>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-issue-economy">verified</span>
+<span class="font-label-sm text-label-sm text-issue-economy font-medium">Inter-County Transport Union Certified Docket</span>
+</div>
+</div>
+<!-- Progress and Action Area -->
+<div class="pt-space-lg mt-space-md flex flex-col gap-space-sm">
+<div class="flex justify-between items-baseline font-label-sm text-label-sm">
+<span class="text-on-surface font-semibold">14,100 <span class="text-slate-muted font-normal">of 15,000 citizens</span></span>
+<span class="text-issue-economy font-bold">94% Target Reached</span>
+</div>
+<div class="w-full h-2 rounded-full bg-mist-bg overflow-hidden">
+<div class="h-full bg-issue-economy rounded-full" style="width: 94%"></div>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-body-sm text-body-sm text-issue-economy font-medium">Resolution draft published</span>
+<a class="h-10 px-space-md bg-primary hover:bg-maroon-hover text-on-primary font-label-md text-label-md rounded-lg flex items-center gap-1 transition-colors" href="#">
+                Read Response
+                <span class="material-symbols-outlined text-[16px]">visibility</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-200">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full text-label-sm font-semibold bg-surface-container-high text-on-surface-variant flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-slate-muted"></span>
+                Raised · Signature Gathering
+              </span>
+<button aria-label="Flag or report campaign" class="text-slate-muted hover:text-feedback-error transition-colors p-1" title="Moderate / Report this campaign">
+<span class="material-symbols-outlined text-[20px]">flag</span>
+</button>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface hover:text-primary transition-colors cursor-pointer">
+              Cap Daily Hawker Licensing Fees to KSh 30 Across Secondary Towns
+            </h3>
+<p class="font-body-md text-body-md text-slate-body line-clamp-2">
+              Petitioning Nakuru, Naivasha, and Gilgil town boards to stop increasing flat-rate stall receipts beyond baseline informal trader profit margins.
+            </p>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-issue-economy">verified</span>
+<span class="font-label-sm text-label-sm text-issue-economy font-medium">County Act Annex 2024 Cited</span>
+</div>
+</div>
+<!-- Progress and Action Area -->
+<div class="pt-space-lg mt-space-md flex flex-col gap-space-sm">
+<div class="flex justify-between items-baseline font-label-sm text-label-sm">
+<span class="text-on-surface font-semibold">9,800 <span class="text-slate-muted font-normal">of 12,000 citizens</span></span>
+<span class="text-secondary font-bold">81% Target Reached</span>
+</div>
+<div class="w-full h-2 rounded-full bg-mist-bg overflow-hidden">
+<div class="h-full bg-secondary rounded-full" style="width: 81%"></div>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-body-sm text-body-sm text-slate-muted">2,200 signatures to target</span>
+<a class="h-10 px-space-md bg-primary hover:bg-maroon-hover text-on-primary font-label-md text-label-md rounded-lg flex items-center gap-1 transition-colors" href="#">
+                Sign Petition
+                <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-200">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full text-label-sm font-semibold bg-issue-economy/10 text-issue-economy flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-issue-economy"></span>
+                Responded · County Taskforce Appointed
+              </span>
+<button aria-label="Flag or report campaign" class="text-slate-muted hover:text-feedback-error transition-colors p-1" title="Moderate / Report this campaign">
+<span class="material-symbols-outlined text-[20px]">flag</span>
+</button>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface hover:text-primary transition-colors cursor-pointer">
+              Prompt 30-Day Milk &amp; Tea Produce Disbursement for Smallholder Cooperatives
+            </h3>
+<p class="font-body-md text-body-md text-slate-body line-clamp-2">
+              Demanding Kericho and Bomet cooperative unions disburse dairy cooling receipts directly via mobile money on the 1st of every calendar month without unauthorized deductions.
+            </p>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-issue-economy">verified</span>
+<span class="font-label-sm text-label-sm text-issue-economy font-medium">Verified Producer Roster (3,400 Farmers)</span>
+</div>
+</div>
+<!-- Progress and Action Area -->
+<div class="pt-space-lg mt-space-md flex flex-col gap-space-sm">
+<div class="flex justify-between items-baseline font-label-sm text-label-sm">
+<span class="text-on-surface font-semibold">21,500 <span class="text-slate-muted font-normal">of 25,000 citizens</span></span>
+<span class="text-issue-economy font-bold">86% Target Reached</span>
+</div>
+<div class="w-full h-2 rounded-full bg-mist-bg overflow-hidden">
+<div class="h-full bg-issue-economy rounded-full" style="width: 86%"></div>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-body-sm text-body-sm text-issue-economy font-medium">Implementation committee gazetted</span>
+<a class="h-10 px-space-md bg-primary hover:bg-maroon-hover text-on-primary font-label-md text-label-md rounded-lg flex items-center gap-1 transition-colors" href="#">
+                Track Mandate
+                <span class="material-symbols-outlined text-[16px]">visibility</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Voices & Stories in Economy (Field Dispatches) -->
+<section class="w-full bg-mist-bg py-20">
+<div class="max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter flex flex-col gap-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<span class="font-eyebrow text-eyebrow uppercase text-issue-economy tracking-wider">Field Dispatches &amp; Testimonies</span>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface">Behind the balance sheets of everyday trade</h2>
+</div>
+<a class="font-label-lg text-label-lg font-semibold text-primary hover:text-maroon-hover inline-flex items-center gap-1" data-path="voices-and-stories" href="#">
+          Explore all economic investigations
+          <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<!-- Editorial Split Cards -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-lg">
+<!-- Story Card 1 -->
+<article class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-64 w-full">
+<img class="w-full h-full object-cover" data-alt="Documentary photography of East African open-air marketplace vendors in Mombasa discussing trade manifests surrounded by fresh fruit produce crates under warm natural coastal sunlight with subtle civic tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0sniJ8Of10Unq4B0sdb0e-TGara_G4genKW9jEA1Jxy-rFHT_EV8DVx4ZfIA7Cat9u-Cefbz9YCFbougpNCsSLyzIK7fA1QNjqYXSEQsA09-04wxWNJ2f7I5xuIXCx5w6CXQMIgjUQv7s4A3YNrSKF7BkgYXlMhN2U8Uroos3narw5R8xi8zfV49x_16mrMVGavZ5NBexZXE1ldNoX2ixofR9ESZ8baDH2kSdTOKLzN2o8bqW4BB5Hw"/>
+<div class="absolute top-4 left-4">
+<span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur font-label-sm text-label-sm font-semibold text-issue-economy">
+                Dispatch #042 · Mombasa County
+              </span>
+</div>
+<div class="absolute bottom-4 right-4">
+<span class="px-3 py-1 rounded-full bg-on-surface/80 backdrop-blur font-label-sm text-label-sm text-on-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">mic</span>
+                Audio Dispatch (6 min)
+              </span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col gap-space-sm justify-between flex-1">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm font-label-sm text-label-sm text-slate-muted">
+<span>Nyali Ward</span>
+<span>•</span>
+<span>November 2024 Investigation</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface hover:text-primary transition-colors cursor-pointer">
+                Behind the Stalls: How Kongowea Market Vendors United Against Double Cess
+              </h3>
+<p class="font-body-md text-body-md text-slate-body">
+                When wholesale mango and cassava trucks faced parallel levies from municipal inspectors and road transport marshals, 420 stall leaders drafted a unified grievance charter that compelled the assembly to streamline collections into a single digital receipt.
+              </p>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Portrait photo of a determined Kenyan civic investigative journalist wearing professional attire in an open market context with soft natural background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvj-hau9FJTWeRpke5zVUBk9719t_O4Bl4fuY2WTZG9HVby4tXvQOmoUtKOmht65KlWEBtqzgdgzOBhTHhLHkEu6QhloUNMplfEMS3ft3T3D9S4j-ZvjDAo-PR2qAleatA42avUEovsv7MSV3gBdIQbQoxEvjQVXXvbyxwHA5dJde7Dx1PKzXYYSSNJYO4YrYlQSEKxwmyh_rXDcSlGM6f3GZSsKRMH8GTCvNOeDTGTwCYQsJB8VSB6g"/>
+<div>
+<p class="font-label-md text-label-md font-semibold text-on-surface leading-tight">Amina Mwenda</p>
+<p class="font-body-sm text-body-sm text-slate-muted leading-tight">Civic Reporter, Coast Desk</p>
+</div>
+</div>
+<a class="font-label-md text-label-md font-semibold text-primary hover:text-maroon-hover inline-flex items-center gap-1" href="#">
+                Read Dispatch
+                <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Story Card 2 -->
+<article class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-64 w-full">
+<img class="w-full h-full object-cover" data-alt="Editorial photograph of an agricultural warehouse and fresh produce inspection shed in Eldoret Kenya with community organizers reviewing logistics logbooks under clear overcast lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOkiCCoPsO6h0gC2cEPinomp8d_r73mDjUlL-sK8jumGRwp1DO4R95VoHWgJdYFcmicQSQIxWYcnc4u1JciLaPhFXcgl5jX5K3jaycbQlNS2Y47CSx7HHWOgEat46RqldfNb-DUdyT-QYWnK_fGP5WRugjD_-4aa4A7jEr5Xegl9OFjYE4TMmOl4toUHRTrZOjJgTIdqatiyU0Eg02xYr9NLOoXXeno-A8sqRqFE8W2d8jjRxZyeanJw"/>
+<div class="absolute top-4 left-4">
+<span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur font-label-sm text-label-sm font-semibold text-issue-economy">
+                Dispatch #048 · Uasin Gishu County
+              </span>
+</div>
+<div class="absolute bottom-4 right-4">
+<span class="px-3 py-1 rounded-full bg-on-surface/80 backdrop-blur font-label-sm text-label-sm text-on-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">menu_book</span>
+                Case Study (8 min read)
+              </span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col gap-space-sm justify-between flex-1">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm font-label-sm text-label-sm text-slate-muted">
+<span>Huruma Ward</span>
+<span>•</span>
+<span>January 2025 Field Report</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface hover:text-primary transition-colors cursor-pointer">
+                From Produce Spoilage to Cold Storage: Eldoret Traders Engage County Planning
+              </h3>
+<p class="font-body-md text-body-md text-slate-body">
+                How an agricultural loss log documented over 4 tons of weekly perishable waste, transforming anger into a budgeted county refrigeration facility in the 2025/2026 Fiscal Strategy Paper.
+              </p>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Portrait photo of an East African agricultural economist wearing field work glasses and professional vest smiling calmly." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAF1vwuMHoImOVDNHjHYFAZRS2TOn5ZeNG-y3ZeE9pOAz7VZp5Kx3hkEwW8tk1zDOUVQ0wTevuqxgijCYopwx-I3y5l7XKZgyecpgpmzzGjqnNJ_9yEyjB_7PmqKr361UAJHxadETrMs3GQbP19R7KJKS_e_AvzNG_SdScKgdsOLOfLIhR9HMtrmNcMC1xEgPuF8CcKN6sHOIBa6aCED5CsFC2EpXbw2_SbFJffcb127cauNenYkqDm0g"/>
+<div>
+<p class="font-label-md text-label-md font-semibold text-on-surface leading-tight">David Kiptoo</p>
+<p class="font-body-sm text-body-sm text-slate-muted leading-tight">Public Finance Fellow</p>
+</div>
+</div>
+<a class="font-label-md text-label-md font-semibold text-primary hover:text-maroon-hover inline-flex items-center gap-1" href="#">
+                Read Dispatch
+                <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Section 5: Accountability Tracker Excerpt for Economy -->
+<section class="w-full bg-surface-container-lowest py-20" id="county-trackers">
+<div class="max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-eyebrow text-eyebrow uppercase text-issue-economy tracking-wider">Institutional Accountability Board</span>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface">Recent County Government Responses</h2>
+</div>
+<a class="font-label-lg text-label-lg font-semibold text-primary hover:text-maroon-hover inline-flex items-center gap-1" data-path="accountability-tracker" href="#">
+          Open Full Tracker Matrix
+          <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<!-- Tracker Table / Status Board Container -->
+<div class="w-full bg-mist-bg rounded-xl overflow-hidden shadow-sm">
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead>
+<tr class="bg-surface-container-high/60 text-on-surface font-label-md text-label-md">
+<th class="py-space-md px-space-lg">Jurisdiction &amp; Target</th>
+<th class="py-space-md px-space-md">Grievance Sourced</th>
+<th class="py-space-md px-space-md">Filed On</th>
+<th class="py-space-md px-space-md">Official Response</th>
+<th class="py-space-md px-space-md">Current Resolution Status</th>
+<th class="py-space-md px-space-lg text-right">Audit Dossier</th>
+</tr>
+</thead>
+<tbody class="divide-y-0">
+<!-- Row 1 -->
+<tr class="bg-surface-container-lowest hover:bg-surface-container-low/40 transition-colors">
+<td class="py-space-md px-space-lg">
+<div class="font-semibold text-on-surface">Nairobi City County</div>
+<div class="text-slate-muted text-label-sm">Sub-County Market Services Dept</div>
+</td>
+<td class="py-space-md px-space-md text-slate-body font-medium">
+                  Informal Sector Night Stall Electric Fee Levies
+                </td>
+<td class="py-space-md px-space-md text-slate-muted">
+                  12 Oct 2024
+                </td>
+<td class="py-space-md px-space-md text-slate-muted">
+                  28 Nov 2024
+                </td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-label-sm font-semibold bg-issue-economy/10 text-issue-economy">
+<span class="w-1.5 h-1.5 rounded-full bg-issue-economy"></span>
+                    Binding Directive Gazetted
+                  </span>
+</td>
+<td class="py-space-md px-space-lg text-right">
+<a class="font-label-sm text-label-sm font-semibold text-primary hover:underline" href="#">View Docket</a>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="bg-surface-container-lowest hover:bg-surface-container-low/40 transition-colors">
+<td class="py-space-md px-space-lg">
+<div class="font-semibold text-on-surface">Nakuru County Government</div>
+<div class="text-slate-muted text-label-sm">Finance &amp; Economic Planning CEC</div>
+</td>
+<td class="py-space-md px-space-md text-slate-body font-medium">
+                  Double Surcharge on Agricultural Transport at Salgaa
+                </td>
+<td class="py-space-md px-space-md text-slate-muted">
+                  03 Nov 2024
+                </td>
+<td class="py-space-md px-space-md text-slate-muted">
+                  14 Jan 2025
+                </td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-label-sm font-semibold bg-ochre-tint text-on-secondary-container">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                    Under Joint Inspection
+                  </span>
+</td>
+<td class="py-space-md px-space-lg text-right">
+<a class="font-label-sm text-label-sm font-semibold text-primary hover:underline" href="#">View Docket</a>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="bg-surface-container-lowest hover:bg-surface-container-low/40 transition-colors">
+<td class="py-space-md px-space-lg">
+<div class="font-semibold text-on-surface">Kiambu County Government</div>
+<div class="text-slate-muted text-label-sm">Trade &amp; Industrialization Assembly Comm.</div>
+</td>
+<td class="py-space-md px-space-md text-slate-body font-medium">
+                  Arbitrary Demolition of Thika Boda &amp; Kiosk Corridors
+                </td>
+<td class="py-space-md px-space-md text-slate-muted">
+                  19 Dec 2024
+                </td>
+<td class="py-space-md px-space-md text-slate-muted">
+                  Pending (Overdue 14 Days)
+                </td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-label-sm font-semibold bg-error-container text-on-error-container">
+<span class="w-1.5 h-1.5 rounded-full bg-feedback-error"></span>
+                    Escalated to Assembly Floor
+                  </span>
+</td>
+<td class="py-space-md px-space-lg text-right">
+<a class="font-label-sm text-label-sm font-semibold text-primary hover:underline" href="#">View Docket</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 6: Bottom Domain CTA Band -->
+<section class="w-full bg-mist-bg py-20">
+<div class="max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter">
+<div class="bg-primary text-on-primary rounded-xl p-space-xl lg:p-16 flex flex-col lg:flex-row items-center justify-between gap-space-xl shadow-md">
+<div class="flex flex-col gap-space-sm max-w-2xl text-left">
+<div class="inline-flex items-center gap-2 text-secondary-fixed">
+<span class="material-symbols-outlined text-[22px]">campaign</span>
+<span class="font-eyebrow text-eyebrow uppercase tracking-widest">Grassroots Economic Protection</span>
+</div>
+<h2 class="font-headline-md text-headline-md font-bold text-on-primary">
+            Facing arbitrary market fees, harassment, or delayed cooperative pay in your ward?
+          </h2>
+<p class="font-body-lg text-body-lg text-maroon-tint">
+            Start a public petition backed by Wajibika’s civic verification network. We connect your documentation to sub-county committees, legal defenders, and business federations.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-md shrink-0 w-full lg:w-auto">
+<a class="h-12 px-space-xl bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary-fixed-dim font-label-lg text-label-lg font-semibold rounded-xl flex items-center justify-center gap-2 transition-colors" data-path="raise-an-issue" href="#">
+<span class="material-symbols-outlined text-[20px]">add_circle</span>
+<span>Raise an Issue in Economy</span>
+</a>
+<a class="h-12 px-space-lg bg-maroon-hover text-on-primary hover:bg-primary-container font-label-lg text-label-lg rounded-xl flex items-center justify-center text-center transition-colors" href="#">
+            Read Evidence Rules
+          </a>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-primary text-on-primary"><div class="bg-maroon-hover py-space-md"><div class="max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-secondary-fixed text-[24px]">campaign</span><p class="font-label-lg text-label-lg text-on-primary">Start a campaign in your area — Bring tangible change to your neighborhood or sector.</p></div><a class="h-10 px-space-md bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md rounded-xl hover:bg-secondary-fixed-dim transition-colors flex items-center justify-center shrink-0 font-semibold" data-path="start-campaign" href="#">Launch Campaign</a></div></div><div class="max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter py-space-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-space-lg"><div class="lg:col-span-2 flex flex-col justify-between gap-space-md"><div><div class="flex items-center gap-space-sm mb-space-sm"><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-on-primary">Wajibika</span></div><p class="font-body-md text-body-md text-maroon-tint max-w-sm mb-space-md">Your voice, amplified. Grounded civic accountability and citizen-led community advocacy across national and municipal sectors.</p></div><div class="flex items-center gap-space-sm text-maroon-tint"><span class="material-symbols-outlined text-[20px]">verified</span><span class="font-label-sm text-label-sm">Independent · Non-Partisan · Protected</span></div></div><div><p class="font-label-lg text-label-lg font-semibold mb-space-sm text-secondary-fixed">Issues &amp; Campaigns</p><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-maroon-tint"><li><a class="hover:text-on-primary transition-colors" data-path="economy-issues" href="#">Economy &amp; Jobs</a></li><li><a class="hover:text-on-primary transition-colors" data-path="governance-issues" href="#">Governance &amp; Law</a></li><li><a class="hover:text-on-primary transition-colors" data-path="social-norms-issues" href="#">Social Welfare</a></li><li><a class="hover:text-on-primary transition-colors" data-path="community-voice-issues" href="#">Local Ward Councils</a></li><li><a class="hover:text-on-primary transition-colors" data-path="issues-and-campaigns" href="#">All Petitions</a></li></ul></div><div><p class="font-label-lg text-label-lg font-semibold mb-space-sm text-secondary-fixed">Voices &amp; Stories</p><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-maroon-tint"><li><a class="hover:text-on-primary transition-colors" data-path="voices-and-stories" href="#">Investigative Logs</a></li><li><a class="hover:text-on-primary transition-colors" data-path="citizen-testimonies" href="#">Citizen Testimonies</a></li><li><a class="hover:text-on-primary transition-colors" data-path="field-dispatches" href="#">Field Dispatches</a></li><li><a class="hover:text-on-primary transition-colors" data-path="accountability-tracker" href="#">Tracker Summaries</a></li></ul></div><div><p class="font-label-lg text-label-lg font-semibold mb-space-sm text-secondary-fixed">Careers &amp; Contact</p><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-maroon-tint"><li><a class="hover:text-on-primary transition-colors" data-path="careers" href="#">Open Positions</a></li><li><a class="hover:text-on-primary transition-colors" data-path="civic-fellowships" href="#">Civic Fellowships</a></li><li><a class="hover:text-on-primary transition-colors" data-path="contact" href="#">Institutional Inquiries</a></li><li><a class="hover:text-on-primary transition-colors" data-path="press-room" href="#">Press Office</a></li></ul></div><div><p class="font-label-lg text-label-lg font-semibold mb-space-sm text-secondary-fixed">Civic Dispatch</p><p class="font-body-sm text-body-sm text-maroon-tint mb-space-sm">Weekly briefings on active citizen campaigns and council scorecards.</p><form class="flex flex-col gap-space-xs"><input class="h-10 px-space-sm rounded-xl bg-surface-container-lowest text-on-surface font-body-sm text-body-sm placeholder:text-slate-muted focus:outline-none focus:ring-2 focus:ring-secondary-fixed" placeholder="Enter your email" type="email"/><button class="h-10 px-space-md bg-secondary text-on-secondary hover:bg-on-secondary-container rounded-xl font-label-md text-label-md transition-colors" type="button">Subscribe</button></form></div></div><div class="bg-maroon-hover py-space-md"><div class="max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter flex flex-col md:flex-row items-center justify-between gap-space-sm font-label-sm text-label-sm text-maroon-tint"><div class="flex items-center gap-space-xs"><span>A Swizzy Industries Brand</span><span>·</span><span>© 2025 Wajibika Platform. All rights reserved.</span></div><div class="flex flex-wrap items-center gap-space-md text-maroon-tint"><a class="hover:text-on-primary transition-colors" data-path="privacy-notice" href="#">Privacy Notice</a><a class="hover:text-on-primary transition-colors" data-path="terms-of-use" href="#">Terms of Use</a><a class="hover:text-on-primary transition-colors" data-path="community-guidelines" href="#">Community Guidelines</a><a class="hover:text-on-primary transition-colors" data-path="accessibility-statement" href="#">Accessibility Statement</a></div></div></div></footer></body></html>

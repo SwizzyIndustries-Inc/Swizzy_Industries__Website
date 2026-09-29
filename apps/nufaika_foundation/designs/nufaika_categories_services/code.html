@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"tertiary-container":"#008375","tertiary":"#00685c","secondary":"#855400","error":"#ba1a1a","surface-bright":"#ebfef0","outline-variant":"#bdcabf","on-tertiary-fixed-variant":"#005047","primary":"#006a41","secondary-container":"#ffb146","surface-tint":"#006d42","secondary-fixed":"#ffddb7","inverse-on-surface":"#e2f5e8","error-container":"#ffdad6","on-surface":"#0f1f17","on-primary-fixed":"#002111","on-primary-container":"#f6fff5","primary-container":"#0a8553","surface-container-high":"#daede0","on-secondary-fixed-variant":"#653e00","on-secondary-fixed":"#2a1700","surface-container-low":"#e5f8eb","secondary-fixed-dim":"#ffb95d","surface-container-highest":"#d4e7da","on-secondary":"#ffffff","tertiary-fixed-dim":"#63dac7","on-surface-variant":"#3e4941","on-tertiary-fixed":"#00201c","on-tertiary":"#ffffff","on-error-container":"#93000a","on-primary-fixed-variant":"#005231","tertiary-fixed":"#81f6e3","primary-fixed":"#90f7bb","on-background":"#0f1f17","on-secondary-container":"#704600","surface-variant":"#d4e7da","surface-container":"#dff3e5","on-error":"#ffffff","surface-container-lowest":"#ffffff","background":"#ebfef0","inverse-primary":"#73dba1","outline":"#6e7a71","on-primary":"#ffffff","inverse-surface":"#24342b","surface":"#ebfef0","primary-fixed-dim":"#73dba1","on-tertiary-container":"#f4fffb","surface-dim":"#ccdfd2"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xl":"2rem","space-xs":"0.25rem","space-md":"1rem","margin-mobile":"1rem","space-lg":"1.5rem","gutter":"1.5rem","space-section":"6rem","space-sm":"0.5rem","gutter-mobile":"1rem","space-2xl":"3rem","margin":"1.5rem","margin-desktop":"3rem"},"fontFamily":{"headline-lg-mobile":["Plus Jakarta Sans"],"display-mobile":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-md":["Inter"],"price-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"body-lg":["Inter"],"label-sm":["Inter"],"headline-lg":["Plus Jakarta Sans"],"label-md":["Inter"],"display":["Plus Jakarta Sans"],"body-md-medium":["Inter"],"headline-xl":["Plus Jakarta Sans"],"body-sm":["Inter"]},"fontSize":{"headline-lg-mobile":["26px",{"lineHeight":"34px","fontWeight":"600"}],"display-mobile":["40px",{"lineHeight":"48px","fontWeight":"700"}],"headline-md":["26px",{"lineHeight":"34px","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"price-lg":["22px",{"lineHeight":"28px","fontWeight":"700"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"headline-xl-mobile":["32px",{"lineHeight":"40px","fontWeight":"700"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"label-sm":["12px",{"lineHeight":"16px","fontWeight":"500"}],"headline-lg":["34px",{"lineHeight":"42px","fontWeight":"600"}],"label-md":["14px",{"lineHeight":"20px","fontWeight":"500"}],"display":["58px",{"lineHeight":"68px","fontWeight":"700"}],"body-md-medium":["16px",{"lineHeight":"24px","fontWeight":"500"}],"headline-xl":["46px",{"lineHeight":"54px","fontWeight":"700"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_2px_12px_rgba(15,31,23,0.06)]"><div class="h-20 w-full max-w-[1320px] mx-auto px-margin-mobile lg:px-margin-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="Nufaika Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WsyOnMIJg9mc1ErTesg1KZHntdq8dQ-ecUo4qPpDl0wN4jnx2iTZNa2A-7q_B9w72URx46XVcvm6cF-jE-qPPyaNmNfIzrUcMYZogGwL-mNn1-oi7pPDeH-Iii9obw8-i_l0NpQMjV8DsptYWgTvgZ6zD8Omb1y_Lfk-PjbPKAKkJmv-FVzLWyMWD1hwXu9Laso5hYArOE-7V686wmvnmosx8h1HcBve3VNMypR3-ILToeW6NeBBVT4w"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Nufaika</span><span class="font-label-sm text-[10px] leading-tight text-on-surface-variant">A Swizzy Industries Pillar</span></div></a></div><div class="hidden xl:flex items-center flex-1 max-w-2xl bg-surface-container-low rounded-xl p-space-xs shadow-[0_1px_4px_rgba(15,31,23,0.04)]"><div class="flex items-center flex-1 px-space-sm gap-space-xs"><span class="material-symbols-outlined text-outline text-lg">search</span><input class="w-full bg-transparent font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none" placeholder="Search 1,200+ verified plumbers, tutors, designers, electricians..." type="text"/></div><div class="h-6 w-px bg-outline-variant"></div><div class="flex items-center px-space-sm gap-space-xs shrink-0"><span class="material-symbols-outlined text-outline text-lg">location_on</span><select class="bg-transparent font-label-md text-label-md text-on-surface-variant focus:outline-none cursor-pointer pr-space-xs"><option>Nairobi &amp; across Kenya</option><option>Nairobi Metro</option><option>Mombasa Coast</option><option>Kisumu &amp; West</option><option>Nakuru Rift</option></select></div><button class="bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md px-space-md py-space-sm rounded-lg transition-colors flex items-center justify-center shrink-0" type="button"><span class="material-symbols-outlined text-base">arrow_forward</span></button></div><div class="flex items-center gap-space-sm lg:gap-space-md shrink-0"><a class="hidden sm:inline-flex items-center justify-center font-label-md text-label-md text-primary bg-surface-container hover:bg-surface-container-high transition-colors px-space-md py-space-sm rounded-xl" data-path="for-providers" href="#">Become a Provider</a><a class="inline-flex items-center justify-center font-label-md text-label-md text-on-primary bg-primary hover:bg-primary-container transition-colors px-space-md py-space-sm rounded-xl shadow-[0_2px_8px_rgba(0,106,65,0.2)]" data-path="categories-services" href="#">Find a Service</a><a class="flex items-center" data-path="user-profile" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjbhHF5rw-CistPU87IPk_W31WpwRXw3TcFBaf3YUFZxGE0nnMRS51XHRiOcTq7VxSVLI8PZhGxxcgLcB8oq_6aERo2tMTkQjBijYk9-NaWOjjWq663Tf8uq1S_1YhTNqHBfMNDAjaEQFYWZFkJr8G_ZaFQ_gfePpvoQWabRQ-Ticw0GB6UbX32WfmxlOAuUYbKFGVawuKSsGg5suli66XjbH5zZGruA5CxlxmTsLYiohT0NS3jmlg"/></a></div></div><div class="hidden lg:block bg-surface-container-lowest/80"><div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin-desktop flex items-center justify-between h-11"><nav class="flex items-center gap-space-md h-full" data-active-classes="bg-surface-container-high text-on-surface font-semibold rounded-lg"><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-1.5 transition-colors" data-path="home" href="#">Home</a><div class="relative group h-full flex items-center"><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-1.5 transition-colors flex items-center gap-1" data-path="categories-services" href="#">Categories &amp; Services</a><div class="absolute top-full left-0 w-[680px] bg-surface-container-lowest rounded-xl shadow-[0_16px_36px_-6px_rgba(15,31,23,0.12)] p-space-lg hidden group-hover:grid grid-cols-2 gap-space-lg z-50"><div class="space-y-space-sm"><p class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Core Categories</p><a class="flex items-center justify-between p-space-sm rounded-lg hover:bg-surface-container-low transition-colors" data-path="categories-services" href="#"><div class="flex items-center gap-space-sm"><span class="w-3 h-3 rounded-full bg-[#3A5BD9]"></span><span class="font-body-md-medium text-body-md-medium text-on-surface">Home &amp; Trade</span></div><span class="font-label-sm text-label-sm text-on-surface-variant">Plumbers, Electricians</span></a><a class="flex items-center justify-between p-space-sm rounded-lg hover:bg-surface-container-low transition-colors" data-path="categories-services" href="#"><div class="flex items-center gap-space-sm"><span class="w-3 h-3 rounded-full bg-[#6C4FD9]"></span><span class="font-body-md-medium text-body-md-medium text-on-surface">Skills &amp; Tutoring</span></div><span class="font-label-sm text-label-sm text-on-surface-variant">Math, Languages, STEM</span></a><a class="flex items-center justify-between p-space-sm rounded-lg hover:bg-surface-container-low transition-colors" data-path="categories-services" href="#"><div class="flex items-center gap-space-sm"><span class="w-3 h-3 rounded-full bg-[#0E9F8E]"></span><span class="font-body-md-medium text-body-md-medium text-on-surface">Professional &amp; Business</span></div><span class="font-label-sm text-label-sm text-on-surface-variant">Accounting, Legal, Web</span></a><a class="flex items-center justify-between p-space-sm rounded-lg hover:bg-surface-container-low transition-colors" data-path="categories-services" href="#"><div class="flex items-center gap-space-sm"><span class="w-3 h-3 rounded-full bg-[#E8735A]"></span><span class="font-body-md-medium text-body-md-medium text-on-surface">Creative &amp; Events</span></div><span class="font-label-sm text-label-sm text-on-surface-variant">Photo, DJ, Decor</span></a><a class="flex items-center justify-between p-space-sm rounded-lg hover:bg-surface-container-low transition-colors" data-path="categories-services" href="#"><div class="flex items-center gap-space-sm"><span class="w-3 h-3 rounded-full bg-[#D9527A]"></span><span class="font-body-md-medium text-body-md-medium text-on-surface">Care &amp; Wellness</span></div><span class="font-label-sm text-label-sm text-on-surface-variant">Nannies, Fitness, Spa</span></a></div><div class="space-y-space-sm bg-surface-container-low p-space-md rounded-xl"><p class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Popular In Kenya</p><div class="flex flex-wrap gap-space-xs"><span class="font-label-sm text-label-sm px- space-sm py-1 bg-surface-container-lowest text-on-surface rounded-full">Solar Installation</span><span class="font-label-sm text-label-sm px-space-sm py-1 bg-surface-container-lowest text-on-surface rounded-full">Borehole Servicing</span><span class="font-label-sm text-label-sm px-space-sm py-1 bg-surface-container-lowest text-on-surface rounded-full">KRA Tax Filing</span><span class="font-label-sm text-label-sm px-space-sm py-1 bg-surface-container-lowest text-on-surface rounded-full">Graphic Design</span><span class="font-label-sm text-label-sm px-space-sm py-1 bg-surface-container-lowest text-on-surface rounded-full">Event Catering</span></div><div class="pt-space-md"><a class="font-label-md text-label-md text-primary font-semibold hover:underline flex items-center gap-1" data-path="categories-services" href="#">Browse all 120+ micro-skills →</a></div></div></div></div><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-1.5 transition-colors" data-path="for-providers" href="#">For Providers</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-1.5 transition-colors" data-path="trust-safety" href="#">Trust &amp; Safety</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-1.5 transition-colors" data-path="careers" href="#">Careers</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-1.5 transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm"><span class="material-symbols-outlined text-sm text-tertiary-container">verified_user</span><span>Escrow Guarantee Protected</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Interactive & Filter Controller Script -->
+<script>
+    function switchCategory(cat) {
+      document.querySelectorAll('.cat-pill').forEach(btn => {
+        btn.classList.remove('bg-primary', 'text-on-primary', 'shadow-md');
+        btn.classList.add('bg-surface-container-lowest', 'text-on-surface-variant');
+      });
+      const activeBtn = document.getElementById('cat-btn-' + cat);
+      if (activeBtn) {
+        activeBtn.classList.add('bg-primary', 'text-on-primary', 'shadow-md');
+        activeBtn.classList.remove('bg-surface-container-lowest', 'text-on-surface-variant');
+      }
+
+      document.querySelectorAll('.showcase-block').forEach(section => {
+        if (cat === 'all' || section.getAttribute('data-cat') === cat) {
+          section.style.display = 'block';
+        } else {
+          section.style.display = 'none';
+        }
+      });
+    }
+
+    function toggleChip(chip) {
+      chip.classList.toggle('bg-primary');
+      chip.classList.toggle('text-on-primary');
+      chip.classList.toggle('bg-surface-container-lowest');
+      chip.classList.toggle('text-on-surface-variant');
+    }
+  </script>
+<!-- Editorial Directory Header -->
+<section class="w-full bg-gradient-to-b from-surface-container-low/70 via-surface to-surface pb-space-xl pt-space-xl">
+<div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin-desktop">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg">
+<div class="max-w-3xl space-y-space-xs">
+<div class="inline-flex items-center gap-2 px-space-sm py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm uppercase tracking-widest">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+            BROWSE BY EXPERTISE
+          </div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+            All Categories &amp; Verified Services
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+            Connect with vetted Kenyan professionals across 5 key industries. Fixed starting rates, credential verification, and protected milestone payments.
+          </p>
+</div>
+<!-- Quick Credibility Data Ring Card -->
+<div class="flex items-center gap-space-md p-space-md rounded-xl bg-surface-container-lowest shadow-sm shrink-0">
+<div class="relative w-14 h-14 flex items-center justify-center shrink-0">
+<svg class="w-full h-full -rotate-90" viewbox="0 0 48 48">
+<circle class="text-surface-container" cx="24" cy="24" fill="none" r="20" stroke="currentColor" stroke-width="4"></circle>
+<circle class="text-primary" cx="24" cy="24" fill="none" r="20" stroke="currentColor" stroke-dasharray="125.6" stroke-dashoffset="13" stroke-linecap="round" stroke-width="4"></circle>
+</svg>
+<span class="absolute font-headline-sm text-headline-sm text-primary">92%</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">EPRA &amp; NITA Certified</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Active peer &amp; government ID checks</span>
+</div>
+</div>
+</div>
+<!-- Advanced Directory Filter Console -->
+<div class="mt-space-xl bg-surface-container-lowest rounded-xl p-space-md lg:p-space-lg shadow-sm space-y-space-md">
+<!-- Search and Direct Input Strip -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-sm items-center">
+<div class="md:col-span-6 flex items-center gap-space-xs bg-surface-container-low rounded-lg px-space-md py-space-sm">
+<span class="material-symbols-outlined text-outline text-xl">search</span>
+<input class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none" placeholder="Search service keyword, e.g. 'EPRA Electrician', 'KCSE Physics', 'Plumbing'..." type="text"/>
+</div>
+<div class="md:col-span-4 flex items-center gap-space-xs bg-surface-container-low rounded-lg px-space-md py-space-sm">
+<span class="material-symbols-outlined text-outline text-xl">near_me</span>
+<select class="w-full bg-transparent font-body-sm text-body-sm text-on-surface focus:outline-none cursor-pointer">
+<option>All Kenya (Nationwide)</option>
+<option>Nairobi Metro (Westlands, Kilimani, Karen, Roysambu)</option>
+<option>Kiambu County (Ruiru, Thika, Kikuyu)</option>
+<option>Mombasa &amp; Coastal Strip</option>
+<option>Nakuru City &amp; Naivasha</option>
+<option>Kisumu City &amp; Lakeside</option>
+</select>
+</div>
+<div class="md:col-span-2">
+<button class="w-full h-12 bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md rounded-lg flex items-center justify-center gap-space-xs transition-colors">
+<span class="material-symbols-outlined text-lg">tune</span>
+<span>Find Pros</span>
+</button>
+</div>
+</div>
+<!-- Category Horizontal Segment Switches -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-1 scrollbar-none">
+<button class="cat-pill shrink-0 px-space-md py-space-sm rounded-lg font-label-md text-label-md bg-primary text-on-primary transition-all shadow-sm" id="cat-btn-all" onclick="switchCategory('all')">
+            All Services (1,180)
+          </button>
+<button class="cat-pill shrink-0 px-space-md py-space-sm rounded-lg font-label-md text-label-md bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" id="cat-btn-trade" onclick="switchCategory('trade')">
+            Home &amp; Trade (380)
+          </button>
+<button class="cat-pill shrink-0 px-space-md py-space-sm rounded-lg font-label-md text-label-md bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" id="cat-btn-skills" onclick="switchCategory('skills')">
+            Skills &amp; Tutoring (260)
+          </button>
+<button class="cat-pill shrink-0 px-space-md py-space-sm rounded-lg font-label-md text-label-md bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" id="cat-btn-pro" onclick="switchCategory('pro')">
+            Professional &amp; Business (190)
+          </button>
+<button class="cat-pill shrink-0 px-space-md py-space-sm rounded-lg font-label-md text-label-md bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" id="cat-btn-creative" onclick="switchCategory('creative')">
+            Creative &amp; Events (210)
+          </button>
+<button class="cat-pill shrink-0 px-space-md py-space-sm rounded-lg font-label-md text-label-md bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" id="cat-btn-wellness" onclick="switchCategory('wellness')">
+            Care &amp; Wellness (140)
+          </button>
+</div>
+<!-- Filter Toggles & Badges -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm pt-space-xs">
+<div class="flex flex-wrap items-center gap-space-xs text-body-sm">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider mr-space-xs">Quick Filters:</span>
+<button class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container transition-colors flex items-center gap-1 shadow-sm" onclick="toggleChip(this)">
+<span class="material-symbols-outlined text-sm text-tertiary-container">bolt</span>
+              Available Today
+            </button>
+<button class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container transition-colors flex items-center gap-1 shadow-sm" onclick="toggleChip(this)">
+<span class="material-symbols-outlined text-sm text-primary">verified</span>
+              Verified Badge Only
+            </button>
+<button class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container transition-colors flex items-center gap-1 shadow-sm" onclick="toggleChip(this)">
+<span class="material-symbols-outlined text-sm text-secondary">star</span>
+              Top Rated (4.8+)
+            </button>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm text-primary">security</span>
+<span>All quotes protected under Nufaika Escrow</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Showcase Section: Category 1 - Home & Trade Services -->
+<section class="showcase-block w-full py-space-xl" data-cat="trade">
+<div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin-desktop space-y-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="w-3.5 h-3.5 rounded-full bg-[#3A5BD9]"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Category 01</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Home &amp; Trade Services</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+            Certified residential &amp; industrial technicians. Licensed by EPRA, NITA, and certified county trade regulators.
+          </p>
+</div>
+<div class="flex items-center gap-space-xs">
+<a class="font-label-md text-label-md text-primary font-semibold hover:underline flex items-center gap-1" href="#">
+            Explore 380 Trade Specialists <span class="material-symbols-outlined text-sm">east</span>
+</a>
+</div>
+</div>
+<!-- Subcategory Chips -->
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Electrical Installations (112)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Plumbing &amp; Drainage (94)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Solar &amp; Inverters (68)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Masonry &amp; Tiling (57)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Painting &amp; Waterproofing (49)</span>
+</div>
+<!-- Provider Showcase Grid with Hero Inspiration Integration -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Card 1: Electrician / Solar Specialist -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col group">
+<div class="relative h-52 w-full overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Kenyan male electrical engineer and technician inspecting a high-voltage electrical distribution board in Nairobi commercial development with blueprint tablet, warm natural ambient daylight, cinematic realism" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbqQkYDhzFQhATxFLYZQzHsQQZine_Ro3xMEv7ipr8JyzZC9ZTrXmBh2BzFPXTEvzlm-MGofx3yCOswZQaSVKCBt1YlFYMVI-82WUfz9fh3375WNuMP51ULq_77Q6Slw4vWMkMEY-b-SLt7o6V6T7XdWcq5yfQ0XBpljcVCJVAv5OtsLhUVF-nJbOU6gnGwdxH-1flxokLN9ej1P6sLgx_bmbtdRQYPXTIlFRHMuDp7MV6Ka7caHV9"/>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-1 rounded-full font-label-sm text-label-sm bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-semibold shadow-sm">
+                EPRA Class B Licensed
+              </span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm">
+<span class="px-space-sm py-0.5 rounded-md font-label-sm text-label-sm bg-surface-container-highest/90 text-on-surface font-medium backdrop-blur-sm">
+                Nairobi &amp; Kiambu
+              </span>
+</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between space-y-space-md">
+<div>
+<div class="flex items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Jared Ombati &amp; Team</h3>
+<span class="material-symbols-outlined text-primary text-lg" title="Government Certified Pro">verified</span>
+</div>
+<div class="flex items-center gap-1 font-body-sm text-body-sm font-semibold text-on-surface">
+<span class="material-symbols-outlined text-secondary text-base">star</span>
+<span>4.9</span>
+<span class="text-on-surface-variant font-normal">(186)</span>
+</div>
+</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-1">3-Phase Industrial Wiring • Solar Backup Systems • Fault Diagnosis</p>
+<div class="mt-space-sm flex flex-wrap gap-1">
+<span class="font-label-sm text-[11px] px-2 py-0.5 rounded bg-surface-container-high text-on-surface">KPLC Metres</span>
+<span class="font-label-sm text-[11px] px-2 py-0.5 rounded bg-surface-container-high text-on-surface">Hybrid Inverters</span>
+<span class="font-label-sm text-[11px] px-2 py-0.5 rounded bg-surface-container-high text-on-surface">Emergency Callout</span>
+</div>
+</div>
+<div class="pt-space-md border-t border-surface-container-low flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Transparent Base Rate</span>
+<span class="font-price-lg text-price-lg text-primary">KES 2,000 <span class="font-body-sm text-body-sm font-normal text-on-surface-variant">/ diagnostic</span></span>
+</div>
+<button class="px-space-md py-space-sm bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-md text-label-md rounded-lg transition-colors">
+                Book Pro
+              </button>
+</div>
+</div>
+</div>
+<!-- Card 2: Master Plumber & Borehole Tech -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col group">
+<div class="relative h-52 w-full overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Female Kenyan hydraulic and plumbing specialist adjusting pressure valves and copper manifold piping in modern building utility chamber, bright professional work gear" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOmqSFgq4884p-vOiHyHGJ7dcNewINpAbQWM5hZI9ZSWsEdVO5SBwSflexPmxLfw4-UFB2Wawn4mN2lRrhlyNs6vcfopbHzG7vFDbsKKumlwi0gUBmtbGwEdX2SLgwyz0BCI-_gm4kB6BarWSDBpbah8QQtMp-c80KGql-iUiRLbbg7gbBDGcA6obxjyl4ZGdjvanUmCEVUoR9jaZiOmfZhrwARG4y00abPjgFYwlCse7y_rEWn9go"/>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-1 rounded-full font-label-sm text-label-sm bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-semibold shadow-sm">
+                NITA Level 3 Master
+              </span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm">
+<span class="px-space-sm py-0.5 rounded-md font-label-sm text-label-sm bg-surface-container-highest/90 text-on-surface font-medium backdrop-blur-sm">
+                Nairobi Metro
+              </span>
+</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between space-y-space-md">
+<div>
+<div class="flex items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Wanjiku Plumbing Lab</h3>
+<span class="material-symbols-outlined text-primary text-lg" title="Verified Pro">verified</span>
+</div>
+<div class="flex items-center gap-1 font-body-sm text-body-sm font-semibold text-on-surface">
+<span class="material-symbols-outlined text-secondary text-base">star</span>
+<span>5.0</span>
+<span class="text-on-surface-variant font-normal">(94)</span>
+</div>
+</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-1">Pressure Pumps • Underground Drainage • Biodigester Setup</p>
+<div class="mt-space-sm flex flex-wrap gap-1">
+<span class="font-label-sm text-[11px] px-2 py-0.5 rounded bg-surface-container-high text-on-surface">Rapid Drain Snaking</span>
+<span class="font-label-sm text-[11px] px-2 py-0.5 rounded bg-surface-container-high text-on-surface">Boiler Service</span>
+</div>
+</div>
+<div class="pt-space-md border-t border-surface-container-low flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Standard Visit</span>
+<span class="font-price-lg text-price-lg text-primary">KES 1,500 <span class="font-body-sm text-body-sm font-normal text-on-surface-variant">/ hr</span></span>
+</div>
+<button class="px-space-md py-space-sm bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-md text-label-md rounded-lg transition-colors">
+                Book Pro
+              </button>
+</div>
+</div>
+</div>
+<!-- Category 1 Callout / Trade Trust Insight Card -->
+<div class="bg-surface-container-high rounded-xl p-space-lg flex flex-col justify-between relative overflow-hidden shadow-sm">
+<div class="space-y-space-md relative z-10">
+<div class="w-12 h-12 rounded-xl bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-2xl">verified_user</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Nufaika Trade Shield</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Every trade booking holds milestone funds in escrow until the inspection phase is cleared. If wiring or piping fails standard verification, repair escrow protects your deposit 100%.
+              </p>
+</div>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Pre-vetted EPRA / NCA licenses</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Itemized material supply invoice receipts</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>KES 500,000 marketplace liability bond</span>
+</li>
+</ul>
+</div>
+<div class="pt-space-md relative z-10">
+<a class="inline-flex items-center justify-center w-full py-space-sm bg-surface-container-lowest text-primary hover:bg-surface hover:text-primary font-label-md text-label-md rounded-lg shadow-sm transition-colors" href="#">
+              How Trade Verification Works
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Showcase Section: Category 2 - Skills & Tutoring -->
+<section class="showcase-block w-full py-space-xl bg-surface-container-lowest" data-cat="skills">
+<div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin-desktop space-y-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="w-3.5 h-3.5 rounded-full bg-[#6C4FD9]"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Category 02</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Skills &amp; Tutoring</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+            CBC &amp; KCSE curriculum educators, software engineers, and language instructors offering in-person and digital sessions.
+          </p>
+</div>
+<div class="flex items-center gap-space-xs">
+<a class="font-label-md text-label-md text-primary font-semibold hover:underline flex items-center gap-1" href="#">
+            Explore 260 Qualified Tutors <span class="material-symbols-outlined text-sm">east</span>
+</a>
+</div>
+</div>
+<!-- Subcategory Chips -->
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Primary &amp; KCSE Tutoring (98)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Coding &amp; Web Development (64)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Music &amp; Acoustic Lessons (42)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Language Coaching (Swahili, French, German) (56)</span>
+</div>
+<!-- Split Layout: Bento Style Showcase -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+<!-- Tutor 1 -->
+<div class="lg:col-span-4 bg-surface rounded-xl p-space-lg shadow-sm flex flex-col justify-between h-full space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex items-center gap-space-md">
+<div class="w-16 h-16 rounded-full overflow-hidden shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Portrait of an African male mathematics educator smiling warmly with graduation badge against neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzX5giCBllaLCyLe0DK41oZAzRtkXmX_uc8usk1_QZ52IHnkFiftmDz4lv_GApd02dKrnmw2Pa0yQWL1gEnVuilrEvDJTOJfF-KZVkxnX7_4iUK9XByMbD4lFgrczuAmzfRZEs0g8WDoFSqfwAjwhqtJaPAO9yyVHBJWyAuQmNDXiMMEpEi89BAvmbdazVgZCmXJPvoVMWMgaHIxvH3spEqJrRbkVAEAtgPzb7OQg7Ug6GAkE0t9bt"/>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Dr. Silas Mwangi</h3>
+<span class="font-label-sm text-label-sm text-primary font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">school</span> TSC Registered Educator
+                </span>
+<div class="flex items-center gap-1 font-body-sm text-body-sm text-on-surface font-medium mt-0.5">
+<span class="material-symbols-outlined text-secondary text-sm">star</span> 4.9 (82 sessions)
+                </div>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              High School Physics, Chemistry, and Advanced CBC Pure Mathematics. Average student grade improvement is +2 KCSE tier marks.
+            </p>
+<div class="flex flex-wrap gap-1">
+<span class="font-label-sm text-[11px] px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface">KCSE Prep</span>
+<span class="font-label-sm text-[11px] px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface">IGCSE Option</span>
+<span class="font-label-sm text-[11px] px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface">Westlands / Online</span>
+</div>
+</div>
+<div class="pt-space-md border-t border-surface-container-low flex items-center justify-between">
+<span class="font-price-lg text-price-lg text-primary">KES 1,200 <span class="font-body-sm text-body-sm font-normal text-on-surface-variant">/ hr</span></span>
+<button class="px-space-md py-space-sm bg-primary text-on-primary font-label-md text-label-md rounded-lg hover:bg-primary-container transition-colors">
+              Schedule Trial
+            </button>
+</div>
+</div>
+<!-- Tutor 2 -->
+<div class="lg:col-span-4 bg-surface rounded-xl p-space-lg shadow-sm flex flex-col justify-between h-full space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex items-center gap-space-md">
+<div class="w-16 h-16 rounded-full overflow-hidden shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Kenyan female software developer wearing glasses and headphones coaching coding over modern laptop, bright tech aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdT4uhY8LfRzHoQBRSLkj9C5h1tMjlb6UhvGEu0QB7Hrlqp-A_D3W36eCTpnoUmnEbo-QhAkJfFMDU0LbTv_pHC11lQIP0JbEHwintRdQfdaFfnDdsBEM2Mvcwf7UW0_EjO1bb2GK7qo106YOBuHVaksbduOjQoB5kMmRe5i9QodVPPCLwv8Dju1F48f9J9qYgGGRyTZzVDzsg6JyNMN7FSTtjI7UxEwH9C0DUNvvMZp7cdJCGI214"/>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Amina Hassan</h3>
+<span class="font-label-sm text-label-sm text-tertiary-container font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">terminal</span> Full-Stack Engineer
+                </span>
+<div class="flex items-center gap-1 font-body-sm text-body-sm text-on-surface font-medium mt-0.5">
+<span class="material-symbols-outlined text-secondary text-sm">star</span> 5.0 (64 sessions)
+                </div>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Practical Python, JavaScript, and Flutter development for beginners and junior bootcamp graduates looking for employment placement.
+            </p>
+<div class="flex flex-wrap gap-1">
+<span class="font-label-sm text-[11px] px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface">Python &amp; Django</span>
+<span class="font-label-sm text-[11px] px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface">Git &amp; Cloud</span>
+<span class="font-label-sm text-[11px] px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface">1-on-1 Remote</span>
+</div>
+</div>
+<div class="pt-space-md border-t border-surface-container-low flex items-center justify-between">
+<span class="font-price-lg text-price-lg text-primary">KES 2,000 <span class="font-body-sm text-body-sm font-normal text-on-surface-variant">/ hr</span></span>
+<button class="px-space-md py-space-sm bg-primary text-on-primary font-label-md text-label-md rounded-lg hover:bg-primary-container transition-colors">
+              Schedule Trial
+            </button>
+</div>
+</div>
+<!-- Tutor 3 -->
+<div class="lg:col-span-4 bg-surface rounded-xl p-space-lg shadow-sm flex flex-col justify-between h-full space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex items-center gap-space-md">
+<div class="w-16 h-16 rounded-full overflow-hidden shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Kenyan French language teacher holding Alliance Francaise certificate and educational books in sunny modern study" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUdc8nqnSsKFJSJEaFQb0FysjTCIigr-dXRygxGmXrJWc-Q0VnUITQO-bCbIzXcLs0SYTT1SNItGPSrlq4u2fV62eZJr_pYFMeov7FtXXEU4eJ8dS61L1n6W6nYJqADG-3G5Fr5HaiqNj_gJLBK75g9HMSmwPqRu9IYC5_JCXQqL1MzZPIPmKtFav7J4QLlyqkbM75YBeai5EMmG435CVBzStFLVehTZoFDJM2oIyU0bgCZzagSlKs"/>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Gisele Mukamana</h3>
+<span class="font-label-sm text-label-sm text-secondary font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">translate</span> DELF B2/C1 Certified
+                </span>
+<div class="flex items-center gap-1 font-body-sm text-body-sm text-on-surface font-medium mt-0.5">
+<span class="material-symbols-outlined text-secondary text-sm">star</span> 4.8 (110 sessions)
+                </div>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Conversational French and Swahili coaching for expatriates, corporate leaders, and high school candidates aiming for DELF certification.
+            </p>
+<div class="flex flex-wrap gap-1">
+<span class="font-label-sm text-[11px] px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface">DELF Prep</span>
+<span class="font-label-sm text-[11px] px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface">Swahili Immersion</span>
+<span class="font-label-sm text-[11px] px-2 py-0.5 rounded bg-surface-container-lowest text-on-surface">Karen &amp; Online</span>
+</div>
+</div>
+<div class="pt-space-md border-t border-surface-container-low flex items-center justify-between">
+<span class="font-price-lg text-price-lg text-primary">KES 1,500 <span class="font-body-sm text-body-sm font-normal text-on-surface-variant">/ hr</span></span>
+<button class="px-space-md py-space-sm bg-primary text-on-primary font-label-md text-label-md rounded-lg hover:bg-primary-container transition-colors">
+              Schedule Trial
+            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Showcase Section: Category 3 - Professional & Business Services -->
+<section class="showcase-block w-full py-space-xl" data-cat="pro">
+<div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin-desktop space-y-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="w-3.5 h-3.5 rounded-full bg-[#0E9F8E]"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Category 03</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Professional &amp; Business Services</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+            Certified ICPAK accountants, tax consultants, and digital product specialists ready to boost small and medium enterprise operations.
+          </p>
+</div>
+<div class="flex items-center gap-space-xs">
+<a class="font-label-md text-label-md text-primary font-semibold hover:underline flex items-center gap-1" href="#">
+            Browse 190 Business Experts <span class="material-symbols-outlined text-sm">east</span>
+</a>
+</div>
+</div>
+<!-- Subcategory Chips -->
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">KRA Tax &amp; Accounting (72)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Legal Documentation &amp; Conveyance (38)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Graphic Design &amp; Branding (48)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Business Plans &amp; Grant Proposals (32)</span>
+</div>
+<!-- 2-Column High Value Service Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex items-start justify-between">
+<div>
+<span class="px-space-sm py-1 rounded bg-[#0E9F8E]/10 text-[#0E9F8E] font-label-sm text-label-sm font-semibold">ICPAK Verified</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-2">KRA Tax Filing, Nil Returns &amp; Audit Advisory</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Managed by Otieno &amp; Partners Advisory. End-to-end e-TIMS setup, VAT returns reconciliation, and KRA penalty clearance.</p>
+</div>
+<span class="material-symbols-outlined text-tertiary-container text-3xl">receipt_long</span>
+</div>
+<div class="flex items-center gap-space-lg text-body-sm text-on-surface pt-space-xs">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-secondary text-base">star</span>
+<span class="font-semibold">4.95</span> (214 verified reviews)
+              </div>
+<div>Average delivery: <span class="font-semibold">Within 24 Hours</span></div>
+</div>
+</div>
+<div class="pt-space-md border-t border-surface-container-low flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Individual &amp; SME Packages</span>
+<span class="font-price-lg text-price-lg text-primary">From KES 2,500 <span class="font-body-sm text-body-sm font-normal text-on-surface-variant">fixed rate</span></span>
+</div>
+<button class="px-space-md py-space-sm bg-primary text-on-primary font-label-md text-label-md rounded-lg hover:bg-primary-container transition-colors">
+              Request Quote
+            </button>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex items-start justify-between">
+<div>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm font-semibold">Portfolio Vetted</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-2">Brand Identity &amp; Modern Company Profiles</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Lead by Studio Nuru. Includes vectorized logos, brand book guide, letterheads, social toolkits, and pitch decks.</p>
+</div>
+<span class="material-symbols-outlined text-primary text-3xl">palette</span>
+</div>
+<div class="flex items-center gap-space-lg text-body-sm text-on-surface pt-space-xs">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-secondary text-base">star</span>
+<span class="font-semibold">4.89</span> (143 projects completed)
+              </div>
+<div>Turnaround: <span class="font-semibold">3 - 5 Days</span></div>
+</div>
+</div>
+<div class="pt-space-md border-t border-surface-container-low flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Complete Startup Kit</span>
+<span class="font-price-lg text-price-lg text-primary">KES 8,500 <span class="font-body-sm text-body-sm font-normal text-on-surface-variant">milestone escrow</span></span>
+</div>
+<button class="px-space-md py-space-sm bg-primary text-on-primary font-label-md text-label-md rounded-lg hover:bg-primary-container transition-colors">
+              Request Quote
+            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Showcase Section: Category 4 - Creative & Events -->
+<section class="showcase-block w-full py-space-xl bg-surface-container-lowest" data-cat="creative">
+<div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin-desktop space-y-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="w-3.5 h-3.5 rounded-full bg-[#E8735A]"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Category 04</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Creative &amp; Events</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+            From intimate weddings in Naivasha to corporate conferences in Nairobi. Top-tier event production crews with verified equipment inventory.
+          </p>
+</div>
+<div class="flex items-center gap-space-xs">
+<a class="font-label-md text-label-md text-primary font-semibold hover:underline flex items-center gap-1" href="#">
+            Browse 210 Event Specialists <span class="material-symbols-outlined text-sm">east</span>
+</a>
+</div>
+</div>
+<!-- Subcategory Chips -->
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Event Photography &amp; Video (86)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Sound Systems &amp; DJ (47)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Catering &amp; Bites (45)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Decor &amp; Tents (32)</span>
+</div>
+<!-- Image Grid of Creative Pros -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<div class="bg-surface rounded-xl overflow-hidden shadow-sm flex flex-col group">
+<div class="h-44 w-full bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Professional African wedding and corporate event photographer holding Sony FX3 camera in warm golden hour Kenyan venue" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCninRmHgTVnJnq2SwuTx_pA5dECv6Jl3PTmSGRxMS97AHoJZdSpvYvatUZtakyQdMOBMz5wjTFZKnbn_LwQ7DtbOXZU9b7fUMhUEOBBbk2Sa2_LUJlcM2rXrIXo9f1qSVSYpQxDjuPVzJLAp8MrEWqffnBUqlyOBlDyAaGf1DFdwu5VB-orad-msBpADAvyE7edmbegQ-YmrLGYm_Z_gS7mLO_0ysIUYOaFo_iH2iEEGHI6y_PtBXO"/>
+</div>
+<div class="p-space-md space-y-space-xs flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">Simba Visuals Hub</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">4.9 ★ (77)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">4K Sony/Canon Dual Operator, Drone footage included, 48hr highlight delivery.</p>
+</div>
+<div class="pt-space-sm border-t border-surface-container-low flex items-center justify-between">
+<span class="font-price-lg text-price-lg text-primary">From KES 25,000</span>
+<button class="px-space-sm py-1.5 rounded-lg bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-md text-label-md transition-colors">Details</button>
+</div>
+</div>
+</div>
+<div class="bg-surface rounded-xl overflow-hidden shadow-sm flex flex-col group">
+<div class="h-44 w-full bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High quality professional sound mixer, digital DJ console, and acoustic stage lighting setup ready for live Nairobi music performance" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkWRKfgwGcuTEmR_YiwaY0viOHYpuE0j-BQo2CXgJQiIJKDOeCZ_XztDa0Qi_6yUyMXPJ-EcqPMAio0GkobRBG6p2q2A8LGHjFX6l5afBTx-H_PGSShGPGgnlCl9siUsR8SA9bdY-YQAm-4575kXY5E8qoZ-pJtItOL4bKqtfkLe1Iod8OBwqbvzywpw7Au8iNJPJitf6mrkVDJo5_Yldc0R1J6ya8XTbnCZjtDObmqtsD1L-RIqXR"/>
+</div>
+<div class="p-space-md space-y-space-xs flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">Urban Vibe Sound &amp; Live</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">4.95 ★ (103)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Line array PA system, wireless Shure mics, backup generator support up to 500 pax.</p>
+</div>
+<div class="pt-space-sm border-t border-surface-container-low flex items-center justify-between">
+<span class="font-price-lg text-price-lg text-primary">From KES 18,000</span>
+<button class="px-space-sm py-1.5 rounded-lg bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-md text-label-md transition-colors">Details</button>
+</div>
+</div>
+</div>
+<div class="bg-surface rounded-xl overflow-hidden shadow-sm flex flex-col group">
+<div class="h-44 w-full bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Artisanal Kenyan catering spread with grilled nyama choma, fresh garden salads, gourmet skewers, and elegant buffet setup" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9pcyn7QxF_VHKwcks9NOtmTi6qIvgQVbTqEJrS3rE2OgfcpPt0d5e0-gkKwyVYdr5yCUhn2FyCotzYNY01CJoYsvVsJrnR_eFcfb6zQYWqr2pw_hdygj8oKMF9-1vemKj56qrp48TFzIC5oMofxw2RE3yvGGQgd2Km08CGkQ56r92DyAeUJvaH75vWNRAEqEr-X8mohvKJ3e6K587o1orRiQefVdgvngLAUIVYC9h3MeD5RPzMd-h"/>
+</div>
+<div class="p-space-md space-y-space-xs flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">Savanna Bites &amp; Buffets</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">4.85 ★ (59)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Continental &amp; authentic Swahili banquet menus, professional waitstaff included.</p>
+</div>
+<div class="pt-space-sm border-t border-surface-container-low flex items-center justify-between">
+<span class="font-price-lg text-price-lg text-primary">KES 950 <span class="font-body-sm text-body-sm text-on-surface-variant font-normal">/ plate</span></span>
+<button class="px-space-sm py-1.5 rounded-lg bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-md text-label-md transition-colors">Details</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Showcase Section: Category 5 - Care & Wellness -->
+<section class="showcase-block w-full py-space-xl" data-cat="wellness">
+<div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin-desktop space-y-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="w-3.5 h-3.5 rounded-full bg-[#D9527A]"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Category 05</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Care &amp; Wellness</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+            Strictly background-checked caregivers, medical physiotherapists, and personal health coaches for family peace of mind.
+          </p>
+</div>
+<div class="flex items-center gap-space-xs">
+<a class="font-label-md text-label-md text-primary font-semibold hover:underline flex items-center gap-1" href="#">
+            Browse 140 Care Professionals <span class="material-symbols-outlined text-sm">east</span>
+</a>
+</div>
+</div>
+<!-- Subcategory Chips -->
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Home Eldercare (42)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Certified Nannies &amp; Childminders (51)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Physiotherapy &amp; Rehab (26)</span>
+<span class="px-space-md py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-low text-on-surface font-medium hover:bg-surface-container transition-colors cursor-pointer">Fitness Coaching &amp; Yoga (21)</span>
+</div>
+<!-- Highlight Banner for Care Verification -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+<div class="lg:col-span-8 space-y-space-sm">
+<div class="inline-flex items-center gap-2 px-space-sm py-1 rounded bg-[#D9527A]/10 text-[#D9527A] font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-sm">enhanced_encryption</span> 100% Police Clearance &amp; First Aid Certified
+          </div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Vetted Childcare &amp; Senior Home Attendance</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Every care specialist listed on Nufaika undergoes fingerprint DCI Good Conduct checks, medical screening, and verified character endorsements before entering client households.
+          </p>
+<div class="flex flex-wrap gap-space-md pt-space-xs">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">verified</span>
+<span class="font-label-md text-label-md text-on-surface font-medium">DCI Background Verified</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">verified</span>
+<span class="font-label-md text-label-md text-on-surface font-medium">Red Cross First Aid Certified</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">verified</span>
+<span class="font-label-md text-label-md text-on-surface font-medium">Daily Escrow Check-in</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-space-sm justify-center">
+<div class="p-space-md rounded-lg bg-surface-container-low space-y-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Standard Certified Care Rate</span>
+<div class="font-price-lg text-price-lg text-primary">From KES 1,800 <span class="font-body-sm text-body-sm font-normal text-on-surface-variant">/ day</span></div>
+</div>
+<button class="w-full h-12 bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md rounded-lg transition-colors flex items-center justify-center gap-2 shadow-sm">
+<span>Book Screened Caregiver</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- How Pricing Works Section (Section 9.4) -->
+<section class="w-full py-space-2xl bg-surface-container-low/60">
+<div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin-desktop space-y-space-xl">
+<div class="max-w-2xl space-y-space-xs">
+<div class="inline-flex items-center gap-2 px-space-sm py-1 rounded bg-surface-container text-primary font-label-sm text-label-sm uppercase tracking-widest font-semibold">
+          TRANSPARENT ECONOMY
+        </div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">How Pricing Works on Nufaika</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          No hidden Nairobi surcharges or unexpected estimates. We combine market benchmark visibility with safe milestone-based payments.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Step 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm space-y-space-sm flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container text-primary font-headline-sm text-headline-sm flex items-center justify-center">
+              01
+            </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Itemized Scope</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Every job begins with upfront quotes detailing technician labour, estimated travel, and necessary genuine spare parts.
+            </p>
+</div>
+<div class="pt-space-md border-t border-surface-container-low font-label-sm text-label-sm text-primary font-semibold">
+            No surprise revisions →
+          </div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm space-y-space-sm flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container text-primary font-headline-sm text-headline-sm flex items-center justify-center">
+              02
+            </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Escrow Deposit</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              You fund the project via M-Pesa or Bank Card into the Nufaika Escrow vault. The pro knows funds are secured before starting.
+            </p>
+</div>
+<div class="pt-space-md border-t border-surface-container-low font-label-sm text-label-sm text-primary font-semibold">
+            Zero cash-in-advance risk →
+          </div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm space-y-space-sm flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container text-primary font-headline-sm text-headline-sm flex items-center justify-center">
+              03
+            </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Milestone Release</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Funds are only disbursed after you inspect the completed work and sign off the completion OTP code via SMS or app.
+            </p>
+</div>
+<div class="pt-space-md border-t border-surface-container-low font-label-sm text-label-sm text-primary font-semibold">
+            You hold total control →
+          </div>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm space-y-space-sm flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container text-primary font-headline-sm text-headline-sm flex items-center justify-center">
+              04
+            </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Warranty &amp; Bond</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              All trade and tech orders carry a mandatory 14-day warranty backing. Disputed work is mediated by Swizzy Industries arbiters.
+            </p>
+</div>
+<div class="pt-space-md border-t border-surface-container-low font-label-sm text-label-sm text-primary font-semibold">
+            Backed by KES 500K bond →
+          </div>
+</div>
+</div>
+<!-- Pricing Benchmarks Matrix -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm space-y-space-md">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Standard Market Rate Benchmarks in Kenya</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Updated Monthly via Nufaika Commerce Index</span>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md">
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">EPRA Electrician</span>
+<span class="font-body-md-medium text-body-md-medium text-on-surface font-semibold block mt-0.5">KES 1,500 – 2,500</span>
+<span class="font-label-sm text-[11px] text-outline">Base Callout / Diagnostics</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Primary/KCSE Tutor</span>
+<span class="font-body-md-medium text-body-md-medium text-on-surface font-semibold block mt-0.5">KES 800 – 1,500</span>
+<span class="font-label-sm text-[11px] text-outline">Per Contact Hour</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">KRA Tax &amp; Audit Return</span>
+<span class="font-body-md-medium text-body-md-medium text-on-surface font-semibold block mt-0.5">KES 2,000 – 5,000</span>
+<span class="font-label-sm text-[11px] text-outline">Fixed Milestone Return</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Certified Nanny &amp; Care</span>
+<span class="font-body-md-medium text-body-md-medium text-on-surface font-semibold block mt-0.5">KES 1,200 – 2,000</span>
+<span class="font-label-sm text-[11px] text-outline">Full Day Shift (Screened)</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Provider Recruitment CTA Banner -->
+<section class="w-full py-space-xl">
+<div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin-desktop">
+<div class="relative overflow-hidden rounded-xl bg-gradient-to-r from-primary to-primary-container p-space-xl text-on-primary shadow-lg flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="max-w-2xl space-y-space-xs z-10">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/20 backdrop-blur-sm font-label-sm text-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-sm">handshake</span> For Kenyan Artisans &amp; Professionals
+          </div>
+<h2 class="font-headline-lg text-headline-lg tracking-tight">
+            Are you a licensed professional or skilled artisan? List your services on Nufaika today.
+          </h2>
+<p class="font-body-md text-body-md text-on-primary-container">
+            Join over 1,200 verified Kenyan experts. Get direct enterprise leads, instant M-Pesa milestone payouts, and free business liability protection.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-sm shrink-0 z-10 w-full md:w-auto">
+<a class="w-full sm:w-auto h-12 px-space-lg bg-surface-container-lowest text-primary hover:bg-surface-bright font-label-md text-label-md font-semibold rounded-lg flex items-center justify-center gap-2 shadow-sm transition-colors" href="#">
+<span>Apply as a Pro</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+<a class="w-full sm:w-auto h-12 px-space-lg bg-transparent hover:bg-surface-container-lowest/10 text-on-primary font-label-md text-label-md rounded-lg flex items-center justify-center transition-colors" href="#">
+            Learn Provider Benefits
+          </a>
+</div>
+</div>
+</div>
+</section>
+</div></main><section class="w-full bg-surface-container-low py-space-xl"><div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin-desktop flex flex-col md:flex-row items-center justify-between gap-space-lg bg-surface-container-lowest p-space-xl rounded-xl shadow-[0_2px_8px_rgba(15,31,23,0.04)]"><div class="space-y-space-xs text-center md:text-left"><h3 class="font-headline-sm text-headline-sm text-on-surface">Ready to grow your business or find trusted help?</h3><p class="font-body-md text-body-md text-on-surface-variant">Skills meet opportunity. Over KES 48M paid safely through Nufaika Escrow.</p></div><div class="flex flex-wrap items-center gap-space-md shrink-0 justify-center"><a class="inline-flex items-center justify-center font-label-md text-label-md text-on-primary bg-primary hover:bg-primary-container transition-colors px-space-lg py-space-md rounded-xl" data-path="for-providers" href="#">Become a Verified Provider</a><a class="inline-flex items-center justify-center font-label-md text-label-md text-primary bg-surface-container hover:bg-surface-container-high transition-colors px-space-lg py-space-md rounded-xl" data-path="categories-services" href="#">Explore All Services</a></div></div></section><footer class="w-full bg-surface-container-lowest text-on-surface-variant"><div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin-desktop py-space-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl"><div class="space-y-space-md lg:col-span-1"><div class="flex items-center gap-space-xs"><img alt="Nufaika Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WsyOnMIJg9mc1ErTesg1KZHntdq8dQ-ecUo4qPpDl0wN4jnx2iTZNa2A-7q_B9w72URx46XVcvm6cF-jE-qPPyaNmNfIzrUcMYZogGwL-mNn1-oi7pPDeH-Iii9obw8-i_l0NpQMjV8DsptYWgTvgZ6zD8Omb1y_Lfk-PjbPKAKkJmv-FVzLWyMWD1hwXu9Laso5hYArOE-7V686wmvnmosx8h1HcBve3VNMypR3-ILToeW6NeBBVT4w"/><span class="font-headline-sm text-headline-sm text-primary">Nufaika</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Kenya's premier skilled services marketplace empowering local pros and providing certified excellence to homes and enterprises.</p><div class="flex items-center gap-space-xs text-on-surface font-label-sm text-label-sm"><span class="material-symbols-outlined text-sm text-primary">apartment</span><span>Swizzy Industries Ltd Pillar</span></div><div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm"><span class="material-symbols-outlined text-sm">location_on</span><span>Nairobi, Kenya</span></div></div><div class="space-y-space-sm"><h4 class="font-headline-sm text-[16px] leading-[22px] text-on-surface">Categories</h4><ul class="space-y-space-xs font-body-sm text-body-sm"><li><a class="hover:text-primary transition-colors" data-path="categories-services" href="#">Home &amp; Trade</a></li><li><a class="hover:text-primary transition-colors" data-path="categories-services" href="#">Skills &amp; Tutoring</a></li><li><a class="hover:text-primary transition-colors" data-path="categories-services" href="#">Professional &amp; Business</a></li><li><a class="hover:text-primary transition-colors" data-path="categories-services" href="#">Creative &amp; Events</a></li><li><a class="hover:text-primary transition-colors" data-path="categories-services" href="#">Care &amp; Wellness</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-headline-sm text-[16px] leading-[22px] text-on-surface">For Providers</h4><ul class="space-y-space-xs font-body-sm text-body-sm"><li><a class="hover:text-primary transition-colors" data-path="for-providers" href="#">Join as a Pro</a></li><li><a class="hover:text-primary transition-colors" data-path="for-providers" href="#">Pricing &amp; 0% Hidden Fees</a></li><li><a class="hover:text-primary transition-colors" data-path="provider-agreement" href="#">Provider Agreement</a></li><li><a class="hover:text-primary transition-colors" data-path="provider-dashboard" href="#">Dashboard Preview</a></li><li><a class="hover:text-primary transition-colors" data-path="for-providers" href="#">Success Stories</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-headline-sm text-[16px] leading-[22px] text-on-surface">Trust &amp; Safety</h4><ul class="space-y-space-xs font-body-sm text-body-sm"><li><a class="hover:text-primary transition-colors" data-path="trust-safety" href="#">Verification System</a></li><li><a class="hover:text-primary transition-colors" data-path="trust-safety" href="#">Escrow Protection</a></li><li><a class="hover:text-primary transition-colors" data-path="trust-safety" href="#">Kenya DPA 2019 Compliance</a></li><li><a class="hover:text-primary transition-colors" data-path="trust-safety" href="#">Fair Reviews &amp; Dispute Hub</a></li><li><a class="hover:text-primary transition-colors" data-path="contact" href="#">Resolution Support</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-headline-sm text-[16px] leading-[22px] text-on-surface">Swizzy Ecosystem</h4><ul class="space-y-space-xs font-body-sm text-body-sm"><li><a class="hover:text-primary transition-colors" data-path="contact" href="#">Central Helpdesk</a></li><li><a class="hover:text-primary transition-colors" data-path="about-swizzy" href="#">Swizzy Industries Core</a></li><li><a class="hover:text-primary transition-colors" data-path="careers" href="#">Careers Across Pillars</a></li><li><a class="hover:text-primary transition-colors" data-path="contact" href="#">Media &amp; Press Relations</a></li><li><a class="hover:text-primary transition-colors" data-path="contact" href="#">Nairobi HQ Contacts</a></li></ul></div></div><div class="bg-surface-container-low py-space-md"><div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin-desktop flex flex-col md:flex-row items-center justify-between gap-space-sm text-center md:text-left"><p class="font-label-sm text-label-sm text-on-surface-variant">© 2025 Nufaika Kenya Limited. A Swizzy Industries Group Company. All rights reserved.</p><div class="flex flex-wrap items-center justify-center gap-space-md font-label-sm text-label-sm"><a class="text-on-surface-variant hover:text-on-surface" data-path="terms" href="#">Terms of Use</a><a class="text-on-surface-variant hover:text-on-surface" data-path="privacy" href="#">Privacy Policy</a><a class="text-on-surface-variant hover:text-on-surface" data-path="provider-agreement" href="#">Provider Agreement</a><a class="text-on-surface-variant hover:text-on-surface" data-path="accessibility" href="#">Accessibility</a><a class="text-on-surface-variant hover:text-on-surface" data-path="cookie-settings" href="#">Cookie Settings</a></div></div></div></footer></body></html>

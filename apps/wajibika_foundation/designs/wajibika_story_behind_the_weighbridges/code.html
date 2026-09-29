@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"ochre-tint":"#FBEEDD","primary-container":"#7a2331","tertiary-fixed-dim":"#b8c4ff","inverse-primary":"#ffb2b8","cloud-border":"#EADDDB","feedback-success":"#1E9E6A","mist-bg":"#FAF5F4","error":"#ba1a1a","surface-bright":"#fff8f7","tertiary-fixed":"#dde1ff","surface-container-low":"#fff0f1","inverse-surface":"#3e2b2f","secondary-fixed-dim":"#ffb873","feedback-error":"#D64545","on-primary":"#ffffff","on-secondary-fixed-variant":"#6a3b00","on-secondary-container":"#734100","on-secondary":"#ffffff","surface":"#fff8f7","error-container":"#ffdad6","surface-variant":"#fadbdf","surface-container":"#ffe9eb","on-primary-fixed":"#40000e","secondary":"#8c5000","issue-social":"#E8735A","issue-community":"#8C5FD9","primary-fixed-dim":"#ffb2b8","tertiary-container":"#0033b2","surface-tint":"#9e3e4b","slate-muted":"#7A666A","outline":"#887273","slate-body":"#4A3438","maroon-hover":"#611B27","on-primary-fixed-variant":"#7f2735","maroon-tint":"#F5E6E8","on-surface":"#27171a","feedback-warning":"#E0A100","on-secondary-fixed":"#2d1600","surface-container-high":"#ffe1e5","surface-container-highest":"#fadbdf","issue-governance":"#3A5BD9","background":"#fff8f7","on-tertiary-fixed":"#001354","on-error-container":"#93000a","on-tertiary-container":"#99abff","on-primary-container":"#ff8f99","on-tertiary":"#ffffff","primary":"#5c0b1c","on-tertiary-fixed-variant":"#0637b8","on-background":"#27171a","issue-economy":"#1E8F6B","secondary-fixed":"#ffdcbf","on-surface-variant":"#554243","surface-dim":"#f1d3d7","surface-container-lowest":"#ffffff","on-error":"#ffffff","secondary-container":"#ffac58","tertiary":"#00217d","primary-fixed":"#ffdadb","inverse-on-surface":"#ffecee","outline-variant":"#dbc0c1"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter":"1.5rem","space-lg":"1.5rem","margin-lg":"5rem","space-xl":"2rem","space-xs":"0.25rem","margin":"2rem","space-md":"1rem","margin-sm":"1rem","space-sm":"0.5rem","gutter-sm":"1rem"},"fontFamily":{"eyebrow":["Plus Jakarta Sans"],"headline-md-mobile":["Plus Jakarta Sans"],"body-md":["Inter"],"body-sm":["Inter"],"display-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"label-md":["Inter"],"headline-sm-mobile":["Plus Jakarta Sans"],"display":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"label-sm":["Inter"],"title-md":["Plus Jakarta Sans"],"body-lg":["Inter"],"label-lg":["Inter"],"headline-md":["Plus Jakarta Sans"]},"fontSize":{"eyebrow":["12px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"700"}],"headline-md-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.005em","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"display-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-md":["14px",{"lineHeight":"20px","fontWeight":"500"}],"headline-sm-mobile":["22px",{"lineHeight":"30px","fontWeight":"600"}],"display":["60px",{"lineHeight":"72px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-sm":["28px",{"lineHeight":"36px","fontWeight":"600"}],"label-sm":["12px",{"lineHeight":"16px","fontWeight":"500"}],"title-md":["20px",{"lineHeight":"28px","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"label-lg":["16px",{"lineHeight":"24px","fontWeight":"600"}],"headline-md":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface-container-lowest font-body-md text-on-surface antialiased selection:bg-maroon-tint selection:text-primary"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Wajibika Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VKEdABbA1A0S2f0spETO7D0fyHk7JdGe7uFofuPz5Cwmwsxl_LCgGwrCcMycGykji0cqvzqEh3frOEaNBC4mPDarhT8nmHe4SlDjvzYUjbRsBdlXGY6Fj2nDKLtwpYeJbp5VVviGwp6q00SRkaL3dqNRUzdHT82atObosAo4zBXFVDRlOmWESByNTwFUd51eqjzCHoWQBP-76PbzJ4VP8GNNlnVA3cKleYUtPQ2LYs-gpB6ciklVtTyIjp"/><a class="flex flex-col text-decoration-none" data-path="home" href="#"><span class="font-title-md text-title-md text-primary tracking-tight leading-none">Wajibika</span><span class="font-eyebrow text-eyebrow text-slate-muted uppercase tracking-wider leading-none mt-1">By Swizzy Industries</span></a></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-on-surface font-semibold rounded-lg"><a class="px-space-md py-space-sm text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface rounded-lg transition-colors inline-flex items-center gap-1" data-path="home" href="#">Home</a><div class="group relative"><a class="px-space-md py-space-sm text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface rounded-lg transition-colors inline-flex items-center gap-1" data-path="issues-and-campaigns" href="#">Issues &amp; Campaigns<span class="material-symbols-outlined text-[18px] text-slate-muted transition-transform group-hover:rotate-180">expand_more</span></a><div class="invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200 absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[760px] bg-surface-container-lowest rounded-xl shadow-[0_20px_32px_-8px_rgba(36,20,23,0.12)] p-space-lg grid grid-cols-12 gap-space-lg"><div class="col-span-7 grid grid-cols-1 gap-space-xs"><span class="font-eyebrow text-eyebrow text-slate-muted uppercase mb-space-xs">Priority Arenas</span><a class="p-space-sm rounded-lg hover:bg-mist-bg flex items-start gap-space-sm transition-colors" data-path="economy-issues" href="#"><div class="w-9 h-9 rounded-lg bg-issue-economy/10 flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-issue-economy text-[20px]">payments</span></div><div><p class="font-label-md text-label-md text-on-surface">Economy</p><p class="font-body-sm text-body-sm text-slate-muted">Fiscal transparency, living wages, and fair public procurement.</p></div></a><a class="p-space-sm rounded-lg hover:bg-mist-bg flex items-start gap-space-sm transition-colors" data-path="governance-issues" href="#"><div class="w-9 h-9 rounded-lg bg-issue-governance/10 flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-issue-governance text-[20px]">account_balance</span></div><div><p class="font-label-md text-label-md text-on-surface">Politics &amp; Governance</p><p class="font-body-sm text-body-sm text-slate-muted">Electoral integrity, institutional oversight, and civil rights.</p></div></a><a class="p-space-sm rounded-lg hover:bg-mist-bg flex items-start gap-space-sm transition-colors" data-path="social-norms-issues" href="#"><div class="w-9 h-9 rounded-lg bg-issue-social/10 flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-issue-social text-[20px]">group_work</span></div><div><p class="font-label-md text-label-md text-on-surface">Social Norms</p><p class="font-body-sm text-body-sm text-slate-muted">Inclusion, dignity, public welfare, and equal protections.</p></div></a><a class="p-space-sm rounded-lg hover:bg-mist-bg flex items-start gap-space-sm transition-colors" data-path="community-voice-issues" href="#"><div class="w-9 h-9 rounded-lg bg-issue-community/10 flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-issue-community text-[20px]">record_voice_over</span></div><div><p class="font-label-md text-label-md text-on-surface">Community Voice</p><p class="font-body-sm text-body-sm text-slate-muted">Grassroots testimonies, local councils, and citizen reporting.</p></div></a></div><div class="col-span-5 bg-mist-bg p-space-md rounded-xl flex flex-col justify-between"><span class="font-eyebrow text-eyebrow text-slate-muted uppercase mb-space-xs">Trending Campaigns</span><div class="flex flex-col gap-space-sm"><a class="group/trend block p-space-xs hover:bg-surface-container-lowest rounded transition-colors" data-path="ward-health-budget-petition" href="#"><span class="font-label-sm text-label-sm text-primary group-hover/trend:underline">Ward Health Budget Allocation</span><p class="font-body-sm text-body-sm text-slate-muted line-clamp-1">8,420 citizens demanding clinic funds</p></a><a class="group/trend block p-space-xs hover:bg-surface-container-lowest rounded transition-colors" data-path="county-clean-water-audit" href="#"><span class="font-label-sm text-label-sm text-primary group-hover/trend:underline">County Clean Water Audit</span><p class="font-body-sm text-body-sm text-slate-muted line-clamp-1">Demanding laboratory report releases</p></a><a class="group/trend block p-space-xs hover:bg-surface-container-lowest rounded transition-colors" data-path="sub-county-road-safety-bill" href="#"><span class="font-label-sm text-label-sm text-primary group-hover/trend:underline">Sub-County Road Safety Bill</span><p class="font-body-sm text-body-sm text-slate-muted line-clamp-1">Public hearing scheduled next Tuesday</p></a></div><a class="font-label-sm text-label-sm text-primary hover:text-maroon-hover font-semibold inline-flex items-center gap-1 mt-space-sm" data-path="issues-and-campaigns" href="#">Explore all active petitions <span class="material-symbols-outlined text-[16px]">arrow_forward</span></a></div></div></div><a class="px-space-md py-space-sm text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface rounded-lg transition-colors" data-path="voices-and-stories" href="#">Voices &amp; Stories</a><a class="px-space-md py-space-sm text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface rounded-lg transition-colors" data-path="accountability-tracker" href="#">Accountability Tracker</a><a class="px-space-md py-space-sm text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface rounded-lg transition-colors" data-path="careers" href="#">Careers</a></nav><div class="flex items-center gap-space-sm"><a class="hidden sm:inline-block px-space-sm py-space-xs text-on-surface-variant font-label-md text-label-md hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a><button aria-label="Search Platform" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[20px]">search</span></button><a class="h-12 px-space-md bg-primary hover:bg-maroon-hover text-on-primary font-label-lg text-label-lg rounded-xl flex items-center justify-center transition-colors shadow-[0_8px_24px_-4px_rgba(36,20,23,0.06)]" data-path="raise-an-issue" href="#">Raise an Issue</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface-container-lowest"><div class="flex flex-col w-full">
+<!-- Article Breadcrumb & Moderation Ribbon -->
+<div class="w-full bg-mist-bg py-space-sm px-gutter-sm lg:px-gutter">
+<div class="max-w-[1200px] mx-auto flex flex-wrap items-center justify-between gap-space-sm">
+<nav aria-label="Breadcrumb" class="flex items-center gap-space-xs font-label-sm text-label-sm text-slate-muted">
+<a class="hover:text-primary transition-colors" href="#">Home</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Voices &amp; Stories</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-issue-economy font-semibold">Economy &amp; Livelihoods</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-on-surface truncate max-w-[220px] sm:max-w-xs md:max-w-md">Behind the Weighbridges...</span>
+</nav>
+<div class="flex items-center gap-space-sm">
+<button aria-label="Flag or Report Story" class="h-9 px-space-sm rounded-lg bg-surface-container-lowest text-slate-muted hover:text-feedback-error hover:bg-error-container transition-all flex items-center gap-1.5 font-label-sm text-label-sm shadow-sm group" id="flagBtn" title="Flag or Report Story for Moderation Oversight">
+<span class="material-symbols-outlined text-[16px] group-hover:text-feedback-error transition-colors">flag</span>
+<span class="hidden sm:inline">Flag / Report Story</span>
+</button>
+<button aria-label="Bookmark Story" class="w-9 h-9 rounded-lg bg-surface-container-lowest text-slate-muted hover:text-primary transition-colors flex items-center justify-center shadow-sm" id="bookmarkBtn">
+<span class="material-symbols-outlined text-[18px]">bookmark_border</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Editorial Top Content Container -->
+<article class="w-full bg-surface-container-lowest py-space-xl">
+<div class="max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter">
+<!-- 8-Col Editorial Layout with Strategic 4-Col Side Track -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Main Longform Reading Track (720px equivalent centered feeling within column space) -->
+<div class="lg:col-span-8 flex flex-col">
+<!-- Category & Sourcing Header Chips -->
+<div class="flex flex-wrap items-center gap-space-sm mb-space-md">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-issue-economy/10 text-issue-economy font-label-sm text-label-sm font-semibold">
+<span class="w-2 h-2 rounded-full bg-issue-economy"></span>
+              Economy &amp; Livelihoods
+            </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-mist-bg text-slate-body font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">mic</span>
+              Investigative Longform &amp; Audio
+            </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px] text-feedback-success">verified</span>
+              Verified Investigation • Chain-of-Custody Sourced
+            </span>
+</div>
+<!-- Main Article Headline -->
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight mb-space-md leading-tight">
+            Behind the Weighbridges: How Avocado and Tomato Farmers Navigated 14 Illegal County Surcharges on the Thika Corridor
+          </h1>
+<!-- Editorial Standfirst -->
+<p class="font-body-lg text-body-lg text-slate-body leading-relaxed mb-space-lg font-medium">
+            When produce trucks faced arbitrary impoundments and unreceipted daily fees at county boundaries, an alliance of 420 smallholder farmers pooled timestamped receipts and GPS logs to hold three county governments accountable.
+          </p>
+<!-- Byline & Metadata Badge Bar -->
+<div class="bg-mist-bg rounded-xl p-space-md mb-space-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-full bg-maroon-tint text-primary font-title-md text-title-md flex items-center justify-center font-bold shrink-0">
+                AM
+              </div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">Amina Mwenda</span>
+<span class="material-symbols-outlined text-[16px] text-primary" title="Wajibika Accredited Civic Reporter">check_circle</span>
+</div>
+<span class="font-label-sm text-label-sm text-slate-muted">Lead Civic Investigative Reporter</span>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-x-space-md gap-y-1 font-label-sm text-label-sm text-slate-muted">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+<span>Pub: Jan 28, 2025</span>
+</div>
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[16px]">update</span>
+<span>Updated: Feb 04, 2025</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span>8 min read</span>
+</div>
+</div>
+</div>
+<!-- Embedded High-Trust Audio Dispatch Player -->
+<div class="bg-primary text-on-primary rounded-xl p-space-md shadow-md mb-space-xl">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-maroon-hover flex items-center justify-center text-secondary-fixed">
+<span class="material-symbols-outlined text-[20px]">graphic_eq</span>
+</div>
+<div>
+<p class="font-label-md text-label-md font-semibold text-on-primary">Listen to Field Dispatches &amp; Driver Tapes</p>
+<p class="font-body-sm text-body-sm text-maroon-tint">Direct audio recordings from the Chania Bridge impound yard</p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary-fixed bg-maroon-hover px-2.5 py-1 rounded-full self-start sm:self-auto">Audio Edition • 12:45</span>
+</div>
+<!-- Audio Controls & Simulated Waveform -->
+<div class="bg-maroon-hover rounded-xl p-space-sm flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-md">
+<button aria-label="Play Field Recording" class="w-10 h-10 rounded-full bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary-fixed-dim flex items-center justify-center transition-transform active:scale-95 shrink-0" id="audioPlayToggle">
+<span class="material-symbols-outlined text-[24px]">play_arrow</span>
+</button>
+<!-- Waveform Interactive Display -->
+<div class="flex-1 flex items-center gap-[3px] h-8 overflow-hidden">
+<span class="w-1 h-3 bg-secondary-fixed rounded-full"></span>
+<span class="w-1 h-5 bg-secondary-fixed rounded-full"></span>
+<span class="w-1 h-7 bg-secondary-fixed rounded-full"></span>
+<span class="w-1 h-4 bg-secondary-fixed rounded-full"></span>
+<span class="w-1 h-8 bg-secondary-fixed rounded-full"></span>
+<span class="w-1 h-6 bg-secondary-fixed rounded-full"></span>
+<span class="w-1 h-3 bg-secondary-fixed rounded-full"></span>
+<span class="w-1 h-5 bg-secondary-fixed rounded-full"></span>
+<span class="w-1 h-7 bg-secondary-fixed rounded-full"></span>
+<span class="w-1 h-5 bg-secondary-fixed/50 rounded-full"></span>
+<span class="w-1 h-8 bg-secondary-fixed/50 rounded-full"></span>
+<span class="w-1 h-4 bg-secondary-fixed/50 rounded-full"></span>
+<span class="w-1 h-6 bg-secondary-fixed/50 rounded-full"></span>
+<span class="w-1 h-2 bg-secondary-fixed/50 rounded-full"></span>
+<span class="w-1 h-5 bg-secondary-fixed/50 rounded-full"></span>
+<span class="w-1 h-7 bg-secondary-fixed/50 rounded-full"></span>
+<span class="w-1 h-3 bg-secondary-fixed/40 rounded-full"></span>
+<span class="w-1 h-6 bg-secondary-fixed/40 rounded-full"></span>
+<span class="w-1 h-4 bg-secondary-fixed/40 rounded-full"></span>
+<span class="w-1 h-8 bg-secondary-fixed/40 rounded-full"></span>
+<span class="w-1 h-5 bg-secondary-fixed/40 rounded-full"></span>
+<span class="w-1 h-3 bg-secondary-fixed/30 rounded-full"></span>
+<span class="w-1 h-6 bg-secondary-fixed/30 rounded-full"></span>
+<span class="w-1 h-2 bg-secondary-fixed/30 rounded-full"></span>
+<span class="w-1 h-5 bg-secondary-fixed/30 rounded-full"></span>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 font-label-sm text-label-sm text-maroon-tint">
+<span class="font-mono text-secondary-fixed">03:14</span>
+<span>/</span>
+<span class="font-mono">12:45</span>
+</div>
+<button class="px-2 py-1 bg-primary text-secondary-fixed rounded font-label-sm text-label-sm hover:bg-surface-container-high hover:text-primary transition-colors">
+                  1.25x
+                </button>
+</div>
+</div>
+</div>
+<!-- Hero Narrative Imagery -->
+<figure class="w-full mb-space-xl">
+<div class="w-full h-80 sm:h-96 rounded-xl overflow-hidden bg-surface-container-low shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Dozens of produce transit trucks laden with crates of green avocados and red tomatoes parked under harsh dawn light along the muddy shoulder of the Thika-Muranga highway at a disputed county boundary checkpoint, East African transport workers examining official logbooks with quiet determined civic dignity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXbw5Ugl9YVR0EW2rnlQYVuEuD2S8ZiSrMXYsVsTJ67_h5bq3Kh83qz4X6W3LavvkBg5TjBmZrNDh1urWTzkYgSA2doIdP5MoAVSOq2PxHt1opZZuvHgA8oPZcAqAEHsjhFLmNkXSqqrYMzPaGYyl9UuKDICqzEpgR33V7-FJcOLh1RQVoWsABYXRi6OpkPstV4NAkeV3xlS2Vs5yFhxgNNUbj7zzJtCYvKyT6tdPacgPrEi0bKZ751A"/>
+</div>
+<figcaption class="mt-space-xs font-body-sm text-body-sm text-slate-muted flex items-center justify-between">
+<span>Vehicles lined up at the Makutano-Chania boundary junction before dawn. Photo: Wajibika Field Dispatches.</span>
+<span class="font-mono text-xs">GPS: -0.9984, 37.0712</span>
+</figcaption>
+</figure>
+<!-- Core Editorial Body: 720px constrained optimal typography -->
+<div class="max-w-[720px] mx-auto w-full flex flex-col gap-space-lg">
+<!-- Key Takeaways Executive Box -->
+<aside class="w-full bg-mist-bg rounded-xl p-space-lg shadow-sm">
+<div class="flex items-center gap-space-xs mb-space-sm text-primary font-title-md text-title-md font-bold">
+<span class="material-symbols-outlined text-[24px]">assignment_turned_in</span>
+<h2>Executive Summary &amp; Key Findings</h2>
+</div>
+<ul class="flex flex-col gap-space-sm">
+<li class="flex items-start gap-space-sm">
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary font-label-sm text-label-sm flex items-center justify-center shrink-0 font-bold mt-0.5">1</div>
+<p class="font-body-md text-body-md text-slate-body">
+<strong class="text-on-surface font-semibold">Over KSh 4.2M in unbudgeted, unauthorized surcharges</strong> were levied each calendar month on agricultural produce in transit across the 68-kilometer stretch between Murang'a and Nairobi city markets.
+                  </p>
+</li>
+<li class="flex items-start gap-space-sm">
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary font-label-sm text-label-sm flex items-center justify-center shrink-0 font-bold mt-0.5">2</div>
+<p class="font-body-md text-body-md text-slate-body">
+<strong class="text-on-surface font-semibold">Average transit delays of 14 hours</strong> in unventilated holding bays caused a documented 22% spoilage rate across high-value avocado consignments and fresh tomatoes destined for export and urban grocers.
+                  </p>
+</li>
+<li class="flex items-start gap-space-sm">
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary font-label-sm text-label-sm flex items-center justify-center shrink-0 font-bold mt-0.5">3</div>
+<p class="font-body-md text-body-md text-slate-body">
+<strong class="text-on-surface font-semibold">Community-led mobilization through Wajibika</strong> registered 14,100 verified citizen co-signatures within 18 days, triggering mandatory legislative review by the Senate Standing Committee on Devolution.
+                  </p>
+</li>
+</ul>
+</aside>
+<!-- Subhead 1 -->
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight mt-space-md">
+              The 3:00 AM Toll at the Chania River Boundary
+            </h2>
+<p class="font-body-lg text-body-lg text-slate-body leading-relaxed">
+              At 2:45 AM on a chilly Tuesday last October, Peter Ndung'u shut off the diesel engine of his five-ton flatbed truck fifty meters short of the old steel truss bridge spanning the Chania River. Behind him, stacked six rows high under heavy canvas tarpaulins, were four hundred wooden crates of freshly picked Hass avocados from the terraced orchards of Kandara. Ahead of him lay three rival enforcement patrols—each brandishing plastic-laminated badges and handwritten municipal receipt books.
+            </p>
+<p class="font-body-md text-body-md text-slate-body leading-relaxed">
+              "If you leave Murang'a County, you pay the agricultural cess of KSh 2,500," Ndung'u explained, unrolling a ribbon of faded pink carbon slips onto the cab’s dashboard. "Then you cross the middle of the bridge into Kiambu territory, where a separate enforcement squad insists that Murang'a’s stamp has no legal weight on their asphalt. That is another KSh 3,000. And by the time you reach the Nairobi Northern Bypass barrier before daybreak, a third inspection unit demands a transit phytosanitary certificate surcharge that exists in no official county gazette."
+            </p>
+<!-- Pull Quote Box -->
+<blockquote class="my-space-md bg-ochre-tint rounded-xl p-space-lg shadow-sm">
+<span class="material-symbols-outlined text-[36px] text-secondary mb-space-xs block">format_quote</span>
+<p class="font-title-md text-title-md text-on-surface font-semibold italic leading-relaxed mb-space-sm">
+                "We were paying three separate cess licenses for the exact same crate of mangoes within a forty-kilometer stretch. If you protested, the askaris took your ignition key until the sun ruined the cargo."
+              </p>
+<footer class="font-label-md text-label-md text-slate-body font-semibold">
+                — John Karanja, General Secretary, Central Produce Transporters Union
+              </footer>
+</blockquote>
+<p class="font-body-md text-body-md text-slate-body leading-relaxed">
+              For decades, agricultural extortion along Kenya's inter-county transit arteries flourished because individual drivers possessed neither the time nor the institutional leverage to challenge roadside collectors. A single lost morning spent contesting an illegal receipt meant hundreds of kilograms of ruined fruit and violated delivery contracts with supermarket distributors.
+            </p>
+<!-- Evidence Facsimile & Cryptographic Verification Box -->
+<div class="bg-surface-container rounded-xl p-space-md shadow-sm my-space-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs mb-space-sm">
+<div class="flex items-center gap-space-xs text-primary font-label-lg text-label-lg font-bold">
+<span class="material-symbols-outlined text-[20px]">policy</span>
+<span>Documentary Evidence Facsimile #DOC-2024-884</span>
+</div>
+<span class="font-label-sm text-label-sm text-feedback-success bg-feedback-success/10 px-2 py-0.5 rounded-full font-mono font-semibold">
+                  SHA-256 HASH VERIFIED
+                </span>
+</div>
+<!-- Graphic representation of conflicting duplicate receipts -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm mb-space-sm">
+<div class="bg-surface-container-lowest p-space-sm rounded-lg">
+<span class="font-eyebrow text-eyebrow text-slate-muted uppercase">Exhibit A: County Murang'a Cess</span>
+<div class="font-mono text-xs text-slate-body mt-1 leading-snug">
+                    RECEIPT NO: MRG-99410-C<br/>
+                    COMMODITY: Perishable Avocado (400 Cr.)<br/>
+                    LEVIED AMOUNT: KSh 2,500.00 [PAID]<br/>
+                    STAMP: County Treasury Inter-County Rev.
+                  </div>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-lg">
+<span class="font-eyebrow text-eyebrow text-slate-muted uppercase">Exhibit B: Duplicate Kiambu Toll</span>
+<div class="font-mono text-xs text-slate-body mt-1 leading-snug">
+                    RECEIPT NO: KBU-MISC-0182<br/>
+                    COMMODITY: Transit Agricultural Produce<br/>
+                    LEVIED AMOUNT: KSh 3,000.00 [PAID]<br/>
+                    STAMP: Sub-County Revenue Unit #4
+                  </div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-xs rounded font-mono text-[11px] text-slate-muted truncate">
+                Integrity Seal: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+              </div>
+<p class="font-body-sm text-body-sm text-slate-muted mt-space-xs">
+                Legal Analysis Note: Under Article 209(5) of the Constitution of Kenya, county taxation powers may not be exercised in a way that prejudices national economic policies or cross-county commercial activity.
+              </p>
+</div>
+<!-- Subhead 2 -->
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight mt-space-md">
+              The Digital Ledger: How 420 Farmers Built Chain-of-Custody Proof
+            </h2>
+<p class="font-body-md text-body-md text-slate-body leading-relaxed">
+              Between August and November 2024, the Wajibika Civic Field Support team deployed encrypted SMS and lightweight photo verification forms to 420 registered co-op members across Gatanga, Kangari, and Maragua. Whenever a driver encountered an unbudgeted collection point, they dispatched a geotagged photo of the demand note alongside odometer telemetry.
+            </p>
+<p class="font-body-md text-body-md text-slate-body leading-relaxed">
+              Within ninety days, the platform cataloged 1,418 duplicate payments across fourteen rogue checkpoints. The resulting empirical dossier eliminated the routine municipal defense that such fees were "isolated incidents by unauthorized rogue agents."
+            </p>
+<!-- Embedded Interactive Civic Action Module -->
+<!-- MANDATORY COMPONENT: "What Happened Next" Civic Accountability Follow-up Block -->
+<section class="w-full bg-ochre-tint rounded-xl p-space-lg shadow-md my-space-lg">
+<div class="flex items-center gap-space-sm mb-space-sm">
+<span class="w-10 h-10 rounded-xl bg-primary text-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">electric_bolt</span>
+</span>
+<div>
+<span class="font-eyebrow text-eyebrow text-secondary uppercase tracking-wider">Civic Accountability Impact Block</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold leading-tight">
+                    ⚡ What Happened Next: Institutional Response Tracker
+                  </h3>
+</div>
+</div>
+<!-- Linked Petition Header -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md mb-space-md shadow-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div>
+<span class="font-label-sm text-label-sm text-slate-muted">Connected Civic Docket</span>
+<p class="font-label-lg text-label-lg font-bold text-primary">
+                      Petition #PET-2024-098: Abolish Double-Taxation on Trans-County Agricultural Produce
+                    </p>
+</div>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-feedback-success/15 text-feedback-success font-label-sm text-label-sm font-bold self-start sm:self-auto">
+<span class="w-2 h-2 rounded-full bg-feedback-success animate-ping"></span>
+                    Policy Gazetted &amp; Under Active Oversight
+                  </span>
+</div>
+</div>
+<!-- Interactive Chronology Milestones -->
+<div class="relative pl-6 space-y-space-md before:content-[''] before:absolute before:left-2 before:top-2 before:bottom-2 before:w-0.5 before:bg-primary/20 mb-space-lg">
+<!-- Milestone 1 -->
+<div class="relative">
+<span class="absolute -left-6 top-1 w-4 h-4 rounded-full bg-primary flex items-center justify-center">
+<span class="w-1.5 h-1.5 rounded-full bg-white"></span>
+</span>
+<div>
+<span class="font-mono text-xs font-semibold text-secondary">Nov 14, 2024</span>
+<h4 class="font-label-md text-label-md font-bold text-on-surface">Story Published &amp; Delivered to Senate</h4>
+<p class="font-body-sm text-body-sm text-slate-body">
+                      Wajibika data dossier submitted directly to the Senate Standing Committee on Devolution and Intergovernmental Relations during public hearings.
+                    </p>
+</div>
+</div>
+<!-- Milestone 2 -->
+<div class="relative">
+<span class="absolute -left-6 top-1 w-4 h-4 rounded-full bg-primary flex items-center justify-center">
+<span class="w-1.5 h-1.5 rounded-full bg-white"></span>
+</span>
+<div>
+<span class="font-mono text-xs font-semibold text-secondary">Dec 02, 2024</span>
+<h4 class="font-label-md text-label-md font-bold text-on-surface">Joint Council of Governors Consultative Caucus</h4>
+<p class="font-body-sm text-body-sm text-slate-body">
+                      Finance and Agriculture CECs from Kiambu, Murang'a, Machakos, and Nairobi convened at Charter Hall, yielding an emergency moratorium on unscheduled highway weighbridges.
+                    </p>
+</div>
+</div>
+<!-- Milestone 3 -->
+<div class="relative">
+<span class="absolute -left-6 top-1 w-4 h-4 rounded-full bg-feedback-success flex items-center justify-center">
+<span class="material-symbols-outlined text-[10px] text-white font-bold">done</span>
+</span>
+<div>
+<span class="font-mono text-xs font-semibold text-feedback-success">Jan 15, 2025</span>
+<h4 class="font-label-md text-label-md font-bold text-on-surface">Unified Trans-County Transit Permit Formally Gazetted</h4>
+<p class="font-body-sm text-body-sm text-slate-body">
+                      Unified electronic clearance system launched. A single QR-coded origin pass now guarantees barrier-free passage across all three participating counties.
+                    </p>
+</div>
+</div>
+</div>
+<!-- Action Bar within Accountability Block -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-xs">
+<a class="h-12 px-space-md bg-primary hover:bg-maroon-hover text-on-primary font-label-lg text-label-lg rounded-xl flex items-center justify-center transition-colors shadow-sm" href="#">
+                  View Active Petition Docket #PET-2024-098
+                  <span class="material-symbols-outlined text-[18px] ml-1.5">arrow_forward</span>
+</a>
+<a class="h-12 px-space-md bg-surface-container-lowest hover:bg-surface-container text-primary font-label-lg text-label-lg rounded-xl flex items-center justify-center transition-colors" href="#">
+                  Explore Economic Domain
+                </a>
+</div>
+</section>
+<!-- Author & Editorial Safeguards Module -->
+<div class="bg-mist-bg rounded-xl p-space-lg shadow-sm mt-space-md">
+<div class="flex flex-col sm:flex-row items-start gap-space-md mb-space-md">
+<div class="w-16 h-16 rounded-full bg-primary text-on-primary font-title-md text-title-md flex items-center justify-center font-bold shrink-0">
+                  AM
+                </div>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface font-bold">Amina Mwenda</h4>
+<p class="font-body-sm text-body-sm text-slate-muted mb-space-xs">
+                    Senior Civic Reporter &amp; 2024 Open Governance Fellow. Specializes in rural trade dynamics, devolution fiscal tracking, and citizen chain-of-custody documentation.
+                  </p>
+<div class="flex items-center gap-space-sm font-label-sm text-label-sm text-primary">
+<a class="hover:underline flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[16px]">article</span> All 34 Dispatches
+                    </a>
+<span>•</span>
+<a class="hover:underline flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[16px]">mail</span> Inquire Securely
+                    </a>
+</div>
+</div>
+</div>
+<div class="p-space-sm bg-surface-container-lowest rounded-lg flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-feedback-success text-[22px] shrink-0">verified_user</span>
+<p class="font-body-sm text-body-sm text-slate-muted">
+<strong class="text-on-surface">Institutional Safeguard:</strong> Wajibika adheres strictly to the Media Council of Kenya Code of Conduct and KDPA 2019 data protection principles. Whistleblower phone numbers and vehicular registration IDs in this story were authenticated by independent council auditors prior to redaction.
+                </p>
+</div>
+</div>
+<!-- Social Sharing & Interaction Ribbon -->
+<div class="flex flex-wrap items-center justify-between gap-space-md py-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-md text-label-md text-slate-muted mr-1">Share this evidence:</span>
+<button class="w-10 h-10 rounded-lg bg-surface-container hover:bg-surface-container-high text-primary flex items-center justify-center transition-colors" title="Copy Article Link">
+<span class="material-symbols-outlined text-[20px]">link</span>
+</button>
+<button class="w-10 h-10 rounded-lg bg-surface-container hover:bg-surface-container-high text-primary flex items-center justify-center transition-colors" title="Share on Twitter/X">
+<span class="material-symbols-outlined text-[20px]">share</span>
+</button>
+<button class="w-10 h-10 rounded-lg bg-surface-container hover:bg-surface-container-high text-primary flex items-center justify-center transition-colors" title="Print Dossier">
+<span class="material-symbols-outlined text-[20px]">print</span>
+</button>
+</div>
+<a class="font-label-md text-label-md text-primary hover:text-maroon-hover font-semibold inline-flex items-center gap-1" href="#">
+                Back to Voices &amp; Stories Index
+                <span class="material-symbols-outlined text-[18px]">north_east</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Sticky Editorial Companion Sidebar (4 Columns Desktop) -->
+<aside class="lg:col-span-4 w-full flex flex-col gap-space-lg lg:sticky lg:top-24">
+<!-- Campaign Call-to-Action Card -->
+<div class="bg-primary text-on-primary rounded-xl p-space-lg shadow-md">
+<span class="font-eyebrow text-eyebrow text-secondary-fixed uppercase tracking-wider block mb-space-xs">Active Civic Docket</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-primary leading-tight mb-space-xs">
+              End Unlawful Inter-County Border Levies
+            </h3>
+<p class="font-body-sm text-body-sm text-maroon-tint mb-space-md">
+              Join 14,100 citizens demanding full implementation of the Council of Governors single-permit transit agreement across Central Kenya.
+            </p>
+<div class="bg-maroon-hover rounded-xl p-space-sm mb-space-md">
+<div class="flex justify-between items-center text-label-sm font-label-sm mb-1">
+<span class="text-maroon-tint">Signature Milestone</span>
+<span class="text-secondary-fixed font-bold">14,100 / 15,000</span>
+</div>
+<div class="w-full h-2.5 bg-primary rounded-full overflow-hidden">
+<div class="h-full bg-secondary-fixed rounded-full" style="width: 94%;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-maroon-tint mt-1.5 block text-right">94% of Senate quorum reached</span>
+</div>
+<button class="w-full h-12 bg-secondary-fixed hover:bg-secondary-fixed-dim text-on-secondary-fixed font-label-lg text-label-lg rounded-xl flex items-center justify-center font-bold transition-all shadow-sm" id="signPetitionBtn">
+              Co-Sign Citizen Petition
+            </button>
+</div>
+<!-- Corroborated Evidence Data Box -->
+<div class="bg-mist-bg rounded-xl p-space-md shadow-sm">
+<h4 class="font-label-lg text-label-lg text-primary font-bold mb-space-sm flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[20px] text-issue-economy">analytics</span>
+              Dossier Metadata &amp; Custody
+            </h4>
+<div class="space-y-space-sm font-body-sm text-body-sm">
+<div class="flex justify-between items-center py-1">
+<span class="text-slate-muted">Total Verified Logs:</span>
+<span class="font-mono font-semibold text-on-surface">1,418 submissions</span>
+</div>
+<div class="flex justify-between items-center py-1">
+<span class="text-slate-muted">Active Corridors Monitored:</span>
+<span class="font-mono font-semibold text-on-surface">Thika, Kenol, Makutano</span>
+</div>
+<div class="flex justify-between items-center py-1">
+<span class="text-slate-muted">Average Delay Avoided:</span>
+<span class="font-mono font-semibold text-feedback-success">-11.4 hours / trip</span>
+</div>
+<div class="flex justify-between items-center py-1">
+<span class="text-slate-muted">Lead Legal Counsel:</span>
+<span class="font-semibold text-on-surface">Kituo Cha Sheria Civic Bench</span>
+</div>
+</div>
+</div>
+<!-- Ward / County Accountability Status Quick-Check -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<span class="font-eyebrow text-eyebrow text-slate-muted uppercase tracking-wider block mb-space-xs">County Scorecard</span>
+<h4 class="font-label-md text-label-md font-bold text-on-surface mb-space-sm">
+              Compliance with Gazette Notice #412
+            </h4>
+<div class="space-y-space-sm">
+<div class="p-space-xs rounded-lg bg-mist-bg flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-semibold text-slate-body">Murang'a County Assembly</span>
+<span class="px-2 py-0.5 rounded text-[11px] font-bold bg-feedback-success/15 text-feedback-success">Compliant</span>
+</div>
+<div class="p-space-xs rounded-lg bg-mist-bg flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-semibold text-slate-body">Kiambu County Assembly</span>
+<span class="px-2 py-0.5 rounded text-[11px] font-bold bg-feedback-success/15 text-feedback-success">Compliant</span>
+</div>
+<div class="p-space-xs rounded-lg bg-mist-bg flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-semibold text-slate-body">Nairobi City County</span>
+<span class="px-2 py-0.5 rounded text-[11px] font-bold bg-feedback-warning/15 text-feedback-warning">Under Review</span>
+</div>
+</div>
+</div>
+<!-- Reader Dispatch Submission Callout -->
+<div class="bg-maroon-tint rounded-xl p-space-md">
+<div class="flex items-center gap-space-xs mb-space-xs text-primary font-label-lg text-label-lg font-bold">
+<span class="material-symbols-outlined text-[20px]">share_location</span>
+<span>Witnessed Surcharging?</span>
+</div>
+<p class="font-body-sm text-body-sm text-slate-body mb-space-sm">
+              If your freight truck or farm vehicle encounters an unauthorized weighbridge fee, submit your timestamped receipt securely to our civic investigatory desk.
+            </p>
+<a class="h-10 px-space-md bg-primary hover:bg-maroon-hover text-on-primary font-label-md text-label-md rounded-xl inline-flex items-center justify-center transition-colors" href="#">
+              Submit Evidence Receipt
+            </a>
+</div>
+</aside>
+</div>
+</div>
+</article>
+<!-- Related Civic Stories & Field Dispatches (3 Cards) -->
+<section class="w-full bg-mist-bg py-space-xl">
+<div class="max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-sm mb-space-lg">
+<div>
+<span class="font-eyebrow text-eyebrow text-secondary uppercase tracking-wider block mb-1">Grassroots Accountability</span>
+<h2 class="font-headline-md text-headline-md text-primary font-bold">Related Dispatches &amp; Inquiries</h2>
+</div>
+<a class="font-label-lg text-label-lg text-primary hover:text-maroon-hover font-semibold inline-flex items-center gap-1" href="#">
+          Explore all investigation logs
+          <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Related Story 1 -->
+<article class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col group">
+<div class="h-48 w-full bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Modern tea collection depot in Kericho with agricultural inspectors calibrating electronic weighing scales surrounded by tea farmers holding digital receipt cards under clean morning skies." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCidaFXskjQrkbfnkgouFEUq9F4UoUbgLDilhmszPk_gMVjJKyyk-HskbBZUeQ4Vr5ArUvXwmd8T_dLgL_ijkxt0BlftX_41ug2CaJciI6cDlPBog8ohrK8Rgre5aUk7R3lMQh6zJnVpDABAsiI06G_Cu603jphlzlMA88EtmtKUn6K6nEn38B7cnt9HaXXTtUt7mFYq1B4wV3LPHk6slD0T5gCnGdtxAAew7j0ULHdWP33Dpce2EHxrA"/>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-xs mb-space-xs">
+<span class="px-2.5 py-0.5 rounded-full bg-issue-economy/10 text-issue-economy font-label-sm text-label-sm font-semibold">Economy</span>
+<span class="font-label-sm text-label-sm text-slate-muted">• 6 min read</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold group-hover:text-primary transition-colors mb-space-xs line-clamp-2">
+                The Scale Tampering Ring: Recalibrating 40 Tea Drop Centers in Bomet
+              </h3>
+<p class="font-body-sm text-body-sm text-slate-muted line-clamp-2">
+                How independent calibration seals placed by youth fellows returned KSh 18M back into smallholder bonus dividends.
+              </p>
+</div>
+<div class="pt-space-md flex items-center justify-between font-label-sm text-label-sm text-slate-muted">
+<span>By David Kiprono</span>
+<span class="text-primary font-semibold group-hover:underline">Read Dispatch</span>
+</div>
+</div>
+</article>
+<!-- Related Story 2 -->
+<article class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col group">
+<div class="h-48 w-full bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Municipal municipal court in Nakuru with community organizers holding certified government gazettes and water utility testing kits, warm dignified documentary atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZA7tyDC-lumhzIL6Ed4xqvUDr8nSk3Scgkftls_3rIuOpKTeKBoyzKjEoS8kq2cAepj5EBbGtpyFvZAB-8-nqc_OacolqF0bbiRCN9CoohwGYOGNu41SQrGHIpW_eBm7fFnVTOwzanwlg0Jd8Evd0KcQRZwSt9dsftQYaXoiwodxwhocuxIw6f7gkDAgGONs06qV4rdpgCdmUxhzeGCGlJmvpUfOt-hWPXaQN6DA60_V_67-BV-wVlw"/>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-xs mb-space-xs">
+<span class="px-2.5 py-0.5 rounded-full bg-issue-governance/10 text-issue-governance font-label-sm text-label-sm font-semibold">Governance</span>
+<span class="font-label-sm text-label-sm text-slate-muted">• 11 min read</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold group-hover:text-primary transition-colors mb-space-xs line-clamp-2">
+                The Kaptembwa Tap Audit: Tracing 900 Lost Water Connections
+              </h3>
+<p class="font-body-sm text-body-sm text-slate-muted line-clamp-2">
+                Residents audited four billing zones to uncover private diversion pipelines operating with unauthorized municipal connivance.
+              </p>
+</div>
+<div class="pt-space-md flex items-center justify-between font-label-sm text-label-sm text-slate-muted">
+<span>By Grace Atieno</span>
+<span class="text-primary font-semibold group-hover:underline">Read Dispatch</span>
+</div>
+</div>
+</article>
+<!-- Related Story 3 -->
+<article class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col group">
+<div class="h-48 w-full bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Dozens of boda boda motorcycle couriers and public health workers gathered outside a newly constructed dispensary in rural Machakos, sunlight hitting painted community scoreboards." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUwfz96JFwOLiBv8-xIvMYLXwQKHRSg8tKCp_xpSfMmKBZJ_5hz-hwBKaCATFmc5sFWRUQcExbSDVlsqE2Qcpqo7Zt4uDkogpakxXTVOEsZib4DkkEjaXZwFmUpOvCw5oEdXHPTPK0tkypIv5WzvRfBC0HEEY8Tkg3eIAU85qIyKG-VjwQcfPwBLMqsr9yZG9uPSuKWLDvuVC7rFaueV_tQ3yWexaGKmos6J4Ys8Sb27CunImyYpn2Pg"/>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-xs mb-space-xs">
+<span class="px-2.5 py-0.5 rounded-full bg-issue-community/10 text-issue-community font-label-sm text-label-sm font-semibold">Community Voice</span>
+<span class="font-label-sm text-label-sm text-slate-muted">• 4 min read</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold group-hover:text-primary transition-colors mb-space-xs line-clamp-2">
+                Dispensary Doors Unlocked: How Kyangwithya Reopened Its Clinic
+              </h3>
+<p class="font-body-sm text-body-sm text-slate-muted line-clamp-2">
+                After eight months of locked iron gates, a verified community petition compelled the immediate posting of three nurses and medical supplies.
+              </p>
+</div>
+<div class="pt-space-md flex items-center justify-between font-label-sm text-label-sm text-slate-muted">
+<span>By Mutua Kaveke</span>
+<span class="text-primary font-semibold group-hover:underline">Read Dispatch</span>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Client-side Interactive Behavior -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Audio play button state micro-interaction
+      const audioBtn = document.getElementById('audioPlayToggle');
+      let isPlaying = false;
+      if (audioBtn) {
+        audioBtn.addEventListener('click', () => {
+          isPlaying = !isPlaying;
+          const icon = audioBtn.querySelector('.material-symbols-outlined');
+          if (icon) {
+            icon.textContent = isPlaying ? 'pause' : 'play_arrow';
+          }
+        });
+      }
+
+      // Moderation Flag button interaction
+      const flagBtn = document.getElementById('flagBtn');
+      if (flagBtn) {
+        flagBtn.addEventListener('click', () => {
+          const isFlagged = flagBtn.classList.contains('text-feedback-error');
+          if (!isFlagged) {
+            flagBtn.classList.add('text-feedback-error', 'bg-error-container');
+            flagBtn.innerHTML = '<span class="material-symbols-outlined text-[16px] text-feedback-error">check</span><span class="hidden sm:inline">Report Received</span>';
+          }
+        });
+      }
+
+      // Bookmark button toggle
+      const bookmarkBtn = document.getElementById('bookmarkBtn');
+      if (bookmarkBtn) {
+        bookmarkBtn.addEventListener('click', () => {
+          const icon = bookmarkBtn.querySelector('.material-symbols-outlined');
+          if (icon) {
+            const isFilled = icon.textContent === 'bookmark';
+            icon.textContent = isFilled ? 'bookmark_border' : 'bookmark';
+            bookmarkBtn.classList.toggle('text-primary');
+          }
+        });
+      }
+
+      // Petition Co-sign button interaction
+      const signPetitionBtn = document.getElementById('signPetitionBtn');
+      if (signPetitionBtn) {
+        signPetitionBtn.addEventListener('click', () => {
+          signPetitionBtn.textContent = '✓ Co-Signature Recorded';
+          signPetitionBtn.classList.remove('bg-secondary-fixed', 'text-on-secondary-fixed', 'hover:bg-secondary-fixed-dim');
+          signPetitionBtn.classList.add('bg-feedback-success', 'text-white', 'pointer-events-none');
+        });
+      }
+    });
+  </script>
+</div></main><footer class="w-full bg-primary text-on-primary"><div class="bg-maroon-hover py-space-md"><div class="max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-secondary-fixed text-[24px]">campaign</span><p class="font-label-lg text-label-lg text-on-primary">Start a campaign in your area — Bring tangible change to your neighborhood or sector.</p></div><a class="h-10 px-space-md bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md rounded-xl hover:bg-secondary-fixed-dim transition-colors flex items-center justify-center shrink-0 font-semibold" data-path="start-campaign" href="#">Launch Campaign</a></div></div><div class="max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter py-space-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-space-lg"><div class="lg:col-span-2 flex flex-col justify-between gap-space-md"><div><div class="flex items-center gap-space-sm mb-space-sm"><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-on-primary">Wajibika</span></div><p class="font-body-md text-body-md text-maroon-tint max-w-sm mb-space-md">Your voice, amplified. Grounded civic accountability and citizen-led community advocacy across national and municipal sectors.</p></div><div class="flex items-center gap-space-sm text-maroon-tint"><span class="material-symbols-outlined text-[20px]">verified</span><span class="font-label-sm text-label-sm">Independent · Non-Partisan · Protected</span></div></div><div><p class="font-label-lg text-label-lg font-semibold mb-space-sm text-secondary-fixed">Issues &amp; Campaigns</p><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-maroon-tint"><li><a class="hover:text-on-primary transition-colors" data-path="economy-issues" href="#">Economy &amp; Jobs</a></li><li><a class="hover:text-on-primary transition-colors" data-path="governance-issues" href="#">Governance &amp; Law</a></li><li><a class="hover:text-on-primary transition-colors" data-path="social-norms-issues" href="#">Social Welfare</a></li><li><a class="hover:text-on-primary transition-colors" data-path="community-voice-issues" href="#">Local Ward Councils</a></li><li><a class="hover:text-on-primary transition-colors" data-path="issues-and-campaigns" href="#">All Petitions</a></li></ul></div><div><p class="font-label-lg text-label-lg font-semibold mb-space-sm text-secondary-fixed">Voices &amp; Stories</p><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-maroon-tint"><li><a class="hover:text-on-primary transition-colors" data-path="voices-and-stories" href="#">Investigative Logs</a></li><li><a class="hover:text-on-primary transition-colors" data-path="citizen-testimonies" href="#">Citizen Testimonies</a></li><li><a class="hover:text-on-primary transition-colors" data-path="field-dispatches" href="#">Field Dispatches</a></li><li><a class="hover:text-on-primary transition-colors" data-path="accountability-tracker" href="#">Tracker Summaries</a></li></ul></div><div><p class="font-label-lg text-label-lg font-semibold mb-space-sm text-secondary-fixed">Careers &amp; Contact</p><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-maroon-tint"><li><a class="hover:text-on-primary transition-colors" data-path="careers" href="#">Open Positions</a></li><li><a class="hover:text-on-primary transition-colors" data-path="civic-fellowships" href="#">Civic Fellowships</a></li><li><a class="hover:text-on-primary transition-colors" data-path="contact" href="#">Institutional Inquiries</a></li><li><a class="hover:text-on-primary transition-colors" data-path="press-room" href="#">Press Office</a></li></ul></div><div><p class="font-label-lg text-label-lg font-semibold mb-space-sm text-secondary-fixed">Civic Dispatch</p><p class="font-body-sm text-body-sm text-maroon-tint mb-space-sm">Weekly briefings on active citizen campaigns and council scorecards.</p><form class="flex flex-col gap-space-xs"><input class="h-10 px-space-sm rounded-xl bg-surface-container-lowest text-on-surface font-body-sm text-body-sm placeholder:text-slate-muted focus:outline-none focus:ring-2 focus:ring-secondary-fixed" placeholder="Enter your email" type="email"/><button class="h-10 px-space-md bg-secondary text-on-secondary hover:bg-on-secondary-container rounded-xl font-label-md text-label-md transition-colors" type="button">Subscribe</button></form></div></div><div class="bg-maroon-hover py-space-md"><div class="max-w-[1200px] mx-auto px-gutter-sm lg:px-gutter flex flex-col md:flex-row items-center justify-between gap-space-sm font-label-sm text-label-sm text-maroon-tint"><div class="flex items-center gap-space-xs"><span>A Swizzy Industries Brand</span><span>·</span><span>© 2025 Wajibika Platform. All rights reserved.</span></div><div class="flex flex-wrap items-center gap-space-md text-maroon-tint"><a class="hover:text-on-primary transition-colors" data-path="privacy-notice" href="#">Privacy Notice</a><a class="hover:text-on-primary transition-colors" data-path="terms-of-use" href="#">Terms of Use</a><a class="hover:text-on-primary transition-colors" data-path="community-guidelines" href="#">Community Guidelines</a><a class="hover:text-on-primary transition-colors" data-path="accessibility-statement" href="#">Accessibility Statement</a></div></div></div></footer></body></html>

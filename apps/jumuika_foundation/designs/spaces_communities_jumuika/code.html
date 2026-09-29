@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-error-container":"#93000a","on-primary-fixed-variant":"#822715","tertiary-fixed-dim":"#ffb95d","surface-container-highest":"#f7ddd8","surface-container-high":"#fde2de","secondary-fixed":"#e7deff","surface-tint":"#a13e2a","on-secondary-container":"#330290","surface":"#fff8f6","on-primary-container":"#5f0e01","surface-container":"#ffe9e5","inverse-on-surface":"#ffedea","on-secondary":"#ffffff","secondary":"#6448c2","tertiary":"#855400","secondary-container":"#9d82ff","on-surface":"#261816","background":"#fff8f6","tertiary-container":"#cc861a","surface-container-lowest":"#ffffff","on-tertiary-container":"#432800","primary-fixed-dim":"#ffb4a4","surface-variant":"#f7ddd8","secondary-fixed-dim":"#ccbeff","tertiary-fixed":"#ffddb7","surface-container-low":"#fff0ee","primary":"#a13e2a","on-background":"#261816","on-secondary-fixed-variant":"#4c2da8","inverse-primary":"#ffb4a4","primary-container":"#e8735a","inverse-surface":"#3d2d2a","on-secondary-fixed":"#1f0060","outline":"#8a726c","on-tertiary-fixed":"#2a1700","on-error":"#ffffff","primary-fixed":"#ffdad3","on-tertiary":"#ffffff","error":"#ba1a1a","surface-bright":"#fff8f6","on-primary":"#ffffff","on-primary-fixed":"#3e0500","outline-variant":"#ddc0ba","surface-dim":"#eed4d0","on-surface-variant":"#56423e","on-tertiary-fixed-variant":"#653e00","error-container":"#ffdad6"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xl":"2.5rem","margin-mobile":"1.25rem","space-md":"1rem","gutter":"1.5rem","gutter-mobile":"1rem","margin":"3rem","space-sm":"0.5rem","space-lg":"1.5rem","space-xs":"0.25rem"},"fontFamily":{"headline-md":["Plus Jakarta Sans"],"display-hero-mobile":["Plus Jakarta Sans"],"body-md":["Inter"],"display-hero":["Plus Jakarta Sans"],"body-lg":["Inter"],"label-sm":["Inter"],"title-md":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"body-sm":["Inter"],"headline-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-md":["Inter"]},"fontSize":{"headline-md":["28px",{"lineHeight":"36px","fontWeight":"600"}],"display-hero-mobile":["36px",{"lineHeight":"44px","fontWeight":"700"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"64px","fontWeight":"700"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"label-sm":["12px",{"lineHeight":"16px","fontWeight":"500"}],"title-md":["18px",{"lineHeight":"24px","fontWeight":"600"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","fontWeight":"700"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"600"}],"headline-lg":["40px",{"lineHeight":"48px","fontWeight":"700"}],"label-md":["14px",{"lineHeight":"20px","fontWeight":"500"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(74,57,54,0.04)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm shrink-0"><img alt="Jumuika Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XTaJ6-rFfGkm1fYKo9a9PxXxerW-X8jzJzjNDxZmFSfsouwJjX7wf6MEkyibKu7ZsXJYp7Ca3OWRYmQjUatPa9-a1jyn4ZxQzA0qqK52XWIYcDou4KyuSq2gSji_LwzCVMwbjkXoK4KUF02Z-ODQVcVnilYoKUCTjjZNkKKzQbvuCloR4x3m-4Z5QseRFmDuPFJMhksSlDnPNaXvvZn6CigrcsJ7tDCVFKRRbc12m-mRjB666Qmn4vqDg"/><a class="flex flex-col" data-path="home" href="#"><span class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight leading-none">Jumuika</span><span class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase text-[10px]">Swizzy Industries</span></a></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary font-title-md border-b-2 border-primary"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="home" href="#">Home</a><div class="relative group py-2"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors inline-flex items-center gap-1" data-path="spaces-and-communities" href="#">Spaces &amp; Communities</a><div class="absolute top-full left-1/2 -translate-x-1/2 w-[760px] bg-surface-container-lowest rounded-xl p-space-lg shadow-[0_20px_32px_-6px_rgba(36,24,25,0.12),0_8px_16px_-4px_rgba(36,24,25,0.04)] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pointer-events-none group-hover:pointer-events-auto grid grid-cols-12 gap-space-lg"><div class="col-span-7 grid grid-cols-2 gap-space-md"><div class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors"><div class="flex items-center gap-2 mb-1"><span class="w-2.5 h-2.5 rounded-full bg-[#3A5BD9]"></span><span class="font-title-md text-title-md text-on-surface text-sm font-semibold">Family &amp; Friends</span></div><p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Intimate living rooms and familial gatherings across borders.</p></div><div class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors"><div class="flex items-center gap-2 mb-1"><span class="w-2.5 h-2.5 rounded-full bg-[#F2A63B]"></span><span class="font-title-md text-title-md text-on-surface text-sm font-semibold">Diaspora &amp; Heritage</span></div><p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Cultural celebrations, storytelling, and home connections.</p></div><div class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors"><div class="flex items-center gap-2 mb-1"><span class="w-2.5 h-2.5 rounded-full bg-[#0E9F8E]"></span><span class="font-title-md text-title-md text-on-surface text-sm font-semibold">Interest Circles</span></div><p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Books, music, cooking, and shared passions in VR.</p></div><div class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors"><div class="flex items-center gap-2 mb-1"><span class="w-2.5 h-2.5 rounded-full bg-[#D9527A]"></span><span class="font-title-md text-title-md text-on-surface text-sm font-semibold">Events &amp; Gatherings</span></div><p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Town halls, live stages, and watch parties.</p></div></div><div class="col-span-5 bg-surface-container-low rounded-lg p-space-md"><div class="flex items-center justify-between mb-space-sm"><span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">Live Now</span><span class="flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant"><span class="w-2 h-2 rounded-full bg-[#1E9E6A] animate-pulse"></span>1.4k Present</span></div><div class="space-y-space-xs"><div class="p-space-xs rounded bg-surface-container-lowest flex items-center justify-between"><span class="font-label-sm text-label-sm text-on-surface truncate">Nairobi Sunset Rooftop</span><span class="font-label-sm text-label-sm text-secondary font-medium">342</span></div><div class="p-space-xs rounded bg-surface-container-lowest flex items-center justify-between"><span class="font-label-sm text-label-sm text-on-surface truncate">Sunday Chai &amp; Stories</span><span class="font-label-sm text-label-sm text-secondary font-medium">128</span></div><div class="p-space-xs rounded bg-surface-container-lowest flex items-center justify-between"><span class="font-label-sm text-label-sm text-on-surface truncate">Afrobeats Acoustic Lounge</span><span class="font-label-sm text-label-sm text-secondary font-medium">890</span></div></div></div></div></div><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="events-and-gatherings-calendar" href="#">Events</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="safety-and-privacy" href="#">Safety &amp; Privacy</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="careers" href="#">Careers</a></nav><div class="flex items-center gap-space-md shrink-0"><a class="hidden sm:inline-block font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a><button aria-label="Search" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">search</span></button><a class="h-12 px-6 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md inline-flex items-center justify-center hover:bg-primary transition-all active:scale-[0.98] shadow-[0_2px_8px_-2px_rgba(74,57,54,0.08)]" data-path="get-started" href="#">Get Started</a><div class="relative pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCscE9lQMOFhOQkkU7MiLUKDGw2Fyg82W8AGwGLEPgOxbQVXEbOyqLmL_bvSxv-Et7-v9Fj28RO9MwftmHwPOvuBJ5cduy_ytp96R2MGxDmR0w2sH7BLLIWuIIGBIawRa1tWyz1arRbg7E7YdUBnhwyu9k8ZeFgiaUPXPTRVHwKPtC55bgZ7nJrjrvhsTUZwx0d2g3t1UM7EJMO1ZWMXeGflbNLB6GJImbZ1MSTOLK37sIHdCjQEsT6"/></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Atmospheric Glow & Hero Stage -->
+<section class="relative w-full overflow-hidden bg-gradient-to-b from-surface-container-low via-surface to-surface pb-space-xl">
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[900px] h-[420px] bg-gradient-to-tr from-primary-fixed/30 via-secondary-fixed/20 to-tertiary-fixed/30 blur-3xl pointer-events-none rounded-full"></div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 pt-12 md:pt-16 relative z-10">
+<!-- Breadcrumb / Overline Pill -->
+<div class="flex items-center gap-space-sm mb-6">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm uppercase tracking-wider shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+          SHARED SOCIAL ENVIRONMENTS
+        </span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[15px] text-secondary">groups</span>
+          3,428 Souls Present Across 614 Spaces
+        </span>
+</div>
+<!-- Main Headline & Subtitle -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-12">
+<div class="lg:col-span-8">
+<h1 class="font-headline-lg text-headline-lg md:text-[52px] md:leading-[60px] text-on-surface tracking-tight mb-4">
+            Find your people. <br/>
+<span class="bg-gradient-to-r from-primary via-primary-container to-secondary bg-clip-text text-transparent">Step into your space.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            From quiet Sunday family verandahs to bustling tech founders' lounges and nationwide watch parties. Discover persistent virtual spaces built for authentic human connection, zero algorithmic feeds.
+          </p>
+</div>
+<!-- Live Sync Metric Card -->
+<div class="lg:col-span-4 flex justify-start lg:justify-end">
+<div class="w-full sm:w-auto p-space-md rounded-xl bg-surface-container-lowest shadow-md flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-2xl">spatial_audio</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface">Spatial Engine v4.2</span>
+<span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-[#1E9E6A]/10 text-[#1E9E6A]">ONLINE</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Avg latency: 12ms (NBO-LDN-DXB)</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Search & Filtering Command Center -->
+<div class="w-full bg-surface-container-lowest rounded-2xl p-space-md sm:p-space-lg shadow-xl mb-12">
+<!-- Top Bar: Search + Sort Dropdown -->
+<div class="flex flex-col lg:flex-row items-stretch lg:items-center gap-4 pb-space-md">
+<div class="relative flex-1">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline text-[22px]">search</span>
+<input class="w-full h-12 pl-12 pr-4 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest shadow-sm transition-all" id="spaceSearchInput" placeholder="Search communities, hosts, or topics (e.g., Afrobeats, Founders, Chai)..." type="text"/>
+</div>
+<div class="flex flex-wrap sm:flex-nowrap items-center gap-3">
+<!-- Privacy Toggle Pill -->
+<div class="inline-flex p-1 rounded-xl bg-surface-container-low" id="privacyPills">
+<button class="filter-pill-btn active px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-surface-container-lowest text-on-surface shadow-sm transition-all" data-filter="all">All</button>
+<button class="filter-pill-btn px-3.5 py-1.5 rounded-lg text-xs font-medium text-on-surface-variant hover:text-on-surface transition-all" data-filter="public">Public Only</button>
+<button class="filter-pill-btn px-3.5 py-1.5 rounded-lg text-xs font-medium text-on-surface-variant hover:text-on-surface transition-all" data-filter="private">Private / Invite</button>
+</div>
+<!-- Sort dropdown -->
+<div class="relative">
+<select class="h-11 px-4 pr-9 rounded-xl bg-surface-container-low text-on-surface font-label-md text-label-md appearance-none focus:outline-none cursor-pointer">
+<option>Most Active Now</option>
+<option>Upcoming Scheduled</option>
+<option>Recently Created</option>
+<option>Largest Communities</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-on-surface-variant text-[18px]">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Bottom Bar: Space Category Filter Chips -->
+<div class="pt-space-sm flex items-center gap-2 overflow-x-auto pb-1" id="categoryChips">
+<button class="chip-btn active shrink-0 px-4 py-2 rounded-xl text-xs font-semibold bg-primary text-on-primary shadow-sm transition-all flex items-center gap-1.5" data-category="all">
+<span class="material-symbols-outlined text-[16px]">grid_view</span>
+            All Spaces (614)
+          </button>
+<button class="chip-btn shrink-0 px-4 py-2 rounded-xl text-xs font-semibold bg-[#3A5BD9]/10 text-[#3A5BD9] hover:bg-[#3A5BD9]/20 transition-all flex items-center gap-1.5" data-category="family">
+<span class="w-2 h-2 rounded-full bg-[#3A5BD9]"></span>
+            Family &amp; Friends
+          </button>
+<button class="chip-btn shrink-0 px-4 py-2 rounded-xl text-xs font-semibold bg-[#F2A63B]/15 text-[#855400] hover:bg-[#F2A63B]/25 transition-all flex items-center gap-1.5" data-category="diaspora">
+<span class="w-2 h-2 rounded-full bg-[#F2A63B]"></span>
+            Diaspora &amp; Heritage
+          </button>
+<button class="chip-btn shrink-0 px-4 py-2 rounded-xl text-xs font-semibold bg-[#0E9F8E]/15 text-[#0E9F8E] hover:bg-[#0E9F8E]/25 transition-all flex items-center gap-1.5" data-category="interest">
+<span class="w-2 h-2 rounded-full bg-[#0E9F8E]"></span>
+            Interest Communities
+          </button>
+<button class="chip-btn shrink-0 px-4 py-2 rounded-xl text-xs font-semibold bg-[#D9527A]/15 text-[#D9527A] hover:bg-[#D9527A]/25 transition-all flex items-center gap-1.5" data-category="events">
+<span class="w-2 h-2 rounded-full bg-[#D9527A]"></span>
+            Events &amp; Gatherings
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Category Deep Dive Pillars -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-space-xl w-full">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-semibold">Architectures of Belonging</span>
+<h2 class="font-headline-md text-headline-md text-on-surface mt-1">Four specialized social realms</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">
+        Every Jumuika space possesses distinct spatial audio physics, lighting rituals, and cryptographic access rules calibrated for its human purpose.
+      </p>
+</div>
+<!-- Category Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Pillar A: Family & Friends -->
+<div class="group relative rounded-2xl bg-surface-container-lowest p-space-lg flex flex-col justify-between shadow-md hover:shadow-xl transition-all duration-300">
+<div>
+<div class="w-12 h-12 rounded-xl bg-[#3A5BD9]/10 text-[#3A5BD9] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[26px]">home_pin</span>
+</div>
+<div class="inline-block px-2.5 py-0.5 rounded-full bg-[#3A5BD9]/10 text-[#3A5BD9] font-label-sm text-[11px] font-semibold mb-2">FAMILY &amp; FRIENDS</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2 font-bold">Private rooms for your inner circle</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6 leading-relaxed">
+            Perpetual living room decor, birthday photo pinboards, drop-in afternoon tea times, and multi-generational spatial warmth.
+          </p>
+<ul class="space-y-2 mb-6 font-body-sm text-[13px] text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#3A5BD9]">lock</span>
+              Zero-knowledge E2EE by default
+            </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#3A5BD9]">photo_library</span>
+              Persistent pinboards &amp; memory walls
+            </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#3A5BD9]">volume_off</span>
+              Whisper zones for quiet catchups
+            </li>
+</ul>
+</div>
+<!-- Highlight Micro Card -->
+<div class="p-3 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="min-w-0 pr-2">
+<p class="font-label-sm text-[13px] font-semibold text-on-surface truncate">Kariuki Family Compound</p>
+<p class="text-[11px] text-on-surface-variant">8 family members inside • 0ms lag</p>
+</div>
+<span class="w-7 h-7 rounded-full bg-surface-container-lowest flex items-center justify-center text-[#3A5BD9] shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+</span>
+</div>
+</div>
+<!-- Pillar B: Diaspora & Heritage -->
+<div class="group relative rounded-2xl bg-surface-container-lowest p-space-lg flex flex-col justify-between shadow-md hover:shadow-xl transition-all duration-300">
+<div>
+<div class="w-12 h-12 rounded-xl bg-[#F2A63B]/20 text-[#855400] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[26px]">public</span>
+</div>
+<div class="inline-block px-2.5 py-0.5 rounded-full bg-[#F2A63B]/20 text-[#855400] font-label-sm text-[11px] font-semibold mb-2">DIASPORA &amp; HERITAGE</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2 font-bold">Bridging the miles back home</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6 leading-relaxed">
+            Synchronized London/Nairobi time clocks, Kiswahili conversation tables, nostalgic Benga vinyl listening corners, and Swahili coastal lounges.
+          </p>
+<ul class="space-y-2 mb-6 font-body-sm text-[13px] text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#F2A63B]">schedule</span>
+              Dual timezone horizon clocks
+            </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#F2A63B]">translate</span>
+              Multi-lingual spatial prompts
+            </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#F2A63B]">radio</span>
+              Community vinyl record turntable
+            </li>
+</ul>
+</div>
+<!-- Highlight Micro Card -->
+<div class="p-3 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="min-w-0 pr-2">
+<p class="font-label-sm text-[13px] font-semibold text-on-surface truncate">LDN &amp; NBO Sunday Chai</p>
+<p class="text-[11px] text-on-surface-variant">28 people here now • Verified Lounge</p>
+</div>
+<span class="w-2.5 h-2.5 rounded-full bg-[#1E9E6A] animate-pulse shrink-0"></span>
+</div>
+</div>
+<!-- Pillar C: Interest Communities -->
+<div class="group relative rounded-2xl bg-surface-container-lowest p-space-lg flex flex-col justify-between shadow-md hover:shadow-xl transition-all duration-300">
+<div>
+<div class="w-12 h-12 rounded-xl bg-[#0E9F8E]/20 text-[#0E9F8E] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[26px]">terminal</span>
+</div>
+<div class="inline-block px-2.5 py-0.5 rounded-full bg-[#0E9F8E]/20 text-[#0E9F8E] font-label-sm text-[11px] font-semibold mb-2">INTEREST COMMUNITIES</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2 font-bold">African creativity &amp; tech converse</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6 leading-relaxed">
+            Silicon Savannah demo day rehearsals, open mic practice, architecture critiques, and Afrofuturist book circles with shared whiteboards.
+          </p>
+<ul class="space-y-2 mb-6 font-body-sm text-[13px] text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#0E9F8E]">co_present</span>
+              Interactive 3D screen mirroring
+            </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#0E9F8E]">draw</span>
+              Spatial whiteboards &amp; sketches
+            </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#0E9F8E]">podium</span>
+              Stage elevation acoustics
+            </li>
+</ul>
+</div>
+<!-- Highlight Micro Card -->
+<div class="p-3 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="min-w-0 pr-2">
+<p class="font-label-sm text-[13px] font-semibold text-on-surface truncate">Silikali Tech Jam</p>
+<p class="text-[11px] text-on-surface-variant">64 people here now • Open Stage</p>
+</div>
+<span class="w-2.5 h-2.5 rounded-full bg-[#0E9F8E] shrink-0"></span>
+</div>
+</div>
+<!-- Pillar D: Events & Gatherings -->
+<div class="group relative rounded-2xl bg-surface-container-lowest p-space-lg flex flex-col justify-between shadow-md hover:shadow-xl transition-all duration-300">
+<div>
+<div class="w-12 h-12 rounded-xl bg-[#D9527A]/20 text-[#D9527A] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[26px]">festival</span>
+</div>
+<div class="inline-block px-2.5 py-0.5 rounded-full bg-[#D9527A]/20 text-[#D9527A] font-label-sm text-[11px] font-semibold mb-2">EVENTS &amp; GATHERINGS</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2 font-bold">Concerts, derbies &amp; keynotes</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6 leading-relaxed">
+            Acoustic stadium zones with cheering directional audio, amphitheater stage controls, VIP side-lounges, and synchronised live streams.
+          </p>
+<ul class="space-y-2 mb-6 font-body-sm text-[13px] text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#D9527A]">surround_sound</span>
+              True 3D stadium reverb field
+            </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#D9527A]">theater_comedy</span>
+              1,000+ member concurrency
+            </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-[#D9527A]">confirmation_number</span>
+              RSVP &amp; ticketing integrations
+            </li>
+</ul>
+</div>
+<!-- Highlight Micro Card -->
+<div class="p-3 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="min-w-0 pr-2">
+<p class="font-label-sm text-[13px] font-semibold text-on-surface truncate">Nairobi Rooftop Sundowner</p>
+<p class="text-[11px] text-on-surface-variant">148 people here now • Live Pulse</p>
+</div>
+<span class="w-2.5 h-2.5 rounded-full bg-[#D9527A] animate-ping shrink-0"></span>
+</div>
+</div>
+</div>
+</section>
+<!-- Live Spaces Directory Section -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-space-xl w-full">
+<!-- Section Header with Quick Live Ticker -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+<div class="flex items-center gap-3">
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">Active Spaces</h2>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#1E9E6A]/10 text-[#1E9E6A] font-label-sm text-label-sm font-semibold">
+<span class="w-2 h-2 rounded-full bg-[#1E9E6A] animate-pulse"></span>
+          Streaming Live
+        </span>
+</div>
+<div class="flex items-center gap-3 text-on-surface-variant font-body-sm text-body-sm">
+<span>Showing 6 featured gatherings</span>
+<span class="text-outline-variant">•</span>
+<button class="text-primary hover:text-primary-container font-label-md text-label-md font-semibold inline-flex items-center gap-1">
+          View all 614 <span class="material-symbols-outlined text-base">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- 6 Rich Space Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="spacesCardGrid">
+<!-- CARD 1: Mombasa Sunset Coastal Lounge -->
+<article class="group rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between" data-category="diaspora" data-privacy="public">
+<div>
+<!-- Visual Media Container -->
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Warm coastal veranda in Mombasa during golden hour with warm lanterns, soft woven cushions, and friends relaxed on carved Swahili daybeds overlooking the calm Indian Ocean at sunset." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbW-0iggO13luLPtbMoldVJ_GCMaZ73xOYEfrmQpr_2YsCp_M7Kn-iI6G3MNbcJzge34P7h1zJcrLHnD_gZ-QHlbdM-ktz9fsCIHsFpwbIav1HoX06_5KbpqR8PcBWe3P1FZU9NSYrhDiKNZlTj42MW5DbdP-UgvXaGNSt7-2Rd0hiCoco3yybdjiXTm5e6Xs8getS11QdNwlm0neye4uz1UdaLeZ6nRKT_50jLyRDNJHX54uW2oD6"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<!-- Category Tag (Top Left) -->
+<div class="absolute top-3 left-3 flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/95 backdrop-blur-md shadow-sm">
+<span class="w-2 h-2 rounded-full bg-[#F2A63B]"></span>
+<span class="font-label-sm text-label-sm text-[#855400] font-semibold">Diaspora &amp; Heritage</span>
+</div>
+<!-- Privacy Indicator (Top Right) -->
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-white font-label-sm text-[11px] font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">public</span>
+              Public Stage
+            </div>
+<!-- Presence & Audio Metric (Bottom Bar over image) -->
+<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-label-sm text-xs">
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-black/40 backdrop-blur-md">
+<span class="w-2 h-2 rounded-full bg-[#1E9E6A] animate-pulse"></span>
+<span class="font-semibold">42 people are here now</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2 py-1 rounded-lg bg-black/40 backdrop-blur-md text-white/90">EAT &amp; GMT</span>
+<span class="px-2 py-1 rounded-lg bg-black/40 backdrop-blur-md text-white/90 flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-tertiary-fixed">graphic_eq</span> 11ms
+                </span>
+</div>
+</div>
+</div>
+<!-- Card Content Body -->
+<div class="p-6">
+<div class="flex items-center gap-2 mb-2">
+<span class="font-label-sm text-[12px] text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary">verified</span> Hosted by Zahra Al-Mansoor
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2 group-hover:text-primary transition-colors">
+              Mombasa Sunset Coastal Lounge
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6 line-clamp-2">
+              A serene coastal rooftop room playing live ambient Taarab and acoustic jazz. Come with your evening tea or kahwa, share your day, and watch the virtual tide rise.
+            </p>
+<!-- Presence Avatars Preview -->
+<div class="flex items-center justify-between pt-2">
+<div class="flex -space-x-2 overflow-hidden">
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center font-bold text-xs text-primary shadow-sm">ZA</div>
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-xs text-on-secondary-fixed shadow-sm">KM</div>
+<div class="w-8 h-8 rounded-full bg-tertiary-fixed flex items-center justify-center font-bold text-xs text-on-tertiary-fixed shadow-sm">BO</div>
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center font-bold text-[10px] text-on-surface-variant shadow-sm">+39</div>
+</div>
+<span class="font-label-sm text-[11px] text-outline flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">spatial_audio_off</span> 3D Audio Active
+              </span>
+</div>
+</div>
+</div>
+<!-- Action Footer -->
+<div class="px-6 pb-6 pt-2">
+<a class="w-full h-11 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md flex items-center justify-center gap-2 hover:bg-primary transition-all active:scale-[0.98] shadow-sm" href="#">
+<span class="material-symbols-outlined text-[18px]">door_open</span>
+            Step In
+          </a>
+</div>
+</article>
+<!-- CARD 2: Silicon Savannah Builders Club -->
+<article class="group rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between" data-category="interest" data-privacy="public">
+<div>
+<!-- Visual Media Container -->
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern sunlit Nairobi tech studio and collaborative loft filled with warm wood tables, architectural tropical plants, dual monitors displaying code, and developers conversing." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBS5po-k2A2xuIUPExRz-vVGXibeRY94BpffSMuCGADIUWwFH1cZnOWY2wKJtdQ1suOJ6hb21OejzRSwBCDwM0Qr-Htw-PUS3wOCRVoeDH0NGlbm6i3QSawjPz65uNwY_vQIG8JoBb-vcbBDOjtQw7RG5nAdXpvuQfbpxcfRDRET9dqH2uI7VOr6aZ_8JonFSN7agim2VTGn4ePk3v-akyfGE5Qe8uOzuvSfw3bA9j9sv2GIM0Dxoyt"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/95 backdrop-blur-md shadow-sm">
+<span class="w-2 h-2 rounded-full bg-[#0E9F8E]"></span>
+<span class="font-label-sm text-label-sm text-[#0E9F8E] font-semibold">Interest Communities</span>
+</div>
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-white font-label-sm text-[11px] font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">badge</span>
+              Members Only
+            </div>
+<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-label-sm text-xs">
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-black/40 backdrop-blur-md">
+<span class="w-2 h-2 rounded-full bg-[#1E9E6A] animate-pulse"></span>
+<span class="font-semibold">76 people are here now</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2 py-1 rounded-lg bg-black/40 backdrop-blur-md text-white/90">EAT / UTC</span>
+<span class="px-2 py-1 rounded-lg bg-black/40 backdrop-blur-md text-white/90 flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-tertiary-fixed">speed</span> 9ms
+                </span>
+</div>
+</div>
+</div>
+<div class="p-6">
+<div class="flex items-center gap-2 mb-2">
+<span class="font-label-sm text-[12px] text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-[#0E9F8E]">verified_user</span> Hosted by Savannah Engine DAO
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2 group-hover:text-primary transition-colors">
+              Silicon Savannah Builders Club
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6 line-clamp-2">
+              Peer engineering room for African founders, designers, and hardware tinkerers. Current topic on stage: "Deploying high-speed edge nodes in Eldoret."
+            </p>
+<div class="flex items-center justify-between pt-2">
+<div class="flex -space-x-2 overflow-hidden">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-xs text-on-secondary-fixed shadow-sm">DM</div>
+<div class="w-8 h-8 rounded-full bg-tertiary-fixed flex items-center justify-center font-bold text-xs text-on-tertiary-fixed shadow-sm">JN</div>
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center font-bold text-xs text-primary shadow-sm">TK</div>
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center font-bold text-[10px] text-on-surface-variant shadow-sm">+73</div>
+</div>
+<span class="font-label-sm text-[11px] text-outline flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">screen_share</span> Stage Active
+              </span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2">
+<a class="w-full h-11 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md flex items-center justify-center gap-2 hover:bg-primary transition-all active:scale-[0.98] shadow-sm" href="#">
+<span class="material-symbols-outlined text-[18px]">door_open</span>
+            Step In
+          </a>
+</div>
+</article>
+<!-- CARD 3: Arsenal vs Chelsea Diaspora Matchday Lounge -->
+<article class="group rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between" data-category="events" data-privacy="public">
+<div>
+<!-- Visual Media Container -->
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Vibrant tiered virtual stadium sports lounge with huge screens projecting football, ambient red and blue stadium neon lights, cheering friends high-fiving on modular sofas." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_s1Tk7EEM_NZI1ctfZc2Br7Y3RPIByuxXbwUlxSaeK6VyhXS-2iJhtLHWSd87uP-nqNdb8iMD_Z_184XGsVtAhzdfbznyL11CpOPQmq0ziqsyKnMhxBeUHuzNNvO0nfi3LVax5KShG-a5C2KEyQiE9HBsIF_9pIQf9EO2ciIzbU9fV29vFRWANSdxQl_8_ibFY0o0mqwcfxIjaAhEE_WKbEdYNV6mOaxeOio52YH62WkyULcM7kjB"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/95 backdrop-blur-md shadow-sm">
+<span class="w-2 h-2 rounded-full bg-[#D9527A]"></span>
+<span class="font-label-sm text-label-sm text-[#D9527A] font-semibold">Events &amp; Gatherings</span>
+</div>
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-white font-label-sm text-[11px] font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">stadium</span>
+              3D Stadium Reverb
+            </div>
+<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-label-sm text-xs">
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-black/40 backdrop-blur-md">
+<span class="w-2 h-2 rounded-full bg-[#1E9E6A] animate-pulse"></span>
+<span class="font-semibold">112 fans are here now</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2 py-1 rounded-lg bg-black/40 backdrop-blur-md text-white/90">2nd Half 68'</span>
+<span class="px-2 py-1 rounded-lg bg-black/40 backdrop-blur-md text-white/90 flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-tertiary-fixed">spatial_audio</span> 14ms
+                </span>
+</div>
+</div>
+</div>
+<div class="p-6">
+<div class="flex items-center gap-2 mb-2">
+<span class="font-label-sm text-[12px] text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-[#D9527A]">sports_soccer</span> Hosted by Diaspora Matchday HQ
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2 group-hover:text-primary transition-colors">
+              Arsenal vs Chelsea Matchday Lounge
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6 line-clamp-2">
+              Banter, shared tactical board, and directional crowd chants. Split sofas for Gooners and Blues fans with live audio isolation barriers.
+            </p>
+<div class="flex items-center justify-between pt-2">
+<div class="flex -space-x-2 overflow-hidden">
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-xs text-primary shadow-sm">OK</div>
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-xs text-secondary shadow-sm">EN</div>
+<div class="w-8 h-8 rounded-full bg-tertiary-fixed flex items-center justify-center font-bold text-xs text-tertiary shadow-sm">WA</div>
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center font-bold text-[10px] text-on-surface-variant shadow-sm">+109</div>
+</div>
+<span class="font-label-sm text-[11px] text-outline flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">volume_up</span> Dynamic Cheering
+              </span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2">
+<a class="w-full h-11 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md flex items-center justify-center gap-2 hover:bg-primary transition-all active:scale-[0.98] shadow-sm" href="#">
+<span class="material-symbols-outlined text-[18px]">door_open</span>
+            Step In
+          </a>
+</div>
+</article>
+<!-- CARD 4: Wanjiku & Friends Sunday Roast (Family Private) -->
+<article class="group rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between" data-category="family" data-privacy="private">
+<div>
+<!-- Visual Media Container -->
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Warm rustic wooden verandah surrounded by leafy jacaranda trees, clay pottery, warm ambient sunlight streaming through pergolas, and a long festive wooden dining table." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6eV_9y-H_SgSioEl54a7aCkYXp2PCzbm_a8MRV9J41DtYoO93cianVu4AeKRY4deuQvRcE2tv45Ig055nvm5rCYJu-9kSwEYDkCgLs3y1ommbIV5r2Hy-uegP3JAKMxbgHC0hwahgpAhdK02mAkdiCFuwaefzdlEcc-HiinTit4rEcancgunOHQO3YeYZlvac7J30Wg8fMnlUdFtW_mxQj9VtnJWXM1lAaRW2SdwgZPoYQf6UyCNq"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/95 backdrop-blur-md shadow-sm">
+<span class="w-2 h-2 rounded-full bg-[#3A5BD9]"></span>
+<span class="font-label-sm text-label-sm text-[#3A5BD9] font-semibold">Family &amp; Friends</span>
+</div>
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-[#ba1a1a]/80 backdrop-blur-md text-white font-label-sm text-[11px] font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">lock</span>
+              Encrypted Private
+            </div>
+<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-label-sm text-xs">
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-black/40 backdrop-blur-md">
+<span class="w-2 h-2 rounded-full bg-[#1E9E6A] animate-pulse"></span>
+<span class="font-semibold">6 members inside</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2 py-1 rounded-lg bg-black/40 backdrop-blur-md text-white/90">Invite-Only</span>
+<span class="px-2 py-1 rounded-lg bg-black/40 backdrop-blur-md text-white/90 flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-tertiary-fixed">security</span> E2EE
+                </span>
+</div>
+</div>
+</div>
+<div class="p-6">
+<div class="flex items-center gap-2 mb-2">
+<span class="font-label-sm text-[12px] text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-[#3A5BD9]">shield</span> Hosted by Wanjiku N. &amp; Family
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2 group-hover:text-primary transition-colors">
+              Wanjiku &amp; Friends Sunday Roast
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6 line-clamp-2">
+              Our perpetual family verandah. Grandmother is tuned in from Nyeri on tablet mode, cousins joining from Perth and Toronto for lunch banter.
+            </p>
+<div class="flex items-center justify-between pt-2">
+<div class="flex -space-x-2 overflow-hidden">
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-xs text-primary shadow-sm">WN</div>
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-xs text-secondary shadow-sm">GK</div>
+<div class="w-8 h-8 rounded-full bg-tertiary-fixed flex items-center justify-center font-bold text-xs text-tertiary shadow-sm">MK</div>
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center font-bold text-[10px] text-on-surface-variant shadow-sm">+3</div>
+</div>
+<span class="font-label-sm text-[11px] text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">key</span> Private Key Required
+              </span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2">
+<a class="w-full h-11 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md flex items-center justify-center gap-2 hover:bg-surface-container-high transition-all active:scale-[0.98] shadow-sm" href="#">
+<span class="material-symbols-outlined text-[18px]">vpn_key</span>
+            Request Invite
+          </a>
+</div>
+</article>
+<!-- CARD 5: Gikomba to Greenwich: Creative Diaspora Circle -->
+<article class="group rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between" data-category="diaspora" data-privacy="public">
+<div>
+<!-- Visual Media Container -->
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Intimate African textile and fashion design gallery space in VR, filled with mannequins displaying vibrant kitenge and modern streetwear, warm spotlights, and digital moodboards." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWVxTqloY6SZuNN9NqR6UOUgnh8oBBq6XI5mCvRVOUDbEDOPiD6Sxvig2MktbZp_P63HKpONh92EQvK85qWKMuMsnktvTurQeGfxlH28P78DZgL4XTt37qCIOl9Z0i1siwdvXqG_BqIWneqbF2-7TmYacrZ051Q0KTnYJ13Dx0g45eXlF2dS3NkuUAksWuoo71rGUGBqDRggQlN20gMvJ1SH5IUhnk3MHQCSChrlfK99s1Smx7lmOb"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/95 backdrop-blur-md shadow-sm">
+<span class="w-2 h-2 rounded-full bg-[#F2A63B]"></span>
+<span class="font-label-sm text-label-sm text-[#855400] font-semibold">Diaspora &amp; Heritage</span>
+</div>
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-white font-label-sm text-[11px] font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">public</span>
+              Public Studio
+            </div>
+<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-label-sm text-xs">
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-black/40 backdrop-blur-md">
+<span class="w-2 h-2 rounded-full bg-[#1E9E6A] animate-pulse"></span>
+<span class="font-semibold">31 people are here now</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2 py-1 rounded-lg bg-black/40 backdrop-blur-md text-white/90">GMT &amp; EAT</span>
+<span class="px-2 py-1 rounded-lg bg-black/40 backdrop-blur-md text-white/90 flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-tertiary-fixed">palette</span> 15ms
+                </span>
+</div>
+</div>
+</div>
+<div class="p-6">
+<div class="flex items-center gap-2 mb-2">
+<span class="font-label-sm text-[12px] text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-secondary">verified</span> Hosted by Amani Collective
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2 group-hover:text-primary transition-colors">
+              Gikomba to Greenwich: Creative Circle
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6 line-clamp-2">
+              Textile designers, sustainable stylists, and vintage collectors swapping inspiration between East Africa and Europe. Pin your fabric swatches in 3D.
+            </p>
+<div class="flex items-center justify-between pt-2">
+<div class="flex -space-x-2 overflow-hidden">
+<div class="w-8 h-8 rounded-full bg-tertiary-fixed flex items-center justify-center font-bold text-xs text-tertiary shadow-sm">AO</div>
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-xs text-primary shadow-sm">FK</div>
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-xs text-secondary shadow-sm">LM</div>
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center font-bold text-[10px] text-on-surface-variant shadow-sm">+28</div>
+</div>
+<span class="font-label-sm text-[11px] text-outline flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">view_in_ar</span> 3D Swatch Rail
+              </span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2">
+<a class="w-full h-11 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md flex items-center justify-center gap-2 hover:bg-primary transition-all active:scale-[0.98] shadow-sm" href="#">
+<span class="material-symbols-outlined text-[18px]">door_open</span>
+            Step In
+          </a>
+</div>
+</article>
+<!-- CARD 6: Sheng Literature & Poetry Jam -->
+<article class="group rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between" data-category="interest" data-privacy="public">
+<div>
+<!-- Visual Media Container -->
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Intimate candlelit poetry lounge with low acoustic ceiling, warm Persian rugs, microphone stand under a warm tungsten cone of light, and attentive listeners." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUwoWl7OHatFB4kvcWUKnSam5L5ovkqGdakWO8na2BSvAQ3WJ7VbTgunuYm0UZXSOZvLRtluVvPsD_HcTXUv473gSjebjXxZZaR4Ev0zpYT-OtK1k2rhbd2Q2h1Z9pOcSXcngUiFJSmsgeyk9QPtSAupkUvpl8rlWRKIzw78ATEpE0ckGDwnq83tQ8eUterg20wSkGCNyTXmYXcEhoQqOkW09Q7gtUlSp_tmm0ok8twrw9Kb0mwtil"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/95 backdrop-blur-md shadow-sm">
+<span class="w-2 h-2 rounded-full bg-[#0E9F8E]"></span>
+<span class="font-label-sm text-label-sm text-[#0E9F8E] font-semibold">Interest Communities</span>
+</div>
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-white font-label-sm text-[11px] font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">mic</span>
+              Open Mic Active
+            </div>
+<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white font-label-sm text-xs">
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-black/40 backdrop-blur-md">
+<span class="w-2 h-2 rounded-full bg-[#1E9E6A] animate-pulse"></span>
+<span class="font-semibold">24 poets are here now</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2 py-1 rounded-lg bg-black/40 backdrop-blur-md text-white/90">Spoken Word</span>
+<span class="px-2 py-1 rounded-lg bg-black/40 backdrop-blur-md text-white/90 flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-tertiary-fixed">music_note</span> 10ms
+                </span>
+</div>
+</div>
+</div>
+<div class="p-6">
+<div class="flex items-center gap-2 mb-2">
+<span class="font-label-sm text-[12px] text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-[#0E9F8E]">auto_stories</span> Hosted by Nairobi Wordsmiths
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2 group-hover:text-primary transition-colors">
+              Sheng Literature &amp; Poetry Jam
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6 line-clamp-2">
+              Weekly acoustic reading space. Sheng wordplay, diaspora spoken word, and impromptu storytelling with spatial snap-claps from the audience.
+            </p>
+<div class="flex items-center justify-between pt-2">
+<div class="flex -space-x-2 overflow-hidden">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-xs text-secondary shadow-sm">PO</div>
+<div class="w-8 h-8 rounded-full bg-tertiary-fixed flex items-center justify-center font-bold text-xs text-tertiary shadow-sm">SK</div>
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-xs text-primary shadow-sm">MT</div>
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center font-bold text-[10px] text-on-surface-variant shadow-sm">+21</div>
+</div>
+<span class="font-label-sm text-[11px] text-outline flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">record_voice_over</span> Open Floor
+              </span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2">
+<a class="w-full h-11 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md flex items-center justify-center gap-2 hover:bg-primary transition-all active:scale-[0.98] shadow-sm" href="#">
+<span class="material-symbols-outlined text-[18px]">door_open</span>
+            Step In
+          </a>
+</div>
+</article>
+</div>
+<!-- Pagination & Directory Progress -->
+<div class="mt-12 flex flex-col sm:flex-row items-center justify-between gap-4 p-6 rounded-2xl bg-surface-container-low">
+<div class="flex items-center gap-3">
+<span class="w-10 h-10 rounded-xl bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[20px]">explore</span>
+</span>
+<div>
+<p class="font-title-md text-title-md text-on-surface font-semibold">Ready to explore more spaces?</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Filter by active languages, regional servers, or private passcodes.</p>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<button class="h-10 px-4 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md hover:bg-surface-container transition-colors shadow-sm">
+          Previous
+        </button>
+<div class="flex items-center gap-1 font-label-md text-label-md">
+<span class="w-8 h-8 rounded-lg bg-primary text-on-primary flex items-center justify-center font-bold">1</span>
+<span class="w-8 h-8 rounded-lg text-on-surface-variant flex items-center justify-center hover:bg-surface-container cursor-pointer">2</span>
+<span class="w-8 h-8 rounded-lg text-on-surface-variant flex items-center justify-center hover:bg-surface-container cursor-pointer">3</span>
+<span class="text-outline">...</span>
+<span class="w-8 h-8 rounded-lg text-on-surface-variant flex items-center justify-center hover:bg-surface-container cursor-pointer">24</span>
+</div>
+<button class="h-10 px-4 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md hover:bg-surface-container transition-colors shadow-sm">
+          Next
+        </button>
+</div>
+</div>
+</section>
+<!-- Section 4: Privacy & Personal Agency Architecture Banner -->
+<section class="w-full bg-surface-container py-space-xl my-6">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<!-- Text & Reassurance Column -->
+<div class="lg:col-span-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-lowest text-secondary font-label-sm text-label-sm uppercase tracking-wider mb-4 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">verified_user</span>
+            PERSONAL SOVEREIGNTY ARCHITECTURE
+          </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold tracking-tight mb-4">
+            Safe to show up as yourself.
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 leading-relaxed">
+            In Jumuika, personal dignity is encoded into the physics engine. You possess full agency over who enters your space, who hears your voice, and who approaches your presence.
+          </p>
+<!-- 4 Pillars of Safety Feature List -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="p-4 rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[22px] shrink-0">radio_button_checked</span>
+<div>
+<h4 class="font-title-md text-[15px] font-bold text-on-surface">2-Meter Bubble</h4>
+<p class="font-body-sm text-[13px] text-on-surface-variant">Avatars fade automatically if boundary threshold is crossed without mutual consent.</p>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px] shrink-0">volume_off</span>
+<div>
+<h4 class="font-title-md text-[15px] font-bold text-on-surface">Instant Safe Haven</h4>
+<p class="font-body-sm text-[13px] text-on-surface-variant">One-tap triple gesture immediately mutes all room incoming audio and blurs room visual feed.</p>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-3">
+<span class="material-symbols-outlined text-[#0E9F8E] text-[22px] shrink-0">location_off</span>
+<div>
+<h4 class="font-title-md text-[15px] font-bold text-on-surface">Zero Geotracking</h4>
+<p class="font-body-sm text-[13px] text-on-surface-variant">Strict compliance with Kenya Data Protection Act 2019. No IP or geographic telemetry sold.</p>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-3">
+<span class="material-symbols-outlined text-[#855400] text-[22px] shrink-0">gavel</span>
+<div>
+<h4 class="font-title-md text-[15px] font-bold text-on-surface">Verified Host Powers</h4>
+<p class="font-body-sm text-[13px] text-on-surface-variant">Hosts maintain quiet gavel powers, custom door codes, and respectful co-moderator roles.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Visual Diagram / Bubble Sandbox -->
+<div class="lg:col-span-6 flex justify-center">
+<div class="relative w-full max-w-md aspect-square rounded-3xl bg-surface-container-lowest p-8 shadow-xl flex flex-col items-center justify-center overflow-hidden">
+<!-- Decorative concentric boundary rings -->
+<div class="absolute w-80 h-80 rounded-full border-2 border-dashed border-outline-variant/60 animate-spin" style="animation-duration: 40s;"></div>
+<div class="absolute w-60 h-60 rounded-full bg-secondary-fixed/20 animate-pulse"></div>
+<div class="absolute w-44 h-44 rounded-full bg-primary-fixed/30"></div>
+<!-- Central User Avatar Pin -->
+<div class="relative z-10 flex flex-col items-center text-center">
+<div class="w-20 h-20 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-2xl shadow-xl ring-4 ring-surface-container-lowest mb-3">
+                YOU
+              </div>
+<span class="font-title-md text-[15px] font-bold text-on-surface">Personal Bubble Active</span>
+<span class="text-xs text-primary font-semibold">2.0m Proximity Guard Enabled</span>
+</div>
+<!-- Orbiting Peer Avatars -->
+<div class="absolute top-10 right-12 z-10 flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high/90 text-on-surface text-xs font-semibold shadow-sm">
+<span class="w-2 h-2 rounded-full bg-[#1E9E6A]"></span>
+              Friend (Allowed)
+            </div>
+<div class="absolute bottom-10 left-12 z-10 flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high/90 text-on-surface-variant text-xs font-semibold shadow-sm">
+<span class="material-symbols-outlined text-[13px] text-error">block</span>
+              Stranger (Deflected)
+            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: "Create Your Own Space" High-Impact Banner -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-space-xl w-full">
+<div class="relative rounded-3xl bg-gradient-to-br from-inverse-surface via-[#2c1e1c] to-[#1c1211] text-inverse-on-surface p-8 sm:p-12 lg:p-16 overflow-hidden shadow-2xl">
+<!-- Decorative Atmospheric Glow Elements -->
+<div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-primary-container/20 blur-3xl pointer-events-none"></div>
+<div class="absolute bottom-0 left-1/3 -mb-20 w-80 h-80 rounded-full bg-secondary/20 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-8">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-white/90 font-label-sm text-xs font-semibold mb-4 backdrop-blur-sm">
+<span class="material-symbols-outlined text-[15px] text-tertiary-fixed">bolt</span>
+            INSTANT ROOM DEPLOYMENT
+          </div>
+<h2 class="font-headline-lg text-headline-lg md:text-[44px] md:leading-[52px] font-bold tracking-tight mb-4 text-white">
+            Host a Sunday family tea, or build a 1,000-person tech keynote.
+          </h2>
+<p class="font-body-lg text-body-lg text-white/80 max-w-2xl leading-relaxed mb-8">
+            Create a persistent gathering sanctuary in under 30 seconds. Choose from authentic architectural presets: Nairobi Sunset Verandah, Westlands Rooftop Lounge, Kilifi Beach Firepit, or Soundstage Studio.
+          </p>
+<!-- Action Buttons -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+<a class="h-12 px-8 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md font-semibold inline-flex items-center justify-center gap-2 hover:bg-primary transition-all active:scale-[0.98] shadow-lg" href="#">
+<span class="material-symbols-outlined text-[20px]">add_circle</span>
+              Create a Space in 30 Seconds — Free
+            </a>
+<a class="h-12 px-6 rounded-xl bg-white/10 hover:bg-white/20 text-white font-label-md text-label-md font-medium inline-flex items-center justify-center gap-2 backdrop-blur-md transition-all shadow-sm" href="#">
+<span class="material-symbols-outlined text-[20px]">dashboard_customize</span>
+              Browse Space Templates
+            </a>
+</div>
+</div>
+<!-- Architectural Presets Badges Panel -->
+<div class="lg:col-span-4 flex flex-col gap-3">
+<div class="p-4 rounded-2xl bg-white/5 backdrop-blur-md flex items-center justify-between text-white/90">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-tertiary-fixed">deck</span>
+<div>
+<p class="font-label-md text-[14px] font-bold text-white">The Verandah</p>
+<p class="text-[12px] text-white/60">Family gatherings, tea, ambient birdsong</p>
+</div>
+</div>
+<span class="text-xs px-2 py-1 rounded bg-white/10 text-white/80">Preset</span>
+</div>
+<div class="p-4 rounded-2xl bg-white/5 backdrop-blur-md flex items-center justify-between text-white/90">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary-fixed">nightlife</span>
+<div>
+<p class="font-label-md text-[14px] font-bold text-white">The Rooftop Sundowner</p>
+<p class="text-[12px] text-white/60">Cocktails, vinyl DJ booth, skyline view</p>
+</div>
+</div>
+<span class="text-xs px-2 py-1 rounded bg-white/10 text-white/80">Preset</span>
+</div>
+<div class="p-4 rounded-2xl bg-white/5 backdrop-blur-md flex items-center justify-between text-white/90">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary-fixed">podium</span>
+<div>
+<p class="font-label-md text-[14px] font-bold text-white">The Founders' Boardroom</p>
+<p class="text-[12px] text-white/60">Stage screen mirror, pitch deck stands</p>
+</div>
+</div>
+<span class="text-xs px-2 py-1 rounded bg-white/10 text-white/80">Preset</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Client-Side JavaScript Logic -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Category filter buttons
+      const chipButtons = document.querySelectorAll('#categoryChips .chip-btn');
+      const privacyButtons = document.querySelectorAll('#privacyPills .filter-pill-btn');
+      const searchInput = document.getElementById('spaceSearchInput');
+      const cards = document.querySelectorAll('#spacesCardGrid article');
+
+      let currentCategory = 'all';
+      let currentPrivacy = 'all';
+      let currentQuery = '';
+
+      function filterSpaces() {
+        cards.forEach(card => {
+          const cardCategory = card.getAttribute('data-category');
+          const cardPrivacy = card.getAttribute('data-privacy');
+          const cardText = card.textContent.toLowerCase();
+
+          const matchesCategory = (currentCategory === 'all' || cardCategory === currentCategory);
+          const matchesPrivacy = (currentPrivacy === 'all' || cardPrivacy === currentPrivacy);
+          const matchesSearch = (!currentQuery || cardText.includes(currentQuery));
+
+          if (matchesCategory && matchesPrivacy && matchesSearch) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      }
+
+      // Handle category chip click
+      chipButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          chipButtons.forEach(b => {
+            b.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+            if (b.dataset.category === 'family') b.className = 'chip-btn shrink-0 px-4 py-2 rounded-xl text-xs font-semibold bg-[#3A5BD9]/10 text-[#3A5BD9] hover:bg-[#3A5BD9]/20 transition-all flex items-center gap-1.5';
+            else if (b.dataset.category === 'diaspora') b.className = 'chip-btn shrink-0 px-4 py-2 rounded-xl text-xs font-semibold bg-[#F2A63B]/15 text-[#855400] hover:bg-[#F2A63B]/25 transition-all flex items-center gap-1.5';
+            else if (b.dataset.category === 'interest') b.className = 'chip-btn shrink-0 px-4 py-2 rounded-xl text-xs font-semibold bg-[#0E9F8E]/15 text-[#0E9F8E] hover:bg-[#0E9F8E]/25 transition-all flex items-center gap-1.5';
+            else if (b.dataset.category === 'events') b.className = 'chip-btn shrink-0 px-4 py-2 rounded-xl text-xs font-semibold bg-[#D9527A]/15 text-[#D9527A] hover:bg-[#D9527A]/25 transition-all flex items-center gap-1.5';
+            else b.className = 'chip-btn shrink-0 px-4 py-2 rounded-xl text-xs font-semibold bg-surface-container text-on-surface hover:bg-surface-container-high transition-all flex items-center gap-1.5';
+          });
+
+          btn.classList.remove('bg-surface-container', 'bg-[#3A5BD9]/10', 'bg-[#F2A63B]/15', 'bg-[#0E9F8E]/15', 'bg-[#D9527A]/15');
+          btn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+
+          currentCategory = btn.dataset.category;
+          filterSpaces();
+        });
+      });
+
+      // Handle privacy toggle pills
+      privacyButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          privacyButtons.forEach(b => {
+            b.className = 'filter-pill-btn px-3.5 py-1.5 rounded-lg text-xs font-medium text-on-surface-variant hover:text-on-surface transition-all';
+          });
+          btn.className = 'filter-pill-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-surface-container-lowest text-on-surface shadow-sm transition-all';
+          currentPrivacy = btn.dataset.filter;
+          filterSpaces();
+        });
+      });
+
+      // Handle live search
+      searchInput.addEventListener('input', (e) => {
+        currentQuery = e.target.value.toLowerCase().trim();
+        filterSpaces();
+      });
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-low"><div class="w-full bg-gradient-to-r from-surface-container to-surface-container-high py-space-xl"><div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-space-lg text-center md:text-left"><div><h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">Show up together — get started free</h3><p class="font-body-md text-body-md text-on-surface-variant">Virtual presence calibrated for heart, diaspora, and authentic belonging.</p></div><div class="flex items-center gap-space-md shrink-0"><a class="h-12 px-6 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md inline-flex items-center justify-center hover:bg-primary transition-all shadow-[0_2px_8px_-2px_rgba(74,57,54,0.08)]" data-path="get-started" href="#">Create Space</a><a class="h-12 px-6 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md inline-flex items-center justify-center hover:bg-surface transition-colors shadow-[0_1px_3px_rgba(74,57,54,0.04)]" data-path="spaces-and-communities" href="#">Explore Directory</a></div></div></div><div class="max-w-7xl mx-auto px-6 lg:px-12 py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-space-lg mb-space-xl"><div class="lg:col-span-2"><div class="flex items-center gap-space-sm mb-space-md"><img alt="Jumuika Brand Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XTaJ6-rFfGkm1fYKo9a9PxXxerW-X8jzJzjNDxZmFSfsouwJjX7wf6MEkyibKu7ZsXJYp7Ca3OWRYmQjUatPa9-a1jyn4ZxQzA0qqK52XWIYcDou4KyuSq2gSji_LwzCVMwbjkXoK4KUF02Z-ODQVcVnilYoKUCTjjZNkKKzQbvuCloR4x3m-4Z5QseRFmDuPFJMhksSlDnPNaXvvZn6CigrcsJ7tDCVFKRRbc12m-mRjB666Qmn4vqDg"/><span class="font-headline-sm text-headline-sm text-primary font-bold">Jumuika</span></div><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md max-w-sm">Distance is just a detail. A warm virtual shared realm fostering human togetherness across continents, timezones, and diaspora boundaries.</p><p class="font-label-sm text-label-sm text-secondary font-semibold mb-space-md">Part of Swizzy Industries</p><div class="flex items-center gap-space-sm text-on-surface-variant"><span class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center hover:text-primary transition-colors cursor-pointer"><span class="material-symbols-outlined text-[18px]">public</span></span><span class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center hover:text-primary transition-colors cursor-pointer"><span class="material-symbols-outlined text-[18px]">podcasts</span></span><span class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center hover:text-primary transition-colors cursor-pointer"><span class="material-symbols-outlined text-[18px]">forum</span></span></div></div><div><h4 class="font-title-md text-title-md text-on-surface mb-space-md">Spaces &amp; Communities</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="family-and-friends" href="#">Family &amp; Friends</a></li><li><a class="hover:text-primary transition-colors" data-path="diaspora-and-heritage" href="#">Diaspora &amp; Heritage</a></li><li><a class="hover:text-primary transition-colors" data-path="interest-communities" href="#">Interest Communities</a></li><li><a class="hover:text-primary transition-colors" data-path="events-and-gatherings" href="#">Events &amp; Gatherings</a></li><li><a class="hover:text-primary transition-colors" data-path="live-spaces" href="#">Live Spaces</a></li></ul></div><div><h4 class="font-title-md text-title-md text-on-surface mb-space-md">Events &amp; Calendar</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="events-and-gatherings-calendar" href="#">Live Concerts</a></li><li><a class="hover:text-primary transition-colors" data-path="cultural-gatherings" href="#">Cultural Gatherings</a></li><li><a class="hover:text-primary transition-colors" data-path="watch-parties" href="#">Watch Parties</a></li><li><a class="hover:text-primary transition-colors" data-path="host-an-event" href="#">Host an Event</a></li><li><a class="hover:text-primary transition-colors" data-path="timezone-guide" href="#">Timezone Guide</a></li></ul></div><div><h4 class="font-title-md text-title-md text-on-surface mb-space-md">Safety &amp; Governance</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="community-standards" href="#">Community Standards</a></li><li><a class="hover:text-primary transition-colors" data-path="safety-and-privacy" href="#">Privacy Controls</a></li><li><a class="hover:text-primary transition-colors" data-path="child-and-teen-safeguards" href="#">Child &amp; Teen Safeguards</a></li><li><a class="hover:text-primary transition-colors" data-path="transparency-report" href="#">Transparency Report</a></li></ul></div><div><h4 class="font-title-md text-title-md text-on-surface mb-space-md">Company &amp; Connect</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="about-us" href="#">About Us</a></li><li><a class="hover:text-primary transition-colors" data-path="careers" href="#">Careers <span class="text-[10px] bg-secondary-fixed text-on-secondary-fixed px-1.5 py-0.5 rounded-full ml-1 font-semibold">Hiring</span></a></li><li><a class="hover:text-primary transition-colors" data-path="contact" href="#">Contact &amp; Support</a></li><li><a class="hover:text-primary transition-colors" data-path="press-kit" href="#">Press Kit</a></li></ul></div></div><div class="p-space-lg rounded-xl bg-surface-container flex flex-col md:flex-row items-center justify-between gap-space-md mb-space-xl"><div><h5 class="font-title-md text-title-md text-on-surface mb-1">Join our gathering newsletter</h5><p class="font-body-sm text-body-sm text-on-surface-variant">Dispatches on cross-border connection, room design, and community rituals.</p></div><form class="flex w-full md:w-auto items-center gap-2"><input class="h-12 px-4 rounded-xl bg-surface-container-lowest text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary-container w-full md:w-72 shadow-[0_1px_3px_rgba(74,57,54,0.02)]" placeholder="Enter your email" type="email"/><button class="h-12 px-6 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-colors shrink-0" type="button">Subscribe</button></form></div><div class="flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant pt-space-md"><div class="flex flex-col sm:flex-row items-center gap-space-xs sm:gap-space-md text-center sm:text-left"><span>© Jumuika Ltd. All rights reserved.</span><span class="hidden sm:inline">•</span><span>Compliant with Kenya Data Protection Act 2019</span></div><div class="flex flex-wrap items-center justify-center gap-space-md"><li><a class="hover:text-primary transition-colors list-none" data-path="privacy-policy" href="#">Privacy Policy</a></li><li><a class="hover:text-primary transition-colors list-none" data-path="terms-of-use" href="#">Terms of Use</a></li><li><a class="hover:text-primary transition-colors list-none" data-path="community-standards" href="#">Community Standards</a></li><li><a class="hover:text-primary transition-colors list-none" data-path="accessibility-statement" href="#">Accessibility Statement</a></li></div></div></div></footer></body></html>

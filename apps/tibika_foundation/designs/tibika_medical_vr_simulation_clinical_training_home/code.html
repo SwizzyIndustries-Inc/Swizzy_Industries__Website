@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Tibika Healthcare</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"secondary-fixed":"#d0e4ff","feedback-error":"#D64545","primary":"#00685c","primary-fixed":"#81f6e3","surface-container-lowest":"#ffffff","on-surface":"#0e1d25","secondary":"#46617d","tertiary":"#2d4fce","on-secondary":"#ffffff","slate-muted":"#647178","surface-container-highest":"#d5e5ef","on-primary":"#ffffff","domain-wellbeing":"#6C4FD9","outline":"#6d7a76","on-tertiary-container":"#fffbff","surface-bright":"#f4faff","on-error-container":"#93000a","surface-container-high":"#daebf5","on-primary-fixed":"#00201c","error-container":"#ffdad6","surface-variant":"#d5e5ef","surface-container-low":"#e7f6ff","domain-research":"#3A5BD9","surface-tint":"#006b5f","inverse-primary":"#63dac7","ink-text":"#0B1B2B","inverse-surface":"#23323a","secondary-fixed-dim":"#adc9ea","on-primary-fixed-variant":"#005047","on-tertiary-fixed-variant":"#0637b8","on-primary-container":"#f4fffb","error":"#ba1a1a","teal-tint":"#DFF6F2","surface":"#f4faff","on-tertiary-fixed":"#001354","on-secondary-container":"#46617e","domain-clinical":"#0E9F8E","background":"#f4faff","on-background":"#0e1d25","on-tertiary":"#ffffff","tertiary-fixed":"#dde1ff","inverse-on-surface":"#e3f3fd","on-error":"#ffffff","primary-container":"#008375","on-surface-variant":"#3d4946","feedback-success":"#1E9E6A","on-secondary-fixed":"#001d34","cloud-border":"#DCEAE7","mist-bg":"#F4F9F8","feedback-warning":"#E0A100","tertiary-container":"#4a6ae8","primary-fixed-dim":"#63dac7","tertiary-fixed-dim":"#b8c4ff","surface-container":"#e0f0fb","surface-dim":"#ccdce6","secondary-container":"#c1ddfe","teal-hover":"#0B7F72","on-secondary-fixed-variant":"#2d4964","outline-variant":"#bcc9c5"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter":"1.5rem","gutter-mobile":"1rem","margin":"2rem","space-xs":"0.25rem","space-sm":"0.5rem","space-lg":"1.5rem","margin-mobile":"1.25rem","space-md":"1rem","space-xl":"2rem"},"fontFamily":{"label-sm":["Inter"],"headline-lg":["Plus Jakarta Sans"],"display":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"title-lg":["Plus Jakarta Sans"],"label-md":["Inter"],"display-mobile":["Plus Jakarta Sans"],"eyebrow":["Plus Jakarta Sans"],"body-md":["Inter"],"body-sm":["Inter"],"headline-sm":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-md":["Plus Jakarta Sans"],"headline-md-mobile":["Plus Jakarta Sans"]},"fontSize":{"label-sm":["12px",{"lineHeight":"16px","fontWeight":"500"}],"headline-lg":["44px",{"lineHeight":"52px","letterSpacing":"-0.015em","fontWeight":"700"}],"display":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-lg-mobile":["32px",{"lineHeight":"38px","letterSpacing":"-0.01em","fontWeight":"600"}],"title-lg":["20px",{"lineHeight":"26px","fontWeight":"600"}],"label-md":["14px",{"lineHeight":"20px","fontWeight":"500"}],"display-mobile":["38px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"eyebrow":["12px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"700"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"headline-sm":["24px",{"lineHeight":"30px","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"26px","fontWeight":"400"}],"headline-md":["32px",{"lineHeight":"38px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-md-mobile":["26px",{"lineHeight":"32px","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-teal-tint selection:text-teal-hover"><header class="fixed top-0 left-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1200px] mx-auto px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md shrink-0"><img alt="Tibika Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WUy7ZQBKyZwGIWyk65_Ehrvl-wIwLonUVe-mf3mOvCirJ2ARl9tQtXUvxFrFXRYWz25wdUhqUgZu56WgBShdWIvAlny_ykgueGu1XNpQuQYqArCFyvaavumHw0aja77nlU1zd1OiTbQJTA2gMQ1CDerSi2Ap2T7AQkZFgIjKwLv3jtBNnVWFps5DQ4akEvDg_2AN07b1-knGfa642Xl9NVb0fbMLnql76_PrPJw-YaFSApCm8ZjVEUIBvP"/><div class="flex flex-col"><span class="font-title-lg text-title-lg tracking-tight text-ink-text leading-none">Tibika</span><span class="font-label-sm text-label-sm text-slate-muted">part of Swizzy Industries</span></div></div><nav class="hidden lg:flex items-center gap-space-xs" data-active-classes="bg-teal-tint text-teal-hover font-semibold"><a aria-current="page" class="px-space-md py-space-sm rounded-lg transition-colors bg-teal-tint text-teal-hover font-semibold" data-path="home" href="#">Home</a><div class="relative group"><button class="px-space-md py-space-sm rounded-lg font-label-md text-label-md text-on-surface-variant group-hover:text-on-surface group-hover:bg-surface-container flex items-center gap-1 transition-colors" type="button"><span class="font-label-md text-label-md">Clinical &amp; Research Solutions</span><span class="material-symbols-outlined text-[18px] transition-transform group-hover:rotate-180">expand_more</span></button><div class="absolute left-1/2 -translate-x-1/2 top-full pt-2 hidden group-hover:block w-[760px] drop-shadow-lg"><div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-[0_4px_16px_-2px_rgba(10,42,68,0.08)] grid grid-cols-3 gap-gutter"><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-2 mb-1"><span class="w-2.5 h-2.5 rounded-full bg-domain-clinical"></span><span class="font-eyebrow text-eyebrow uppercase text-teal-hover">Pillar 01</span></div><a class="font-title-lg text-title-lg text-ink-text hover:text-teal-hover transition-colors" data-path="clinical-training" href="#">Clinical Training</a><p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">Precision procedural pathways, skill certification, and hands-on simulation modules for surgeons.</p></div><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-2 mb-1"><span class="w-2.5 h-2.5 rounded-full bg-domain-research"></span><span class="font-eyebrow text-eyebrow uppercase text-domain-research">Pillar 02</span></div><a class="font-title-lg text-title-lg text-ink-text hover:text-domain-research transition-colors" data-path="medical-research-and-simulation" href="#">Medical Research</a><p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">Bio-modeling datasets, multi-center trials infrastructure, and predictive physiological engines.</p></div><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-2 mb-1"><span class="w-2.5 h-2.5 rounded-full bg-domain-wellbeing"></span><span class="font-eyebrow text-eyebrow uppercase text-domain-wellbeing">Pillar 03</span></div><a class="font-title-lg text-title-lg text-ink-text hover:text-domain-wellbeing transition-colors" data-path="patient-care-and-wellbeing" href="#">Patient Care</a><p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">Intelligent rehabilitation protocols, clinical bedside support, and patient monitoring telemetry.</p></div><div class="col-span-3 pt-space-md mt-space-xs bg-mist-bg rounded-lg p-space-md flex items-center justify-between"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-domain-clinical text-[20px]">verified</span><span class="font-label-md text-label-md text-ink-text font-semibold">Clinical Advisory Board Oversight</span><span class="font-body-sm text-body-sm text-slate-muted">Verified across 24 East African teaching hospitals</span></div><a class="font-label-sm text-label-sm text-teal-hover hover:underline font-semibold" data-path="clinical-advisory-board" href="#">View Board →</a></div></div></div></div><div class="relative group"><button class="px-space-md py-space-sm rounded-lg font-label-md text-label-md text-on-surface-variant group-hover:text-on-surface group-hover:bg-surface-container flex items-center gap-1 transition-colors" type="button"><span class="font-label-md text-label-md">Simulation Catalog</span><span class="material-symbols-outlined text-[18px] transition-transform group-hover:rotate-180">expand_more</span></button><div class="absolute left-1/2 -translate-x-1/2 top-full pt-2 hidden group-hover:block w-[520px] drop-shadow-lg"><div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-[0_4px_16px_-2px_rgba(10,42,68,0.08)]"><span class="font-eyebrow text-eyebrow text-slate-muted uppercase mb-space-sm block">Specialty Modules</span><div class="grid grid-cols-2 gap-space-md"><a class="p-space-sm rounded-lg hover:bg-mist-bg flex flex-col gap-0.5 transition-colors" data-path="surgery-adjacent-simulation" href="#"><span class="font-label-md text-label-md text-ink-text font-semibold">Surgery-adjacent</span><span class="font-body-sm text-body-sm text-slate-muted">Laparoscopy &amp; surgical suites</span></a><a class="p-space-sm rounded-lg hover:bg-mist-bg flex flex-col gap-0.5 transition-colors" data-path="emergency-response-simulation" href="#"><span class="font-label-md text-label-md text-ink-text font-semibold">Emergency Response</span><span class="font-body-sm text-body-sm text-slate-muted">Trauma triage &amp; ICU protocols</span></a><a class="p-space-sm rounded-lg hover:bg-mist-bg flex flex-col gap-0.5 transition-colors" data-path="anatomy-simulation" href="#"><span class="font-label-md text-label-md text-ink-text font-semibold">Anatomy</span><span class="font-body-sm text-body-sm text-slate-muted">Volumetric 3D spatial mapping</span></a><a class="p-space-sm rounded-lg hover:bg-mist-bg flex flex-col gap-0.5 transition-colors" data-path="rehabilitation-simulation" href="#"><span class="font-label-md text-label-md text-ink-text font-semibold">Rehabilitation</span><span class="font-body-sm text-body-sm text-slate-muted">Neuro &amp; physical therapy tracks</span></a></div></div></div></div><a class="px-space-md py-space-sm rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="evidence-and-outcomes" href="#">Evidence &amp; Outcomes</a><a class="px-space-md py-space-sm rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="careers" href="#">Careers</a></nav><div class="flex items-center gap-space-md shrink-0"><button aria-label="Search catalog and publications" class="w-10 h-10 rounded-lg flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">search</span></button><a class="hidden sm:inline-block font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a><a class="h-12 px-6 rounded-xl bg-domain-clinical text-on-primary font-label-md text-label-md font-semibold hover:bg-teal-hover flex items-center justify-center transition-colors shadow-[0_2px_8px_rgba(14,159,142,0.25)]" data-path="request-a-demo" href="#">Request a Demo</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full bg-surface py-space-xl lg:py-24 overflow-hidden">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Text Column -->
+<div class="lg:col-span-6 flex flex-col items-start space-y-space-md z-10">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-tint">
+<span class="w-2 h-2 rounded-full bg-domain-clinical"></span>
+<span class="font-eyebrow text-eyebrow text-teal-hover tracking-wide uppercase">VIRTUAL REALITY IN MEDICINE &amp; RESEARCH</span>
+</div>
+<h1 class="font-display text-headline-lg lg:text-display text-ink-text leading-tight tracking-tight">
+            Practice precision. Protect life.
+          </h1>
+<p class="font-body-lg text-body-lg text-slate-muted max-w-xl leading-relaxed">
+            High-fidelity VR simulation tools engineered for clinical skills training, surgical rehearsal, and biomedical research — built for the realities of East African healthcare.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md pt-2">
+<a class="h-12 px-6 rounded-xl bg-domain-clinical text-on-primary font-label-md text-label-md font-semibold hover:bg-teal-hover flex items-center justify-center transition-colors shadow-sm" data-path="request-a-demo" href="#">
+              Request a Demo
+            </a>
+<a class="h-12 px-6 rounded-xl bg-surface-container-lowest text-on-secondary-fixed font-label-md text-label-md font-semibold hover:bg-mist-bg flex items-center gap-2 transition-colors shadow-sm" data-path="simulation-catalog" href="#">
+<span>Explore Simulation Catalog</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<!-- Micro Spec Indicators -->
+<div class="pt-4 grid grid-cols-3 gap-space-md w-full max-w-md">
+<div class="flex flex-col">
+<span class="font-title-lg text-title-lg text-ink-text font-bold">&lt; 4ms</span>
+<span class="font-label-sm text-label-sm text-slate-muted">Haptic Latency</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-lg text-title-lg text-ink-text font-bold">0.1mm</span>
+<span class="font-label-sm text-label-sm text-slate-muted">Mesh Fidelity</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-lg text-title-lg text-ink-text font-bold">ISO 13485</span>
+<span class="font-label-sm text-label-sm text-slate-muted">Quality Aligned</span>
+</div>
+</div>
+</div>
+<!-- Hero Image Composition -->
+<div class="lg:col-span-6 relative mt-8 lg:mt-0">
+<div class="relative w-full rounded-2xl overflow-hidden shadow-xl bg-surface-container-high aspect-[4/3]">
+<img alt="Surgical resident practicing laparoscopic procedure in high-fidelity VR simulator" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcJ-vF1smcfDyjWd8qzbJ3FgqsPggtm4iUU1KWYX05VkIXWvLC4NGikClH93PDB2Bfs6ZF4EugnoNccPLQMp8QagFbzDQjDvYYOwrY69KlAkvdsj0jfWH286BN48qps7NjfilGGhsOw_yeuPhsUfsZ_H2fqtuE9stpAirVk-xett_0UdEtVHsi3SNRlz2eit1add3vWUJWP4B_FrrZ2d7nTYazORU68icz0rtSuSAtUKqiqcbmnti3vg"/>
+<!-- Real-time HUD Badges Overlay -->
+<div class="absolute top-4 left-4 flex flex-col gap-2">
+<div class="px-3 py-1.5 rounded-lg bg-surface/90 backdrop-blur-md shadow-sm flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-domain-clinical animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-ink-text font-semibold">Active Session: Laparoscopic Port Site</span>
+</div>
+<div class="px-2.5 py-1 rounded bg-[#0A2A44]/80 backdrop-blur-md text-[#FFFFFF] font-label-sm text-label-sm self-start">
+                Frame Sync: 120 FPS Stable
+              </div>
+</div>
+<div class="absolute bottom-4 right-4 bg-surface-container-lowest/95 backdrop-blur-md p-3 rounded-xl shadow-md max-w-xs">
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-domain-clinical text-[18px]">verified</span>
+<span class="font-label-sm text-label-sm text-ink-text font-bold">Procedural Accuracy</span>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-1.5 overflow-hidden">
+<div class="bg-domain-clinical h-full rounded-full" style="width: 94%"></div>
+</div>
+<div class="flex justify-between items-center mt-1">
+<span class="font-label-sm text-label-sm text-slate-muted">Sub-millimeter margin</span>
+<span class="font-label-sm text-label-sm text-teal-hover font-semibold">94.2%</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Credibility Strip -->
+<div class="mt-16 pt-8 bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<p class="font-label-sm text-label-sm text-slate-muted uppercase tracking-wider text-center mb-6">
+          Deployed and piloted across leading teaching hospitals and health institutions in Kenya and East Africa
+        </p>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 items-center justify-items-center opacity-75">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[24px]">account_balance</span>
+<span class="font-title-lg text-title-lg text-secondary font-semibold">Nairobi Surgical Academy</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[24px]">local_hospital</span>
+<span class="font-title-lg text-title-lg text-secondary font-semibold">Kenya National Teaching Hospital</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[24px]">school</span>
+<span class="font-title-lg text-title-lg text-secondary font-semibold">East African Health Institute</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[24px]">biotech</span>
+<span class="font-title-lg text-title-lg text-secondary font-semibold">Rift Valley Medical College</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- THREE-CARD DOMAIN SELECTOR -->
+<section class="w-full bg-mist-bg py-space-xl lg:py-24">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="flex flex-col items-center text-center mb-12">
+<span class="font-eyebrow text-eyebrow text-primary uppercase tracking-widest mb-2">THREE SPECIALIZED PILLARS</span>
+<h2 class="font-headline-lg text-headline-md lg:text-headline-lg text-ink-text font-bold">
+          Engineered for clinicians, researchers, and patients
+        </h2>
+<p class="font-body-md text-body-md text-slate-muted max-w-2xl mt-2">
+          Modular virtual environments developed in consultation with leading surgical faculties, medical oncologists, and neuro-rehabilitation clinicians.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Card 1: Clinical Training -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-200 relative overflow-hidden group">
+<div class="absolute top-0 left-0 right-0 h-1.5 bg-domain-clinical"></div>
+<div>
+<div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-teal-tint text-teal-hover mb-4">
+<span class="w-2 h-2 rounded-full bg-domain-clinical"></span>
+<span class="font-label-sm text-label-sm font-semibold">Clinical Training</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-ink-text font-bold mb-3">
+              Procedure Rehearsal &amp; Emergency Response
+            </h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed mb-6">
+              Empowering hospital teams and surgical residencies with high-repetition virtual procedural runs. From core laparoscopy to mass-casualty trauma triaging.
+            </p>
+</div>
+<div class="pt-4 mt-auto">
+<div class="bg-mist-bg rounded-lg p-3 mb-4">
+<span class="font-label-sm text-label-sm text-teal-hover font-semibold block">Key Outcome:</span>
+<span class="font-body-sm text-body-sm text-ink-text">Repeatable skill drills with zero clinical risk to patients.</span>
+</div>
+<a class="font-label-md text-label-md text-domain-clinical font-semibold flex items-center gap-1 hover:text-teal-hover transition-colors" data-path="clinical-training" href="#">
+<span>Explore Clinical Training</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 2: Research & Simulation -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-200 relative overflow-hidden group">
+<div class="absolute top-0 left-0 right-0 h-1.5 bg-domain-research"></div>
+<div>
+<div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-secondary-fixed text-domain-research mb-4">
+<span class="w-2 h-2 rounded-full bg-domain-research"></span>
+<span class="font-label-sm text-label-sm font-semibold">Research &amp; Simulation</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-ink-text font-bold mb-3">
+              Biomedical Modeling &amp; Anatomical Visualization
+            </h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed mb-6">
+              Equipping clinical trial researchers and biomedical engineers with volumetric spatial tools to simulate novel interventions prior to physical human trials.
+            </p>
+</div>
+<div class="pt-4 mt-auto">
+<div class="bg-mist-bg rounded-lg p-3 mb-4">
+<span class="font-label-sm text-label-sm text-domain-research font-semibold block">Key Outcome:</span>
+<span class="font-body-sm text-body-sm text-ink-text">DICOM native pipeline, dynamic fluid &amp; tissue physics.</span>
+</div>
+<a class="font-label-md text-label-md text-domain-research font-semibold flex items-center gap-1 hover:text-primary transition-colors" data-path="medical-research-and-simulation" href="#">
+<span>Explore Research Tools</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 3: Patient Care & Wellbeing -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-200 relative overflow-hidden group">
+<div class="absolute top-0 left-0 right-0 h-1.5 bg-domain-wellbeing"></div>
+<div>
+<div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-[#6C4FD9]/10 text-domain-wellbeing mb-4">
+<span class="w-2 h-2 rounded-full bg-domain-wellbeing"></span>
+<span class="font-label-sm text-label-sm font-semibold">Patient Care &amp; Wellbeing</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-ink-text font-bold mb-3">
+              Therapeutic &amp; Neurological VR
+            </h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed mb-6">
+              Clinically supervised rehabilitation suites addressing neuro-motor recovery, pediatric procedural anxiety mitigation, and chronic trauma physical therapy.
+            </p>
+</div>
+<div class="pt-4 mt-auto">
+<div class="bg-mist-bg rounded-lg p-3 mb-4">
+<span class="font-label-sm text-label-sm text-domain-wellbeing font-semibold block">Key Outcome:</span>
+<span class="font-body-sm text-body-sm text-ink-text">Quantifiable range-of-motion &amp; neurological telemetry.</span>
+</div>
+<a class="font-label-md text-label-md text-domain-wellbeing font-semibold flex items-center gap-1 hover:opacity-80 transition-colors" data-path="patient-care-and-wellbeing" href="#">
+<span>Explore Wellbeing Solutions</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FEATURED SIMULATION CATALOG / MODULE GRID -->
+<section class="w-full bg-surface py-space-xl lg:py-24">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+<div>
+<span class="font-eyebrow text-eyebrow text-teal-hover uppercase tracking-widest block mb-2">CURRICULUM MODULES</span>
+<h2 class="font-headline-lg text-headline-md lg:text-headline-lg text-ink-text font-bold">Standardized Clinical Catalog</h2>
+</div>
+<!-- Filter Pills -->
+<div class="flex flex-wrap items-center gap-2">
+<button class="h-9 px-4 rounded-full bg-domain-clinical text-on-primary font-label-sm text-label-sm font-semibold" type="button">All Modules</button>
+<button class="h-9 px-4 rounded-full bg-surface-container-high text-on-surface-variant hover:text-ink-text font-label-sm text-label-sm transition-colors" type="button">Surgical-Adjacent</button>
+<button class="h-9 px-4 rounded-full bg-surface-container-high text-on-surface-variant hover:text-ink-text font-label-sm text-label-sm transition-colors" type="button">Emergency Drill</button>
+<button class="h-9 px-4 rounded-full bg-surface-container-high text-on-surface-variant hover:text-ink-text font-label-sm text-label-sm transition-colors" type="button">Anatomy Explorer</button>
+<button class="h-9 px-4 rounded-full bg-surface-container-high text-on-surface-variant hover:text-ink-text font-label-sm text-label-sm transition-colors" type="button">Rehabilitation</button>
+</div>
+</div>
+<!-- Modules 2x2 Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Module 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="px-2.5 py-0.5 rounded-full bg-teal-tint text-teal-hover font-label-sm text-label-sm font-semibold">Clinical Training</span>
+<span class="flex items-center gap-1 font-label-sm text-label-sm text-slate-muted">
+<span class="material-symbols-outlined text-[16px]">schedule</span> 25 mins
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-ink-text font-bold mb-2">
+              Pediatric Airway Management Simulation
+            </h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed mb-4">
+              Rapid anatomical orientation in acute pediatric respiratory distress, foreign-object extraction, and difficult endotracheal intubation drills.
+            </p>
+</div>
+<div class="space-y-3 pt-3">
+<div class="flex items-center justify-between text-slate-muted font-label-sm text-label-sm bg-mist-bg p-2.5 rounded-lg">
+<span>Target Clinical Level:</span>
+<span class="font-semibold text-ink-text">Resident / Registrar</span>
+</div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-[16px]">menu_book</span>
+<span>Peer-reviewed drill model [Lancet GH 2023]</span>
+</div>
+</div>
+</div>
+<!-- Module 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="px-2.5 py-0.5 rounded-full bg-[#3A5BD9]/10 text-domain-research font-label-sm text-label-sm font-semibold">Research &amp; Simulation</span>
+<span class="flex items-center gap-1 font-label-sm text-label-sm text-slate-muted">
+<span class="material-symbols-outlined text-[16px]">hourglass_top</span> Interactive Lab
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-ink-text font-bold mb-2">
+              Volumetric Cranial Microvascular Reconstruction
+            </h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed mb-4">
+              High-resolution stereoscopic spatial exploration of cerebrovascular aneurysms with live clip occlusion simulation and hemodynamics modeling.
+            </p>
+</div>
+<div class="space-y-3 pt-3">
+<div class="flex items-center justify-between text-slate-muted font-label-sm text-label-sm bg-mist-bg p-2.5 rounded-lg">
+<span>Target Clinical Level:</span>
+<span class="font-semibold text-ink-text">Senior Specialist</span>
+</div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-[16px]">layers</span>
+<span>DICOM 3D mesh import compatible</span>
+</div>
+</div>
+</div>
+<!-- Module 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="px-2.5 py-0.5 rounded-full bg-[#6C4FD9]/10 text-domain-wellbeing font-label-sm text-label-sm font-semibold">Patient Care</span>
+<span class="flex items-center gap-1 font-label-sm text-label-sm text-slate-muted">
+<span class="material-symbols-outlined text-[16px]">schedule</span> 15 mins
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-ink-text font-bold mb-2">
+              Post-Stroke Bilateral Sensorimotor Re-education
+            </h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed mb-4">
+              Targeted sensory feedback tasks designed for subacute neuro-recovery, mapping contralateral limb mirroring and joint angle tracking.
+            </p>
+</div>
+<div class="space-y-3 pt-3">
+<div class="flex items-center justify-between text-slate-muted font-label-sm text-label-sm bg-mist-bg p-2.5 rounded-lg">
+<span>Target Clinical Level:</span>
+<span class="font-semibold text-ink-text">Physiotherapy / Supervised</span>
+</div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-[16px]">clinical_notes</span>
+<span>Clinical trial pilot ongoing [NCT-0582]</span>
+</div>
+</div>
+</div>
+<!-- Module 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="px-2.5 py-0.5 rounded-full bg-teal-tint text-teal-hover font-label-sm text-label-sm font-semibold">Clinical Training</span>
+<span class="flex items-center gap-1 font-label-sm text-label-sm text-slate-muted">
+<span class="material-symbols-outlined text-[16px]">schedule</span> 40 mins
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-ink-text font-bold mb-2">
+              Laparoscopic Cholecystectomy Instrument Rehearsal
+            </h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed mb-4">
+              Critical view of safety (CVS) identification, cystic duct clipping, and cautery ergonomics with realistic organ displacement physics.
+            </p>
+</div>
+<div class="space-y-3 pt-3">
+<div class="flex items-center justify-between text-slate-muted font-label-sm text-label-sm bg-mist-bg p-2.5 rounded-lg">
+<span>Target Clinical Level:</span>
+<span class="font-semibold text-ink-text">Core Surgical Trainee</span>
+</div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-[16px]">task_alt</span>
+<span>Standardized OSATS metrics</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- HOW IT WORKS: THREE-STEP WORKFLOW STRIP -->
+<section class="w-full bg-mist-bg py-space-xl lg:py-24">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="text-center max-w-xl mx-auto mb-16">
+<span class="font-eyebrow text-eyebrow text-primary uppercase tracking-widest block mb-2">METHODOLOGY</span>
+<h2 class="font-headline-lg text-headline-md lg:text-headline-lg text-ink-text font-bold">Standardized Clinical Workflow</h2>
+<p class="font-body-md text-body-md text-slate-muted mt-2">
+          From diagnostic imaging to verifiable surgeon accreditation in three rigorous stages.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter relative">
+<!-- Step 01 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col relative">
+<div class="w-12 h-12 rounded-xl bg-teal-tint flex items-center justify-center text-domain-clinical font-headline-sm text-headline-sm font-bold mb-6">
+            01
+          </div>
+<h3 class="font-title-lg text-title-lg text-ink-text font-bold mb-3">
+            Select or Ingest Anatomical Case
+          </h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">
+            Import patient-specific DICOM, CT, or MRI series directly into the volumetric pipeline, or load from the verified East African pathological library.
+          </p>
+<div class="mt-6 pt-4 bg-mist-bg p-3 rounded-lg flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">file_upload</span>
+<span class="font-label-sm text-label-sm text-slate-muted">Automated 3D Segmentation</span>
+</div>
+</div>
+<!-- Step 02 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col relative">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-domain-research font-headline-sm text-headline-sm font-bold mb-6">
+            02
+          </div>
+<h3 class="font-title-lg text-title-lg text-ink-text font-bold mb-3">
+            Rehearse in Zero-Risk VR
+          </h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">
+            Execute complex surgical procedures with realistic haptic tissue resistance, bleeding emulation, and real-time hemodynamic patient reactions.
+          </p>
+<div class="mt-6 pt-4 bg-mist-bg p-3 rounded-lg flex items-center gap-2">
+<span class="material-symbols-outlined text-domain-research text-[18px]">monitor_heart</span>
+<span class="font-label-sm text-label-sm text-slate-muted">Continuous Physiology Loop</span>
+</div>
+</div>
+<!-- Step 03 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col relative">
+<div class="w-12 h-12 rounded-xl bg-[#6C4FD9]/10 flex items-center justify-center text-domain-wellbeing font-headline-sm text-headline-sm font-bold mb-6">
+            03
+          </div>
+<h3 class="font-title-lg text-title-lg text-ink-text font-bold mb-3">
+            Evaluate Quantitative Outcomes
+          </h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">
+            Obtain immediate objective metrics on spatial tool economy, angular accuracy, tissue tension limits, and standardized OSATS competency scorecards.
+          </p>
+<div class="mt-6 pt-4 bg-mist-bg p-3 rounded-lg flex items-center gap-2">
+<span class="material-symbols-outlined text-domain-wellbeing text-[18px]">assessment</span>
+<span class="font-label-sm text-label-sm text-slate-muted">OSATS Accredited Scorecard</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- EVIDENCE & OUTCOMES BAND (High Contrast Instrument Navy) -->
+<section class="w-full bg-[#0A2A44] text-[#FFFFFF] py-space-xl lg:py-24">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="max-w-2xl mb-16">
+<span class="font-eyebrow text-eyebrow text-primary-fixed uppercase tracking-wider block mb-2">CLINICAL VALIDATION</span>
+<h2 class="font-headline-lg text-headline-md lg:text-headline-lg text-[#FFFFFF] font-bold">
+          Evidence-based simulation that demonstrably lowers clinical error.
+        </h2>
+<p class="font-body-md text-body-md text-[#FFFFFF]/75 mt-3">
+          All pilot figures tracked under supervised clinical institutional trials across accredited surgical registrar programs.
+        </p>
+</div>
+<!-- 4-Metric Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-10">
+<!-- Metric 1 -->
+<div class="bg-[#0D3455] p-space-lg rounded-xl flex flex-col justify-between">
+<div>
+<span class="font-display text-display text-primary-fixed font-bold block mb-1">68%</span>
+<span class="font-title-lg text-title-lg text-[#FFFFFF] font-semibold block mb-2">Reduction in Procedural Deviation</span>
+<p class="font-body-sm text-body-sm text-[#FFFFFF]/70 leading-relaxed">
+              Measured during first live unassisted interventions in core abdominal procedures.
+            </p>
+</div>
+<div class="mt-4 pt-3 text-[11px] font-label-sm text-[#FFFFFF]/50">
+            [East Africa Surgical Trial, 2023, illustrative cohort]
+          </div>
+</div>
+<!-- Metric 2 -->
+<div class="bg-[#0D3455] p-space-lg rounded-xl flex flex-col justify-between">
+<div>
+<span class="font-display text-display text-primary-fixed font-bold block mb-1">3.4x</span>
+<span class="font-title-lg text-title-lg text-[#FFFFFF] font-semibold block mb-2">More Procedure Rehearsals</span>
+<p class="font-body-sm text-body-sm text-[#FFFFFF]/70 leading-relaxed">
+              Accomplished compared to physical mannequin lab availability and consumable constraints.
+            </p>
+</div>
+<div class="mt-4 pt-3 text-[11px] font-label-sm text-[#FFFFFF]/50">
+            Hospital Registrar Study Group, 2024
+          </div>
+</div>
+<!-- Metric 3 -->
+<div class="bg-[#0D3455] p-space-lg rounded-xl flex flex-col justify-between">
+<div>
+<span class="font-display text-display text-primary-fixed font-bold block mb-1">4ms</span>
+<span class="font-title-lg text-title-lg text-[#FFFFFF] font-semibold block mb-2">Motion-to-Photon Latency</span>
+<p class="font-body-sm text-body-sm text-[#FFFFFF]/70 leading-relaxed">
+              Ultra-low sensory discrepancy preventing disorientation and simulator sickness during prolonged operations.
+            </p>
+</div>
+<div class="mt-4 pt-3 text-[11px] font-label-sm text-[#FFFFFF]/50">
+            Hardware Benchmark ISO Validation
+          </div>
+</div>
+<!-- Metric 4 -->
+<div class="bg-[#0D3455] p-space-lg rounded-xl flex flex-col justify-between">
+<div>
+<span class="font-display text-display text-primary-fixed font-bold block mb-1">100%</span>
+<span class="font-title-lg text-title-lg text-[#FFFFFF] font-semibold block mb-2">Local Offline Capability</span>
+<p class="font-body-sm text-body-sm text-[#FFFFFF]/70 leading-relaxed">
+              Full suite operability without continuous cloud uplink, built specifically for regional electrical conditions.
+            </p>
+</div>
+<div class="mt-4 pt-3 text-[11px] font-label-sm text-[#FFFFFF]/50">
+            Engineered for African Infrastructure
+          </div>
+</div>
+</div>
+<!-- Compliance Disclaimer Note -->
+<div class="flex items-center gap-2 text-[#FFFFFF]/60 font-body-sm text-body-sm pt-4">
+<span class="material-symbols-outlined text-[18px] text-primary-fixed">info</span>
+<span>Outcome data based on institutional pilot cohorts. Individual resident learning curves and institution infrastructure vary.</span>
+</div>
+</div>
+</section>
+<!-- CASE STUDY SPOTLIGHT -->
+<section class="w-full bg-surface py-space-xl lg:py-24">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Story Column -->
+<div class="lg:col-span-6 flex flex-col space-y-space-md">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container self-start">
+<span class="material-symbols-outlined text-secondary text-[16px]">apartment</span>
+<span class="font-eyebrow text-eyebrow text-secondary uppercase">HOSPITAL IMPLEMENTATION SPOTLIGHT</span>
+</div>
+<h2 class="font-headline-lg text-headline-md lg:text-headline-lg text-ink-text font-bold leading-tight">
+            How Kenyatta University Teaching Hospital reduced surgical residency prep time by 42%
+          </h2>
+<p class="font-body-md text-body-md text-slate-muted leading-relaxed">
+            Facing constraints in physical simulation lab availability, the surgical department incorporated Tibika VR stations into their first-year registrar curriculum. The results proved transformational for junior surgeon preparedness and tissue handling confidence.
+          </p>
+<div class="space-y-space-sm pt-2">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-domain-clinical text-[22px] shrink-0 mt-0.5">check_circle</span>
+<p class="font-body-sm text-body-sm text-ink-text"><strong class="font-semibold">Curriculum Integration:</strong> Seamlessly adopted across 3 surgical departments without timetable restructuring.</p>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-domain-clinical text-[22px] shrink-0 mt-0.5">check_circle</span>
+<p class="font-body-sm text-body-sm text-ink-text"><strong class="font-semibold">1,200+ Simulation Hours:</strong> Zero mechanical component breakages or recurrent animal tissue expenses.</p>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-domain-clinical text-[22px] shrink-0 mt-0.5">check_circle</span>
+<p class="font-body-sm text-body-sm text-ink-text"><strong class="font-semibold">Elevated Preparedness:</strong> 91% of supervising consultants reported notable improvement in junior knife-to-skin confidence.</p>
+</div>
+</div>
+<div class="pt-4">
+<a class="font-label-md text-label-md text-domain-clinical font-semibold flex items-center gap-2 hover:text-teal-hover transition-colors" data-path="case-studies" href="#">
+<span>Read full clinical case study (PDF / DOI link)</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Image Column -->
+<div class="lg:col-span-6">
+<div class="relative rounded-2xl overflow-hidden shadow-lg bg-surface-container-high aspect-[4/3]">
+<img alt="Clinical researchers and surgical residents observing an interactive 3D anatomical visualization in a sterile lab setting" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSvX7lvFAf83mnEF5JXomzraZZtLohOK2mqHNaDAuTZg7nXvQJSxo8QWYTV9snBkzVItebHjvQX03GmL4R-YurRmY6dNhP1MQ7n-ddpMp5PIO5zUGxUu2Cu-NdYaF3Sogj7OYbxcK96PbN6kdomaSYPO_vT7Hp3WxmCF2WrXrCFUG3W5s2pSGjQpU2j9kiRRGrsMAl_-oDGXAO-vzLzZZCXUGjzc8vB1YzcwsvP14rae0i7PZ1HDPXdg"/>
+<div class="absolute bottom-4 left-4 right-4 bg-surface/90 backdrop-blur-md p-space-md rounded-xl shadow-sm">
+<div class="flex items-center gap-2 mb-1">
+<span class="font-label-md text-label-md text-ink-text font-bold">KUTRH Department of Surgery</span>
+<span class="px-2 py-0.5 rounded bg-teal-tint text-teal-hover font-label-sm text-label-sm">Active Partner</span>
+</div>
+<p class="font-body-sm text-body-sm text-slate-muted">
+                "Tibika transformed our residents' anatomical spatial awareness before they ever stepped into an active theater."
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CLINICAL ADVISORY BOARD CREDIBILITY STRIP -->
+<section class="w-full bg-mist-bg py-space-xl lg:py-24">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-eyebrow text-eyebrow text-primary uppercase tracking-widest block mb-2">RIGOROUS MEDICAL OVERSIGHT</span>
+<h2 class="font-headline-lg text-headline-md lg:text-headline-lg text-ink-text font-bold">
+          Chaired and reviewed by practicing clinicians and medical deans
+        </h2>
+<p class="font-body-md text-body-md text-slate-muted mt-2">
+          Every simulation module undergoes multi-stage clinical review before deployment in accredited residency environments.
+        </p>
+</div>
+<!-- 4 Profiles -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Advisor 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col items-center text-center">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-domain-clinical mb-4">
+<span class="material-symbols-outlined text-[36px]">stethoscope</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-ink-text font-bold">Dr. Amina Odhiambo</h3>
+<span class="font-label-sm text-label-sm text-domain-clinical font-semibold mt-0.5">MD, MMed (Surg)</span>
+<p class="font-body-sm text-body-sm text-slate-muted mt-2">
+            Chair, Clinical Advisory Board; Senior Consultant Neurosurgeon, Nairobi.
+          </p>
+<div class="mt-4 pt-3 w-full bg-mist-bg rounded-lg">
+<span class="font-label-sm text-label-sm text-slate-muted">18+ Years Surgical Exp.</span>
+</div>
+</div>
+<!-- Advisor 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col items-center text-center">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-domain-research mb-4">
+<span class="material-symbols-outlined text-[36px]">school</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-ink-text font-bold">Prof. David Mwangi</h3>
+<span class="font-label-sm text-label-sm text-domain-research font-semibold mt-0.5">PhD, FACS</span>
+<p class="font-body-sm text-body-sm text-slate-muted mt-2">
+            Professor of Surgical Education; Dean of Clinical Sciences.
+          </p>
+<div class="mt-4 pt-3 w-full bg-mist-bg rounded-lg">
+<span class="font-label-sm text-label-sm text-slate-muted">Curriculum Committee</span>
+</div>
+</div>
+<!-- Advisor 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col items-center text-center">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-domain-clinical mb-4">
+<span class="material-symbols-outlined text-[36px]">view_in_ar</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-ink-text font-bold">Dr. Sarah Kiprop</h3>
+<span class="font-label-sm text-label-sm text-domain-clinical font-semibold mt-0.5">MBChB, MSc</span>
+<p class="font-body-sm text-body-sm text-slate-muted mt-2">
+            Director of VR Simulation Architecture; Specialist in Biomechanics.
+          </p>
+<div class="mt-4 pt-3 w-full bg-mist-bg rounded-lg">
+<span class="font-label-sm text-label-sm text-slate-muted">Haptic Fidelity Lead</span>
+</div>
+</div>
+<!-- Advisor 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col items-center text-center">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-domain-wellbeing mb-4">
+<span class="material-symbols-outlined text-[36px]">emergency</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-ink-text font-bold">Dr. Joseph Omondi</h3>
+<span class="font-label-sm text-label-sm text-domain-wellbeing font-semibold mt-0.5">MD, Anaesth</span>
+<p class="font-body-sm text-body-sm text-slate-muted mt-2">
+            Specialist in Emergency Trauma Simulation &amp; Airway Protocols.
+          </p>
+<div class="mt-4 pt-3 w-full bg-mist-bg rounded-lg">
+<span class="font-label-sm text-label-sm text-slate-muted">Critical Care Protocol</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PUBLICATIONS & RESEARCH TEASER -->
+<section class="w-full bg-surface py-space-xl lg:py-24">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<span class="font-eyebrow text-eyebrow text-teal-hover uppercase tracking-widest block mb-2">ACADEMIC OUTPUT</span>
+<h2 class="font-headline-lg text-headline-md lg:text-headline-lg text-ink-text font-bold">Peer-Reviewed Evidence</h2>
+</div>
+<a class="font-label-md text-label-md text-domain-clinical font-semibold hover:text-teal-hover flex items-center gap-1 transition-colors" data-path="research-papers" href="#">
+<span>View All Publications</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Paper 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between text-slate-muted font-label-sm text-label-sm mb-3">
+<span>Journal of Surgical Education</span>
+<span class="font-semibold text-domain-clinical">2024</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-ink-text font-bold mb-3 leading-snug">
+              Haptic VR Simulation in Low-Resource Surgical Residencies: A Multicenter East African Cohort
+            </h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed mb-6">
+              Assessing technical skill progression across 86 registrar participants using standardized OSATS evaluations.
+            </p>
+</div>
+<div class="pt-4 bg-mist-bg -mx-space-lg -mb-space-lg p-space-md rounded-b-xl flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-slate-muted font-mono">DOI: 10.1016/j.jse.2024</span>
+<a class="font-label-sm text-label-sm text-domain-clinical font-semibold hover:underline" href="#">Read Paper →</a>
+</div>
+</div>
+<!-- Paper 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between text-slate-muted font-label-sm text-label-sm mb-3">
+<span>Biomedical Imaging &amp; VR</span>
+<span class="font-semibold text-domain-research">2023</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-ink-text font-bold mb-3 leading-snug">
+              Validation of Volumetric DICOM Segmentation for Real-Time VR Anatomy Education
+            </h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed mb-6">
+              Comparative analysis between high-density mesh generation and traditional anatomical dissections for cranial morphology.
+            </p>
+</div>
+<div class="pt-4 bg-mist-bg -mx-space-lg -mb-space-lg p-space-md rounded-b-xl flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-slate-muted font-mono">DOI: 10.1109/bivr.2023</span>
+<a class="font-label-sm text-label-sm text-domain-research font-semibold hover:underline" href="#">Read Paper →</a>
+</div>
+</div>
+<!-- Paper 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between text-slate-muted font-label-sm text-label-sm mb-3">
+<span>East African Medical Journal</span>
+<span class="font-semibold text-domain-wellbeing">2023</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-ink-text font-bold mb-3 leading-snug">
+              Pediatric Emergency Response Drills: VR vs. Low-Fidelity Mannequins
+            </h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed mb-6">
+              Measuring acute situational cognitive load, procedural drift, and decision latency during neonatal resuscitation simulations.
+            </p>
+</div>
+<div class="pt-4 bg-mist-bg -mx-space-lg -mb-space-lg p-space-md rounded-b-xl flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-slate-muted font-mono">DOI: 10.4314/eamj.v100i8</span>
+<a class="font-label-sm text-label-sm text-domain-wellbeing font-semibold hover:underline" href="#">Read Paper →</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- INSTITUTIONAL CTA BAND -->
+<section class="w-full bg-mist-bg py-space-xl lg:py-24">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="bg-surface-container-lowest rounded-2xl p-space-xl lg:p-16 shadow-md text-center max-w-4xl mx-auto">
+<span class="font-eyebrow text-eyebrow text-primary uppercase tracking-widest block mb-2">DEPLOYMENT INTEGRATION</span>
+<h2 class="font-headline-lg text-headline-md lg:text-headline-lg text-ink-text font-bold mb-4">
+          Bring Tibika to your hospital, nursing school, or research lab.
+        </h2>
+<p class="font-body-lg text-body-lg text-slate-muted max-w-2xl mx-auto mb-8 leading-relaxed">
+          Standardize your training benchmarks, preserve clinical consumables, and equip your clinicians with verifiable zero-risk operational experience.
+        </p>
+<div class="flex flex-wrap items-center justify-center gap-space-md mb-8">
+<a class="h-12 px-8 rounded-xl bg-domain-clinical text-on-primary font-label-md text-label-md font-semibold hover:bg-teal-hover flex items-center justify-center transition-colors shadow-sm" data-path="request-a-demo" href="#">
+            Schedule an Institutional Demo
+          </a>
+<a class="h-12 px-8 rounded-xl bg-surface-container-high text-ink-text font-label-md text-label-md font-semibold hover:bg-surface-container transition-colors flex items-center justify-center" data-path="contact" href="#">
+            Speak to Procurement Team
+          </a>
+</div>
+<div class="flex flex-wrap items-center justify-center gap-6 pt-6 bg-mist-bg rounded-xl p-4 text-slate-muted font-label-sm text-label-sm">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-feedback-success text-[18px]">verified_user</span>
+<span>HIPAA &amp; Kenya DPA Compliant</span>
+</div>
+<span class="hidden sm:inline text-outline-variant">•</span>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-domain-clinical text-[18px]">tune</span>
+<span>Customizable Curriculum Mapping</span>
+</div>
+<span class="hidden sm:inline text-outline-variant">•</span>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-domain-research text-[18px]">dns</span>
+<span>On-premise &amp; Hybrid Server Support</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-[#0A2A44] text-[#FFFFFF] mt-auto"><div class="bg-[#082237] py-space-xl"><div class="max-w-[1200px] mx-auto px-margin flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg"><div class="max-w-xl"><span class="font-eyebrow text-eyebrow text-primary-fixed uppercase tracking-wider block mb-1">Institutional Integration</span><h3 class="font-headline-sm text-headline-sm text-[#FFFFFF] font-semibold">Bring Tibika to your hospital, university, or research team</h3><p class="font-body-sm text-body-sm text-[#FFFFFF]/70 mt-1">Standardize clinical training and accelerate operational precision across your entire clinical staff.</p></div><div class="flex flex-wrap items-center gap-space-md"><a class="h-12 px-6 rounded-xl bg-domain-clinical text-on-primary font-label-md text-label-md font-semibold hover:bg-teal-hover flex items-center justify-center transition-colors" data-path="request-a-demo" href="#">Request Institutional Demo</a><a class="font-label-md text-label-md text-[#FFFFFF]/85 hover:text-[#FFFFFF] underline transition-colors" data-path="contact" href="#">Speak with Clinical Team</a></div></div></div><div class="max-w-[1200px] mx-auto px-margin py-space-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-2"><span class="font-headline-sm text-headline-sm text-[#FFFFFF] font-bold">Tibika</span><span class="font-eyebrow text-eyebrow px-2 py-0.5 rounded bg-[#FFFFFF]/10 text-primary-fixed">MED-TECH</span></div><p class="font-label-md text-label-md text-primary-fixed font-semibold">Practice precision. Protect life.</p><p class="font-body-sm text-body-sm text-[#FFFFFF]/70 leading-relaxed">Engineered to elevate clinical competency and diagnostic accuracy through rigorous medical simulation across East African healthcare infrastructures.</p><div class="flex items-center gap-2 mt-2 text-[#FFFFFF]/60 font-label-sm text-label-sm"><span class="material-symbols-outlined text-[16px] text-domain-clinical">verified_user</span><span>ISO 13485 &amp; CE Medical Certified</span></div></div><div class="flex flex-col gap-space-xs"><span class="font-eyebrow text-eyebrow text-[#FFFFFF]/50 uppercase tracking-wider mb-2">Solutions</span><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="clinical-training" href="#">Clinical Training</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="medical-research-and-simulation" href="#">Medical Research &amp; Simulation</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="patient-care-and-wellbeing" href="#">Patient Care &amp; Wellbeing</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="simulation-catalog" href="#">Simulation Modules Catalog</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="evidence-and-outcomes" href="#">Curriculum Roadmaps</a></div><div class="flex flex-col gap-space-xs"><span class="font-eyebrow text-eyebrow text-[#FFFFFF]/50 uppercase tracking-wider mb-2">Evidence &amp; Publications</span><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="clinical-trials-and-pilots" href="#">Clinical Trials &amp; Pilots</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="research-papers" href="#">Peer-Reviewed Research Papers</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="case-studies" href="#">Hospital Case Studies</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="clinical-advisory-board" href="#">Clinical Advisory Board</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="evidence-and-outcomes" href="#">Procedural Accuracy Metrics</a></div><div class="flex flex-col gap-space-sm"><span class="font-eyebrow text-eyebrow text-[#FFFFFF]/50 uppercase tracking-wider">Institution &amp; Careers</span><div class="flex flex-col gap-space-xs"><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="careers" href="#">Open Roles</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="request-a-demo" href="#">Hospital Procurement</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="contact" href="#">Contact Clinical Support</a></div><div class="mt-2"><label class="font-label-sm text-label-sm text-[#FFFFFF]/70 block mb-1.5" for="email-newsletter">Subscribe to Clinical Dispatch</label><div class="flex gap-1.5"><input class="h-10 px-3 bg-[#FFFFFF]/10 text-[#FFFFFF] placeholder:text-[#FFFFFF]/40 font-body-sm text-body-sm rounded-lg border-0 focus:ring-2 focus:ring-domain-clinical focus:outline-none w-full" id="email-newsletter" placeholder="physician@hospital.org" type="email"/><button class="h-10 px-3 bg-domain-clinical hover:bg-teal-hover text-on-primary rounded-lg font-label-sm text-label-sm font-semibold transition-colors shrink-0" type="button">Join</button></div></div></div></div><div class="bg-[#061B2C] py-space-md"><div class="max-w-[1200px] mx-auto px-margin flex flex-col md:flex-row items-center justify-between gap-space-sm text-center md:text-left"><p class="font-label-sm text-label-sm text-[#FFFFFF]/60">Tibika is a Swizzy Industries pillar brand. Built in Kenya. © 2025 Tibika Healthcare Technologies Ltd.</p><div class="flex flex-wrap items-center justify-center gap-space-md font-label-sm text-label-sm text-[#FFFFFF]/60"><a class="hover:text-[#FFFFFF] transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><a class="hover:text-[#FFFFFF] transition-colors" data-path="terms-of-use" href="#">Terms of Use</a><a class="hover:text-[#FFFFFF] transition-colors" data-path="regulatory-and-clinical-data-notice" href="#">Regulatory &amp; Clinical Data Notice</a><a class="hover:text-[#FFFFFF] transition-colors" data-path="consent-statement" href="#">Consent Statement</a></div></div></div></footer></body></html>

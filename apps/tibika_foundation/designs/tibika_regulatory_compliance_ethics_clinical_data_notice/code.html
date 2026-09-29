@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Tibika Healthcare</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"secondary-fixed":"#d0e4ff","feedback-error":"#D64545","primary":"#00685c","primary-fixed":"#81f6e3","surface-container-lowest":"#ffffff","on-surface":"#0e1d25","secondary":"#46617d","tertiary":"#2d4fce","on-secondary":"#ffffff","slate-muted":"#647178","surface-container-highest":"#d5e5ef","on-primary":"#ffffff","domain-wellbeing":"#6C4FD9","outline":"#6d7a76","on-tertiary-container":"#fffbff","surface-bright":"#f4faff","on-error-container":"#93000a","surface-container-high":"#daebf5","on-primary-fixed":"#00201c","error-container":"#ffdad6","surface-variant":"#d5e5ef","surface-container-low":"#e7f6ff","domain-research":"#3A5BD9","surface-tint":"#006b5f","inverse-primary":"#63dac7","ink-text":"#0B1B2B","inverse-surface":"#23323a","secondary-fixed-dim":"#adc9ea","on-primary-fixed-variant":"#005047","on-tertiary-fixed-variant":"#0637b8","on-primary-container":"#f4fffb","error":"#ba1a1a","teal-tint":"#DFF6F2","surface":"#f4faff","on-tertiary-fixed":"#001354","on-secondary-container":"#46617e","domain-clinical":"#0E9F8E","background":"#f4faff","on-background":"#0e1d25","on-tertiary":"#ffffff","tertiary-fixed":"#dde1ff","inverse-on-surface":"#e3f3fd","on-error":"#ffffff","primary-container":"#008375","on-surface-variant":"#3d4946","feedback-success":"#1E9E6A","on-secondary-fixed":"#001d34","cloud-border":"#DCEAE7","mist-bg":"#F4F9F8","feedback-warning":"#E0A100","tertiary-container":"#4a6ae8","primary-fixed-dim":"#63dac7","tertiary-fixed-dim":"#b8c4ff","surface-container":"#e0f0fb","surface-dim":"#ccdce6","secondary-container":"#c1ddfe","teal-hover":"#0B7F72","on-secondary-fixed-variant":"#2d4964","outline-variant":"#bcc9c5"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter":"1.5rem","gutter-mobile":"1rem","margin":"2rem","space-xs":"0.25rem","space-sm":"0.5rem","space-lg":"1.5rem","margin-mobile":"1.25rem","space-md":"1rem","space-xl":"2rem"},"fontFamily":{"label-sm":["Inter"],"headline-lg":["Plus Jakarta Sans"],"display":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"title-lg":["Plus Jakarta Sans"],"label-md":["Inter"],"display-mobile":["Plus Jakarta Sans"],"eyebrow":["Plus Jakarta Sans"],"body-md":["Inter"],"body-sm":["Inter"],"headline-sm":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-md":["Plus Jakarta Sans"],"headline-md-mobile":["Plus Jakarta Sans"]},"fontSize":{"label-sm":["12px",{"lineHeight":"16px","fontWeight":"500"}],"headline-lg":["44px",{"lineHeight":"52px","letterSpacing":"-0.015em","fontWeight":"700"}],"display":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-lg-mobile":["32px",{"lineHeight":"38px","letterSpacing":"-0.01em","fontWeight":"600"}],"title-lg":["20px",{"lineHeight":"26px","fontWeight":"600"}],"label-md":["14px",{"lineHeight":"20px","fontWeight":"500"}],"display-mobile":["38px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"eyebrow":["12px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"700"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"headline-sm":["24px",{"lineHeight":"30px","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"26px","fontWeight":"400"}],"headline-md":["32px",{"lineHeight":"38px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-md-mobile":["26px",{"lineHeight":"32px","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-teal-tint selection:text-teal-hover"><header class="fixed top-0 left-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1200px] mx-auto px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md shrink-0"><img alt="Tibika Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WUy7ZQBKyZwGIWyk65_Ehrvl-wIwLonUVe-mf3mOvCirJ2ARl9tQtXUvxFrFXRYWz25wdUhqUgZu56WgBShdWIvAlny_ykgueGu1XNpQuQYqArCFyvaavumHw0aja77nlU1zd1OiTbQJTA2gMQ1CDerSi2Ap2T7AQkZFgIjKwLv3jtBNnVWFps5DQ4akEvDg_2AN07b1-knGfa642Xl9NVb0fbMLnql76_PrPJw-YaFSApCm8ZjVEUIBvP"/><div class="flex flex-col"><span class="font-title-lg text-title-lg tracking-tight text-ink-text leading-none">Tibika</span><span class="font-label-sm text-label-sm text-slate-muted">part of Swizzy Industries</span></div></div><nav class="hidden lg:flex items-center gap-space-xs" data-active-classes="bg-teal-tint text-teal-hover font-semibold"><a class="font-title-lg text-title-lg text-ink-text hover:text-teal-hover transition-colors" data-path="home" href="#">Home</a><div class="relative group"><button class="px-space-md py-space-sm rounded-lg font-label-md text-label-md text-on-surface-variant group-hover:text-on-surface group-hover:bg-surface-container flex items-center gap-1 transition-colors" type="button"><span class="font-label-md text-label-md">Clinical &amp; Research Solutions</span><span class="material-symbols-outlined text-[18px] transition-transform group-hover:rotate-180">expand_more</span></button><div class="absolute left-1/2 -translate-x-1/2 top-full pt-2 hidden group-hover:block w-[760px] drop-shadow-lg"><div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-[0_4px_16px_-2px_rgba(10,42,68,0.08)] grid grid-cols-3 gap-gutter"><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-2 mb-1"><span class="w-2.5 h-2.5 rounded-full bg-domain-clinical"></span><span class="font-eyebrow text-eyebrow uppercase text-teal-hover">Pillar 01</span></div><a class="font-title-lg text-title-lg text-ink-text hover:text-teal-hover transition-colors" data-path="clinical-training" href="#">Clinical Training</a><p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">Precision procedural pathways, skill certification, and hands-on simulation modules for surgeons.</p></div><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-2 mb-1"><span class="w-2.5 h-2.5 rounded-full bg-domain-research"></span><span class="font-eyebrow text-eyebrow uppercase text-domain-research">Pillar 02</span></div><a class="font-title-lg text-title-lg text-ink-text hover:text-domain-research transition-colors" data-path="medical-research-and-simulation" href="#">Medical Research</a><p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">Bio-modeling datasets, multi-center trials infrastructure, and predictive physiological engines.</p></div><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-2 mb-1"><span class="w-2.5 h-2.5 rounded-full bg-domain-wellbeing"></span><span class="font-eyebrow text-eyebrow uppercase text-domain-wellbeing">Pillar 03</span></div><a class="font-title-lg text-title-lg text-ink-text hover:text-domain-wellbeing transition-colors" data-path="patient-care-and-wellbeing" href="#">Patient Care</a><p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">Intelligent rehabilitation protocols, clinical bedside support, and patient monitoring telemetry.</p></div><div class="col-span-3 pt-space-md mt-space-xs bg-mist-bg rounded-lg p-space-md flex items-center justify-between"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-domain-clinical text-[20px]">verified</span><span class="font-label-md text-label-md text-ink-text font-semibold">Clinical Advisory Board Oversight</span><span class="font-body-sm text-body-sm text-slate-muted">Verified across 24 East African teaching hospitals</span></div><a class="font-label-sm text-label-sm text-teal-hover hover:underline font-semibold" data-path="clinical-advisory-board" href="#">View Board →</a></div></div></div></div><div class="relative group"><button class="px-space-md py-space-sm rounded-lg font-label-md text-label-md text-on-surface-variant group-hover:text-on-surface group-hover:bg-surface-container flex items-center gap-1 transition-colors" type="button"><span class="font-label-md text-label-md">Simulation Catalog</span><span class="material-symbols-outlined text-[18px] transition-transform group-hover:rotate-180">expand_more</span></button><div class="absolute left-1/2 -translate-x-1/2 top-full pt-2 hidden group-hover:block w-[520px] drop-shadow-lg"><div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-[0_4px_16px_-2px_rgba(10,42,68,0.08)]"><span class="font-eyebrow text-eyebrow text-slate-muted uppercase mb-space-sm block">Specialty Modules</span><div class="grid grid-cols-2 gap-space-md"><a class="p-space-sm rounded-lg hover:bg-mist-bg flex flex-col gap-0.5 transition-colors" data-path="surgery-adjacent-simulation" href="#"><span class="font-label-md text-label-md text-ink-text font-semibold">Surgery-adjacent</span><span class="font-body-sm text-body-sm text-slate-muted">Laparoscopy &amp; surgical suites</span></a><a class="p-space-sm rounded-lg hover:bg-mist-bg flex flex-col gap-0.5 transition-colors" data-path="emergency-response-simulation" href="#"><span class="font-label-md text-label-md text-ink-text font-semibold">Emergency Response</span><span class="font-body-sm text-body-sm text-slate-muted">Trauma triage &amp; ICU protocols</span></a><a class="p-space-sm rounded-lg hover:bg-mist-bg flex flex-col gap-0.5 transition-colors" data-path="anatomy-simulation" href="#"><span class="font-label-md text-label-md text-ink-text font-semibold">Anatomy</span><span class="font-body-sm text-body-sm text-slate-muted">Volumetric 3D spatial mapping</span></a><a class="p-space-sm rounded-lg hover:bg-mist-bg flex flex-col gap-0.5 transition-colors" data-path="rehabilitation-simulation" href="#"><span class="font-label-md text-label-md text-ink-text font-semibold">Rehabilitation</span><span class="font-body-sm text-body-sm text-slate-muted">Neuro &amp; physical therapy tracks</span></a></div></div></div></div><a class="px-space-md py-space-sm rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="evidence-and-outcomes" href="#">Evidence &amp; Outcomes</a><a class="px-space-md py-space-sm rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="careers" href="#">Careers</a></nav><div class="flex items-center gap-space-md shrink-0"><button aria-label="Search catalog and publications" class="w-10 h-10 rounded-lg flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">search</span></button><a class="hidden sm:inline-block font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a><a class="h-12 px-6 rounded-xl bg-domain-clinical text-on-primary font-label-md text-label-md font-semibold hover:bg-teal-hover flex items-center justify-center transition-colors shadow-[0_2px_8px_rgba(14,159,142,0.25)]" data-path="request-a-demo" href="#">Request a Demo</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- REGULATORY STAMP STRIP -->
+<section class="w-full bg-mist-bg py-space-sm">
+<div class="max-w-[1200px] mx-auto px-margin flex flex-wrap items-center justify-between gap-space-sm text-slate-muted">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-teal-tint text-teal-hover font-eyebrow text-eyebrow">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+          AUDIT PASS
+        </span>
+<span class="font-label-sm text-label-sm text-ink-text font-medium">Kenya Data Protection Act 2019 Certified</span>
+<span class="text-cloud-border font-label-sm text-label-sm">•</span>
+<span class="font-label-sm text-label-sm">ISO 13485:2016 Design Lifecycle Audited</span>
+<span class="text-cloud-border font-label-sm text-label-sm">•</span>
+<span class="font-label-sm text-label-sm">COSECSA Benchmark Aligned</span>
+</div>
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm">
+<span class="text-slate-muted">Registry Version:</span>
+<span class="font-mono text-ink-text font-semibold px-2 py-0.5 rounded bg-surface-container-lowest shadow-sm">2025.1.REV-B</span>
+</div>
+</div>
+</section>
+<!-- REGULATORY HERO -->
+<section class="w-full bg-surface-container-lowest py-space-xl">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-2 self-start px-3 py-1 rounded-full bg-mist-bg text-secondary">
+<span class="material-symbols-outlined text-[16px] text-domain-clinical">shield_lock</span>
+<span class="font-eyebrow text-eyebrow tracking-wider uppercase text-on-surface">GOVERNANCE, ETHICS &amp; DATA SOVEREIGNTY</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-ink-text tracking-tight">
+            Regulatory Compliance, Ethics Review &amp; Sovereign Health Data Architecture.
+          </h1>
+<p class="font-body-lg text-body-lg text-slate-muted max-w-[720px] leading-relaxed">
+            How Tibika protects institutional integrity, guarantees zero identifiable clinical data retention, and adheres strictly to East African and international medical device software directives.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="h-12 px-6 rounded-xl bg-domain-clinical text-on-primary font-label-md text-label-md font-semibold hover:bg-teal-hover inline-flex items-center justify-center gap-2 transition-colors shadow-sm" href="#repository">
+<span class="material-symbols-outlined text-[18px]">file_download</span>
+              Download Compliance Dossier
+            </a>
+<a class="h-12 px-6 rounded-xl bg-mist-bg text-ink-text font-label-md text-label-md font-medium hover:bg-surface-container inline-flex items-center justify-center gap-2 transition-colors shadow-sm" href="#inquiries">
+<span class="material-symbols-outlined text-[18px]">account_balance</span>
+              Hospital Ethics Board Liaison
+            </a>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-space-sm bg-mist-bg p-space-lg rounded-xl shadow-sm">
+<div class="flex items-center justify-between">
+<span class="font-eyebrow text-eyebrow text-slate-muted uppercase">Verification Matrix</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-feedback-success font-semibold">
+<span class="w-2 h-2 rounded-full bg-feedback-success animate-pulse"></span>
+              Synchronized
+            </span>
+</div>
+<div class="space-y-space-sm pt-space-xs">
+<div class="bg-surface-container-lowest p-space-sm rounded-lg flex items-center justify-between shadow-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-semibold text-ink-text">ODPC Kenya Registration</span>
+<span class="font-label-sm text-label-sm text-slate-muted">Data Controller &amp; Processor</span>
+</div>
+<span class="font-mono font-label-sm text-label-sm text-domain-clinical">CERT-08942-KE</span>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-lg flex items-center justify-between shadow-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-semibold text-ink-text">Classification Status</span>
+<span class="font-label-sm text-label-sm text-slate-muted">Medical Training Device</span>
+</div>
+<span class="font-mono font-label-sm text-label-sm text-domain-clinical">CLASS IIa (CE/MDR)</span>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-lg flex items-center justify-between shadow-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-semibold text-ink-text">Software QMS</span>
+<span class="font-label-sm text-label-sm text-slate-muted">ISO 13485:2016 Certified</span>
+</div>
+<span class="font-mono font-label-sm text-label-sm text-domain-clinical">TUV-MED-67210</span>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-lg flex items-center justify-between shadow-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-semibold text-ink-text">Research Ethics Ratification</span>
+<span class="font-label-sm text-label-sm text-slate-muted">KNH-UoN ERC &amp; KEMRI SERU</span>
+</div>
+<span class="font-mono font-label-sm text-label-sm text-domain-clinical">TBK-CLIN-2023</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- QUICK NAVIGATION STICKY TABS -->
+<section class="w-full bg-mist-bg py-space-sm sticky top-20 z-40 shadow-sm backdrop-blur-md">
+<div class="max-w-[1200px] mx-auto px-margin overflow-x-auto">
+<nav class="flex items-center gap-space-xs min-w-max">
+<a class="px-4 py-2 rounded-lg bg-surface-container-lowest text-teal-hover font-label-md text-label-md font-semibold shadow-sm flex items-center gap-2" href="#tenet-1">
+<span class="material-symbols-outlined text-[16px]">fingerprint</span>
+          1. Zero-PHI Architecture
+        </a>
+<a class="px-4 py-2 rounded-lg text-slate-muted hover:text-ink-text hover:bg-surface-container font-label-md text-label-md transition-colors flex items-center gap-2" href="#tenet-2">
+<span class="material-symbols-outlined text-[16px]">medical_services</span>
+          2. Class IIa &amp; ISO 13485
+        </a>
+<a class="px-4 py-2 rounded-lg text-slate-muted hover:text-ink-text hover:bg-surface-container font-label-md text-label-md transition-colors flex items-center gap-2" href="#tenet-3">
+<span class="material-symbols-outlined text-[16px]">policy</span>
+          3. Research Ethics &amp; IRB
+        </a>
+<a class="px-4 py-2 rounded-lg text-slate-muted hover:text-ink-text hover:bg-surface-container font-label-md text-label-md transition-colors flex items-center gap-2" href="#tenet-4">
+<span class="material-symbols-outlined text-[16px]">gavel</span>
+          4. Terms &amp; Hardware SLA
+        </a>
+<a class="px-4 py-2 rounded-lg text-slate-muted hover:text-ink-text hover:bg-surface-container font-label-md text-label-md transition-colors flex items-center gap-2" href="#repository">
+<span class="material-symbols-outlined text-[16px]">download</span>
+          Downloads
+        </a>
+</nav>
+</div>
+</section>
+<!-- SECTION 1: SOVEREIGN CLINICAL TELEMETRY & ZERO-PHI -->
+<section class="w-full py-space-xl bg-surface-container-lowest scroll-mt-36" id="tenet-1">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<div class="lg:col-span-4 flex flex-col gap-space-xs">
+<span class="font-eyebrow text-eyebrow uppercase text-domain-clinical">Tenet 01 // Data Sovereignty</span>
+<h2 class="font-headline-md text-headline-md text-ink-text">Zero-PHI Architecture &amp; Local Edge Rigor</h2>
+<p class="font-body-md text-body-md text-slate-muted leading-relaxed">
+            Tibika systems are engineered around absolute cryptographic isolation. Hospital simulation suites operate with zero reliance on cloud computation, preventing accidental exfiltration of clinical diagnostic series or student telemetry.
+          </p>
+<div class="mt-space-md p-space-md rounded-xl bg-mist-bg shadow-sm">
+<div class="flex items-center gap-2 text-ink-text font-title-lg text-title-lg">
+<span class="material-symbols-outlined text-domain-clinical">lock_clock</span>
+              Air-Gapped Operation
+            </div>
+<p class="font-body-sm text-body-sm text-slate-muted mt-1">
+              Simulation runtimes can operate 100% offline for up to 365 consecutive days using cryptographic local keys stored in the hardware Trusted Platform Module (TPM 2.0).
+            </p>
+</div>
+</div>
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<!-- Flow Visualization Card -->
+<div class="bg-mist-bg p-space-lg rounded-xl shadow-sm">
+<span class="font-eyebrow text-eyebrow text-slate-muted uppercase block mb-space-sm">Data Pipeline Topology: Cart to Registry</span>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-sm">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-8 h-8 rounded-lg bg-teal-tint text-teal-hover flex items-center justify-center mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">memory</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-ink-text">Local-First Edge</h3>
+<p class="font-body-sm text-body-sm text-slate-muted mt-1">
+                    Kinematic physics, soft-tissue deformations, and 1,000Hz haptic loops resolve entirely on workstation GPUs.
+                  </p>
+</div>
+<div class="mt-space-md pt-space-xs text-domain-clinical font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">speed</span> 0 ms Cloud Latency
+                </div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-8 h-8 rounded-lg bg-teal-tint text-teal-hover flex items-center justify-center mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">enhanced_encryption</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-ink-text">Zero-PHI Sanitization</h3>
+<p class="font-body-sm text-body-sm text-slate-muted mt-1">
+                    Ingested volumetric scans are stripped of metadata via DICOM PS3.15 Annex E and converted into synthetic mesh objects.
+                  </p>
+</div>
+<div class="mt-space-md pt-space-xs text-domain-clinical font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">key</span> SHA-256 Pseudonyms
+                </div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-8 h-8 rounded-lg bg-teal-tint text-teal-hover flex items-center justify-center mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">dns</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-ink-text">Sovereign Residency</h3>
+<p class="font-body-sm text-body-sm text-slate-muted mt-1">
+                    Curriculum logbooks sync strictly to hospital intranet servers or Kenya-Central data centers. No overseas routing.
+                  </p>
+</div>
+<div class="mt-space-md pt-space-xs text-domain-clinical font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">location_on</span> Kenya DPA / GDPR
+                </div>
+</div>
+</div>
+<!-- Inline SVG Data flow connector chart -->
+<div class="mt-space-md bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-slate-muted uppercase font-semibold">In-Memory Pseudonymization Gate (DICOM PS3.15)</span>
+<span class="font-mono text-label-sm text-label-sm text-domain-clinical">STRICT_ZERO_PERSISTENCE</span>
+</div>
+<svg class="w-full h-12 text-domain-clinical" fill="none" viewbox="0 0 700 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M 20 24 L 200 24 M 220 24 L 460 24 M 480 24 L 680 24" opacity="0.3" stroke="currentColor" stroke-dasharray="4 4" stroke-width="2"></path>
+<circle cx="20" cy="24" fill="currentColor" r="6"></circle>
+<circle cx="210" cy="24" fill="#FFFFFF" r="8" stroke="currentColor" stroke-width="3"></circle>
+<circle cx="470" cy="24" fill="#FFFFFF" r="8" stroke="currentColor" stroke-width="3"></circle>
+<circle cx="680" cy="24" fill="currentColor" r="6"></circle>
+<text fill="#647178" font-family="Inter" font-size="10" x="20" y="42">Raw DICOM Scan</text>
+<text fill="#0E9F8E" font-family="Inter" font-size="10" font-weight="600" x="180" y="42">Header Stripping</text>
+<text fill="#0E9F8E" font-family="Inter" font-size="10" font-weight="600" x="430" y="42">Synthetic Voxels</text>
+<text fill="#647178" font-family="Inter" font-size="10" x="610" y="42">Curricular Logbook</text>
+</svg>
+</div>
+</div>
+<!-- Deep Technical Narrative -->
+<div class="space-y-space-sm text-slate-muted font-body-md text-body-md">
+<p>
+              In accordance with Section 31 of the Kenya Data Protection Act 2019 and cross-border health directives, Tibika does not process, store, or transmit patient-identifiable markers (names, national identification numbers, hospital visit indices, or biometric features). Scans uploaded into procedural planning modules are stripped in volatile memory before 3D reconstruction begins.
+            </p>
+<p>
+              Educational metrics—including Objective Structured Assessment of Technical Skills (OSATS), economy of motion indices, and virtual blood-loss telemetry—are linked exclusively to pseudonymized Institutional Trainee Tokens issued directly by the participating university dean or hospital clinical education department.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: MEDICAL DEVICE CLASSIFICATION & ISO 13485 -->
+<section class="w-full py-space-xl bg-mist-bg scroll-mt-36" id="tenet-2">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<div class="lg:col-span-4 flex flex-col gap-space-xs">
+<span class="font-eyebrow text-eyebrow uppercase text-domain-clinical">Tenet 02 // Engineering Standards</span>
+<h2 class="font-headline-md text-headline-md text-ink-text">Class IIa Medical Training Device &amp; ISO 13485</h2>
+<p class="font-body-md text-body-md text-slate-muted leading-relaxed">
+            Our virtual reality procedural rehearsal consoles and laparoscopic simulation hardware comply with international medical device quality management frameworks.
+          </p>
+</div>
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<!-- Regulatory Disclaimer Box -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-feedback-warning text-[24px] mt-0.5">verified_user</span>
+<div class="space-y-1">
+<span class="font-label-md text-label-md text-ink-text font-semibold uppercase tracking-wide">Official Clinical Efficacy Disclaimer</span>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">
+                  Tibika simulation modules provide objective procedural skill metrics (OSATS) for verified educational rehearsal, anatomical familiarization, and technical rehearsal. Simulation telemetry does not substitute, supersede, or override intraoperative attending surgical judgment, live diagnostic reasoning, or direct patient care oversight.
+                </p>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-sm">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-title-lg text-title-lg text-ink-text">ISO 13485:2016 Scope</span>
+<span class="font-mono text-label-sm text-label-sm text-domain-clinical font-semibold">TUV-NORD AUDITED</span>
+</div>
+<p class="font-body-sm text-body-sm text-slate-muted">
+                Design controls cover requirements traceability, verification &amp; validation (V&amp;V) protocols, risk management per ISO 14971, and software lifecycle processes conforming to IEC 62304 Class B medical simulation software.
+              </p>
+<div class="pt-space-xs flex items-center gap-2 text-ink-text font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px] text-domain-clinical">check_circle</span>
+                Annual surveillance audits completed
+              </div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-title-lg text-title-lg text-ink-text">Class IIa Qualification</span>
+<span class="font-mono text-label-sm text-label-sm text-domain-clinical font-semibold">RULE 11 (EU MDR)</span>
+</div>
+<p class="font-body-sm text-body-sm text-slate-muted">
+                Classified regionally as an active medical simulation device intended for surgical skill acquisition and pre-procedural pathway verification under non-patient contact configurations.
+              </p>
+<div class="pt-space-xs flex items-center gap-2 text-ink-text font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px] text-domain-clinical">check_circle</span>
+                PPB Kenya Technical File Lodged
+              </div>
+</div>
+</div>
+<!-- Feature Specs Table -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm">
+<div class="px-space-md py-space-sm bg-mist-bg flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-ink-text font-semibold uppercase">Software Lifecycle Verification Controls</span>
+<span class="font-label-sm text-label-sm text-slate-muted">IEC 62304 Alignment</span>
+</div>
+<div class="p-space-md space-y-space-sm">
+<div class="flex items-start justify-between gap-space-sm">
+<div>
+<div class="font-label-md text-label-md text-ink-text font-semibold">Biomechanical Tissue Modeling</div>
+<div class="font-body-sm text-body-sm text-slate-muted">Empirical validation against ex-vivo porcine liver and human vascular elasticity matrices.</div>
+</div>
+<span class="font-mono font-label-sm text-label-sm text-domain-clinical bg-mist-bg px-2 py-1 rounded">Delta &lt; 4.2%</span>
+</div>
+<div class="flex items-start justify-between gap-space-sm">
+<div>
+<div class="font-label-md text-label-md text-ink-text font-semibold">Haptic Loop Determinism</div>
+<div class="font-body-sm text-body-sm text-slate-muted">High-priority real-time sub-millisecond threads ensuring accurate tissue rupture feedback.</div>
+</div>
+<span class="font-mono font-label-sm text-label-sm text-domain-clinical bg-mist-bg px-2 py-1 rounded">1,000 Hz Fixed</span>
+</div>
+<div class="flex items-start justify-between gap-space-sm">
+<div>
+<div class="font-label-md text-label-md text-ink-text font-semibold">Continuous Firmware Integrity</div>
+<div class="font-body-sm text-body-sm text-slate-muted">Hardware-level secure boot preventing uncertified simulation software modifications.</div>
+</div>
+<span class="font-mono font-label-sm text-label-sm text-domain-clinical bg-mist-bg px-2 py-1 rounded">RSA-4096 Signed</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: INSTITUTIONAL IRB & CLINICAL ETHICS -->
+<section class="w-full py-space-xl bg-surface-container-lowest scroll-mt-36" id="tenet-3">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<div class="lg:col-span-4 flex flex-col gap-space-xs">
+<span class="font-eyebrow text-eyebrow uppercase text-domain-clinical">Tenet 03 // Research Governance</span>
+<h2 class="font-headline-md text-headline-md text-ink-text">Institutional IRB &amp; Clinical Ethics Oversight</h2>
+<p class="font-body-md text-body-md text-slate-muted leading-relaxed">
+            Every simulation module deployed in regional medical schools is governed by multi-institution Institutional Review Board (IRB) approvals and independent clinical review committees.
+          </p>
+<div class="mt-space-md p-space-md rounded-xl bg-mist-bg shadow-sm">
+<span class="font-label-sm text-label-sm text-slate-muted uppercase font-semibold">Master Clinical Protocol</span>
+<div class="font-headline-sm text-headline-sm text-ink-text mt-1">TBK-CLIN-2023-V4</div>
+<p class="font-body-sm text-body-sm text-slate-muted mt-1">
+              Ratified by Kenyatta National Hospital - University of Nairobi Ethics &amp; Research Committee (KNH-UoN ERC) and Kenya Medical Research Institute (KEMRI SERU).
+            </p>
+</div>
+</div>
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-sm">
+<div class="bg-mist-bg p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-space-xs">
+<span class="material-symbols-outlined text-domain-clinical">balance</span>
+<h3 class="font-title-lg text-title-lg text-ink-text">Clinical Board Veto Power</h3>
+</div>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">
+                  Our independent Clinical Advisory Board—comprising senior consultant surgeons across East, Central, and Southern Africa—maintains unilateral veto authority over any digital module that fails anatomical accuracy or surgical realism benchmarks.
+                </p>
+</div>
+<div class="mt-space-md text-label-sm text-label-sm text-ink-text font-semibold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-domain-clinical">check</span>
+                Quarterly curriculum audits
+              </div>
+</div>
+<div class="bg-mist-bg p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-space-xs">
+<span class="material-symbols-outlined text-domain-clinical">contract_edit</span>
+<h3 class="font-title-lg text-title-lg text-ink-text">Mandatory Resident Consent</h3>
+</div>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">
+                  All participating surgical residents, medical interns, and fellows receive clear explanatory disclosure. Participation in educational simulation evaluation research is voluntary, requiring informed digital or written consent without penalty to academic evaluation standing.
+                </p>
+</div>
+<div class="mt-space-md text-label-sm text-label-sm text-ink-text font-semibold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-domain-clinical">check</span>
+                Helsinki Declaration compliant
+              </div>
+</div>
+</div>
+<!-- Academic Cohorts Oversight Card -->
+<div class="bg-surface-container p-space-lg rounded-xl shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div>
+<span class="font-eyebrow text-eyebrow text-slate-muted uppercase">Institutional Registry Integration</span>
+<div class="font-title-lg text-title-lg text-ink-text mt-1">Multi-Center Anonymized Research Pool</div>
+<p class="font-body-sm text-body-sm text-slate-muted mt-1 max-w-xl">
+                  Universities participating in multi-center comparative research grant permissions on a study-by-study basis. Raw haptic datasets remain strictly within the hospital network unless explicit dual-ethics clearance is confirmed.
+                </p>
+</div>
+<div class="shrink-0 flex items-center gap-2 bg-surface-container-lowest px-4 py-3 rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-domain-clinical text-[24px]">verified</span>
+<div>
+<div class="font-label-md text-label-md text-ink-text font-semibold">24 Academic Centers</div>
+<div class="font-label-sm text-label-sm text-slate-muted">Federated Ethics Registry</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: TERMS OF USE & HARDWARE SLA -->
+<section class="w-full py-space-xl bg-mist-bg scroll-mt-36" id="tenet-4">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<div class="lg:col-span-4 flex flex-col gap-space-xs">
+<span class="font-eyebrow text-eyebrow uppercase text-domain-clinical">Tenet 04 // Legal Commitments</span>
+<h2 class="font-headline-md text-headline-md text-ink-text">Terms of Institutional Use &amp; Hardware SLA</h2>
+<p class="font-body-md text-body-md text-slate-muted leading-relaxed">
+            Transparent enterprise terms designed for hospital procurement boards, university syndicates, and health ministry partners.
+          </p>
+</div>
+<div class="lg:col-span-8 flex flex-col gap-space-sm">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-domain-clinical text-[24px]">handshake</span>
+<div class="space-y-1">
+<h3 class="font-title-lg text-title-lg text-ink-text">Software Licensing &amp; Institutional Autonomy</h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">
+                  Institutional software licenses are granted on a per-facility basis. Hospital systems retain unconditioned perpetual rights to export locally recorded trainee curricular metrics in standard open formats (CSV, JSON, HL7 FHIR Educational Records). Tibika asserts zero claim of exclusivity over resident progress data.
+                </p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-domain-clinical text-[24px]">precision_manufacturing</span>
+<div class="space-y-1">
+<h3 class="font-title-lg text-title-lg text-ink-text">Hardware Swap Guarantee across East Africa</h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">
+                  Under the Tibika Critical Care SLA, damaged or malfunctioning haptic arms, sensor rigs, and GPU mobile carts are guaranteed next-business-day swap or engineering remediation in Nairobi, Kisumu, Eldoret, Mombasa, Dar es Salaam, and Kampala.
+                </p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-domain-clinical text-[24px]">copyright</span>
+<div class="space-y-1">
+<h3 class="font-title-lg text-title-lg text-ink-text">Custom Curricula Intellectual Property</h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">
+                  When teaching faculty develop custom procedural pathways using the Tibika Curriculum Studio, 100% of the pedagogical intellectual property remains vested in the host university. Tibika provides simulation runtime capability without claiming derivative rights.
+                </p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-domain-clinical text-[24px]">encrypted</span>
+<div class="space-y-1">
+<h3 class="font-title-lg text-title-lg text-ink-text">Offline Key Rotation</h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed">
+                  Hospitals subject to strict security restrictions or unstable uplink may opt for cryptographically air-gapped activation via encrypted USB smart-tokens generated annually during the on-site physical maintenance audit.
+                </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- COMPLIANCE DOCUMENT DOWNLOAD REPOSITORY -->
+<section class="w-full py-space-xl bg-surface-container-lowest scroll-mt-36" id="repository">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
+<div>
+<span class="font-eyebrow text-eyebrow uppercase text-domain-clinical">Institutional Records</span>
+<h2 class="font-headline-md text-headline-md text-ink-text mt-1">Compliance Document Repository</h2>
+<p class="font-body-md text-body-md text-slate-muted mt-1">
+            Download certified PDF records, audit summaries, and standardized data processing riders.
+          </p>
+</div>
+<span class="font-label-sm text-label-sm text-slate-muted">All documents digitally counter-signed with SHA-256 validation</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Item 1 -->
+<div class="bg-mist-bg p-space-md rounded-xl shadow-sm flex items-center justify-between gap-space-md hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-12 h-12 rounded-lg bg-surface-container-lowest flex items-center justify-center shrink-0 text-domain-clinical shadow-sm">
+<span class="material-symbols-outlined text-[24px]">description</span>
+</div>
+<div class="min-w-0">
+<h3 class="font-title-lg text-title-lg text-ink-text truncate">DPIA Executive Summary</h3>
+<p class="font-body-sm text-body-sm text-slate-muted">Data Protection Impact Assessment under Kenya DPA 2019</p>
+<span class="font-mono text-label-sm text-label-sm text-slate-muted">PDF • 1.4 MB • Updated Q1 2025</span>
+</div>
+</div>
+<a class="h-10 px-4 rounded-lg bg-surface-container-lowest text-ink-text font-label-md text-label-md font-semibold hover:bg-teal-tint hover:text-teal-hover transition-colors shrink-0 flex items-center gap-1 shadow-sm" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+            Download
+          </a>
+</div>
+<!-- Item 2 -->
+<div class="bg-mist-bg p-space-md rounded-xl shadow-sm flex items-center justify-between gap-space-md hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-12 h-12 rounded-lg bg-surface-container-lowest flex items-center justify-center shrink-0 text-domain-clinical shadow-sm">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<div class="min-w-0">
+<h3 class="font-title-lg text-title-lg text-ink-text truncate">ISO 13485:2016 Scope Statement</h3>
+<p class="font-body-sm text-body-sm text-slate-muted">Medical simulation design control certification by TUV</p>
+<span class="font-mono text-label-sm text-label-sm text-slate-muted">PDF • 850 KB • Cert No. 67210</span>
+</div>
+</div>
+<a class="h-10 px-4 rounded-lg bg-surface-container-lowest text-ink-text font-label-md text-label-md font-semibold hover:bg-teal-tint hover:text-teal-hover transition-colors shrink-0 flex items-center gap-1 shadow-sm" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+            Download
+          </a>
+</div>
+<!-- Item 3 -->
+<div class="bg-mist-bg p-space-md rounded-xl shadow-sm flex items-center justify-between gap-space-md hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-12 h-12 rounded-lg bg-surface-container-lowest flex items-center justify-center shrink-0 text-domain-clinical shadow-sm">
+<span class="material-symbols-outlined text-[24px]">clinical_notes</span>
+</div>
+<div class="min-w-0">
+<h3 class="font-title-lg text-title-lg text-ink-text truncate">Multicenter IRB Master Protocol</h3>
+<p class="font-body-sm text-body-sm text-slate-muted">Protocol TBK-CLIN-2023 &amp; Template Resident Consent</p>
+<span class="font-mono text-label-sm text-label-sm text-slate-muted">PDF • 2.1 MB • KNH-UoN / KEMRI</span>
+</div>
+</div>
+<a class="h-10 px-4 rounded-lg bg-surface-container-lowest text-ink-text font-label-md text-label-md font-semibold hover:bg-teal-tint hover:text-teal-hover transition-colors shrink-0 flex items-center gap-1 shadow-sm" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+            Download
+          </a>
+</div>
+<!-- Item 4 -->
+<div class="bg-mist-bg p-space-md rounded-xl shadow-sm flex items-center justify-between gap-space-md hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-12 h-12 rounded-lg bg-surface-container-lowest flex items-center justify-center shrink-0 text-domain-clinical shadow-sm">
+<span class="material-symbols-outlined text-[24px]">handshake</span>
+</div>
+<div class="min-w-0">
+<h3 class="font-title-lg text-title-lg text-ink-text truncate">Standard Institutional DPA</h3>
+<p class="font-body-sm text-body-sm text-slate-muted">Hospital data processing agreement with breach liability</p>
+<span class="font-mono text-label-sm text-label-sm text-slate-muted">PDF • 620 KB • Standard Form 2025</span>
+</div>
+</div>
+<a class="h-10 px-4 rounded-lg bg-surface-container-lowest text-ink-text font-label-md text-label-md font-semibold hover:bg-teal-tint hover:text-teal-hover transition-colors shrink-0 flex items-center gap-1 shadow-sm" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+            Download
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- INSTITUTIONAL COMPLIANCE INQUIRIES -->
+<section class="w-full py-space-xl bg-mist-bg" id="inquiries">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="bg-surface-container-lowest p-space-lg lg:p-space-xl rounded-xl shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-7 flex flex-col gap-space-xs">
+<span class="font-eyebrow text-eyebrow uppercase text-domain-clinical">Hospital Review Boards</span>
+<h2 class="font-headline-md text-headline-md text-ink-text">Questions from your hospital ethics or legal committee?</h2>
+<p class="font-body-md text-body-md text-slate-muted leading-relaxed">
+              Our full-time Clinical Regulatory and Legal Counsel coordinates directly with institutional ethical review committees, academic vice-chancellors, and hospital data protection officers.
+            </p>
+<div class="pt-space-sm flex flex-col sm:flex-row items-start sm:items-center gap-space-md">
+<a class="h-12 px-6 rounded-xl bg-domain-clinical text-on-primary font-label-md text-label-md font-semibold hover:bg-teal-hover inline-flex items-center gap-2 transition-colors shadow-sm" href="mailto:legal-compliance@tibika.swizzy.co.ke">
+<span class="material-symbols-outlined text-[18px]">mail</span>
+                legal-compliance@tibika.swizzy.co.ke
+              </a>
+<span class="font-label-sm text-label-sm text-slate-muted">Response turnaround &lt; 24 business hours</span>
+</div>
+</div>
+<div class="lg:col-span-5 bg-mist-bg p-space-md rounded-xl shadow-sm space-y-space-xs">
+<span class="font-label-sm text-label-sm font-semibold text-ink-text uppercase block">Designated Compliance Officer</span>
+<div class="flex items-center gap-space-sm pt-1">
+<div class="w-12 h-12 rounded-full bg-teal-tint flex items-center justify-center text-domain-clinical font-semibold font-title-lg text-title-lg shrink-0">
+                DR
+              </div>
+<div>
+<div class="font-title-lg text-title-lg text-ink-text">Dr. Florence Omwamba</div>
+<div class="font-body-sm text-body-sm text-slate-muted">Lead Regulatory &amp; Ethics Liaison</div>
+<div class="font-label-sm text-label-sm text-domain-clinical">Swizzy Industries Health Technologies Group</div>
+</div>
+</div>
+<div class="pt-space-xs text-slate-muted font-body-sm text-body-sm">
+              Available for formal review meetings, institutional ethics committee presentations, and custom data processing riders.
+            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-[#0A2A44] text-[#FFFFFF] mt-auto"><div class="bg-[#082237] py-space-xl"><div class="max-w-[1200px] mx-auto px-margin flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg"><div class="max-w-xl"><span class="font-eyebrow text-eyebrow text-primary-fixed uppercase tracking-wider block mb-1">Institutional Integration</span><h3 class="font-headline-sm text-headline-sm text-[#FFFFFF] font-semibold">Bring Tibika to your hospital, university, or research team</h3><p class="font-body-sm text-body-sm text-[#FFFFFF]/70 mt-1">Standardize clinical training and accelerate operational precision across your entire clinical staff.</p></div><div class="flex flex-wrap items-center gap-space-md"><a class="h-12 px-6 rounded-xl bg-domain-clinical text-on-primary font-label-md text-label-md font-semibold hover:bg-teal-hover flex items-center justify-center transition-colors" data-path="request-a-demo" href="#">Request Institutional Demo</a><a class="font-label-md text-label-md text-[#FFFFFF]/85 hover:text-[#FFFFFF] underline transition-colors" data-path="contact" href="#">Speak with Clinical Team</a></div></div></div><div class="max-w-[1200px] mx-auto px-margin py-space-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-2"><span class="font-headline-sm text-headline-sm text-[#FFFFFF] font-bold">Tibika</span><span class="font-eyebrow text-eyebrow px-2 py-0.5 rounded bg-[#FFFFFF]/10 text-primary-fixed">MED-TECH</span></div><p class="font-label-md text-label-md text-primary-fixed font-semibold">Practice precision. Protect life.</p><p class="font-body-sm text-body-sm text-[#FFFFFF]/70 leading-relaxed">Engineered to elevate clinical competency and diagnostic accuracy through rigorous medical simulation across East African healthcare infrastructures.</p><div class="flex items-center gap-2 mt-2 text-[#FFFFFF]/60 font-label-sm text-label-sm"><span class="material-symbols-outlined text-[16px] text-domain-clinical">verified_user</span><span>ISO 13485 &amp; CE Medical Certified</span></div></div><div class="flex flex-col gap-space-xs"><span class="font-eyebrow text-eyebrow text-[#FFFFFF]/50 uppercase tracking-wider mb-2">Solutions</span><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="clinical-training" href="#">Clinical Training</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="medical-research-and-simulation" href="#">Medical Research &amp; Simulation</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="patient-care-and-wellbeing" href="#">Patient Care &amp; Wellbeing</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="simulation-catalog" href="#">Simulation Modules Catalog</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="evidence-and-outcomes" href="#">Curriculum Roadmaps</a></div><div class="flex flex-col gap-space-xs"><span class="font-eyebrow text-eyebrow text-[#FFFFFF]/50 uppercase tracking-wider mb-2">Evidence &amp; Publications</span><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="clinical-trials-and-pilots" href="#">Clinical Trials &amp; Pilots</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="research-papers" href="#">Peer-Reviewed Research Papers</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="case-studies" href="#">Hospital Case Studies</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="clinical-advisory-board" href="#">Clinical Advisory Board</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="evidence-and-outcomes" href="#">Procedural Accuracy Metrics</a></div><div class="flex flex-col gap-space-sm"><span class="font-eyebrow text-eyebrow text-[#FFFFFF]/50 uppercase tracking-wider">Institution &amp; Careers</span><div class="flex flex-col gap-space-xs"><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="careers" href="#">Open Roles</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="request-a-demo" href="#">Hospital Procurement</a><a class="font-body-sm text-body-sm text-[#FFFFFF]/80 hover:text-[#FFFFFF] transition-colors" data-path="contact" href="#">Contact Clinical Support</a></div><div class="mt-2"><label class="font-label-sm text-label-sm text-[#FFFFFF]/70 block mb-1.5" for="email-newsletter">Subscribe to Clinical Dispatch</label><div class="flex gap-1.5"><input class="h-10 px-3 bg-[#FFFFFF]/10 text-[#FFFFFF] placeholder:text-[#FFFFFF]/40 font-body-sm text-body-sm rounded-lg border-0 focus:ring-2 focus:ring-domain-clinical focus:outline-none w-full" id="email-newsletter" placeholder="physician@hospital.org" type="email"/><button class="h-10 px-3 bg-domain-clinical hover:bg-teal-hover text-on-primary rounded-lg font-label-sm text-label-sm font-semibold transition-colors shrink-0" type="button">Join</button></div></div></div></div><div class="bg-[#061B2C] py-space-md"><div class="max-w-[1200px] mx-auto px-margin flex flex-col md:flex-row items-center justify-between gap-space-sm text-center md:text-left"><p class="font-label-sm text-label-sm text-[#FFFFFF]/60">Tibika is a Swizzy Industries pillar brand. Built in Kenya. © 2025 Tibika Healthcare Technologies Ltd.</p><div class="flex flex-wrap items-center justify-center gap-space-md font-label-sm text-label-sm text-[#FFFFFF]/60"><a class="hover:text-[#FFFFFF] transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><a class="hover:text-[#FFFFFF] transition-colors" data-path="terms-of-use" href="#">Terms of Use</a><a class="hover:text-[#FFFFFF] transition-colors" data-path="regulatory-and-clinical-data-notice" href="#">Regulatory &amp; Clinical Data Notice</a><a class="hover:text-[#FFFFFF] transition-colors" data-path="consent-statement" href="#">Consent Statement</a></div></div></div></footer></body></html>

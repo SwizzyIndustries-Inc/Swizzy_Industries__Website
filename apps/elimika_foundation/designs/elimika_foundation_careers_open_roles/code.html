@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-container":"#ffbe45","on-primary-fixed":"#06006c","on-error":"#ffffff","on-primary-fixed-variant":"#2927cb","on-primary-container":"#c4c5ff","outline":"#767587","on-tertiary-fixed-variant":"#832600","surface":"#fcf8ff","secondary":"#7e5700","on-tertiary-fixed":"#390c00","on-tertiary-container":"#ffb9a3","surface-tint":"#4547e3","surface-container-low":"#f5f2ff","on-primary":"#ffffff","on-surface":"#181931","tertiary-fixed-dim":"#ffb59d","on-surface-variant":"#454555","on-tertiary":"#ffffff","surface-bright":"#fcf8ff","surface-variant":"#e1e0ff","surface-container-lowest":"#ffffff","error-container":"#ffdad6","error":"#ba1a1a","inverse-on-surface":"#f1efff","on-secondary-container":"#714e00","surface-container-high":"#e7e6ff","secondary-fixed-dim":"#fbbb43","surface-container-highest":"#e1e0ff","surface-dim":"#d8d7f8","surface-container":"#eeecff","tertiary":"#732100","on-background":"#181931","secondary-fixed":"#ffdeab","background":"#fcf8ff","primary-fixed":"#e1e0ff","tertiary-fixed":"#ffdbd0","on-secondary":"#ffffff","primary-fixed-dim":"#c0c1ff","tertiary-container":"#9b2f00","on-secondary-fixed":"#271900","primary":"#1d15c3","inverse-surface":"#2d2e48","inverse-primary":"#c0c1ff","on-secondary-fixed-variant":"#5f4100","outline-variant":"#c6c4d8","primary-container":"#3a3bd9","on-error-container":"#93000a"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"gutter":"1.5rem","space-sm":"0.5rem","space-3xl":"6rem","gutter-mobile":"1rem","space-2xl":"3rem","space-xl":"2rem","space-md":"1rem","space-lg":"1.5rem","space-xs":"0.25rem","margin":"2rem","margin-mobile":"1rem"},fontFamily:{"label-lg":["Inter"],"h1":["Plus Jakarta Sans"],"body":["Inter"],"h2":["Plus Jakarta Sans"],"caption":["Inter"],"h3":["Plus Jakarta Sans"],"display":["Plus Jakarta Sans"],"h2-mobile":["Plus Jakarta Sans"],"display-mobile":["Plus Jakarta Sans"],"body-medium":["Inter"],"body-lead":["Inter"],"label-md":["Inter"],"h1-mobile":["Plus Jakarta Sans"]},fontSize:{"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"h1":["46px",{"lineHeight":"54px","letterSpacing":"-0.02em","fontWeight":"700"}],"body":["16px",{"lineHeight":"24px","fontWeight":"400"}],"h2":["34px",{"lineHeight":"42px","letterSpacing":"-0.01em","fontWeight":"600"}],"caption":["12px",{"lineHeight":"16px","fontWeight":"400"}],"h3":["26px",{"lineHeight":"34px","letterSpacing":"-0.005em","fontWeight":"600"}],"display":["60px",{"lineHeight":"68px","letterSpacing":"-0.02em","fontWeight":"700"}],"h2-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.01em","fontWeight":"600"}],"display-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.015em","fontWeight":"700"}],"body-medium":["16px",{"lineHeight":"24px","fontWeight":"500"}],"body-lead":["18px",{"lineHeight":"28px","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"h1-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"700"}]}}}};</script></head><body class="bg-surface font-body text-on-surface"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-surface-container-low py-space-xs px-margin"><div class="max-w-[1200px] mx-auto flex items-center justify-center gap-space-xs text-center"><span class="material-symbols-outlined text-[16px] text-primary">verified</span><p class="font-label-md text-label-md text-on-surface-variant"><span class="font-semibold text-on-surface">A Swizzy Industries Pillar Brand</span> • Kenya CBC &amp; University Curriculum Aligned</p></div></div><div class="h-20 max-w-[1200px] mx-auto px-margin flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md"><img alt="Elimika Foundation Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UU7mflc7BYCXv0QOcGD9R1izEX8p1aQL-M4_1ugltVPVS2iwrTdAG4w_aE7lXumFuKmK9FsmqpqP1OmwYtTmOCi58SBbTozn3_fs-GBZi9TiE4JE2-pthxOp_qlMx1va9rPslQU11N1q5S8tVuriiTCm3LPk3Cynnwjas8_yWkmUA7q4Wm6utonClC-lZkwmezuQD8QK0FnzMAlOgsv7F8LvgZ2mbERNTYf-PAT6_8QjivhBLSkDnVIMw"/><div class="flex flex-col"><span class="font-h3 text-[18px] leading-tight font-bold tracking-tight text-on-surface">Elimika</span><span class="font-caption text-caption text-on-surface-variant leading-none">Foundation</span></div></div><nav class="hidden lg:flex items-center gap-space-md" data-active-classes="bg-primary-container text-on-primary font-label-lg rounded-xl"><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface flex items-center gap-space-xs transition-colors" data-path="home" href="#">Home</a><div class="relative group"><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface flex items-center gap-space-xs transition-colors" data-path="learning-solutions" href="#">Learning Solutions</a><div class="absolute top-full left-1/2 -translate-x-1/2 pt-space-xs hidden group-hover:block w-[780px]"><div class="bg-surface-container-lowest rounded-xl shadow-[0_12px_24px_-6px_rgba(18,19,43,0.08)] p-space-xl grid grid-cols-12 gap-space-lg"><div class="col-span-7 space-y-space-md"><p class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider font-semibold">Curriculum Tracks</p><div class="grid grid-cols-2 gap-space-sm"><div class="p-space-sm rounded-lg hover:bg-surface-container-low transition-colors"><span class="inline-block px-space-sm py-1 rounded-full bg-[#3A5BD9] text-on-primary font-label-md text-[10px] mb-space-xs">K-12 CBC</span><h4 class="font-label-lg text-label-lg text-on-surface">Junior &amp; Senior School</h4><p class="font-caption text-caption text-on-surface-variant">Interactive STEM &amp; humanities spatial modules.</p></div><div class="p-space-sm rounded-lg hover:bg-surface-container-low transition-colors"><span class="inline-block px-space-sm py-1 rounded-full bg-[#6C4FD9] text-on-primary font-label-md text-[10px] mb-space-xs">Higher Ed</span><h4 class="font-label-lg text-label-lg text-on-surface">University Faculty</h4><p class="font-caption text-caption text-on-surface-variant">Medical, engineering, and digital research viewports.</p></div><div class="p-space-sm rounded-lg hover:bg-surface-container-low transition-colors"><span class="inline-block px-space-sm py-1 rounded-full bg-[#1E8F6B] text-on-primary font-label-md text-[10px] mb-space-xs">TVET &amp; Skills</span><h4 class="font-label-lg text-label-lg text-on-surface">Vocational Labs</h4><p class="font-caption text-caption text-on-surface-variant">Applied mechanics, robotics, and electrical sims.</p></div><div class="p-space-sm rounded-lg hover:bg-surface-container-low transition-colors"><span class="inline-block px-space-sm py-1 rounded-full bg-[#D97A3A] text-on-primary font-label-md text-[10px] mb-space-xs">Educators</span><h4 class="font-label-lg text-label-lg text-on-surface">Institutional Suite</h4><p class="font-caption text-caption text-on-surface-variant">AI grading, spatial lesson prep, and teacher certification.</p></div></div></div><div class="col-span-5 bg-surface-container-low p-space-md rounded-xl space-y-space-sm"><p class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider font-semibold">Popular Interactive Labs</p><ul class="space-y-space-xs font-body text-caption"><li class="p-space-xs rounded hover:bg-surface-container flex items-center justify-between text-on-surface font-medium"><span>Human Anatomy 3D Atlas</span><span class="material-symbols-outlined text-[14px] text-primary">chevron_right</span></li><li class="p-space-xs rounded hover:bg-surface-container flex items-center justify-between text-on-surface font-medium"><span>Geothermal Dynamics Rift Valley</span><span class="material-symbols-outlined text-[14px] text-primary">chevron_right</span></li><li class="p-space-xs rounded hover:bg-surface-container flex items-center justify-between text-on-surface font-medium"><span>Automotive EV Powertrain Sim</span><span class="material-symbols-outlined text-[14px] text-primary">chevron_right</span></li><li class="p-space-xs rounded hover:bg-surface-container flex items-center justify-between text-on-surface font-medium"><span>Molecular Genetics Sandbox</span><span class="material-symbols-outlined text-[14px] text-primary">chevron_right</span></li></ul></div></div></div></div><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="labs-and-modules" href="#">Labs &amp; Modules</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="blog-and-research" href="#">Blog &amp; Research</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="careers" href="#">Careers</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-block font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a><button aria-label="Search portal" class="w-10 h-10 flex items-center justify-center rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">search</span></button><a class="inline-flex items-center justify-center h-12 px-space-lg rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-colors shadow-sm" data-path="request-a-demo" href="#">Request a Demo</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Ambient Glow / Header Extension Decorator -->
+<div class="relative w-full overflow-hidden bg-surface-container-low">
+<div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 -left-24 w-80 h-80 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"></div>
+<!-- Hero Section -->
+<section class="relative max-w-[1200px] mx-auto px-margin py-space-3xl flex flex-col items-center text-center">
+<!-- Eyebrow Badge -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-lowest shadow-sm mb-space-lg">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-md text-label-md text-primary font-semibold tracking-wider uppercase">Work with Purpose • Join Elimika Foundation</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-h1 text-h1 text-on-surface max-w-4xl tracking-tight mb-space-md">
+        Build the Future of African Education in <span class="text-primary-container relative inline-block">Three Dimensions
+          <svg class="absolute left-0 -bottom-2 w-full h-3 text-secondary-container/60" fill="currentColor" preserveaspectratio="none" viewbox="0 0 200 12">
+<path d="M0,7 C50,0 150,14 200,6 L200,12 L0,12 Z"></path>
+</svg>
+</span>
+</h1>
+<!-- Subhead -->
+<p class="font-body-lead text-body-lead text-on-surface-variant max-w-3xl mb-space-xl">
+        We are instructional designers, 3D artists, former teachers, and WebXR engineers building world-class virtual labs and AI inquiry tools for every classroom in Kenya and East Africa.
+      </p>
+<!-- Dual Primary CTAs -->
+<div class="flex flex-wrap items-center justify-center gap-space-md mb-space-2xl">
+<a class="inline-flex items-center justify-center h-12 px-space-xl rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-all shadow-md group" href="#open-positions">
+<span>View Open Positions</span>
+<span class="material-symbols-outlined ml-space-xs text-[18px] group-hover:translate-y-0.5 transition-transform">arrow_downward</span>
+</a>
+<a class="inline-flex items-center justify-center h-12 px-space-xl rounded-xl bg-surface-container-lowest text-primary font-label-lg text-label-lg hover:bg-surface-container transition-all shadow-sm" href="#culture-mission">
+<span>Life at Elimika</span>
+<span class="material-symbols-outlined ml-space-xs text-[18px]">play_circle</span>
+</a>
+</div>
+<!-- Quick Culture Perks Strip -->
+<div class="w-full grid grid-cols-2 md:grid-cols-4 gap-space-md pt-space-lg">
+<div class="flex items-center gap-space-sm p-space-md rounded-xl bg-surface-container-lowest shadow-sm text-left">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">payments</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface font-semibold leading-tight">Top Compensation</p>
+<p class="font-caption text-caption text-on-surface-variant">&amp; Equity Participation</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm p-space-md rounded-xl bg-surface-container-lowest shadow-sm text-left">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">domain</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface font-semibold leading-tight">Nairobi Studio HQ</p>
+<p class="font-caption text-caption text-on-surface-variant">+ Hybrid Flexibility</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm p-space-md rounded-xl bg-surface-container-lowest shadow-sm text-left">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">school</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface font-semibold leading-tight">Classroom Days</p>
+<p class="font-caption text-caption text-on-surface-variant">Direct School Immersion</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm p-space-md rounded-xl bg-surface-container-lowest shadow-sm text-left">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">psychology</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface font-semibold leading-tight">$3,000 Annual Grant</p>
+<p class="font-caption text-caption text-on-surface-variant">Conferences &amp; Mastery</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Why Build at Elimika: Mission & Culture Spotlight -->
+<section class="w-full bg-surface-container-lowest py-space-3xl" id="culture-mission">
+<div class="max-w-[1200px] mx-auto px-margin space-y-space-2xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="max-w-2xl space-y-space-xs">
+<span class="font-label-md text-label-md text-primary font-semibold uppercase tracking-wider">Mission &amp; Studio Culture</span>
+<h2 class="font-h2 text-h2 text-on-surface">Where Physical Rigor Meets Creative Freedom</h2>
+</div>
+<p class="font-body text-body text-on-surface-variant max-w-md">
+          We don't build tech demos for Silicon Valley hype cycles. We build resilient, curriculum-certified spatial simulations that work seamlessly in real Kenyan classrooms.
+        </p>
+</div>
+<!-- Studio Spotlight Banner (Exact Provided Image Asset) -->
+<div class="relative w-full rounded-xl overflow-hidden shadow-lg bg-inverse-surface group">
+<img alt="Creative tech team and 3D instructional designers collaborating at Elimika Foundation Nairobi studio" class="w-full h-[460px] object-cover object-center group-hover:scale-[1.01] transition-transform duration-500 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdZf8U1eqe8JrLw967lN27hDV0UjEWhTQPJH9nIBesKCsoGzeORemaFq1rQAigHk4LS-2FFfBRf0xXq3KtPcqfVvdnI_5_q1VXRJjcQtEc5ZSjGoFRe4ZXlRcneVyLH5g2jIh3p8l0mdb6eRs-Kt5MGS5q23NPl91kZDVoYEKcrtwdTbugFW2_V7yYId3LZ6IpwF3432BwiA_41T-ipJMMXYiviI-C16ecMo8gYvBkn4xYRWmSu1UFdw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-inverse-surface/30 to-transparent flex flex-col justify-end p-space-xl">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="space-y-space-xs max-w-2xl">
+<span class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-lowest/20 backdrop-blur-md text-surface-container-lowest font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">location_on</span>
+                Kilimani Creative Studio • Nairobi
+              </span>
+<p class="font-body-lead text-body-lead text-surface-container-lowest font-medium">
+                Our creative technology studio in Nairobi, where 3D physics engines meet national curriculum standards.
+              </p>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<div class="text-right">
+<div class="font-h3 text-h3 text-secondary-container font-bold">60 FPS</div>
+<div class="font-caption text-caption text-surface-container-highest">Target on sub-$100 tablets</div>
+</div>
+<div class="w-px h-10 bg-surface-container-highest/20"></div>
+<div class="text-right">
+<div class="font-h3 text-h3 text-primary-fixed-dim font-bold">14,800+</div>
+<div class="font-caption text-caption text-surface-container-highest">Teachers in active pilots</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 4 Core Cultural Values Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg pt-space-md">
+<!-- Value 1 -->
+<div class="p-space-xl rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between gap-space-md group hover:bg-surface-container transition-colors">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-container text-on-primary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[24px]">explore</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-surface">Classroom Reality Over Tech Novelty</h3>
+<p class="font-body text-body text-on-surface-variant">
+              We spend regular days inside rural and urban public schools watching teachers and learners test our software. Empathy is formed at wooden desks under corrugated roofs, not in air-conditioned developer siloes.
+            </p>
+</div>
+<div class="pt-space-sm flex items-center gap-space-xs font-label-lg text-label-lg text-primary font-semibold">
+<span>Direct field research loops</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</div>
+</div>
+<!-- Value 2 -->
+<div class="p-space-xl rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between gap-space-md group hover:bg-surface-container transition-colors">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-xl bg-[#6C4FD9] text-on-primary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[24px]">biotech</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-surface">Pedagogical Craft &amp; Scientific Rigor</h3>
+<p class="font-body text-body text-on-surface-variant">
+              Every 3D model and interactive simulation must be physically and anatomically accurate. Our physics math is validated by university faculty, and our inquiry arcs are co-authored with veteran CBC curriculum developers.
+            </p>
+</div>
+<div class="pt-space-sm flex items-center gap-space-xs font-label-lg text-label-lg text-primary font-semibold">
+<span>KICD-aligned validation framework</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</div>
+</div>
+<!-- Value 3 -->
+<div class="p-space-xl rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between gap-space-md group hover:bg-surface-container transition-colors">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-xl bg-[#1E8F6B] text-on-primary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[24px]">speed</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-surface">Engineering for Extreme Accessibility</h3>
+<p class="font-body text-body text-on-surface-variant">
+              We celebrate squeezing high-performance 60 FPS simulations into low-cost tablets and offline edge micro-servers. If a school in Turkana with intermittent power cannot smoothly load our lab, our code isn't finished.
+            </p>
+</div>
+<div class="pt-space-sm flex items-center gap-space-xs font-label-lg text-label-lg text-primary font-semibold">
+<span>Offline-first P2P mesh sync</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</div>
+</div>
+<!-- Value 4 -->
+<div class="p-space-xl rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between gap-space-md group hover:bg-surface-container transition-colors">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-xl bg-[#D97A3A] text-on-primary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[24px]">hub</span>
+</div>
+<h3 class="font-h3 text-h3 text-on-surface">Swizzy Industries Ecosystem</h3>
+<p class="font-body text-body text-on-surface-variant">
+              Enjoy the stability and infrastructure of the Swizzy Industries pillar family with the nimbleness of an education impact venture. We combine massive institutional backing with unbureaucratic, high-velocity execution.
+            </p>
+</div>
+<div class="pt-space-sm flex items-center gap-space-xs font-label-lg text-label-lg text-primary font-semibold">
+<span>Institutional scale + startup agility</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Benefits & Life at Elimika -->
+<section class="w-full bg-surface py-space-3xl">
+<div class="max-w-[1200px] mx-auto px-margin space-y-space-2xl">
+<div class="text-center max-w-2xl mx-auto space-y-space-xs">
+<span class="font-label-md text-label-md text-primary font-semibold uppercase tracking-wider">Holistic Support</span>
+<h2 class="font-h2 text-h2 text-on-surface">Built to Help You Do Your Life’s Defining Work</h2>
+<p class="font-body text-body text-on-surface-variant">
+          We believe world-class pedagogical software is built by well-rested, sustainably supported builders with true ownership.
+        </p>
+</div>
+<!-- 6 Structured Benefit Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Benefit 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">health_and_safety</span>
+</div>
+<h4 class="font-h3 text-[20px] text-on-surface font-semibold">Comprehensive Health &amp; Dental</h4>
+<p class="font-body text-caption text-on-surface-variant leading-relaxed">
+            Full premier medical, dental, and optical insurance for you and your direct dependents, with no co-pays and direct hospital card admissions across East Africa.
+          </p>
+</div>
+<!-- Benefit 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">flight_takeoff</span>
+</div>
+<h4 class="font-h3 text-[20px] text-on-surface font-semibold">Relocation Support to Nairobi</h4>
+<p class="font-body text-caption text-on-surface-variant leading-relaxed">
+            Comprehensive flight booking, 60 days of serviced apartment accommodation in Kilimani or Westlands, and dedicated legal visa sponsorship for international team members.
+          </p>
+</div>
+<!-- Benefit 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">family_restroom</span>
+</div>
+<h4 class="font-h3 text-[20px] text-on-surface font-semibold">Generous Parental Leave</h4>
+<p class="font-body text-caption text-on-surface-variant leading-relaxed">
+            18 weeks of fully paid maternity leave and 8 weeks of paid paternity leave, paired with a gradual ramp-up schedule and childcare stipend on return.
+          </p>
+</div>
+<!-- Benefit 4 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">local_library</span>
+</div>
+<h4 class="font-h3 text-[20px] text-on-surface font-semibold">Continuous Education Grants</h4>
+<p class="font-body text-caption text-on-surface-variant leading-relaxed">
+            An annual $3,000 personal budget for WebXR conventions, SIGGRAPH access, specialized pedagogy certifications, textbooks, and technical workshops.
+          </p>
+</div>
+<!-- Benefit 5 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">laptop_mac</span>
+</div>
+<h4 class="font-h3 text-[20px] text-on-surface font-semibold">State-of-the-Art Hardware</h4>
+<p class="font-body text-caption text-on-surface-variant leading-relaxed">
+            Every builder receives an Apple M3 Pro MacBook or custom RTX workstation, dual 4K calibrated monitors, ergonomic Herman Miller seating, and XR test rigs.
+          </p>
+</div>
+<!-- Benefit 6 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">forest</span>
+</div>
+<h4 class="font-h3 text-[20px] text-on-surface font-semibold">Annual Team Safari Retreat</h4>
+<p class="font-body text-caption text-on-surface-variant leading-relaxed">
+            Every year our entire crew unplugs for a 4-day strategy and leisure retreat in the Maasai Mara, Naivasha, or Diani to celebrate milestones and recharge.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Open Positions Filterable Directory -->
+<section class="w-full bg-surface-container-low py-space-3xl" id="open-positions">
+<div class="max-w-[1200px] mx-auto px-margin space-y-space-xl">
+<!-- Section Intro -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-md text-label-md text-primary font-semibold uppercase tracking-wider">Career Opportunities</span>
+<h2 class="font-h2 text-h2 text-on-surface">Explore Current Openings</h2>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md">
+<span class="w-2.5 h-2.5 rounded-full bg-[#1E8F6B]"></span>
+<span>8 Open Positions across Nairobi &amp; Field Hubs</span>
+</div>
+</div>
+<!-- Department Filter Pills -->
+<div class="flex flex-wrap items-center gap-space-xs" id="filter-container">
+<button class="filter-btn px-space-md py-space-xs rounded-full bg-primary-container text-on-primary font-label-md text-label-md transition-all shadow-sm" data-category="all">
+          All Roles (8)
+        </button>
+<button class="filter-btn px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all shadow-sm" data-category="instructional">
+          Instructional Design (2)
+        </button>
+<button class="filter-btn px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all shadow-sm" data-category="graphics">
+          3D &amp; Graphics Engineering (3)
+        </button>
+<button class="filter-btn px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all shadow-sm" data-category="field">
+          Field Operations &amp; Teacher Success (2)
+        </button>
+<button class="filter-btn px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all shadow-sm" data-category="product">
+          Product &amp; Research (1)
+        </button>
+</div>
+<!-- Job Listing Cards Grid -->
+<div class="grid grid-cols-1 gap-space-md" id="jobs-container">
+<!-- Job 1 -->
+<div class="job-card p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-space-md group" data-category="graphics">
+<div class="space-y-space-xs max-w-2xl">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="px-space-sm py-0.5 rounded-full bg-[#3A5BD9] text-on-primary font-label-md text-[11px] font-semibold">3D &amp; Graphics</span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-[11px]">Nairobi / Hybrid</span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-[11px]">Full-time</span>
+</div>
+<h3 class="font-h3 text-[22px] text-on-surface font-bold group-hover:text-primary transition-colors">
+              Senior WebXR / Three.js Graphics Engineer
+            </h3>
+<p class="font-body text-body text-on-surface-variant">
+              Lead optimization of custom WebGL/WebGPU shaders, Level of Detail (LOD) systems, and real-time physical simulation engines for low-spec Android school tablets.
+            </p>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<div class="text-right hidden sm:block">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold">KES 420K – 580K / mo</p>
+<p class="font-caption text-caption text-on-surface-variant">Plus Equity Grant</p>
+</div>
+<a class="inline-flex items-center justify-center h-11 px-space-lg rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-all shadow-sm" href="#apply">
+<span>Apply Role</span>
+<span class="material-symbols-outlined ml-1 text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Job 2 -->
+<div class="job-card p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-space-md group" data-category="instructional">
+<div class="space-y-space-xs max-w-2xl">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="px-space-sm py-0.5 rounded-full bg-[#3A5BD9] text-on-primary font-label-md text-[11px] font-semibold">Instructional Design</span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-[11px]">Nairobi HQ</span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-[11px]">Full-time</span>
+</div>
+<h3 class="font-h3 text-[22px] text-on-surface font-bold group-hover:text-primary transition-colors">
+              Lead CBC Science Instructional Designer
+            </h3>
+<p class="font-body text-body text-on-surface-variant">
+              Translate Junior &amp; Senior Secondary physics and chemistry curricula into interactive 3D learning flows, formative rubrics, and automated Socratic inquiry checks.
+            </p>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<div class="text-right hidden sm:block">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold">KES 320K – 440K / mo</p>
+<p class="font-caption text-caption text-on-surface-variant">Plus Curriculum Bonus</p>
+</div>
+<a class="inline-flex items-center justify-center h-11 px-space-lg rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-all shadow-sm" href="#apply">
+<span>Apply Role</span>
+<span class="material-symbols-outlined ml-1 text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Job 3 -->
+<div class="job-card p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-space-md group" data-category="graphics">
+<div class="space-y-space-xs max-w-2xl">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="px-space-sm py-0.5 rounded-full bg-[#3A5BD9] text-on-primary font-label-md text-[11px] font-semibold">3D &amp; Graphics</span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-[11px]">Nairobi / Remote</span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-[11px]">Full-time</span>
+</div>
+<h3 class="font-h3 text-[22px] text-on-surface font-bold group-hover:text-primary transition-colors">
+              3D Hard-Surface &amp; Architectural Modeler
+            </h3>
+<p class="font-body text-body text-on-surface-variant">
+              Create anatomically and mechanically accurate 3D assets (automotive engines, Rift Valley tectonic structures, cell organelles) strictly optimized for realtime WebGL pipelines.
+            </p>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<div class="text-right hidden sm:block">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold">KES 280K – 380K / mo</p>
+<p class="font-caption text-caption text-on-surface-variant">Plus Workstation Rig</p>
+</div>
+<a class="inline-flex items-center justify-center h-11 px-space-lg rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-all shadow-sm" href="#apply">
+<span>Apply Role</span>
+<span class="material-symbols-outlined ml-1 text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Job 4 -->
+<div class="job-card p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-space-md group" data-category="field">
+<div class="space-y-space-xs max-w-2xl">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="px-space-sm py-0.5 rounded-full bg-[#1E8F6B] text-on-primary font-label-md text-[11px] font-semibold">Field Operations</span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-[11px]">Nakuru / Western Hub</span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-[11px]">Full-time</span>
+</div>
+<h3 class="font-h3 text-[22px] text-on-surface font-bold group-hover:text-primary transition-colors">
+              Regional Teacher Trainer &amp; Field Operations Lead
+            </h3>
+<p class="font-body text-body text-on-surface-variant">
+              Train secondary school educators and TVET instructors across Rift Valley on spatial classroom facilitation HUDs, offline caching carts, and student progression analytics.
+            </p>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<div class="text-right hidden sm:block">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold">KES 260K – 350K / mo</p>
+<p class="font-caption text-caption text-on-surface-variant">Field Vehicle &amp; Per Diem</p>
+</div>
+<a class="inline-flex items-center justify-center h-11 px-space-lg rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-all shadow-sm" href="#apply">
+<span>Apply Role</span>
+<span class="material-symbols-outlined ml-1 text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Job 5 -->
+<div class="job-card p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-space-md group" data-category="graphics">
+<div class="space-y-space-xs max-w-2xl">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="px-space-sm py-0.5 rounded-full bg-[#6C4FD9] text-on-primary font-label-md text-[11px] font-semibold">Platform &amp; Systems</span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-[11px]">Nairobi HQ</span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-[11px]">Full-time</span>
+</div>
+<h3 class="font-h3 text-[22px] text-on-surface font-bold group-hover:text-primary transition-colors">
+              Senior Full-Stack Platform Engineer (Mesh &amp; Telemetry)
+            </h3>
+<p class="font-body text-body text-on-surface-variant">
+              Build resilient local Wi-Fi peer-to-peer mesh sync protocols that let 50 classroom headsets synchronize physical experiments with zero active internet access.
+            </p>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<div class="text-right hidden sm:block">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold">KES 400K – 540K / mo</p>
+<p class="font-caption text-caption text-on-surface-variant">Plus Equity Grant</p>
+</div>
+<a class="inline-flex items-center justify-center h-11 px-space-lg rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-all shadow-sm" href="#apply">
+<span>Apply Role</span>
+<span class="material-symbols-outlined ml-1 text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Job 6 -->
+<div class="job-card p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col lg:flex-row lg:items-center justify-between gap-space-md group" data-category="product">
+<div class="space-y-space-xs max-w-2xl">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="px-space-sm py-0.5 rounded-full bg-[#D97A3A] text-on-primary font-label-md text-[11px] font-semibold">Research &amp; Data</span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-[11px]">Nairobi / Hybrid</span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-[11px]">Full-time</span>
+</div>
+<h3 class="font-h3 text-[22px] text-on-surface font-bold group-hover:text-primary transition-colors">
+              Educational Data Scientist &amp; Telemetry Analyst
+            </h3>
+<p class="font-body text-body text-on-surface-variant">
+              Analyze longitudinal learner retention curves, spatial interaction telemetry, and Socratic dialogue logs to co-publish peer-reviewed pedagogical impact papers.
+            </p>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<div class="text-right hidden sm:block">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold">KES 350K – 460K / mo</p>
+<p class="font-caption text-caption text-on-surface-variant">Publication Stipends</p>
+</div>
+<a class="inline-flex items-center justify-center h-11 px-space-lg rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-all shadow-sm" href="#apply">
+<span>Apply Role</span>
+<span class="material-symbols-outlined ml-1 text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4-Stage Transparent Hiring Process -->
+<section class="w-full bg-surface-container-lowest py-space-3xl">
+<div class="max-w-[1200px] mx-auto px-margin space-y-space-2xl">
+<div class="text-center max-w-2xl mx-auto space-y-space-xs">
+<span class="font-label-md text-label-md text-primary font-semibold uppercase tracking-wider">How We Hire</span>
+<h2 class="font-h2 text-h2 text-on-surface">Transparent, Respectful, and Fast</h2>
+<p class="font-body text-body text-on-surface-variant">
+          We respect your time. No puzzle trivia or endless panel rounds. Every step is clearly communicated, and craft exercises are compensated.
+        </p>
+</div>
+<!-- 4-Stage Process Horizontal Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md relative">
+<!-- Stage 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between h-full space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="w-8 h-8 rounded-full bg-primary-container text-on-primary font-label-md text-label-md font-bold flex items-center justify-center">01</span>
+<span class="font-caption text-caption text-on-surface-variant font-medium">3–5 Business Days</span>
+</div>
+<h4 class="font-h3 text-[18px] text-on-surface font-bold pt-space-xs">Application Review</h4>
+<p class="font-body text-caption text-on-surface-variant leading-relaxed">
+              Our engineering or instructional leads personally examine your past portfolio, GitHub repositories, or lesson module blueprints.
+            </p>
+</div>
+<div class="pt-space-xs flex items-center text-primary font-label-md text-label-md">
+<span>Direct human feedback</span>
+</div>
+</div>
+<!-- Stage 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between h-full space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="w-8 h-8 rounded-full bg-primary-container text-on-primary font-label-md text-label-md font-bold flex items-center justify-center">02</span>
+<span class="font-caption text-caption text-on-surface-variant font-medium">30 Minutes</span>
+</div>
+<h4 class="font-h3 text-[18px] text-on-surface font-bold pt-space-xs">Discovery Chat</h4>
+<p class="font-body text-caption text-on-surface-variant leading-relaxed">
+              A candid video conversation with your prospective team lead to align on mission, pedagogical beliefs, and career goals.
+            </p>
+</div>
+<div class="pt-space-xs flex items-center text-primary font-label-md text-label-md">
+<span>Mutual vibe &amp; scope check</span>
+</div>
+</div>
+<!-- Stage 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between h-full space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="w-8 h-8 rounded-full bg-primary-container text-on-primary font-label-md text-label-md font-bold flex items-center justify-center">03</span>
+<span class="font-caption text-caption text-secondary-container font-semibold">Paid Challenge</span>
+</div>
+<h4 class="font-h3 text-[18px] text-on-surface font-bold pt-space-xs">Practical Craft Project</h4>
+<p class="font-body text-caption text-on-surface-variant leading-relaxed">
+              A 3–4 day take-home craft challenge reflecting actual work (e.g. optimizing a WebGL shader or sketching a CBC spatial biology lesson).
+            </p>
+</div>
+<div class="pt-space-xs flex items-center text-primary font-label-md text-label-md">
+<span>$300 compensation stipend</span>
+</div>
+</div>
+<!-- Stage 4 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between h-full space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="w-8 h-8 rounded-full bg-primary-container text-on-primary font-label-md text-label-md font-bold flex items-center justify-center">04</span>
+<span class="font-caption text-caption text-on-surface-variant font-medium">Half-Day in Nairobi</span>
+</div>
+<h4 class="font-h3 text-[18px] text-on-surface font-bold pt-space-xs">Studio Day &amp; Meet the Team</h4>
+<p class="font-body text-caption text-on-surface-variant leading-relaxed">
+              Spend an afternoon at our Kilimani studio. Demo your project, test our VR rigs, grab lunch with the founders, and ask any questions.
+            </p>
+</div>
+<div class="pt-space-xs flex items-center text-primary font-label-md text-label-md">
+<span>Formal offer within 48h</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- General Application & Talent Community CTA Section -->
+<section class="w-full bg-surface-container py-space-3xl" id="apply">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="p-space-2xl rounded-2xl bg-surface-container-lowest shadow-md flex flex-col lg:flex-row items-center justify-between gap-space-xl">
+<div class="max-w-xl space-y-space-sm text-center lg:text-left">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container text-primary font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[16px]">all_inclusive</span>
+            Open Roster Initiative
+          </div>
+<h3 class="font-h2 text-h2 text-on-surface">Don’t See Your Exact Role?</h3>
+<p class="font-body text-body text-on-surface-variant">
+            If you are passionate about transforming African pedagogy through spatial computing, generative AI, or curriculum research, we want to hear from you. We regularly create bespoke roles for exceptional contributors.
+          </p>
+<div class="pt-space-xs flex flex-wrap items-center justify-center lg:justify-start gap-space-md text-on-surface-variant font-label-md text-label-md">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> Swift 48h review</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> Flexible onboarding</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> Swizzy Ecosystem Growth</span>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-sm w-full lg:w-auto shrink-0">
+<button class="w-full sm:w-auto inline-flex items-center justify-center h-12 px-space-xl rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-all shadow-md">
+<span>Send Open Application</span>
+<span class="material-symbols-outlined ml-space-xs text-[18px]">send</span>
+</button>
+<button class="w-full sm:w-auto inline-flex items-center justify-center h-12 px-space-xl rounded-xl bg-surface-container-low text-on-surface font-label-lg text-label-lg hover:bg-surface-container transition-all">
+<span>Join Talent Community</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive JavaScript for Role Filter Buttons -->
+<script>
+    (function initCareerFilters() {
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const jobCards = document.querySelectorAll('.job-card');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // Reset styles
+          filterBtns.forEach(b => {
+            b.classList.remove('bg-primary-container', 'text-on-primary');
+            b.classList.add('bg-surface-container-lowest', 'text-on-surface-variant');
+          });
+
+          // Active style
+          btn.classList.add('bg-primary-container', 'text-on-primary');
+          btn.classList.remove('bg-surface-container-lowest', 'text-on-surface-variant');
+
+          const category = btn.getAttribute('data-category');
+
+          jobCards.forEach(card => {
+            if (category === 'all' || card.getAttribute('data-category') === category) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+    })();
+  </script>
+</div></main><footer class="w-full bg-[#12132B] text-surface-container-lowest"><div class="bg-primary-container/20 py-space-xl px-margin"><div class="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-space-lg"><div class="space-y-space-xs text-center md:text-left"><h3 class="font-h3 text-h3 text-surface-container-lowest font-bold">Bring Elimika to your school or institution</h3><p class="font-body text-body text-surface-variant/80">Empower students with immersive spatial computing and AI learning environments aligned to national standards.</p></div><a class="inline-flex items-center justify-center h-12 px-space-xl rounded-xl bg-surface-container-lowest text-primary font-label-lg text-label-lg hover:bg-surface-container-low transition-colors shrink-0" data-path="institutional-pilot" href="#">Schedule an Institutional Pilot</a></div></div><div class="max-w-[1200px] mx-auto px-margin py-space-3xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-space-xl"><div class="lg:col-span-2 space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="Elimika Foundation Logo" class="h-8 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida/AEtjO1UU7mflc7BYCXv0QOcGD9R1izEX8p1aQL-M4_1ugltVPVS2iwrTdAG4w_aE7lXumFuKmK9FsmqpqP1OmwYtTmOCi58SBbTozn3_fs-GBZi9TiE4JE2-pthxOp_qlMx1va9rPslQU11N1q5S8tVuriiTCm3LPk3Cynnwjas8_yWkmUA7q4Wm6utonClC-lZkwmezuQD8QK0FnzMAlOgsv7F8LvgZ2mbERNTYf-PAT6_8QjivhBLSkDnVIMw"/><span class="font-h3 text-[20px] font-bold text-surface-container-lowest">Elimika Foundation</span></div><p class="font-body text-caption text-surface-variant/70 leading-relaxed">Pioneering three-dimensional pedagogy, intelligent classrooms, and institutional research frameworks across Kenya and East Africa. A strategic pillar initiative of Swizzy Industries.</p><div class="pt-space-xs space-y-space-xs"><p class="font-label-md text-label-md text-surface-container-lowest font-semibold">Stay Informed with Elimika Gazette</p><div class="flex gap-space-xs max-w-sm"><input class="h-11 px-space-md rounded-lg bg-surface-container-lowest/10 border-0 text-caption text-surface-container-lowest placeholder:text-surface-variant/50 focus:outline-none focus:ring-2 focus:ring-primary w-full" placeholder="Enter institutional email" type="email"/><button class="h-11 px-space-md rounded-lg bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-colors shrink-0" type="button">Join</button></div></div></div><div class="space-y-space-sm"><p class="font-label-md text-label-md font-semibold text-surface-container-lowest uppercase tracking-wider">Learning Solutions</p><ul class="space-y-space-xs font-body text-caption text-surface-variant/70"><li><a class="hover:text-surface-container-lowest transition-colors" data-path="k-12-track" href="#">K-12 CBC Track</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="higher-education" href="#">Higher Education</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="tvet-and-skills" href="#">TVET &amp; Applied Skills</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="educator-training" href="#">Educator Academy</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="government-frameworks" href="#">Ministry Partnerships</a></li></ul></div><div class="space-y-space-sm"><p class="font-label-md text-label-md font-semibold text-surface-container-lowest uppercase tracking-wider">Labs &amp; Catalog</p><ul class="space-y-space-xs font-body text-caption text-surface-variant/70"><li><a class="hover:text-surface-container-lowest transition-colors" data-path="spatial-stem" href="#">Spatial STEM Labs</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="anatomy-immersive" href="#">Health Sciences Viewports</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="engineering-sandbox" href="#">Engineering Sandboxes</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="ai-tutor-modules" href="#">AI Socratic Modules</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="hardware-specs" href="#">Supported VR/AR Rigs</a></li></ul></div><div class="space-y-space-sm"><p class="font-label-md text-label-md font-semibold text-surface-container-lowest uppercase tracking-wider">Resources &amp; Research</p><ul class="space-y-space-xs font-body text-caption text-surface-variant/70"><li><a class="hover:text-surface-container-lowest transition-colors" data-path="cbc-alignment-whitepaper" href="#">CBC Alignment Papers</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="spatial-impact-study" href="#">Impact Assessments</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="open-pedagogy-notes" href="#">Open Curriculum Notes</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="press-and-news" href="#">Media &amp; Case Studies</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="swizzy-synergies" href="#">Swizzy Tech Synergy</a></li></ul></div><div class="space-y-space-sm"><p class="font-label-md text-label-md font-semibold text-surface-container-lowest uppercase tracking-wider">Careers &amp; Contact</p><ul class="space-y-space-xs font-body text-caption text-surface-variant/70"><li><a class="hover:text-surface-container-lowest transition-colors" data-path="careers" href="#">Open Positions</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="fellowships" href="#">Research Fellowships</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="contact" href="#">Institutional Inquiries</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="support-desk" href="#">Support Desk</a></li><li><a class="hover:text-surface-container-lowest transition-colors" data-path="nairobi-campus" href="#">Nairobi Innovation Hub</a></li></ul></div></div><div class="bg-black/30 py-space-md px-margin text-surface-variant/60 font-caption text-caption"><div class="max-w-[1200px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-space-sm text-center sm:text-left"><div><p>Elimika Foundation — Part of Swizzy Industries Limited. Kenya Data Protection Act 2019 compliant.</p></div><div class="flex flex-wrap items-center justify-center gap-space-md"><a class="hover:text-surface-container-lowest transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><a class="hover:text-surface-container-lowest transition-colors" data-path="terms-of-use" href="#">Terms of Use</a><a class="hover:text-surface-container-lowest transition-colors" data-path="accessibility" href="#">Accessibility</a><a class="hover:text-surface-container-lowest transition-colors" data-path="cookie-settings" href="#">Cookie Settings</a></div></div></div></footer></body></html>

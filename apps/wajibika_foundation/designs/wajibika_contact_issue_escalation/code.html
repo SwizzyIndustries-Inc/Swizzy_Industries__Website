@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container-lowest":"#ffffff","on-secondary":"#ffffff","surface-container-low":"#fff0f1","primary-fixed":"#ffdadb","inverse-surface":"#3e2b2f","secondary-fixed-dim":"#ffb873","on-background":"#27171a","surface-container":"#ffe9eb","inverse-primary":"#ffb2b8","issue-community":"#8C5FD9","background":"#fff8f7","primary-container":"#7a2331","surface-container-highest":"#fadbdf","surface-container-high":"#ffe1e5","primary":"#5c0b1c","tertiary-fixed-dim":"#b8c4ff","on-surface-variant":"#554243","issue-governance":"#3A5BD9","tertiary-fixed":"#dde1ff","on-tertiary-fixed":"#001354","feedback-success":"#1E9E6A","slate-body":"#4A3438","on-tertiary":"#ffffff","outline":"#887273","on-primary-container":"#ff8f99","on-error-container":"#93000a","ochre-tint":"#FBEEDD","on-tertiary-fixed-variant":"#0637b8","maroon-hover":"#611B27","feedback-warning":"#E0A100","secondary":"#8c5000","issue-economy":"#1E8F6B","on-tertiary-container":"#99abff","feedback-error":"#D64545","outline-variant":"#dbc0c1","on-error":"#ffffff","maroon-tint":"#F5E6E8","on-secondary-container":"#734100","surface-dim":"#f1d3d7","on-secondary-fixed-variant":"#6a3b00","secondary-fixed":"#ffdcbf","surface-bright":"#fff8f7","on-primary-fixed-variant":"#7f2735","mist-bg":"#FAF5F4","primary-fixed-dim":"#ffb2b8","tertiary":"#00217d","secondary-container":"#ffac58","surface-variant":"#fadbdf","surface":"#fff8f7","on-primary-fixed":"#40000e","inverse-on-surface":"#ffecee","error-container":"#ffdad6","cloud-border":"#EADDDB","error":"#ba1a1a","slate-muted":"#7A666A","issue-social":"#E8735A","on-primary":"#ffffff","on-secondary-fixed":"#2d1600","on-surface":"#27171a","tertiary-container":"#0033b2","surface-tint":"#9e3e4b"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xs":"0.25rem","margin-lg":"5rem","space-lg":"1.5rem","margin-sm":"1rem","space-xl":"2rem","margin":"2rem","space-md":"1rem","gutter":"1.5rem","gutter-sm":"1rem","space-sm":"0.5rem"},"fontFamily":{"display":["Plus Jakarta Sans"],"label-sm":["Inter"],"headline-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"label-lg":["Inter"],"headline-md":["Plus Jakarta Sans"],"body-sm":["Inter"],"display-mobile":["Plus Jakarta Sans"],"eyebrow":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"label-md":["Inter"],"headline-md-mobile":["Plus Jakarta Sans"],"headline-sm-mobile":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-md":["Inter"],"body-lg":["Inter"]},"fontSize":{"display":["60px",{"lineHeight":"72px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["12px",{"lineHeight":"16px","fontWeight":"500"}],"headline-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-lg":["16px",{"lineHeight":"24px","fontWeight":"600"}],"headline-md":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"display-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.015em","fontWeight":"700"}],"eyebrow":["12px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"700"}],"title-md":["20px",{"lineHeight":"28px","fontWeight":"600"}],"label-md":["14px",{"lineHeight":"20px","fontWeight":"500"}],"headline-md-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.005em","fontWeight":"600"}],"headline-sm-mobile":["22px",{"lineHeight":"30px","fontWeight":"600"}],"headline-sm":["28px",{"lineHeight":"36px","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1200px] mx-auto px-6 flex items-center justify-between gap-4"><div class="flex items-center gap-6"><a class="flex items-center gap-3 group" data-path="home" href="#"><img alt="Brand logo. - Primary color: #7a2331
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UKr7LPNeHnuyNK8sv9s0FgyN5Ye_QI7vMmHWWhfQrme0fqus8494jAmTU2HTs3ilyvKpQF4v209wW_M60W42LQxjps3_yXGwIdUwDkQNWjma1IqqPFMiUikyrlcwafCVTDh2vZihf8RJnjdTTJlT2g3fmsZuWrITfnxjz8I7dafTTKx7fWly9cVnaKQ-Ui75aB1UyO8m9QUO9x-opzIlzTOD-2CwHYeSTvPjYB4N4xcvcTHfcE3VvGlTeg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold leading-none">Wajibika</span><span class="font-eyebrow text-eyebrow uppercase text-slate-muted tracking-wider text-[10px] leading-tight">Swizzy Industries</span></div></a><nav class="hidden lg:flex items-center gap-6" data-active-classes="text-primary font-semibold border-b-2 border-primary"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="home" href="#">Home</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="issues-and-campaigns" href="#">Issues &amp; Campaigns</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="voices-and-stories" href="#">Voices &amp; Stories</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="accountability-tracker" href="#">Accountability Tracker</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-2 transition-colors" data-path="careers" href="#">Careers</a></nav></div><div class="flex items-center gap-4"><button aria-label="Search issues, campaigns, and reports" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">search</span></button><nav class="flex items-center" data-active-classes="text-primary font-semibold"><a aria-current="page" class="hidden sm:inline-flex px-2 py-1 transition-colors text-primary font-semibold" data-path="contact" href="#">Contact</a></nav><a class="inline-flex items-center justify-center px-5 h-12 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-maroon-hover focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2 transition-all shadow-sm" data-path="raise-an-issue" href="#">Raise an Issue</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0 ml-1"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Priority Urgent Whistleblower Alert Strip -->
+<section class="w-full bg-primary-container text-on-primary relative overflow-hidden shadow-md">
+<div class="absolute -right-16 -top-16 w-80 h-80 rounded-full bg-primary/40 blur-3xl pointer-events-none"></div>
+<div class="max-w-[1200px] mx-auto px-6 py-5">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-5">
+<div class="flex items-start sm:items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-primary flex items-center justify-center shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-on-primary text-[28px]" style="font-variation-settings: 'FILL' 1;">shield_with_heart</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="inline-block w-2.5 h-2.5 rounded-full bg-feedback-error animate-pulse"></span>
+<span class="font-eyebrow text-eyebrow uppercase tracking-widest text-primary-fixed">Priority Whistleblower Safety</span>
+</div>
+<h2 class="font-title-md text-title-md font-bold text-on-primary">Facing Immediate State Harassment or Retaliation over a Civic Filing?</h2>
+<p class="font-body-sm text-body-sm text-primary-fixed-dim mt-0.5">Active petitioners and verified sources hold 24/7 access to the Wajibika Legal Escrow Hotline under statutory Kenya Data Protection Act (KDPA 2019) air-gapped immunity.</p>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-3 shrink-0">
+<a class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-on-primary text-primary-container font-label-md text-label-md font-bold hover:bg-maroon-tint transition-all shadow-sm" href="tel:+254700925424">
+<span class="material-symbols-outlined text-[18px]">phone_in_talk</span>
+            +254 700 WAJIBIKA
+          </a>
+<a class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-medium hover:bg-maroon-hover transition-colors" href="#signal-modal" onclick="document.getElementById('signal-box').classList.toggle('hidden')">
+<span class="material-symbols-outlined text-[18px]">lock</span>
+            Signal Encrypted Desk
+          </a>
+</div>
+</div>
+<!-- Signal Quick Drawer (Micro-interaction) -->
+<div class="hidden mt-4 pt-4 border-t border-primary/30 flex flex-col sm:flex-row sm:items-center justify-between gap-4 font-body-sm text-body-sm text-primary-fixed" id="signal-box">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-feedback-success">verified_user</span>
+<span>PGP Fingerprint: <code class="font-mono text-xs bg-primary px-2 py-1 rounded text-on-primary">9E4B 22F1 8C50 00A1 7A23 31E0 1E8F 6B99</code></span>
+</div>
+<div class="text-xs text-primary-fixed-dim">
+          Direct Signal Handle: <span class="text-on-primary font-semibold">@wajibika.escrow.01</span> • Verified End-to-End Civic Registry
+        </div>
+</div>
+</div>
+</section>
+<!-- Hero & Context Header -->
+<section class="w-full bg-mist-bg py-14 lg:py-20 relative">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="max-w-3xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-maroon-tint text-primary font-eyebrow text-eyebrow uppercase tracking-wider mb-4">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+          MULTI-CHANNEL CIVIC DESK &amp; ESCALATION PATHWAYS
+        </div>
+<h1 class="font-headline-lg text-headline-lg font-bold text-on-surface tracking-tight mb-4">
+          Direct, secure communication for citizens, partners, journalists, and public officials.
+        </h1>
+<p class="font-body-lg text-body-lg text-slate-body leading-relaxed">
+          Wajibika provides segregated, cryptographically isolated channels to ensure urgent whistleblower protection, verified partnership onboarding, legal aid intake, and institutional oversight inquiries reach the designated secretariat without intermediary delay.
+        </p>
+</div>
+<!-- Live Service Level Transparency Strip -->
+<div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-4">
+<div class="p-5 bg-surface-container-lowest rounded-xl shadow-sm flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[22px]">timer</span>
+</div>
+<div>
+<div class="font-label-sm text-label-sm text-slate-muted uppercase tracking-wider">Citizen Petitions</div>
+<div class="font-title-md text-title-md font-bold text-on-surface mt-0.5">48-Hour Review SLA</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Direct docket assignment by regional paralegal review team.</p>
+</div>
+</div>
+<div class="p-5 bg-surface-container-lowest rounded-xl shadow-sm flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-maroon-tint flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-feedback-error text-[22px]">security</span>
+</div>
+<div>
+<div class="font-label-sm text-label-sm text-slate-muted uppercase tracking-wider">Whistleblower Threats</div>
+<div class="font-title-md text-title-md font-bold text-feedback-error mt-0.5">&lt; 2-Hour Intervention</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Air-gapped rapid protection protocols and emergency habeas counsel.</p>
+</div>
+</div>
+<div class="p-5 bg-surface-container-lowest rounded-xl shadow-sm flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-ochre-tint flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-secondary text-[22px]">quick_reference</span>
+</div>
+<div>
+<div class="font-label-sm text-label-sm text-slate-muted uppercase tracking-wider">FOI &amp; Press Briefs</div>
+<div class="font-title-md text-title-md font-bold text-secondary mt-0.5">24-Hour Verified Dispatch</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Authenticated Hansard data exports, county audits, and verified records.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Channel Routing Matrix (4 Functional Cards) -->
+<section class="w-full py-16 bg-surface">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+<div>
+<span class="font-eyebrow text-eyebrow uppercase text-primary tracking-wider">Targeted Civic Infrastructure</span>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface tracking-tight mt-1">Channel Routing Matrix</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-2xl">
+            Choose your dedicated pathway below to connect directly with specialized secretariats, bypassing automated mail queues.
+          </p>
+</div>
+<div class="flex items-center gap-2 text-slate-muted text-body-sm">
+<span class="material-symbols-outlined text-feedback-success text-[18px]">verified</span>
+<span>4 Verified Endpoints Active</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1: Citizen Issue Escalation -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div>
+<div class="w-12 h-12 rounded-xl bg-maroon-tint text-primary flex items-center justify-center mb-5 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">gavel</span>
+</div>
+<div class="inline-block px-2.5 py-0.5 rounded-full bg-maroon-tint text-primary font-label-sm text-label-sm font-semibold mb-3">
+              Petitions &amp; Grievances
+            </div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mb-2">Citizen Docket Escalation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              For petitioners facing active docket roadblocks, contested evidence intake, county assembly petition delays, or statutory stalling.
+            </p>
+</div>
+<div class="pt-4 border-t border-mist-bg">
+<span class="font-eyebrow text-[11px] uppercase tracking-wider text-slate-muted block mb-2">Secretariat Recipient</span>
+<div class="font-label-md text-label-md font-semibold text-primary mb-3">Legal Drafting &amp; Petitions Bench</div>
+<button class="w-full py-2.5 px-3 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md hover:bg-primary-container hover:text-on-primary transition-colors flex items-center justify-center gap-2" onclick="setCategory('petitions')" type="button">
+              Route to This Desk
+              <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 2: Civil Society & CBO -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container text-issue-community flex items-center justify-center mb-5 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">groups_3</span>
+</div>
+<div class="inline-block px-2.5 py-0.5 rounded-full bg-surface-container text-issue-community font-label-sm text-label-sm font-semibold mb-3">
+              Network Intake
+            </div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mb-2">Civil Society &amp; CBO Desk</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Paralegal syndicates, grassroots rights observers, community development groups, and research centers seeking verified platform accreditation.
+            </p>
+</div>
+<div class="pt-4 border-t border-mist-bg">
+<span class="font-eyebrow text-[11px] uppercase tracking-wider text-slate-muted block mb-2">Secretariat Recipient</span>
+<div class="font-label-md text-label-md font-semibold text-issue-community mb-3">Coalition Alliances Directorate</div>
+<button class="w-full py-2.5 px-3 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md hover:bg-issue-community hover:text-on-primary transition-colors flex items-center justify-center gap-2" onclick="setCategory('civil_society')" type="button">
+              Route to This Desk
+              <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 3: Press, Media & Data -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div>
+<div class="w-12 h-12 rounded-xl bg-ochre-tint text-secondary flex items-center justify-center mb-5 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">newspaper</span>
+</div>
+<div class="inline-block px-2.5 py-0.5 rounded-full bg-ochre-tint text-secondary font-label-sm text-label-sm font-semibold mb-3">
+              Media &amp; Records
+            </div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mb-2">Press &amp; Data Records FOI</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Investigative journalists requiring authenticated county budget exports, Hansard cross-references, or verified evidentiary dossiers.
+            </p>
+</div>
+<div class="pt-4 border-t border-mist-bg">
+<span class="font-eyebrow text-[11px] uppercase tracking-wider text-slate-muted block mb-2">Secretariat Recipient</span>
+<div class="font-label-md text-label-md font-semibold text-secondary mb-3">Investigative Newsroom Bureau</div>
+<button class="w-full py-2.5 px-3 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md hover:bg-secondary hover:text-on-primary transition-colors flex items-center justify-center gap-2" onclick="setCategory('press')" type="button">
+              Route to This Desk
+              <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 4: County Government & Public Assembly Liaison -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div>
+<div class="w-12 h-12 rounded-xl bg-mist-bg text-issue-governance flex items-center justify-center mb-5 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">account_balance</span>
+</div>
+<div class="inline-block px-2.5 py-0.5 rounded-full bg-surface-container text-issue-governance font-label-sm text-label-sm font-semibold mb-3">
+              State &amp; Assembly
+            </div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mb-2">Assembly Liaison Bureau</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              County Assembly Clerks, parliamentary committees, and ministerial ombudspersons managing transmission keys and statutory compliance.
+            </p>
+</div>
+<div class="pt-4 border-t border-mist-bg">
+<span class="font-eyebrow text-[11px] uppercase tracking-wider text-slate-muted block mb-2">Secretariat Recipient</span>
+<div class="font-label-md text-label-md font-semibold text-issue-governance mb-3">Devolution Parliamentary Desk</div>
+<button class="w-full py-2.5 px-3 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md hover:bg-issue-governance hover:text-on-primary transition-colors flex items-center justify-center gap-2" onclick="setCategory('assembly')" type="button">
+              Route to This Desk
+              <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Multi-Channel Contact & Dispatch Form -->
+<section class="w-full py-16 bg-mist-bg">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Form Left Column: Explainer & Protocol -->
+<div class="lg:col-span-4 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container text-primary font-eyebrow text-eyebrow uppercase">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+            Cryptographic Intake
+          </div>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface tracking-tight leading-snug">
+            Transmit an Encrypted Dispatch
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            All dispatches are received via client-side SSL and scrubbed of metadata. Choose between full citizen credentials or pseudonym identity posture before submission.
+          </p>
+<!-- Security Posture Card -->
+<div class="p-5 bg-surface-container-lowest rounded-xl shadow-sm space-y-3">
+<h4 class="font-label-lg text-label-lg font-bold text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-feedback-success text-[20px]">shield_lock</span>
+              Identity Protection Guarantees
+            </h4>
+<ul class="space-y-2 text-body-sm font-body-sm text-slate-body">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-issue-economy text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span><strong>No IP Retention:</strong> Access logs are flushed after 12 hours.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-issue-economy text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span><strong>EXIF Data Stripped:</strong> Uploaded images and PDF metadata automatically sanitized.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-issue-economy text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span><strong>Privileged Civic Counsel:</strong> Communication shielded by non-disclosure legal umbrella.</span>
+</li>
+</ul>
+</div>
+<!-- Direct Emergency Dispatch Callout -->
+<div class="p-5 bg-ochre-tint rounded-xl text-on-surface space-y-2">
+<div class="font-label-md text-label-md font-bold text-secondary flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]">warning</span>
+              Active Police or Judicial Summon?
+            </div>
+<p class="font-body-sm text-body-sm text-on-surface">
+              Do not use web forms if you suspect immediate device interception. Reach out via burner phone to the emergency SMS proxy line.
+            </p>
+<div class="font-mono text-sm font-bold text-secondary pt-1">
+              SMS/Signal Proxy: +254 711 00 WAJI
+            </div>
+</div>
+</div>
+<!-- Form Right Column: Actual Dispatch Interface -->
+<div class="lg:col-span-8 bg-surface-container-lowest p-8 lg:p-10 rounded-2xl shadow-sm">
+<!-- Category Tabs -->
+<div class="mb-8">
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-3">
+              Select Intake Stream &amp; Secretariat Pathway
+            </label>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-2 bg-surface-container-low p-1.5 rounded-xl" id="intake-tabs">
+<button class="py-2.5 px-3 rounded-lg font-label-md text-label-md font-semibold text-center transition-all bg-primary-container text-on-primary shadow-sm" id="tab-petitions" onclick="setCategory('petitions')" type="button">
+                Petitions Desk
+              </button>
+<button class="py-2.5 px-3 rounded-lg font-label-md text-label-md font-medium text-center transition-all text-on-surface-variant hover:text-on-surface" id="tab-civil_society" onclick="setCategory('civil_society')" type="button">
+                Civil Society
+              </button>
+<button class="py-2.5 px-3 rounded-lg font-label-md text-label-md font-medium text-center transition-all text-on-surface-variant hover:text-on-surface" id="tab-press" onclick="setCategory('press')" type="button">
+                Press &amp; Data
+              </button>
+<button class="py-2.5 px-3 rounded-lg font-label-md text-label-md font-medium text-center transition-all text-on-surface-variant hover:text-on-surface" id="tab-assembly" onclick="setCategory('assembly')" type="button">
+                Public Body
+              </button>
+</div>
+</div>
+<form class="space-y-6" id="civic-dispatch-form" onsubmit="event.preventDefault(); showSuccessReceipt();">
+<!-- Identity Posture Selector (Verified Citizen vs Protected Key) -->
+<div class="p-4 bg-mist-bg rounded-xl">
+<label class="block font-label-sm text-label-sm font-bold text-on-surface uppercase tracking-wider mb-2">
+                Identity Security Posture
+              </label>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<label class="flex items-center gap-3 p-3 bg-surface-container-lowest rounded-lg cursor-pointer hover:bg-surface-container transition-colors">
+<input checked="" class="w-4 h-4 text-primary focus:ring-secondary accent-primary" name="posture" onchange="toggleIdentityMode('verified')" type="radio" value="verified"/>
+<div>
+<span class="block font-label-md text-label-md font-semibold text-on-surface">Verified Citizen Posture</span>
+<span class="block text-xs text-slate-muted">Formal filing with authenticated legal names</span>
+</div>
+</label>
+<label class="flex items-center gap-3 p-3 bg-surface-container-lowest rounded-lg cursor-pointer hover:bg-surface-container transition-colors">
+<input class="w-4 h-4 text-primary focus:ring-secondary accent-primary" name="posture" onchange="toggleIdentityMode('anonymous')" type="radio" value="anonymous"/>
+<div>
+<span class="block font-label-md text-label-md font-semibold text-on-surface">Protected Anonymous Key</span>
+<span class="block text-xs text-slate-muted">Pseudonym identity with zero PII retention</span>
+</div>
+</label>
+</div>
+</div>
+<!-- Identity Inputs -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-2" id="name-label">
+                  Full Name / Official Affiliation <span class="text-feedback-error">*</span>
+</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface placeholder:text-slate-muted font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary transition-all" id="identity-input" placeholder="e.g., Wangari Maina" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-2" id="contact-label">
+                  Email or Encrypted Signal Handle <span class="text-feedback-error">*</span>
+</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface placeholder:text-slate-muted font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary transition-all" placeholder="w.maina@domain.ke or @maina.99" required="" type="text"/>
+</div>
+</div>
+<!-- County and Docket Reference Row -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-2">
+                  Primary County Jurisdiction <span class="text-feedback-error">*</span>
+</label>
+<div class="relative">
+<select class="w-full h-12 px-4 pr-10 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary appearance-none cursor-pointer" required="">
+<option disabled="" selected="" value="">Select from 47 Devolution Jurisdictions</option>
+<option value="047">047 - Nairobi City County</option>
+<option value="001">001 - Mombasa County</option>
+<option value="042">042 - Kisumu County</option>
+<option value="032">032 - Nakuru County</option>
+<option value="012">012 - Meru County</option>
+<option value="019">019 - Nyeri County</option>
+<option value="027">027 - Uasin Gishu County</option>
+<option value="003">003 - Kilifi County</option>
+<option value="037">037 - Kakamega County</option>
+<option value="022">022 - Kiambu County</option>
+<option value="039">039 - Bungoma County</option>
+<option value="national">National Governance / Inter-County Level</option>
+</select>
+<span class="material-symbols-outlined text-[20px] text-slate-muted absolute right-3 top-3.5 pointer-events-none">expand_more</span>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-2">
+                  Related Docket / Petition ID <span class="text-xs text-slate-muted font-normal">(Optional)</span>
+</label>
+<div class="relative">
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface placeholder:text-slate-muted font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary transition-all" placeholder="#PET-2025-089 or #AUD-NAI-04" type="text"/>
+<span class="material-symbols-outlined text-[20px] text-slate-muted absolute right-3 top-3.5 pointer-events-none">tag</span>
+</div>
+</div>
+</div>
+<!-- Subject & Nature of Escalation -->
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-2">
+                Nature of Request &amp; Executive Summary <span class="text-feedback-error">*</span>
+</label>
+<textarea class="w-full p-4 rounded-xl bg-surface-container-low text-on-surface placeholder:text-slate-muted font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary transition-all" placeholder="Detail the precise statutory violation, county budget deviation, assembly petition stall, or inquiry context with chronological clarity..." required="" rows="4"></textarea>
+</div>
+<!-- Evidence Attachment Zone -->
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-2">
+                Secure Evidence or Official Letter Attachment
+              </label>
+<div class="p-6 rounded-xl bg-surface-container-low text-center cursor-pointer hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-primary text-[36px] mb-2">cloud_upload</span>
+<div class="font-label-md text-label-md font-semibold text-on-surface">Drag and drop verified PDF affidavits, Hansard transcripts, or photos</div>
+<p class="text-xs text-slate-muted mt-1">Accepts PDF, PNG, JPG, MP4 (Encrypted &amp; metadata-stripped up to 50MB per file)</p>
+<button class="mt-3 px-4 py-1.5 rounded-lg bg-surface-container-lowest text-primary font-label-sm text-label-sm font-semibold shadow-sm hover:bg-maroon-tint transition-colors" type="button">
+                  Browse Encrypted Storage
+                </button>
+</div>
+</div>
+<!-- KDPA Consent & Protocol Checkbox -->
+<div class="flex items-start gap-3 pt-2">
+<input class="w-5 h-5 rounded text-primary focus:ring-secondary accent-primary shrink-0 mt-0.5" id="kdpa-consent" required="" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-slate-body select-none" for="kdpa-consent">
+                I acknowledge that submissions to Wajibika are handled strictly under our non-partisan moderation code, Kenya Data Protection Act 2019 guidelines, and our cryptographically isolated legal protection escrow.
+              </label>
+</div>
+<!-- Submit Action -->
+<div class="pt-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-2 text-xs text-slate-muted">
+<span class="material-symbols-outlined text-feedback-success text-[16px]">lock_reset</span>
+                AES-256 GCM Client-Side Transmission Escrow
+              </div>
+<button class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 h-12 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg font-semibold hover:bg-maroon-hover focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2 transition-all shadow-md" type="submit">
+<span class="material-symbols-outlined text-[20px]">send</span>
+                Transmit Encrypted Message
+              </button>
+</div>
+</form>
+<!-- Success Receipt Modal (Hidden by default, shown via JS) -->
+<div class="hidden mt-6 p-6 rounded-xl bg-surface-container text-on-surface space-y-4" id="receipt-modal">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-feedback-success text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">done_all</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface">Dispatch Successfully Escrowed</h3>
+<p class="font-body-sm text-body-sm text-slate-body">Your case dossier reference has been generated and queued for legal scrutiny.</p>
+</div>
+</div>
+<div class="p-4 bg-surface-container-lowest rounded-lg font-mono text-sm space-y-1">
+<div class="text-xs text-slate-muted">SECURE TRACKING RECEIPT:</div>
+<div class="font-bold text-primary">#ESCROW-2025-KE-84920</div>
+<div class="text-xs text-slate-body">Status: <span class="text-secondary font-semibold">Triaged to Regional Bench</span> • Expected Review: Within 48 Hours</div>
+</div>
+<p class="text-xs text-slate-muted">Store this receipt key safely. You can query status anytime using the Wajibika Public Docket Search.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Physical County Civic Hubs & Office Details -->
+<section class="w-full py-16 lg:py-20 bg-surface">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="max-w-2xl mb-12">
+<span class="font-eyebrow text-eyebrow uppercase text-primary tracking-wider">Territorial Civic Presence</span>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface tracking-tight mt-1">
+          Physical County Civic Hubs &amp; Secretariats
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          In addition to encrypted digital routing, Wajibika maintains four physical civic documentation hubs staffed by accredited paralegals, document scanning stations, and secure evidence intake vaults.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Hub 1: Nairobi National Secretariat -->
+<div class="bg-mist-bg rounded-xl p-6 shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container text-primary flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[22px]">corporate_fare</span>
+</div>
+<div class="text-xs uppercase font-eyebrow tracking-wider text-slate-muted">National Secretariat</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mt-1 mb-3">Nairobi Central Hub</h3>
+<div class="space-y-2 text-body-sm font-body-sm text-slate-body mb-6">
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[18px] text-primary shrink-0 mt-0.5">location_on</span>
+<span>Swizzy Industries Civic Wing, 4th Floor, Mara Road, Upper Hill, Nairobi</span>
+</p>
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[18px] text-slate-muted shrink-0 mt-0.5">mail</span>
+<span>P.O. Box 48920 - 00100 GPO, Nairobi</span>
+</p>
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[18px] text-slate-muted shrink-0 mt-0.5">schedule</span>
+<span>Mon – Fri: 08:30 – 17:30 EAT</span>
+</p>
+</div>
+</div>
+<div class="pt-4 border-t border-cloud-border/60">
+<span class="text-xs text-slate-muted block font-mono">STATION KEY: NBI-HQ-01</span>
+</div>
+</div>
+<!-- Hub 2: Kisumu Lake Basin Desk -->
+<div class="bg-mist-bg rounded-xl p-6 shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container text-issue-community flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[22px]">water</span>
+</div>
+<div class="text-xs uppercase font-eyebrow tracking-wider text-slate-muted">Western &amp; Lake Basin</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mt-1 mb-3">Kisumu City Hub</h3>
+<div class="space-y-2 text-body-sm font-body-sm text-slate-body mb-6">
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[18px] text-issue-community shrink-0 mt-0.5">location_on</span>
+<span>Mega Plaza Complex, 2nd Wing, Oginga Odinga Street, Kisumu</span>
+</p>
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[18px] text-slate-muted shrink-0 mt-0.5">mail</span>
+<span>P.O. Box 1120 - 40100, Kisumu</span>
+</p>
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[18px] text-slate-muted shrink-0 mt-0.5">schedule</span>
+<span>Mon – Fri: 08:30 – 17:30 EAT</span>
+</p>
+</div>
+</div>
+<div class="pt-4 border-t border-cloud-border/60">
+<span class="text-xs text-slate-muted block font-mono">STATION KEY: KSM-LKB-04</span>
+</div>
+</div>
+<!-- Hub 3: Nakuru Rift Valley Desk -->
+<div class="bg-mist-bg rounded-xl p-6 shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container text-issue-economy flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[22px]">landscape</span>
+</div>
+<div class="text-xs uppercase font-eyebrow tracking-wider text-slate-muted">Rift Valley Devolution Desk</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mt-1 mb-3">Nakuru Town Hub</h3>
+<div class="space-y-2 text-body-sm font-body-sm text-slate-body mb-6">
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[18px] text-issue-economy shrink-0 mt-0.5">location_on</span>
+<span>Midlands Civic Chambers, 1st Floor, Kenyatta Avenue, Nakuru</span>
+</p>
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[18px] text-slate-muted shrink-0 mt-0.5">mail</span>
+<span>P.O. Box 7044 - 20100, Nakuru</span>
+</p>
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[18px] text-slate-muted shrink-0 mt-0.5">schedule</span>
+<span>Mon – Fri: 08:30 – 17:30 EAT</span>
+</p>
+</div>
+</div>
+<div class="pt-4 border-t border-cloud-border/60">
+<span class="text-xs text-slate-muted block font-mono">STATION KEY: NKR-RFT-08</span>
+</div>
+</div>
+<!-- Hub 4: Coastal Maritime Desk -->
+<div class="bg-mist-bg rounded-xl p-6 shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container text-secondary flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[22px]">sailing</span>
+</div>
+<div class="text-xs uppercase font-eyebrow tracking-wider text-slate-muted">Coastal Maritime &amp; Labor</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mt-1 mb-3">Mombasa Old Town Hub</h3>
+<div class="space-y-2 text-body-sm font-body-sm text-slate-body mb-6">
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[18px] text-secondary shrink-0 mt-0.5">location_on</span>
+<span>Fort Jesus Heritage Walk, Old Port Gate House, Ndia Kuu, Mombasa</span>
+</p>
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[18px] text-slate-muted shrink-0 mt-0.5">mail</span>
+<span>P.O. Box 83901 - 80100, Mombasa</span>
+</p>
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[18px] text-slate-muted shrink-0 mt-0.5">schedule</span>
+<span>Mon – Fri: 08:30 – 17:30 EAT</span>
+</p>
+</div>
+</div>
+<div class="pt-4 border-t border-cloud-border/60">
+<span class="text-xs text-slate-muted block font-mono">STATION KEY: MBA-CST-12</span>
+</div>
+</div>
+</div>
+<!-- Regional Office Footnote with Verified Key Fingerprint -->
+<div class="mt-10 p-5 rounded-xl bg-surface-container-low flex flex-col md:flex-row md:items-center justify-between gap-4 font-body-sm text-body-sm text-slate-body">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[24px]">fingerprint</span>
+<div>
+<span class="font-semibold text-on-surface">Institutional Signing Certificate:</span>
+<span class="font-mono text-xs text-primary ml-1 font-bold">SHA-256: 8C:50:00:A1:7A:23:31:E0:1E:8F:6B:99:3A:5B:D9:22</span>
+</div>
+</div>
+<div class="text-xs text-slate-muted">
+          All physical intakes provide stamped evidentiary custody receipts.
+        </div>
+</div>
+</div>
+</section>
+<!-- Pre-Footer Campaign Escalation Call to Action -->
+<section class="w-full bg-primary-container text-on-primary py-14 relative overflow-hidden">
+<div class="absolute right-0 bottom-0 w-96 h-96 bg-primary/40 rounded-full blur-3xl pointer-events-none"></div>
+<div class="max-w-[1200px] mx-auto px-6 relative z-10">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-8">
+<div class="max-w-2xl space-y-3">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary text-primary-fixed font-eyebrow text-eyebrow uppercase">
+<span class="material-symbols-outlined text-[16px]">campaign</span>
+            Grassroots Mobilization
+          </div>
+<h2 class="font-headline-sm text-headline-sm font-bold text-on-primary tracking-tight">
+            Need Collective Power Behind an Unresolved Injustice?
+          </h2>
+<p class="font-body-md text-body-md text-primary-fixed-dim">
+            If individualized complaints fail to stir unresponsive county ministries, mobilize verified signatures and initiate a structured public campaign docket on Wajibika today.
+          </p>
+</div>
+<div class="flex flex-wrap items-center gap-4 shrink-0">
+<a class="px-6 h-12 rounded-xl bg-secondary-container text-on-secondary-container font-label-lg text-label-lg font-bold hover:bg-secondary-fixed transition-colors flex items-center justify-center gap-2 shadow-sm" data-path="raise-an-issue" href="#">
+<span class="material-symbols-outlined text-[20px]">add_circle</span>
+            Launch Community Campaign
+          </a>
+<a class="px-6 h-12 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg font-semibold hover:bg-maroon-hover transition-colors flex items-center justify-center" data-path="accountability-tracker" href="#">
+            Inspect Active Dockets
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- Inline Script for Interactive Micro-Interactions -->
+<script>
+    function setCategory(catKey) {
+      const tabs = ['petitions', 'civil_society', 'press', 'assembly'];
+      tabs.forEach(tab => {
+        const btn = document.getElementById('tab-' + tab);
+        if (btn) {
+          if (tab === catKey) {
+            btn.className = "py-2.5 px-3 rounded-lg font-label-md text-label-md font-semibold text-center transition-all bg-primary-container text-on-primary shadow-sm";
+          } else {
+            btn.className = "py-2.5 px-3 rounded-lg font-label-md text-label-md font-medium text-center transition-all text-on-surface-variant hover:text-on-surface";
+          }
+        }
+      });
+      const form = document.getElementById('civic-dispatch-form');
+      if (form) {
+        form.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+
+    function toggleIdentityMode(mode) {
+      const nameLabel = document.getElementById('name-label');
+      const identityInput = document.getElementById('identity-input');
+      if (mode === 'anonymous') {
+        nameLabel.innerHTML = 'Whistleblower Pseudonym / Source Tag <span class="text-feedback-error">*</span>';
+        identityInput.placeholder = 'e.g., Witness-NBI-North-04';
+      } else {
+        nameLabel.innerHTML = 'Full Name / Official Affiliation <span class="text-feedback-error">*</span>';
+        identityInput.placeholder = 'e.g., Wangari Maina';
+      }
+    }
+
+    function showSuccessReceipt() {
+      const receipt = document.getElementById('receipt-modal');
+      if (receipt) {
+        receipt.classList.remove('hidden');
+        receipt.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-primary text-on-primary"><div class="w-full bg-ochre-tint text-on-surface py-6 px-6 shadow-inner"><div class="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4"><div class="flex items-center gap-3 text-center md:text-left"><span class="material-symbols-outlined text-secondary text-[28px] shrink-0">campaign</span><p class="font-body-md text-body-md text-on-surface"><strong class="font-semibold">Start a campaign in your area</strong> — Bring tangible change to your neighborhood or sector.</p></div><a class="inline-flex items-center justify-center px-6 h-11 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md hover:bg-maroon-hover transition-colors shrink-0" data-path="raise-an-issue" href="#">Launch Campaign</a></div></div><div class="max-w-[1200px] mx-auto px-6 pt-16 pb-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8"><div class="lg:col-span-2 space-y-4 pr-0 lg:pr-6"><div class="flex items-center gap-3"><img alt="Brand logo. - Primary color: #7a2331
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida/AEtjO1UKr7LPNeHnuyNK8sv9s0FgyN5Ye_QI7vMmHWWhfQrme0fqus8494jAmTU2HTs3ilyvKpQF4v209wW_M60W42LQxjps3_yXGwIdUwDkQNWjma1IqqPFMiUikyrlcwafCVTDh2vZihf8RJnjdTTJlT2g3fmsZuWrITfnxjz8I7dafTTKx7fWly9cVnaKQ-Ui75aB1UyO8m9QUO9x-opzIlzTOD-2CwHYeSTvPjYB4N4xcvcTHfcE3VvGlTeg"/><span class="font-headline-sm text-headline-sm font-bold text-on-primary tracking-tight">Wajibika</span></div><p class="font-body-sm text-body-sm text-primary-fixed-dim leading-relaxed">An initiative of Swizzy Industries empowering citizens, investigative journalists, and community builders to document governance pledges, surface verified grievances, and catalyze institutional response.</p><div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-maroon-hover text-primary-fixed text-label-sm font-label-sm"><span class="w-2 h-2 rounded-full bg-feedback-success"></span>Independent • Non-Partisan • Civic Utility</div></div><div class="space-y-3"><h4 class="font-label-lg text-label-lg font-bold text-on-primary uppercase tracking-wider text-xs">Issues &amp; Campaigns</h4><ul class="space-y-2.5 font-body-sm text-body-sm"><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-issue-governance"></span><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="issues-and-campaigns" href="#">Governance &amp; Rule of Law</a></li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-issue-economy"></span><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="issues-and-campaigns" href="#">Economy &amp; Taxation</a></li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-issue-social"></span><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="issues-and-campaigns" href="#">Public Infrastructure</a></li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-issue-community"></span><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="issues-and-campaigns" href="#">Healthcare &amp; Sanitation</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="accountability-tracker" href="#">County Performance Index</a></li></ul></div><div class="space-y-3"><h4 class="font-label-lg text-label-lg font-bold text-on-primary uppercase tracking-wider text-xs">Platform &amp; Media</h4><ul class="space-y-2.5 font-body-sm text-body-sm"><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="voices-and-stories" href="#">Citizen Dispatches</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="voices-and-stories" href="#">Field Investigation Dossiers</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="accountability-tracker" href="#">Parliamentary Pledge Tracker</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="careers" href="#">Careers &amp; Fellowships</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="contact" href="#">Contact &amp; Report an Issue</a></li><li><a class="text-primary-fixed-dim hover:text-on-primary transition-colors" data-path="guidelines" href="#">Community Guidelines &amp; Moderation</a></li></ul></div><div class="space-y-4"><h4 class="font-label-lg text-label-lg font-bold text-on-primary uppercase tracking-wider text-xs">Civic Dispatch</h4><p class="font-body-sm text-body-sm text-primary-fixed-dim">Weekly vetted oversight intelligence, policy analyses, and active local mobilization updates.</p><form class="space-y-2"><div class="flex flex-col gap-2"><input aria-label="Email Address for Civic Dispatch" class="h-11 px-3.5 rounded-xl bg-surface-container-lowest text-on-surface placeholder:text-slate-muted text-body-sm font-body-sm focus:outline-none focus:ring-2 focus:ring-secondary" placeholder="name@organization.org" type="email"/><button class="h-11 px-4 rounded-xl bg-secondary-container text-on-secondary-container font-label-md text-label-md hover:bg-secondary-fixed transition-colors font-semibold" type="button">Subscribe</button></div><span class="text-[11px] text-primary-fixed-dim block">Zero spam. Cryptographically secure storage.</span></form></div></div><div class="mt-12 pt-8 border-t border-maroon-hover/60 flex flex-col md:flex-row items-center justify-between gap-4 text-primary-fixed-dim font-body-sm text-body-sm"><p>A Swizzy Industries Brand • © 2025 Wajibika Platform. All rights reserved.</p><nav class="flex flex-wrap items-center gap-6 text-xs" data-active-classes="text-on-primary underline font-medium"><a class="hover:text-on-primary transition-colors text-primary-fixed-dim" data-path="guidelines" href="#">Community Guidelines &amp; Charter</a><a aria-current="page" class="transition-colors text-on-primary underline font-medium" data-path="contact" href="#">Contact Support</a><a class="hover:text-on-primary transition-colors text-primary-fixed-dim" data-path="privacy-notice" href="#">Privacy Notice</a><a class="hover:text-on-primary transition-colors text-primary-fixed-dim" data-path="terms-of-use" href="#">Terms of Use</a></nav></div></div></footer></body></html>
