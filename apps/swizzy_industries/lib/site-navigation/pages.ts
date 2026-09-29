@@ -5,7 +5,7 @@ import {
   MissionValuesPage,
   OurStoryPage,
   TeamPage,
-} from "@/components/design-pages/company-pages"
+} from "@/components/company-pages"
 import {
   CareersHomePage,
   EarlyCareersPage,
@@ -13,42 +13,38 @@ import {
   LifeBenefitsPage,
   OpenRolesPage,
   TalentCommunityPage,
-} from "@/components/design-pages/career-pages"
-import { ContactPage } from "@/components/design-pages/contact-page"
+} from "@/components/career-pages"
+import { ContactPage } from "@/components/contact-page"
 import {
   GalleryPage,
   PressKitPage,
   ResourcesPage,
-} from "@/components/design-pages/library-pages"
-import {
-  BlogPage,
-  EventsPage,
-  NewsPage,
-} from "@/components/design-pages/editorial-pages"
+} from "@/components/library-pages"
+import { BlogPage, EventsPage, NewsPage } from "@/components/editorial-pages"
 import {
   ElimikaProductPage,
   JumuikaProductPage,
   TibikaProductPage,
-} from "@/components/design-pages/pillar-pages"
+} from "@/components/pillar-pages"
 import {
   ImpactPage,
   PartnersPage,
   ProductsOverviewPage,
-} from "@/components/design-pages/organization-pages"
+} from "@/components/organization-pages"
 import {
   BespokeDevelopmentPage,
   CaseStudiesPage,
   DevicesIntegrationPage,
   RequestDemoPage,
-} from "@/components/design-pages/solution-pages"
-import { SolutionsPage } from "@/components/design-pages/solutions-page"
+} from "@/components/solution-pages"
+import { SolutionsPage } from "@/components/solutions-page"
 import {
   DynamicDetailPage,
   LegalPage,
   SearchPage,
   SitemapPage,
   ThankYouPage,
-} from "@/components/design-pages/utility-pages"
+} from "@/components/utility-pages"
 
 export type DesignedPageDefinition = {
   title: string

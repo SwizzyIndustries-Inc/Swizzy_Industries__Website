@@ -1,4 +1,5 @@
 import { Layers3 } from "lucide-react"
+import Image from "next/image"
 
 type SwizzyLogoProps = {
   compact?: boolean
@@ -17,17 +18,25 @@ export function SwizzyLogo({ compact = false }: SwizzyLogoProps) {
   }
 
   return (
-    <span className="group inline-flex min-w-0 items-center gap-2.5 rounded-lg">
-      <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-blue-tint text-blue-primary transition-colors group-hover:bg-teal-tint group-hover:text-teal-accent dark:bg-blue-primary/15 dark:text-blue-300 dark:group-hover:bg-teal-accent/15 dark:group-hover:text-teal-300">
-        <Layers3 aria-hidden="true" className="size-[22px]" />
+    <span className="group inline-flex min-w-0 items-center gap-1.5 rounded-lg">
+      <span className="flex size-10 shrink-0 items-center justify-center rounded-xl transition-colors group-hover:bg-teal-tint dark:bg-blue-primary/15 dark:text-blue-300 dark:group-hover:bg-teal-accent/15 dark:group-hover:text-teal-300">
+        <Image
+          alt="Swizzy Industries Logo"
+          className="size-full"
+          src="/logo/logo.png"
+          width={30}
+          height={30}
+          priority
+        />
       </span>
-      <span className="min-w-0 leading-tight">
-        <span className="block truncate font-heading text-base font-bold text-foreground sm:text-lg">
-          Swizzy
-        </span>
-        <span className="block text-[10px] font-medium tracking-[0.08em] text-muted-foreground uppercase">
-          Industries
-        </span>
+      <span className="hidden size-15 shrink-0 items-center justify-center sm:flex dark:bg-blue-primary/15">
+        <Image
+          alt="Swizzy Industries Text Logo"
+          src="/logo/logo-text.png"
+          width={120}
+          height={30}
+          priority
+        />
       </span>
     </span>
   )

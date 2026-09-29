@@ -1,0 +1,5 @@
+export { PageHero } from "@/components/shared/page-hero"
+export { ContentSection } from "@/components/shared/content-section"
+export { FeatureCard } from "@/components/shared/feature-card"
+export { StatGrid } from "@/components/shared/stat-grid"
+export { ComparisonGrid } from "@/components/shared/comparison-grid"

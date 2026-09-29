@@ -72,7 +72,7 @@ export function SiteHeader() {
         </Link>
 
         <NavigationMenu
-          className="hidden flex-1 lg:flex"
+          className="hidden flex-1 xl:flex"
           align="center"
           value={menuValue}
           onValueChange={(value) => setMenuValue(value as string | null)}
@@ -216,9 +216,6 @@ function LanguageSwitcher({
               : "text-muted-foreground hover:text-foreground"
           )}
         >
-          {option === "en" ? (
-            <Languages aria-hidden="true" className="size-3.5" />
-          ) : null}
           {option.toUpperCase()}
         </button>
       ))}

@@ -1,5 +1,0 @@
-export { PageHero } from "@/components/design-pages/shared/page-hero"
-export { ContentSection } from "@/components/design-pages/shared/content-section"
-export { FeatureCard } from "@/components/design-pages/shared/feature-card"
-export { StatGrid } from "@/components/design-pages/shared/stat-grid"
-export { ComparisonGrid } from "@/components/design-pages/shared/comparison-grid"

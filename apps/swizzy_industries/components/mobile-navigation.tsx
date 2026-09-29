@@ -106,7 +106,7 @@ export function MobileNavigation() {
             type="button"
             variant="outline"
             size="icon-lg"
-            className="lg:hidden"
+            className="xl:hidden"
             aria-label="Open navigation menu"
           />
         }

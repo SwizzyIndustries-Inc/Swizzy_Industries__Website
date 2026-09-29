@@ -1,6 +1,0 @@
-export { CareersHomePage } from "@/components/design-pages/careers/careers-home-page"
-export { LifeBenefitsPage } from "@/components/design-pages/careers/life-benefits-page"
-export { OpenRolesPage } from "@/components/design-pages/careers/open-roles-page"
-export { EarlyCareersPage } from "@/components/design-pages/careers/early-careers-page"
-export { HiringProcessPage } from "@/components/design-pages/careers/hiring-process-page"
-export { TalentCommunityPage } from "@/components/design-pages/careers/talent-community-page"

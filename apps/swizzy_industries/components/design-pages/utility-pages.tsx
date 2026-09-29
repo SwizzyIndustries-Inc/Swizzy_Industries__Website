@@ -1,5 +1,0 @@
-export { SearchPage } from "@/components/design-pages/utility/search-page"
-export { ThankYouPage } from "@/components/design-pages/utility/thank-you-page"
-export { LegalPage } from "@/components/design-pages/utility/legal-page"
-export { SitemapPage } from "@/components/design-pages/utility/sitemap-page"
-export { DynamicDetailPage } from "@/components/design-pages/utility/dynamic-detail-page"
