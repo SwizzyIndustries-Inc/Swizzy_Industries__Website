@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
-import { Layers3, Moon, Search, Sun } from "lucide-react"
+import { Moon, Search, Sun } from "lucide-react"
 
 import { Button } from "@workspace/ui/components/button"
 import {
@@ -19,6 +19,7 @@ import { cn } from "@workspace/ui/lib/utils"
 import { isSitePage } from "@/lib/construction-routes"
 import { MobileNavigation } from "@/components/mobile-navigation"
 import { MegaMenuPanel } from "@/components/navigation-menu-content"
+import { SwizzyLogo } from "@/components/swizzy-logo"
 import {
   megaMenus,
   primaryNavigation,
@@ -49,10 +50,7 @@ export function SiteHeader() {
             aria-label="Swizzy Industries home"
             className="inline-flex min-h-11 items-center gap-2 rounded-lg focus-visible:ring-2 focus-visible:ring-teal-accent focus-visible:outline-none"
           >
-            <Layers3 aria-hidden="true" className="size-6 text-primary" />
-            <span className="font-heading text-base font-bold">
-              Swizzy Industries
-            </span>
+            <SwizzyLogo compact />
           </Link>
         </div>
       </header>
@@ -67,17 +65,7 @@ export function SiteHeader() {
           className="group flex min-w-0 items-center gap-2.5 rounded-lg focus-visible:ring-2 focus-visible:ring-teal-accent focus-visible:outline-none"
           aria-label="Swizzy Industries home"
         >
-          <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-blue-tint text-blue-primary transition-colors group-hover:bg-teal-tint group-hover:text-teal-accent dark:bg-blue-primary/15 dark:text-blue-300 dark:group-hover:bg-teal-accent/15 dark:group-hover:text-teal-300">
-            <Layers3 aria-hidden="true" className="size-[22px]" />
-          </span>
-          <span className="min-w-0 leading-tight">
-            <span className="block truncate font-heading text-base font-bold text-foreground sm:text-lg">
-              Swizzy
-            </span>
-            <span className="block text-[10px] font-medium tracking-[0.08em] text-muted-foreground uppercase">
-              Industries
-            </span>
-          </span>
+          <SwizzyLogo />
         </Link>
 
         <NavigationMenu

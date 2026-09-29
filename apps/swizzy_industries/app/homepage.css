@@ -1,0 +1,94 @@
+.dark .homepage {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.dark .homepage > section.bg-white {
+  background-color: var(--background);
+}
+
+.dark .homepage .bg-white {
+  background-color: var(--card);
+}
+
+.dark .homepage [class*="bg-mist-bg"] {
+  background-color: color-mix(in oklab, var(--background), white 6%);
+}
+
+.dark .homepage .bg-blue-50,
+.dark .homepage .bg-blue-tint {
+  background-color: color-mix(in oklab, var(--primary), var(--background) 82%);
+}
+
+.dark .homepage .bg-blue-100 {
+  background-color: color-mix(in oklab, var(--primary), var(--background) 76%);
+}
+
+.dark .homepage .bg-teal-tint {
+  background-color: color-mix(
+    in oklab,
+    var(--teal-accent),
+    var(--background) 84%
+  );
+}
+
+.dark .homepage .bg-orange-50 {
+  background-color: color-mix(in oklab, #f97316, var(--background) 88%);
+}
+
+.dark .homepage .text-navy-deep {
+  color: var(--foreground);
+}
+
+.dark .homepage .text-slate-body {
+  color: oklch(0.83 0.02 250);
+}
+
+.dark .homepage .text-slate-muted {
+  color: oklch(0.72 0.025 250);
+}
+
+.dark .homepage .text-blue-primary,
+.dark .homepage .text-blue-700,
+.dark .homepage .text-blue-900 {
+  color: oklch(0.78 0.11 255);
+}
+
+.dark .homepage .text-product-health,
+.dark .homepage .text-teal-accent {
+  color: oklch(0.78 0.12 180);
+}
+
+.dark .homepage .text-product-education {
+  color: oklch(0.78 0.1 270);
+}
+
+.dark .homepage .text-product-social,
+.dark .homepage .text-orange-700 {
+  color: oklch(0.8 0.11 40);
+}
+
+.dark .homepage .border-blue-200 {
+  border-color: color-mix(in oklab, var(--primary), var(--background) 55%);
+}
+
+.dark .homepage [class~="bg-white/95"],
+.dark .homepage [class~="bg-white/95"] .text-navy-deep {
+  color: #0a1f44;
+}
+
+.dark .homepage [class~="bg-white/95"] .text-slate-muted {
+  color: #64748b;
+}
+
+.dark .homepage [class~="bg-white/95"] .text-blue-primary {
+  color: #1b5fc1;
+}
+
+.dark .homepage [class~="bg-white/95"] .text-product-health {
+  color: #0e9f8e;
+}
+
+.dark .homepage [class~="bg-white/95"] .text-orange-700 {
+  color: #c2410c;
+}
