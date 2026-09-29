@@ -157,7 +157,7 @@ export function MobileNavigation() {
               <Input
                 id="mobile-site-search"
                 name="q"
-                placeholder="Search Swizzy"
+                placeholder="Search Swizzy Industries"
                 className="h-11 pl-10"
               />
             </div>

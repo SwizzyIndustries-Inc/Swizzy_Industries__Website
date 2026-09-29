@@ -22,7 +22,6 @@ import {
 import {
   ContentSection,
   FeatureCard,
-  PageCta,
   PageHero,
 } from "@/components/design-pages/shared"
 
@@ -302,10 +301,6 @@ export function SolutionsPage() {
           ))}
         </ul>
       </ContentSection>
-      <PageCta
-        title="Find the right solution for your institution"
-        description="Share your goals and operating context with our Nairobi team."
-      />
     </main>
   )
 }

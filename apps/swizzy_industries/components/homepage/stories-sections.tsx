@@ -101,7 +101,7 @@ type Testimonial = {
 const testimonials: Testimonial[] = [
   {
     quote:
-      "Before Swizzy's spatial modules, 40 medical students crowded around one surgical station. Now every trainee explores identical 3D anatomy simultaneously.",
+      "Before Swizzy Industries' spatial modules, 40 medical students crowded around one surgical station. Now every trainee explores identical 3D anatomy simultaneously.",
     initials: "DO",
     name: "Dr. David Ochieng",
     role: "Head of Clinical Training, Nairobi Hospital",

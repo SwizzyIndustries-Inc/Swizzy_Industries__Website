@@ -2,8 +2,8 @@ import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 
 import { UnderConstructionPage } from "@/components/under-construction-page"
-import { getDesignedPage } from "@/components/design-pages"
 import { getConstructionRoute } from "@/lib/construction-routes"
+import { getDesignedPage } from "@/lib/site-navigation/pages"
 
 type PageProps = {
   params: Promise<{ slug: string[] }>

@@ -56,12 +56,13 @@ const navigationRoutes: ConstructionRoute[] = [
   {
     title: "Search",
     description:
-      "Search pages, insights, resources, and opportunities at Swizzy.",
+      "Search pages, insights, resources, and opportunities at Swizzy Industries.",
     href: "/search",
   },
   {
     title: "Products overview",
-    description: "Explore Swizzy products and their connected areas of work.",
+    description:
+      "Explore Swizzy Industries products and their connected areas of work.",
     href: "/pillars",
   },
   {

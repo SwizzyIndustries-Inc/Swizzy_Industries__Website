@@ -85,7 +85,7 @@ export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
           },
           {
             title: "Our story",
-            description: "How Swizzy began and where we are headed",
+            description: "How Swizzy Industries began and where we are headed",
             href: "/about/our-story",
             icon: BookOpen,
           },
@@ -96,7 +96,7 @@ export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
         links: [
           {
             title: "Team & leadership",
-            description: "Meet the people building Swizzy",
+            description: "Meet the people building Swizzy Industries",
             href: "/about/team",
             icon: UsersRound,
           },
@@ -126,14 +126,14 @@ export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
       description:
         "See how virtual and augmented reality can support real work across Kenya.",
       href: "/about",
-      action: "Meet Swizzy",
+      action: "Meet Swizzy Industries",
       icon: Sparkles,
     },
   },
   products: {
     sectionLink: {
       title: "Products & Solutions",
-      description: "Explore Swizzy's products and solutions.",
+      description: "Explore Swizzy Industries' products and solutions.",
       href: "/products",
     },
     groups: [
@@ -280,7 +280,7 @@ export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
       },
     ],
     featured: {
-      eyebrow: "From Swizzy",
+      eyebrow: "From Swizzy Industries",
       title: "Ideas for a reimagined Kenya",
       description:
         "Read practical perspectives on health, learning, and connected communities.",
@@ -297,10 +297,10 @@ export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
     },
     groups: [
       {
-        title: "Life at Swizzy",
+        title: "Life at Swizzy Industries",
         links: [
           {
-            title: "Why Swizzy",
+            title: "Why Swizzy Industries",
             description: "Our culture and what we stand for",
             href: "/careers",
             icon: HeartPulse,

@@ -122,7 +122,10 @@ export const swahiliTranslations = new Map<string, string>([
     "Find the right solution for your institution",
     "Pata suluhisho linalofaa kwa taasisi yako",
   ],
-  ["Find your place at Swizzy", "Pata nafasi yako Swizzy"],
+  [
+    "Find your place at Swizzy Industries",
+    "Pata nafasi yako Swizzy Industries",
+  ],
   ["Focus", "Lengo"],
   ["For investors", "Kwa wawekezaji"],
   [
@@ -231,7 +234,7 @@ export const swahiliTranslations = new Map<string, string>([
     "Schedule an executive demonstration with our spatial systems architects in Nairobi, or request an on-site evaluation for your hospital or school.",
     "Panga onyesho kwa viongozi pamoja na wasanifu wa mifumo ya anga jijini Nairobi, au omba tathmini katika eneo la hospitali au shule yako.",
   ],
-  ["Search Swizzy", "Tafuta Swizzy"],
+  ["Search Swizzy Industries", "Tafuta Swizzy Industries"],
   [
     "See immersive technology in action",
     "Tazama teknolojia ya kina ikifanya kazi",
@@ -282,13 +285,16 @@ export const swahiliTranslations = new Map<string, string>([
     "Why immersive, why now, why Kenya",
     "Kwa nini teknolojia ya kina, kwa nini sasa, kwa nini Kenya",
   ],
-  ["Why partner with Swizzy", "Kwa nini ushirikiane na Swizzy"],
+  [
+    "Why partner with Swizzy Industries",
+    "Kwa nini ushirikiane na Swizzy Industries",
+  ],
   ["Switch to English", "Badilisha hadi Kiingereza"],
   ["Switch to Swahili", "Badilisha hadi Kiswahili"],
   ["You see it live", "Unaiona ikifanya kazi moja kwa moja"],
   [
-    "Explore Swizzy's products and solutions.",
-    "Gundua bidhaa na suluhisho za Swizzy.",
+    "Explore Swizzy Industries' products and solutions.",
+    "Gundua bidhaa na suluhisho za Swizzy Industries.",
   ],
   ["Solutions overview", "Muhtasari wa suluhisho"],
   ["Devices & integration", "Vifaa na ujumuishaji"],
@@ -323,7 +329,7 @@ export const swahiliTranslations = new Map<string, string>([
     "Photos, videos, and immersive moments",
     "Picha, video na matukio ya teknolojia ya kina",
   ],
-  ["From Swizzy", "Kutoka Swizzy"],
+  ["From Swizzy Industries", "Kutoka Swizzy Industries"],
   [
     "Read practical perspectives on health, learning, and connected communities.",
     "Soma mitazamo ya vitendo kuhusu afya, kujifunza na jamii zilizounganishwa.",
@@ -375,8 +381,8 @@ export const swahiliTranslations = new Map<string, string>([
     "Kiungo cha zamani cha ukurasa wa bidhaa ya Jumuika.",
   ],
   [
-    "Explore Swizzy products and their connected areas of work.",
-    "Gundua bidhaa za Swizzy na maeneo yake ya kazi yaliyounganishwa.",
+    "Explore Swizzy Industries products and their connected areas of work.",
+    "Gundua bidhaa za Swizzy Industries na maeneo yake ya kazi yaliyounganishwa.",
   ],
   [
     "Confirmation and next steps after contacting Swizzy Industries.",
@@ -547,7 +553,7 @@ export const swahiliTranslations = new Map<string, string>([
     "Consider affordability, shared devices, low bandwidth, and varied accessibility needs.",
     "Zingatia uwezo wa kumudu gharama, vifaa vya pamoja, intaneti yenye kasi ndogo na mahitaji tofauti ya ufikivu.",
   ],
-  ["Contact Swizzy", "Wasiliana na Swizzy"],
+  ["Contact Swizzy Industries", "Wasiliana na Swizzy Industries"],
   ["Counties represented", "Kaunti zinazowakilishwa"],
   ["County institutions", "Taasisi za kaunti"],
   ["Cultural content", "Maudhui ya kitamaduni"],
@@ -576,8 +582,8 @@ export const swahiliTranslations = new Map<string, string>([
   ],
   ["Executive leadership", "Uongozi mkuu"],
   [
-    "Explore Swizzy's product areas for health, education, and community, built to make immersive technology practical for institutions across Kenya.",
-    "Gundua maeneo ya bidhaa za Swizzy kwa afya, elimu na jamii, zilizoundwa kufanya teknolojia ya kina iwe ya vitendo kwa taasisi kote Kenya.",
+    "Explore Swizzy Industries' product areas for health, education, and community, built to make immersive technology practical for institutions across Kenya.",
+    "Gundua maeneo ya bidhaa za Swizzy Industries kwa afya, elimu na jamii, zilizoundwa kufanya teknolojia ya kina iwe ya vitendo kwa taasisi kote Kenya.",
   ],
   ["Featured announcement", "Tangazo lililoangaziwa"],
   ["Featured story", "Hadithi iliyoangaziwa"],
@@ -749,7 +755,7 @@ export const swahiliTranslations = new Map<string, string>([
   ["Case Studies", "Visa kifani"],
   ["Resource Library", "Maktaba ya nyenzo"],
   ["Press and Media Kit", "Kifurushi cha waandishi na vyombo vya habari"],
-  ["Careers at Swizzy", "Ajira katika Swizzy"],
+  ["Careers at Swizzy Industries", "Ajira katika Swizzy Industries"],
   ["Life and Benefits", "Maisha na manufaa"],
   ["Open Roles", "Nafasi za kazi zilizofunguliwa"],
   [
@@ -825,10 +831,13 @@ export const swahiliTranslations = new Map<string, string>([
   ["Who we are and why we exist", "Sisi ni nani na kwa nini tunatokea"],
   ["What guides every decision", "Kitu kinachoongoza kila uamuzi"],
   [
-    "How Swizzy began and where we are headed",
-    "Jinsi Swizzy ilivyoanza na tunakoelekea",
+    "How Swizzy Industries began and where we are headed",
+    "Jinsi Swizzy Industries ilivyoanza na tunakoelekea",
   ],
-  ["Meet the people building Swizzy", "Kukutana na watu wanaojenga Swizzy"],
+  [
+    "Meet the people building Swizzy Industries",
+    "Kukutana na watu wanaojenga Swizzy Industries",
+  ],
   ["Organizations growing with us", "Mashirika yanayokua pamoja nasi"],
   ["Impact & sustainability", "Athari na endelevu"],
   ["Measuring what matters for Kenya", "Kupima kile kinachohitaji Kenya"],
@@ -838,7 +847,7 @@ export const swahiliTranslations = new Map<string, string>([
     "See how virtual and augmented reality can support real work across Kenya.",
     "Tazama jinsi taswira pepe na ya kupanua inaweza kusaidia kazi halisi kote Kenya.",
   ],
-  ["Meet Swizzy", "Kukutana na Swizzy"],
+  ["Meet Swizzy Industries", "Kukutana na Swizzy Industries"],
   ["Our products", "Bidhaa zetu"],
   [
     "Three focus areas. One connected economy.",
@@ -899,7 +908,7 @@ export const swahiliTranslations = new Map<string, string>([
     "Tell us what you are working on. We'll help you find a useful next step.",
     "Tuambie unachofanyia kazi. Tutakusaidia kupata hatua inayofuata yenye manufaa.",
   ],
-  ["Why Swizzy", "Kwa nini Swizzy"],
+  ["Why Swizzy Industries", "Kwa nini Swizzy Industries"],
   ["A place to build with purpose", "Mahali pa kujenga kwa madhumuni"],
   ["Culture in action", "Utamaduni unaofanya kazi"],
   ["How we work together", "Jinsi tunavyofanya kazi pamoja"],
@@ -915,7 +924,7 @@ export const swahiliTranslations = new Map<string, string>([
   ],
   ["Open roles page", "Ukurasa wa nafasi za kazi"],
   ["Early careers", "Mafunzo ya mwanzo"],
-  ["Life at Swizzy", "Maisha katika Swizzy"],
+  ["Life at Swizzy Industries", "Maisha katika Swizzy Industries"],
   ["A place to do your best work", "Mahali pa kufanya kazi vyema zaidi"],
   ["What matters at work", "Kitu kilicho muhimu kazini"],
   [
@@ -931,7 +940,7 @@ export const swahiliTranslations = new Map<string, string>([
   ["Mentorship", "Ushauri"],
   ["Team connection", "Uunganisho wa timu"],
   ["Community", "Jamii"],
-  ["A day at Swizzy", "Siku katika Swizzy"],
+  ["A day at Swizzy Industries", "Siku katika Swizzy Industries"],
   ["Focused work, shared learning", "Kazi iliyolenga, kujifunza kwa pamoja"],
   ["Plan", "Panga"],
   ["Build", "Jenga"],
@@ -1108,8 +1117,8 @@ export const swahiliTranslations = new Map<string, string>([
   ["Products and solutions", "Bidhaa na suluhisho"],
   ["Resource library", "Maktaba ya nyenzo"],
   [
-    "Everything you need to understand Swizzy",
-    "Kila kitu unachohitaji kuelewa Swizzy",
+    "Everything you need to understand Swizzy Industries",
+    "Kila kitu unachohitaji kuelewa Swizzy Industries",
   ],
   ["Featured collections", "Mikusanyo ya kuvutia"],
   ["Start with an overview", "Anza kwa muhtasari"],
@@ -1119,8 +1128,8 @@ export const swahiliTranslations = new Map<string, string>([
   ["Search", "Tafuta"],
   ["What are you looking for?", "Unatafuta nini?"],
   [
-    "Search pages, insights, resources, and opportunities at Swizzy.",
-    "Tafuta kurasa, maarifa, nyenzo na fursa kwenye Swizzy.",
+    "Search pages, insights, resources, and opportunities at Swizzy Industries.",
+    "Tafuta kurasa, maarifa, nyenzo na fursa kwenye Swizzy Industries.",
   ],
   ["Legal and policies", "Sheria na sera"],
   ["Institutional inquiries FAQ", "Maswali ya kawaida ya maswali ya taasisi"],
@@ -1175,8 +1184,8 @@ export const swahiliTranslations = new Map<string, string>([
     "Zungumza na timu yetu kuhusu matumizi ya taasisi, mahitaji ya uhandisi na utekelezaji.",
   ],
   [
-    "Everything you need to understand Swizzy",
-    "Kila kitu unachohitaji kuelewa Swizzy",
+    "Everything you need to understand Swizzy Industries",
+    "Kila kitu unachohitaji kuelewa Swizzy Industries",
   ],
   [
     "Browse company pages, products, insights, and careers.",
@@ -1395,8 +1404,8 @@ export const swahiliTranslations = new Map<string, string>([
     "Chunguza ushirikiano wa kiufundi na utoaji kwa taasisi zinazofaa.",
   ],
   [
-    "Your email app should open with a draft. Review and send it to contact the Swizzy team.",
-    "Programu yako ya barua pepe inapaswa kufungua rasimu. Ikague na uitume ili kuwasiliana na timu ya Swizzy.",
+    "Your email app should open with a draft. Review and send it to contact the Swizzy Industries team.",
+    "Programu yako ya barua pepe inapaswa kufungua rasimu. Ikague na uitume ili kuwasiliana na timu ya Swizzy Industries.",
   ],
   [
     "We work with institutions and collaborators to make immersive technology useful, accessible, and grounded in local priorities.",
@@ -1451,12 +1460,12 @@ export const swahiliTranslations = new Map<string, string>([
     "Chunguza fursa za ushirikiano na Swizzy Industries.",
   ],
   [
-    "Learn how Swizzy measures responsible impact across Kenya.",
-    "Jifunze jinsi Swizzy inavyopima matokeo yanayowajibika nchini Kenya.",
+    "Learn how Swizzy Industries measures responsible impact across Kenya.",
+    "Jifunze jinsi Swizzy Industries inavyopima matokeo yanayowajibika nchini Kenya.",
   ],
   [
-    "Explore the Swizzy products for health, education, and community.",
-    "Gundua bidhaa za Swizzy za afya, elimu na jamii.",
+    "Explore the Swizzy Industries products for health, education, and community.",
+    "Gundua bidhaa za Swizzy Industries za afya, elimu na jamii.",
   ],
   [
     "Custom immersive software for specific institutional needs.",
@@ -1471,28 +1480,28 @@ export const swahiliTranslations = new Map<string, string>([
     "Chunguza mifano ya matumizi ya teknolojia ya kina katika taasisi.",
   ],
   [
-    "Request a tailored walkthrough of Swizzy products and solutions.",
-    "Omba maelezo maalum kuhusu bidhaa na suluhisho za Swizzy.",
+    "Request a tailored walkthrough of Swizzy Industries products and solutions.",
+    "Omba maelezo maalum kuhusu bidhaa na suluhisho za Swizzy Industries.",
   ],
   [
-    "Browse Swizzy product information, guides, and resources.",
-    "Vinjari taarifa za bidhaa, miongozo na nyenzo za Swizzy.",
+    "Browse Swizzy Industries product information, guides, and resources.",
+    "Vinjari taarifa za bidhaa, miongozo na nyenzo za Swizzy Industries.",
   ],
   [
     "Company facts, approved brand information, and media contact.",
     "Taarifa za kampuni, maelezo ya chapa yaliyoidhinishwa na mawasiliano ya habari.",
   ],
   [
-    "Explore moments from Swizzy's immersive technology work.",
-    "Gundua matukio kutoka kazi ya teknolojia ya kina ya Swizzy.",
+    "Explore moments from Swizzy Industries' immersive technology work.",
+    "Gundua matukio kutoka kazi ya teknolojia ya kina ya Swizzy Industries.",
   ],
   [
-    "Learn about working at Swizzy and explore opportunities.",
-    "Jifunze kuhusu kufanya kazi Swizzy na uchunguze fursa.",
+    "Learn about working at Swizzy Industries and explore opportunities.",
+    "Jifunze kuhusu kufanya kazi Swizzy Industries na uchunguze fursa.",
   ],
   [
-    "Learn about life, development, and working at Swizzy.",
-    "Jifunze kuhusu maisha, ukuaji na kazi Swizzy.",
+    "Learn about life, development, and working at Swizzy Industries.",
+    "Jifunze kuhusu maisha, ukuaji na kazi Swizzy Industries.",
   ],
   [
     "Search current opportunities at Swizzy Industries.",
@@ -1503,12 +1512,12 @@ export const swahiliTranslations = new Map<string, string>([
     "Chunguza fursa za mwanzo wa taaluma katika Swizzy Industries.",
   ],
   [
-    "Understand each step in the Swizzy hiring process.",
-    "Elewa kila hatua ya mchakato wa kuajiri wa Swizzy.",
+    "Understand each step in the Swizzy Industries hiring process.",
+    "Elewa kila hatua ya mchakato wa kuajiri wa Swizzy Industries.",
   ],
   [
-    "Stay connected with future opportunities at Swizzy.",
-    "Endelea kufuatilia fursa zijazo za Swizzy.",
+    "Stay connected with future opportunities at Swizzy Industries.",
+    "Endelea kufuatilia fursa zijazo za Swizzy Industries.",
   ],
   [
     "Search pages, insights, resources, and opportunities.",
@@ -1519,8 +1528,8 @@ export const swahiliTranslations = new Map<string, string>([
     "Asante kwa kuwasiliana na Swizzy Industries.",
   ],
   [
-    "How Swizzy handles personal information.",
-    "Jinsi Swizzy inavyoshughulikia taarifa binafsi.",
+    "How Swizzy Industries handles personal information.",
+    "Jinsi Swizzy Industries inavyoshughulikia taarifa binafsi.",
   ],
   [
     "Terms for using Swizzy Industries websites.",
@@ -1614,8 +1623,8 @@ export const swahiliTranslations = new Map<string, string>([
     "Kazi ilianza kwa kuona kwamba wanafunzi na wataalamu wa kliniki mara nyingi hawakuwa na muda wa kutosha kutumia vifaa maalum. Mifumo mingi iliyoagizwa ilitegemea intaneti ya kasi na vifaa vya gharama kubwa.",
   ],
   [
-    "Swizzy set out to build browser-based immersive tools with local connectivity and institutional realities in mind, alongside the people who would use them.",
-    "Swizzy ilianza kujenga zana za teknolojia ya kina zinazotumia kivinjari, ikizingatia muunganisho wa ndani na uhalisia wa taasisi pamoja na watu watakaotumia zana hizo.",
+    "Swizzy Industries set out to build browser-based immersive tools with local connectivity and institutional realities in mind, alongside the people who would use them.",
+    "Swizzy Industries ilianza kujenga zana za teknolojia ya kina zinazotumia kivinjari, ikizingatia muunganisho wa ndani na uhalisia wa taasisi pamoja na watu watakaotumia zana hizo.",
   ],
   ["Building for the next set of needs", "Kujenga kwa mahitaji yanayofuata"],
   ["Offline edge systems", "Mifumo ya ndani inayofanya kazi bila intaneti"],
@@ -1644,7 +1653,10 @@ export const swahiliTranslations = new Map<string, string>([
     "A transparent path from application to learning",
     "Njia iliyo wazi kutoka maombi hadi mafunzo",
   ],
-  ["Stay close to Swizzy", "Endelea kuwa karibu na Swizzy"],
+  [
+    "Stay close to Swizzy Industries",
+    "Endelea kuwa karibu na Swizzy Industries",
+  ],
   [
     "Get occasional updates about opportunities, events, and work across our teams.",
     "Pokea mara kwa mara taarifa kuhusu fursa, matukio na kazi katika timu zetu.",
@@ -1826,8 +1838,8 @@ export const swahiliTranslations = new Map<string, string>([
   ["Work email", "Barua pepe ya kazini"],
   ["Sector", "Sekta"],
   [
-    "I agree that Swizzy may use these details to respond to my request.",
-    "Nakubali Swizzy itumie maelezo haya kujibu ombi langu.",
+    "I agree that Swizzy Industries may use these details to respond to my request.",
+    "Nakubali Swizzy Industries itumie maelezo haya kujibu ombi langu.",
   ],
   ["Three steps, no surprises", "Hatua tatu zilizo wazi"],
   ["Prefer a direct conversation?", "Unapendelea mazungumzo ya moja kwa moja?"],
@@ -1845,8 +1857,8 @@ export const swahiliTranslations = new Map<string, string>([
   ["School pack", "Kifurushi cha shule"],
   ["Partner pack", "Kifurushi cha washirika"],
   [
-    "Everything you need to understand Swizzy",
-    "Kila kitu unachohitaji kujua kuhusu Swizzy",
+    "Everything you need to understand Swizzy Industries",
+    "Kila kitu unachohitaji kujua kuhusu Swizzy Industries",
   ],
   ["Featured collections", "Makusanyo yaliyoangaziwa"],
   ["Start with an overview", "Anza na muhtasari"],
@@ -1907,8 +1919,8 @@ export const swahiliTranslations = new Map<string, string>([
   ],
   ["Contact our team", "Wasiliana na timu yetu"],
   [
-    "Search pages, insights, resources, and opportunities at Swizzy.",
-    "Tafuta kurasa, maarifa, nyenzo na fursa za Swizzy.",
+    "Search pages, insights, resources, and opportunities at Swizzy Industries.",
+    "Tafuta kurasa, maarifa, nyenzo na fursa za Swizzy Industries.",
   ],
   ["What are you looking for?", "Unatafuta nini?"],
   ["No results found", "Hakuna matokeo yaliyopatikana"],
@@ -1926,8 +1938,8 @@ export const swahiliTranslations = new Map<string, string>([
   ["Thank you", "Asante"],
   ["Message prepared", "Ujumbe umeandaliwa"],
   [
-    "We appreciate your interest in Swizzy. If you submitted a form that opened your email app, remember to send the prepared draft so our team can receive it.",
-    "Tunashukuru kwa kuvutiwa na Swizzy. Ikiwa fomu ilifungua programu yako ya barua pepe, tafadhali tuma rasimu iliyoandaliwa ili timu yetu ipokee ujumbe wako.",
+    "We appreciate your interest in Swizzy Industries. If you submitted a form that opened your email app, remember to send the prepared draft so our team can receive it.",
+    "Tunashukuru kwa kuvutiwa na Swizzy Industries. Ikiwa fomu ilifungua programu yako ya barua pepe, tafadhali tuma rasimu iliyoandaliwa ili timu yetu ipokee ujumbe wako.",
   ],
   ["We receive your note", "Tunapokea ujumbe wako"],
   ["We review your needs", "Tunakagua mahitaji yako"],
@@ -1940,7 +1952,10 @@ export const swahiliTranslations = new Map<string, string>([
   ["On this page", "Katika ukurasa huu"],
   ["In plain language", "Kwa lugha rahisi"],
   ["Sitemap", "Ramani ya tovuti"],
-  ["Find your way around Swizzy", "Tafuta njia yako kwenye Swizzy"],
+  [
+    "Find your way around Swizzy Industries",
+    "Tafuta njia yako kwenye Swizzy Industries",
+  ],
   ["All sections", "Sehemu zote"],
   [
     "Swizzy Industries is committed to handling this area with care and transparency. The final policy details should be reviewed and approved by the company before publication. For questions about",
@@ -1954,8 +1969,8 @@ export const swahiliTranslations = new Map<string, string>([
     "Muundo huu wa nafasi uko tayari kwa maelezo ya kazi yaliyoidhinishwa. Hakuna nafasi isiyothibitishwa inayotangazwa.",
   ],
   [
-    "This detail page uses the shared Swizzy reading layout. Add approved article, event, profile, or case-study content here.",
-    "Ukurasa huu unatumia muundo wa pamoja wa Swizzy. Maudhui yaliyoidhinishwa ya makala, tukio, wasifu au mfano wa mradi yataongezwa hapa.",
+    "This detail page uses the shared Swizzy Industries reading layout. Add approved article, event, profile, or case-study content here.",
+    "Ukurasa huu unatumia muundo wa pamoja wa Swizzy Industries. Maudhui yaliyoidhinishwa ya makala, tukio, wasifu au mfano wa mradi yataongezwa hapa.",
   ],
   ["Details from Swizzy Industries.", "Maelezo kutoka Swizzy Industries."],
   ["Explore more", "Gundua zaidi"],
@@ -1995,8 +2010,8 @@ export const swahiliTranslations = new Map<string, string>([
   ["Patient education", "Elimu ya wagonjwa"],
   ["Care team collaboration", "Ushirikiano wa timu ya huduma"],
   [
-    "How Swizzy integrates into your facility",
-    "Jinsi Swizzy inavyounganishwa katika kituo chako",
+    "How Swizzy Industries integrates into your facility",
+    "Jinsi Swizzy Industries inavyounganishwa katika kituo chako",
   ],
   [
     "Tailored for teams across East Africa",
@@ -2148,13 +2163,16 @@ export const swahiliTranslations = new Map<string, string>([
     "Ready to integrate spatial hardware?",
     "Uko tayari kuunganisha vifaa vya teknolojia ya anga?",
   ],
-  ["Stay informed about Swizzy", "Pata taarifa kuhusu Swizzy"],
+  [
+    "Stay informed about Swizzy Industries",
+    "Pata taarifa kuhusu Swizzy Industries",
+  ],
   ["Explore products", "Gundua bidhaa"],
   ["Tibika", "Tibika"],
   ["Elimika", "Elimika"],
   ["Jumuika", "Jumuika"],
   ["Swizzy Industries", "Swizzy Industries"],
-  ["Swizzy", "Swizzy"],
+  ["Swizzy Industries", "Swizzy Industries"],
   ["Industries", "Industries"],
   ["info@swizzy.co.ke", "info@swizzy.co.ke"],
   ["Hardware integration", "Muunganisho wa vifaa"],
@@ -2305,8 +2323,8 @@ export const swahiliTranslations = new Map<string, string>([
   ["Sector", "Sekta"],
   ["Other", "Nyingine"],
   [
-    "I agree that Swizzy may use these details to respond to my request.",
-    "Nakubali Swizzy itumie maelezo haya kujibu ombi langu.",
+    "I agree that Swizzy Industries may use these details to respond to my request.",
+    "Nakubali Swizzy Industries itumie maelezo haya kujibu ombi langu.",
   ],
   ["Three steps, no surprises", "Hatua tatu zilizo wazi"],
   ["Prefer a direct conversation?", "Unapendelea mazungumzo ya moja kwa moja?"],
@@ -2345,8 +2363,8 @@ export const swahiliTranslations = new Map<string, string>([
   ],
   ["Investment", "Uwekezaji"],
   [
-    "I agree that Swizzy may use these details to respond to my inquiry.",
-    "Nakubali Swizzy itumie maelezo haya kujibu swali langu.",
+    "I agree that Swizzy Industries may use these details to respond to my inquiry.",
+    "Nakubali Swizzy Industries itumie maelezo haya kujibu swali langu.",
   ],
   ["Grow the work with us", "Kuza kazi hii pamoja nasi"],
   ["Learning, care, and connection", "Mafunzo, huduma na muunganisho"],
@@ -2442,7 +2460,10 @@ export const swahiliTranslations = new Map<string, string>([
     "Wanjiku Njeri, Spatial Architecture",
     "Wanjiku Njeri, Usanifu wa Teknolojia ya Anga",
   ],
-  ["Keep learning with Swizzy", "Endelea kujifunza pamoja na Swizzy"],
+  [
+    "Keep learning with Swizzy Industries",
+    "Endelea kujifunza pamoja na Swizzy Industries",
+  ],
   [
     "Clinical trainee examining a 3D holographic medical simulation",
     "Mwanafunzi wa kliniki akichunguza uigaji wa matibabu wa hologramu ya 3D",
@@ -2520,8 +2541,8 @@ export const swahiliTranslations = new Map<string, string>([
   ["Consistent", "Inayolingana"],
   ["Accessible", "Inayofikika"],
   [
-    "If you receive a suspicious request for money or sensitive financial information, do not respond. Verify opportunities with Swizzy using our official contact details.",
-    "Ukipokea ombi la kutiliwa shaka la pesa au taarifa nyeti za kifedha, usijibu. Thibitisha fursa kwa kutumia mawasiliano rasmi ya Swizzy.",
+    "If you receive a suspicious request for money or sensitive financial information, do not respond. Verify opportunities with Swizzy Industries using our official contact details.",
+    "Ukipokea ombi la kutiliwa shaka la pesa au taarifa nyeti za kifedha, usijibu. Thibitisha fursa kwa kutumia mawasiliano rasmi ya Swizzy Industries.",
   ],
   ["Ready to take the next step?", "Uko tayari kuchukua hatua inayofuata?"],
   ["Area of interest", "Eneo la kuvutiwa"],
@@ -2532,8 +2553,8 @@ export const swahiliTranslations = new Map<string, string>([
     "LinkedIn au jalada la kazi (si lazima)",
   ],
   [
-    "I agree that Swizzy may use this information to contact me about career opportunities.",
-    "Nakubali Swizzy itumie taarifa hizi kuwasiliana nami kuhusu fursa za kazi.",
+    "I agree that Swizzy Industries may use this information to contact me about career opportunities.",
+    "Nakubali Swizzy Industries itumie taarifa hizi kuwasiliana nami kuhusu fursa za kazi.",
   ],
   ["Find your next step", "Pata hatua yako inayofuata"],
   ["Help us reimagine Kenya", "Tusaidie kuunda upya Kenya"],
@@ -2547,7 +2568,7 @@ export const swahiliTranslations = new Map<string, string>([
     "Work on technology that serves people, institutions, and communities.",
     "Fanya kazi kwenye teknolojia inayowahudumia watu, taasisi na jamii.",
   ],
-  ["Why Swizzy", "Kwa nini Swizzy"],
+  ["Why Swizzy Industries", "Kwa nini Swizzy Industries"],
   ["A place to build with purpose", "Mahali pa kujenga kwa madhumuni"],
   ["Culture in action", "Utamaduni unaofanya kazi"],
   ["How we work together", "Jinsi tunavyofanya kazi pamoja"],
@@ -2606,7 +2627,7 @@ export const swahiliTranslations = new Map<string, string>([
   ],
   ["Talent community interest", "Nia ya jumuiya ya vipaji"],
   ["Careers | Talent community", "Ajira | Jumuiya ya vipaji"],
-  ["Swizzy insights", "Maarifa ya Swizzy"],
+  ["Swizzy Industries insights", "Maarifa ya Swizzy Industries"],
   ["We couldn't find it.", "Hatukuweza kupata ukurasa huo."],
   ["Can't find it?", "Hukuweza kupata unachotafuta?"],
   ["Back home", "Rudi nyumbani"],
@@ -2644,7 +2665,7 @@ export const swahiliTranslations = new Map<string, string>([
     "We welcome approved partner stories and images. Please do not send identifiable patient or child imagery without the required consent.",
     "Tunakaribisha hadithi na picha zilizoidhinishwa na washirika. Tafadhali usitume picha zinazomtambulisha mgonjwa au mtoto bila ridhaa inayohitajika.",
   ],
-  ["Share with Swizzy", "Shiriki na Swizzy"],
+  ["Share with Swizzy Industries", "Shiriki na Swizzy Industries"],
   ["Be part of the next chapter", "Kuwa sehemu ya hatua inayofuata"],
   [
     "Let's talk about your Kenya, reimagined",
@@ -2682,8 +2703,8 @@ export const swahiliTranslations = new Map<string, string>([
   ],
   ["System integration", "Muunganisho wa mifumo"],
   [
-    "Talk with the Swizzy team about your facility, training objectives, and implementation needs.",
-    "Zungumza na timu ya Swizzy kuhusu kituo chako, malengo ya mafunzo na mahitaji ya utekelezaji.",
+    "Talk with the Swizzy Industries team about your facility, training objectives, and implementation needs.",
+    "Zungumza na timu ya Swizzy Industries kuhusu kituo chako, malengo ya mafunzo na mahitaji ya utekelezaji.",
   ],
   ["Chemistry and matter", "Kemia na maada"],
   ["Physics and mechanics", "Fizikia na mekanika"],
@@ -2788,8 +2809,8 @@ export const swahiliTranslations = new Map<string, string>([
   ["Strathmore University", "Chuo Kikuu cha Strathmore"],
   ["Ministry of Health", "Wizara ya Afya"],
   [
-    "Before Swizzy's spatial modules, 40 medical students crowded around one surgical station. Now every trainee explores identical 3D anatomy simultaneously.",
-    "Kabla ya moduli za anga za Swizzy, wanafunzi 40 wa udaktari walikusanyika kwenye kituo kimoja cha upasuaji. Sasa kila mwanafunzi huchunguza anatomia ileile ya 3D kwa wakati mmoja.",
+    "Before Swizzy Industries' spatial modules, 40 medical students crowded around one surgical station. Now every trainee explores identical 3D anatomy simultaneously.",
+    "Kabla ya moduli za anga za Swizzy Industries, wanafunzi 40 wa udaktari walikusanyika kwenye kituo kimoja cha upasuaji. Sasa kila mwanafunzi huchunguza anatomia ileile ya 3D kwa wakati mmoja.",
   ],
   [
     "Head of Clinical Training, Nairobi Hospital",
@@ -3017,7 +3038,10 @@ export const swahiliTranslations = new Map<string, string>([
     "Learners may observe while others take turns",
     "Wanafunzi wanaweza kutazama tu huku wengine wakipokezana",
   ],
-  ["Swizzy XR virtual science", "Sayansi pepe ya Swizzy XR"],
+  [
+    "Swizzy Industries XR virtual science",
+    "Sayansi pepe ya Swizzy Industries XR",
+  ],
   ["Reusable virtual experiments", "Majaribio pepe yanayoweza kutumiwa tena"],
   [
     "Repeat activities and explore variations",
@@ -3277,8 +3301,8 @@ export const swahiliTranslations = new Map<string, string>([
     "Shiriki malengo yako na mazingira ya kazi pamoja na timu yetu ya Nairobi.",
   ],
   [
-    "Explore Swizzy products and institutional immersive technology solutions.",
-    "Gundua bidhaa za Swizzy na suluhisho za teknolojia ya kina kwa taasisi.",
+    "Explore Swizzy Industries products and institutional immersive technology solutions.",
+    "Gundua bidhaa za Swizzy Industries na suluhisho za teknolojia ya kina kwa taasisi.",
   ],
   [
     "Company announcements and coverage.",
@@ -3370,28 +3394,28 @@ export const swahiliTranslations = new Map<string, string>([
     "Chunguza mifano ya matumizi ya teknolojia ya kina katika taasisi.",
   ],
   [
-    "Request a tailored walkthrough of Swizzy products and solutions.",
-    "Omba maelezo maalum kuhusu bidhaa na suluhisho za Swizzy.",
+    "Request a tailored walkthrough of Swizzy Industries products and solutions.",
+    "Omba maelezo maalum kuhusu bidhaa na suluhisho za Swizzy Industries.",
   ],
   [
-    "Browse Swizzy product information, guides, and resources.",
-    "Vinjari taarifa za bidhaa, miongozo na nyenzo za Swizzy.",
+    "Browse Swizzy Industries product information, guides, and resources.",
+    "Vinjari taarifa za bidhaa, miongozo na nyenzo za Swizzy Industries.",
   ],
   [
     "Company facts, approved brand information, and media contact.",
     "Taarifa za kampuni, maelezo ya chapa yaliyoidhinishwa na mawasiliano ya habari.",
   ],
   [
-    "Explore moments from Swizzy's immersive technology work.",
-    "Gundua matukio kutoka kazi ya teknolojia ya kina ya Swizzy.",
+    "Explore moments from Swizzy Industries' immersive technology work.",
+    "Gundua matukio kutoka kazi ya teknolojia ya kina ya Swizzy Industries.",
   ],
   [
-    "Learn about working at Swizzy and explore opportunities.",
-    "Jifunze kuhusu kufanya kazi Swizzy na uchunguze fursa.",
+    "Learn about working at Swizzy Industries and explore opportunities.",
+    "Jifunze kuhusu kufanya kazi Swizzy Industries na uchunguze fursa.",
   ],
   [
-    "Learn about life, development, and working at Swizzy.",
-    "Jifunze kuhusu maisha, maendeleo na kazi Swizzy.",
+    "Learn about life, development, and working at Swizzy Industries.",
+    "Jifunze kuhusu maisha, maendeleo na kazi Swizzy Industries.",
   ],
   [
     "Search current opportunities at Swizzy Industries.",
@@ -3402,12 +3426,12 @@ export const swahiliTranslations = new Map<string, string>([
     "Chunguza fursa za mwanzo wa taaluma katika Swizzy Industries.",
   ],
   [
-    "Understand each step in the Swizzy hiring process.",
-    "Elewa kila hatua ya mchakato wa kuajiri wa Swizzy.",
+    "Understand each step in the Swizzy Industries hiring process.",
+    "Elewa kila hatua ya mchakato wa kuajiri wa Swizzy Industries.",
   ],
   [
-    "Stay connected with future opportunities at Swizzy.",
-    "Endelea kufuatilia fursa zijazo za Swizzy.",
+    "Stay connected with future opportunities at Swizzy Industries.",
+    "Endelea kufuatilia fursa zijazo za Swizzy Industries.",
   ],
   [
     "Search pages, insights, resources, and opportunities.",
@@ -3418,8 +3442,8 @@ export const swahiliTranslations = new Map<string, string>([
     "Asante kwa kuwasiliana na Swizzy Industries.",
   ],
   [
-    "How Swizzy handles personal information.",
-    "Jinsi Swizzy inavyoshughulikia taarifa binafsi.",
+    "How Swizzy Industries handles personal information.",
+    "Jinsi Swizzy Industries inavyoshughulikia taarifa binafsi.",
   ],
   [
     "Terms for using Swizzy Industries websites.",
@@ -3728,8 +3752,8 @@ export const swahiliTranslations = new Map<string, string>([
     "Usajili wa kampuni na msingi wa WebXR",
   ],
   [
-    "Swizzy is established in Nairobi and begins building its browser-based spatial platform.",
-    "Swizzy inaanzishwa Nairobi na kuanza kujenga mfumo wake wa teknolojia ya anga unaotumia kivinjari.",
+    "Swizzy Industries is established in Nairobi and begins building its browser-based spatial platform.",
+    "Swizzy Industries inaanzishwa Nairobi na kuanza kujenga mfumo wake wa teknolojia ya anga unaotumia kivinjari.",
   ],
   [
     "Clinical simulation work begins with healthcare training partners.",
@@ -3893,8 +3917,8 @@ export const swahiliTranslations = new Map<string, string>([
     "Makala ya habari kuhusu mifumo ya ndani ya teknolojia ya kina na mahitaji ya mafunzo ya kliniki.",
   ],
   [
-    "Swizzy shares an institutional deployment update",
-    "Swizzy yashiriki taarifa ya utekelezaji wa taasisi",
+    "Swizzy Industries shares an institutional deployment update",
+    "Swizzy Industries yashiriki taarifa ya utekelezaji wa taasisi",
   ],
   [
     "An update on partner conversations and the next phase of spatial learning pilots.",
@@ -4098,12 +4122,12 @@ export const swahiliTranslations = new Map<string, string>([
     "Nafasi shirikishi ya ubunifu kwa tukio la jamii",
   ],
   [
-    "Explore the people, places, and ideas behind Swizzy's work. Images shown are design previews; production galleries require approved media and consent.",
-    "Gundua watu, maeneo na mawazo yaliyo nyuma ya kazi ya Swizzy. Picha hizi ni vielelezo vya usanifu; matunzio ya mwisho yanahitaji picha zilizoidhinishwa na ridhaa.",
+    "Explore the people, places, and ideas behind Swizzy Industries' work. Images shown are design previews; production galleries require approved media and consent.",
+    "Gundua watu, maeneo na mawazo yaliyo nyuma ya kazi ya Swizzy Industries. Picha hizi ni vielelezo vya usanifu; matunzio ya mwisho yanahitaji picha zilizoidhinishwa na ridhaa.",
   ],
   [
-    "Partner with Swizzy to create useful immersive experiences.",
-    "Shirikiana na Swizzy kuunda uzoefu wa teknolojia ya kina wenye manufaa.",
+    "Partner with Swizzy Industries to create useful immersive experiences.",
+    "Shirikiana na Swizzy Industries kuunda uzoefu wa teknolojia ya kina wenye manufaa.",
   ],
   [
     "Build useful technology around important real-world needs.",
@@ -4138,8 +4162,8 @@ export const swahiliTranslations = new Map<string, string>([
     "Leta taaluma mbalimbali katika mazungumzo ya pamoja.",
   ],
   [
-    "Get a clearer picture of the values, collaboration, and learning that shape life at Swizzy. Specific benefits and working arrangements are confirmed by the team during hiring.",
-    "Elewa vyema maadili, ushirikiano na mafunzo yanayounda maisha Swizzy. Manufaa na mipango mahususi ya kazi huthibitishwa wakati wa kuajiri.",
+    "Get a clearer picture of the values, collaboration, and learning that shape life at Swizzy Industries. Specific benefits and working arrangements are confirmed by the team during hiring.",
+    "Elewa vyema maadili, ushirikiano na mafunzo yanayounda maisha Swizzy Industries. Manufaa na mipango mahususi ya kazi huthibitishwa wakati wa kuajiri.",
   ],
   [
     "Development expectations discussed by role.",
@@ -4219,8 +4243,8 @@ export const swahiliTranslations = new Map<string, string>([
     "Uzoefu wa mafunzo wa muda maalum wenye mradi uliofafanuliwa.",
   ],
   [
-    "Early-career development across a relevant Swizzy team.",
-    "Ukuaji wa taaluma ya mwanzo katika timu inayofaa ya Swizzy.",
+    "Early-career development across a relevant Swizzy Industries team.",
+    "Ukuaji wa taaluma ya mwanzo katika timu inayofaa ya Swizzy Industries.",
   ],
   [
     "Practical exposure for eligible Kenyan students.",
