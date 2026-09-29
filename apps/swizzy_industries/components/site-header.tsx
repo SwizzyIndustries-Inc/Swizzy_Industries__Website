@@ -185,6 +185,16 @@ function LanguageSwitcher({
   language: "en" | "sw"
   onChange: (language: "en" | "sw") => void
 }) {
+  const optionLabels = {
+    en: language === "sw" ? "Kiingereza" : "English",
+    sw: language === "sw" ? "Kiswahili" : "Swahili",
+  } as const
+
+  const optionTitles = {
+    en: language === "sw" ? "Badilisha hadi Kiingereza" : "Switch to English",
+    sw: language === "sw" ? "Badilisha hadi Kiswahili" : "Switch to Swahili",
+  } as const
+
   return (
     <div
       role="group"
@@ -196,8 +206,8 @@ function LanguageSwitcher({
           key={option}
           type="button"
           aria-pressed={language === option}
-          aria-label={option === "en" ? "English" : "Swahili"}
-          title={option === "en" ? "English" : "Kiswahili"}
+          aria-label={optionLabels[option]}
+          title={optionTitles[option]}
           onClick={() => onChange(option)}
           className={cn(
             "inline-flex h-8 min-w-9 items-center justify-center gap-1 rounded-md px-2 text-xs font-semibold transition-colors focus-visible:ring-2 focus-visible:ring-ring",
