@@ -135,15 +135,15 @@ function ProductNavigationCard({
           className={cn(
             "flex size-10 shrink-0 items-center justify-center rounded-lg",
             product.accent === "health" &&
-              "text-product-health dark:bg-product-health/15 bg-teal-tint dark:text-teal-300",
+              "bg-teal-tint text-product-health dark:bg-product-health/15 dark:text-teal-300",
             product.accent === "education" &&
-              "text-product-education dark:bg-product-education/15 bg-blue-tint dark:text-blue-300",
+              "bg-blue-tint text-product-education dark:bg-product-education/15 dark:text-blue-300",
             product.accent === "social" &&
-              "text-product-social dark:bg-product-social/15 bg-[#FCEAE6] dark:text-[#F5A08D]",
+              "bg-[#FCEAE6] text-product-social dark:bg-product-social/15 dark:text-[#F5A08D]",
             product.accent === "business" &&
-              "text-product-business dark:bg-product-business/15 bg-[#FDF6E5] dark:text-[#F5C88A]",
+              "bg-[#FDF6E5] text-product-business dark:bg-product-business/15 dark:text-[#F5C88A]",
             product.accent === "government" &&
-              "text-product-government dark:bg-product-government/15 bg-[#E8F3F9] dark:text-[#7CC0E2]"
+              "bg-[#E8F3F9] text-product-government dark:bg-product-government/15 dark:text-[#7CC0E2]"
           )}
         >
           <Icon aria-hidden="true" className="size-5" />
@@ -161,7 +161,7 @@ function ProductNavigationCard({
         href={product.zoneHref}
         className="mt-2 ml-[52px] inline-flex min-h-8 items-center gap-1 text-xs font-medium text-primary hover:text-accent-foreground focus-visible:ring-2 focus-visible:ring-teal-accent focus-visible:outline-none"
       >
-        Visit Swizzy {product.title}
+        Visit {product.title}
         <ArrowUpRight aria-hidden="true" className="size-3.5" />
       </Link>
     </article>

@@ -75,7 +75,7 @@ function MobileNavigationSection({ menuKey }: { menuKey: MegaMenuKey }) {
                     href={product.zoneHref}
                     className="ml-11 inline-flex min-h-9 items-center text-xs font-medium text-primary hover:text-accent-foreground"
                   >
-                    Visit Swizzy {product.title}
+                    Visit {product.title}
                   </Link>
                 </div>
               ))}
