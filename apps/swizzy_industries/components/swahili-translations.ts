@@ -34,6 +34,355 @@ export const swahiliTranslations = new Map<string, string>([
     "Swizzy Industries. Haki zote zimehifadhiwa.",
   ],
   ["Legal", "Sheria"],
+  ["February", "Februari"],
+  [
+    "A Kenyan deep-tech company creating practical spatial tools for critical institutions.",
+    "Kampuni ya teknolojia ya kina ya Kenya inayounda zana za anga zenye manufaa kwa taasisi muhimu.",
+  ],
+  [
+    "Clinical simulation and spatial tools designed to support healthcare teams.",
+    "Uigaji wa kliniki na zana za anga zilizoundwa kusaidia timu za afya.",
+  ],
+  [
+    "Immersive practical learning aligned to Kenyan classrooms and training needs.",
+    "Mafunzo ya vitendo ya teknolojia ya kina yanayolingana na madarasa na mahitaji ya mafunzo nchini Kenya.",
+  ],
+  [
+    "Shared digital spaces for civic connection, creativity, and cultural memory.",
+    "Nafasi za kidijitali za pamoja kwa muunganisho wa kiraia, ubunifu na kumbukumbu za utamaduni.",
+  ],
+  [
+    "We measure practical outcomes in the wards, classrooms, and communities where our systems are used.",
+    "Tunapima matokeo ya vitendo katika wodi, madarasa na jamii ambako mifumo yetu inatumika.",
+  ],
+  [
+    "Our products are built around local curricula, infrastructure, languages, and institutional priorities.",
+    "Bidhaa zetu hujengwa kulingana na mitaala, miundombinu, lugha na vipaumbele vya taasisi za eneo.",
+  ],
+  [
+    "We treat sensitive clinical, educational, and community information with care and accountability.",
+    "Tunashughulikia taarifa nyeti za kliniki, elimu na jamii kwa uangalifu na uwajibikaji.",
+  ],
+  [
+    "We work alongside clinicians, educators, engineers, and public institutions from the start.",
+    "Tunashirikiana na wataalamu wa kliniki, waelimishaji, wahandisi na taasisi za umma tangu mwanzo.",
+  ],
+  [
+    "Repeatable practice gives clinical teams space to build confidence before working with real patients and equipment.",
+    "Mazoezi yanayoweza kurudiwa huwapa timu za kliniki nafasi ya kujenga ujasiri kabla ya kufanya kazi na wagonjwa na vifaa halisi.",
+  ],
+  [
+    "Virtual laboratories make interactive science and technical modules available where physical apparatus is limited.",
+    "Maabara pepe huwezesha moduli shirikishi za sayansi na ufundi mahali ambapo vifaa halisi ni vichache.",
+  ],
+  [
+    "Spatial experiences help communities share places, stories, and heritage with people near and far.",
+    "Uzoefu wa anga husaidia jamii kushiriki maeneo, hadithi na urithi na watu walio karibu na walio mbali.",
+  ],
+  [
+    "Rooted in Nairobi, working across East Africa.",
+    "Tumejikita Nairobi, tunafanya kazi kote Afrika Mashariki.",
+  ],
+  [
+    "Health, education, and social connection.",
+    "Afya, elimu na muunganisho wa kijamii.",
+  ],
+  [
+    "Practical immersive experiences, not games.",
+    "Uzoefu wa teknolojia ya kina wenye manufaa, si michezo.",
+  ],
+  [
+    "Technology that accounts for local realities.",
+    "Teknolojia inayozingatia uhalisia wa eneo.",
+  ],
+  [
+    "Building the engineering foundations and first prototypes.",
+    "Kujenga misingi ya uhandisi na mifano ya kwanza.",
+  ],
+  [
+    "Working with healthcare teams on practical simulation.",
+    "Kushirikiana na timu za afya katika uigaji wa vitendo.",
+  ],
+  [
+    "Bringing interactive learning modules into classrooms.",
+    "Kuingiza moduli shirikishi za mafunzo madarasani.",
+  ],
+  [
+    "Growing partnerships and shared spatial experiences.",
+    "Kukuza ushirikiano na uzoefu wa pamoja wa anga.",
+  ],
+  [
+    "Tell us about the people, training, or institutional challenge you are working to support.",
+    "Tuambie kuhusu watu, mafunzo au changamoto ya taasisi unayotaka kusaidia.",
+  ],
+  [
+    "We prioritize safety, evidence, and expert review in high-stakes settings.",
+    "Tunatanguliza usalama, ushahidi na mapitio ya wataalamu katika mazingira yenye hatari kubwa.",
+  ],
+  [
+    "We focus on outcomes institutions can observe and evaluate.",
+    "Tunalenga matokeo ambayo taasisi zinaweza kuona na kutathmini.",
+  ],
+  [
+    "Access and usability should account for different places, people, and abilities.",
+    "Ufikiaji na urahisi wa matumizi vinapaswa kuzingatia maeneo, watu na uwezo tofauti.",
+  ],
+  [
+    "Reliable, maintainable systems matter more than novelty.",
+    "Mifumo ya kuaminika na inayoweza kudumishwa ni muhimu kuliko mambo mapya ya kuvutia.",
+  ],
+  [
+    "Local knowledge and ownership belong at the center of the work.",
+    "Maarifa na umiliki wa ndani vinapaswa kuwa kiini cha kazi.",
+  ],
+  [
+    "We communicate clearly, protect information, and take responsibility.",
+    "Tunawasiliana kwa uwazi, tunalinda taarifa na tunawajibika.",
+  ],
+  [
+    "The institutional compass directing our engineering, partnerships, and spatial technology deployment across Kenya.",
+    "Mwongozo wa taasisi unaoelekeza uhandisi, ushirikiano na utekelezaji wa teknolojia ya anga nchini Kenya.",
+  ],
+  [
+    "A long-term ambition for broader access.",
+    "Lengo la muda mrefu la kupanua ufikiaji.",
+  ],
+  [
+    "Curriculum-aware science and technical modules.",
+    "Moduli za sayansi na ufundi zinazozingatia mtaala.",
+  ],
+  [
+    "Community-led preservation and participation.",
+    "Uhifadhi na ushiriki unaoongozwa na jamii.",
+  ],
+  [
+    "Tibika, Elimika, and Jumuika bring spatial tools to healthcare, education, and connected communities.",
+    "Tibika, Elimika na Jumuika huleta zana za anga katika huduma za afya, elimu na jamii zilizounganishwa.",
+  ],
+  ["Safer, smarter clinical care", "Huduma salama na bora zaidi za kliniki"],
+  [
+    "Immersive tools for clinical learning, equipment training, patient education, and care-team collaboration.",
+    "Zana za teknolojia ya kina kwa mafunzo ya kliniki, mafunzo ya vifaa, elimu ya wagonjwa na ushirikiano wa timu za huduma.",
+  ],
+  [
+    "Practical learning for every learner",
+    "Mafunzo ya vitendo kwa kila mwanafunzi",
+  ],
+  [
+    "Virtual science labs, curriculum-aware learning experiences, and vocational skills practice.",
+    "Maabara pepe za sayansi, uzoefu wa mafunzo unaozingatia mtaala na mazoezi ya ujuzi wa ufundi.",
+  ],
+  [
+    "Connection and community, reimagined",
+    "Muunganisho na jamii vilivyobuniwa upya",
+  ],
+  [
+    "Shared spaces for cultural learning, community events, creative work, and civic participation.",
+    "Nafasi za pamoja za mafunzo ya utamaduni, matukio ya jamii, kazi za ubunifu na ushirikiano wa kiraia.",
+  ],
+  [
+    "Each product is shaped around the people, institutions, and daily challenges it is intended to support.",
+    "Kila bidhaa huundwa kulingana na watu, taasisi na changamoto za kila siku inayokusudiwa kusaidia.",
+  ],
+  [
+    "Data handling is considered from early scoping through deployment.",
+    "Utunzaji wa data huzingatiwa tangu hatua za awali za kupanga hadi utekelezaji.",
+  ],
+  [
+    "Work with local experts and align experiences to the right context.",
+    "Fanya kazi na wataalamu wa ndani na ulinganishe uzoefu na muktadha unaofaa.",
+  ],
+  [
+    "Plan for suitable devices, connectivity, and shared environments.",
+    "Panga vifaa vinavyofaa, muunganisho na mazingira ya pamoja.",
+  ],
+  [
+    "Help staff feel confident using the tools in day-to-day work.",
+    "Saidia wafanyakazi wajiamini wanapotumia zana hizi katika kazi za kila siku.",
+  ],
+  [
+    "Practice and technical education prepare people to do important work.",
+    "Mazoezi na elimu ya kiufundi huwaandaa watu kufanya kazi muhimu.",
+  ],
+  ["Care supports communities", "Huduma bora huimarisha jamii"],
+  [
+    "Healthy people and stronger services help communities thrive.",
+    "Watu wenye afya na huduma imara husaidia jamii kustawi.",
+  ],
+  ["Connection creates opportunity", "Muunganisho huleta fursa"],
+  [
+    "Shared knowledge links people, institutions, and ideas.",
+    "Maarifa ya pamoja huunganisha watu, taasisi na mawazo.",
+  ],
+  [
+    "Tell us about your institution and we will help you explore a suitable product or solution.",
+    "Tuambie kuhusu taasisi yako nasi tutakusaidia kuchunguza bidhaa au suluhisho linalofaa.",
+  ],
+  ["Device and platform partners", "Washirika wa vifaa na mifumo"],
+  ["Local connectivity providers", "Watoa huduma za muunganisho wa ndani"],
+  ["Clinical training partners", "Washirika wa mafunzo ya kliniki"],
+  ["Hospitals and care networks", "Hospitali na mitandao ya huduma"],
+  ["Biomedical engineering teams", "Timu za uhandisi wa vifaa tiba"],
+  [
+    "Test a defined use case with a partner cohort and clear evaluation goals.",
+    "Jaribu matumizi yaliyofafanuliwa na kundi la washirika pamoja na malengo wazi ya tathmini.",
+  ],
+  [
+    "Bring subject expertise to the design of a new immersive workflow.",
+    "Leta utaalamu wa mada katika usanifu wa mtiririko mpya wa teknolojia ya kina.",
+  ],
+  [
+    "Explore technical and delivery partnerships for the right institutions.",
+    "Chunguza ushirikiano wa kiufundi na utoaji kwa taasisi zinazofaa.",
+  ],
+  [
+    "Your email app should open with a draft. Review and send it to contact the Swizzy team.",
+    "Programu yako ya barua pepe inapaswa kufungua rasimu. Ikague na uitume ili kuwasiliana na timu ya Swizzy.",
+  ],
+  [
+    "We work with institutions and collaborators to make immersive technology useful, accessible, and grounded in local priorities.",
+    "Tunashirikiana na taasisi na washirika kufanya teknolojia ya kina iwe na manufaa, ipatikane na izingatie vipaumbele vya ndani.",
+  ],
+  [
+    "Work with teams grounded in Kenyan institutional realities.",
+    "Fanya kazi na timu zinazozingatia uhalisia wa taasisi za Kenya.",
+  ],
+  [
+    "Start with clearly scoped use cases and partner feedback.",
+    "Anza na matumizi yaliyofafanuliwa wazi na maoni ya washirika.",
+  ],
+  [
+    "Agree on useful outcomes before a project begins.",
+    "Kubalianeni kuhusu matokeo yenye manufaa kabla ya mradi kuanza.",
+  ],
+  [
+    "Bring subject specialists into design and review.",
+    "Shirikisha wataalamu wa mada katika usanifu na mapitio.",
+  ],
+  [
+    "Talk with our team about partnership fit, due diligence, or an institutional pilot.",
+    "Zungumza na timu yetu kuhusu ushirikiano, uchunguzi wa kina au jaribio la taasisi.",
+  ],
+  [
+    "We aim to support stronger learning, clinical practice, and community connection. Our impact reporting should be grounded in evidence, transparent about limitations, and developed with partners.",
+    "Tunalenga kuimarisha mafunzo, mazoezi ya kliniki na muunganisho wa jamii. Ripoti zetu za matokeo zinapaswa kutegemea ushahidi, kueleza mapungufu kwa uwazi na kuandaliwa pamoja na washirika.",
+  ],
+  [
+    "Metrics below are reporting categories, not verified outcome claims. Confirm figures and sources before publication.",
+    "Vipimo hapa chini ni makundi ya kuripoti, si madai ya matokeo yaliyothibitishwa. Thibitisha takwimu na vyanzo kabla ya kuchapisha.",
+  ],
+  [
+    "Learn about Swizzy Industries and our work in immersive technology.",
+    "Jifunze kuhusu Swizzy Industries na kazi yetu ya teknolojia ya kina.",
+  ],
+  [
+    "The principles guiding Swizzy Industries' work and partnerships.",
+    "Kanuni zinazoongoza kazi na ushirikiano wa Swizzy Industries.",
+  ],
+  [
+    "How Swizzy Industries began in Nairobi and grew its work across Kenya.",
+    "Jinsi Swizzy Industries ilivyoanza Nairobi na kupanua kazi yake nchini Kenya.",
+  ],
+  [
+    "Meet the multidisciplinary team behind Swizzy Industries.",
+    "Kutana na timu ya taaluma mbalimbali iliyo nyuma ya Swizzy Industries.",
+  ],
+  [
+    "Explore partnership opportunities with Swizzy Industries.",
+    "Chunguza fursa za ushirikiano na Swizzy Industries.",
+  ],
+  [
+    "Learn how Swizzy measures responsible impact across Kenya.",
+    "Jifunze jinsi Swizzy inavyopima matokeo yanayowajibika nchini Kenya.",
+  ],
+  [
+    "Explore the Swizzy products for health, education, and community.",
+    "Gundua bidhaa za Swizzy za afya, elimu na jamii.",
+  ],
+  [
+    "Custom immersive software for specific institutional needs.",
+    "Programu maalum za teknolojia ya kina kwa mahitaji mahususi ya taasisi.",
+  ],
+  [
+    "Plan devices, connectivity, and system integration for deployment.",
+    "Panga vifaa, muunganisho na uunganishaji wa mifumo kwa utekelezaji.",
+  ],
+  [
+    "Explore institutional immersive technology use cases.",
+    "Chunguza mifano ya matumizi ya teknolojia ya kina katika taasisi.",
+  ],
+  [
+    "Request a tailored walkthrough of Swizzy products and solutions.",
+    "Omba maelezo maalum kuhusu bidhaa na suluhisho za Swizzy.",
+  ],
+  [
+    "Browse Swizzy product information, guides, and resources.",
+    "Vinjari taarifa za bidhaa, miongozo na nyenzo za Swizzy.",
+  ],
+  [
+    "Company facts, approved brand information, and media contact.",
+    "Taarifa za kampuni, maelezo ya chapa yaliyoidhinishwa na mawasiliano ya habari.",
+  ],
+  [
+    "Explore moments from Swizzy's immersive technology work.",
+    "Gundua matukio kutoka kazi ya teknolojia ya kina ya Swizzy.",
+  ],
+  [
+    "Learn about working at Swizzy and explore opportunities.",
+    "Jifunze kuhusu kufanya kazi Swizzy na uchunguze fursa.",
+  ],
+  [
+    "Learn about life, development, and working at Swizzy.",
+    "Jifunze kuhusu maisha, ukuaji na kazi Swizzy.",
+  ],
+  [
+    "Search current opportunities at Swizzy Industries.",
+    "Tafuta fursa za sasa katika Swizzy Industries.",
+  ],
+  [
+    "Explore early-career opportunities at Swizzy Industries.",
+    "Chunguza fursa za mwanzo wa taaluma katika Swizzy Industries.",
+  ],
+  [
+    "Understand each step in the Swizzy hiring process.",
+    "Elewa kila hatua ya mchakato wa kuajiri wa Swizzy.",
+  ],
+  [
+    "Stay connected with future opportunities at Swizzy.",
+    "Endelea kufuatilia fursa zijazo za Swizzy.",
+  ],
+  [
+    "Search pages, insights, resources, and opportunities.",
+    "Tafuta kurasa, maarifa, nyenzo na fursa.",
+  ],
+  [
+    "Thank you for getting in touch with Swizzy Industries.",
+    "Asante kwa kuwasiliana na Swizzy Industries.",
+  ],
+  [
+    "How Swizzy handles personal information.",
+    "Jinsi Swizzy inavyoshughulikia taarifa binafsi.",
+  ],
+  [
+    "Terms for using Swizzy Industries websites.",
+    "Masharti ya kutumia tovuti za Swizzy Industries.",
+  ],
+  [
+    "Information about cookies and privacy choices.",
+    "Taarifa kuhusu vidakuzi na chaguo za faragha.",
+  ],
+  [
+    "Accessibility information and feedback for Swizzy Industries.",
+    "Taarifa za ufikivu na maoni kwa Swizzy Industries.",
+  ],
+  [
+    "Browse all main sections of the Swizzy Industries website.",
+    "Vinjari sehemu zote kuu za tovuti ya Swizzy Industries.",
+  ],
+  [
+    "Contact our Nairobi team about institutional deployments and partnerships.",
+    "Wasiliana na timu yetu ya Nairobi kuhusu utekelezaji wa taasisi na ushirikiano.",
+  ],
   ["Error 404", "Hitilafu 404"],
   ["We couldn't find it.", "Hatukuweza kuupata ukurasa huo."],
   [
@@ -1751,4 +2100,913 @@ export const swahiliTranslations = new Map<string, string>([
   ["Request an accommodation", "Omba marekebisho ya ufikivu"],
   ["Feedback and contact", "Maoni na mawasiliano"],
   ["Contact our data team", "Wasiliana na timu yetu ya data"],
+  [
+    "Immersive technology for safer, smarter care.",
+    "Teknolojia ya kina kwa huduma salama na bora zaidi.",
+  ],
+  [
+    "Interactive 3D virtual STEM laboratories and curriculum simulations.",
+    "Maabara pepe shirikishi za STEM za 3D na viigaji vya mtaala.",
+  ],
+  [
+    "Safe spatial environments for community, culture, and civic participation.",
+    "Mazingira salama ya anga kwa jamii, utamaduni na ushiriki wa kiraia.",
+  ],
+  [
+    "Explore immersive platforms, custom development, and deployment support.",
+    "Gundua mifumo ya teknolojia ya kina, uundaji maalum na msaada wa utekelezaji.",
+  ],
+  [
+    "Ideas on spatial computing, clinical simulation, and learning across East Africa.",
+    "Mawazo kuhusu teknolojia ya anga, uigaji wa kliniki na mafunzo Afrika Mashariki.",
+  ],
+  [
+    "Company announcements, partner updates, and media coverage.",
+    "Matangazo ya kampuni, taarifa za washirika na habari za vyombo vya habari.",
+  ],
+  [
+    "Live and on-demand sessions on immersive technology in practice.",
+    "Vipindi vya moja kwa moja na vya kutazama wakati wowote kuhusu matumizi ya teknolojia ya kina.",
+  ],
+  [
+    "Custom immersive software for specific institutional needs.",
+    "Programu maalum za teknolojia ya kina kwa mahitaji mahususi ya taasisi.",
+  ],
+  [
+    "Plan devices, connectivity, and system integration for deployment.",
+    "Panga vifaa, muunganisho na uunganishaji wa mifumo kwa utekelezaji.",
+  ],
+  [
+    "Explore institutional immersive technology use cases.",
+    "Chunguza mifano ya matumizi ya teknolojia ya kina katika taasisi.",
+  ],
+  [
+    "Request a tailored walkthrough of Swizzy products and solutions.",
+    "Omba maelezo maalum kuhusu bidhaa na suluhisho za Swizzy.",
+  ],
+  [
+    "Browse Swizzy product information, guides, and resources.",
+    "Vinjari taarifa za bidhaa, miongozo na nyenzo za Swizzy.",
+  ],
+  [
+    "Company facts, approved brand information, and media contact.",
+    "Taarifa za kampuni, maelezo ya chapa yaliyoidhinishwa na mawasiliano ya habari.",
+  ],
+  [
+    "Explore moments from Swizzy's immersive technology work.",
+    "Gundua matukio kutoka kazi ya teknolojia ya kina ya Swizzy.",
+  ],
+  [
+    "Learn about working at Swizzy and explore opportunities.",
+    "Jifunze kuhusu kufanya kazi Swizzy na uchunguze fursa.",
+  ],
+  [
+    "Learn about life, development, and working at Swizzy.",
+    "Jifunze kuhusu maisha, maendeleo na kazi Swizzy.",
+  ],
+  [
+    "Search current opportunities at Swizzy Industries.",
+    "Tafuta fursa za sasa katika Swizzy Industries.",
+  ],
+  [
+    "Explore early-career opportunities at Swizzy Industries.",
+    "Chunguza fursa za mwanzo wa taaluma katika Swizzy Industries.",
+  ],
+  [
+    "Understand each step in the Swizzy hiring process.",
+    "Elewa kila hatua ya mchakato wa kuajiri wa Swizzy.",
+  ],
+  [
+    "Stay connected with future opportunities at Swizzy.",
+    "Endelea kufuatilia fursa zijazo za Swizzy.",
+  ],
+  [
+    "Search pages, insights, resources, and opportunities.",
+    "Tafuta kurasa, maarifa, nyenzo na fursa.",
+  ],
+  [
+    "Thank you for getting in touch with Swizzy Industries.",
+    "Asante kwa kuwasiliana na Swizzy Industries.",
+  ],
+  [
+    "How Swizzy handles personal information.",
+    "Jinsi Swizzy inavyoshughulikia taarifa binafsi.",
+  ],
+  [
+    "Terms for using Swizzy Industries websites.",
+    "Masharti ya kutumia tovuti za Swizzy Industries.",
+  ],
+  [
+    "Information about cookies and privacy choices.",
+    "Taarifa kuhusu vidakuzi na chaguo za faragha.",
+  ],
+  [
+    "Accessibility information and feedback for Swizzy Industries.",
+    "Taarifa za ufikivu na maoni kwa Swizzy Industries.",
+  ],
+  [
+    "Browse all main sections of the Swizzy Industries website.",
+    "Vinjari sehemu zote kuu za tovuti ya Swizzy Industries.",
+  ],
+  [
+    "Contact our Nairobi team about institutional deployments and partnerships.",
+    "Wasiliana na timu yetu ya Nairobi kuhusu utekelezaji wa taasisi na ushirikiano.",
+  ],
+  [
+    "Your email app should open with a draft. Review and send it there to reach our team.",
+    "Programu yako ya barua pepe inapaswa kufungua rasimu. Ikague na uitume ili ujumbe ufike kwa timu yetu.",
+  ],
+  [
+    "Connect directly with our spatial engineering lab, clinical simulation advisors, and institutional deployment teams in Nairobi.",
+    "Wasiliana moja kwa moja na maabara yetu ya uhandisi wa anga, washauri wa uigaji wa kliniki na timu za utekelezaji wa taasisi Nairobi.",
+  ],
+  [
+    "We aim to respond to institutional inquiries within one business day.",
+    "Tunalenga kujibu maswali ya taasisi ndani ya siku moja ya kazi.",
+  ],
+  [
+    "Inquiry details are used to respond and route your request.",
+    "Maelezo ya swali hutumika kujibu na kuelekeza ombi lako.",
+  ],
+  [
+    "We connect you with the team closest to your institutional needs.",
+    "Tunakuunganisha na timu inayofahamu zaidi mahitaji ya taasisi yako.",
+  ],
+  [
+    "What should I include in my inquiry?",
+    "Nijumuishe nini katika swali langu?",
+  ],
+  [
+    "A short description of your audience, goals, timeline, and existing devices helps us route the conversation.",
+    "Maelezo mafupi ya hadhira, malengo, muda na vifaa vilivyopo hutusaidia kuelekeza mazungumzo.",
+  ],
+  [
+    "Can we arrange an in-person discussion?",
+    "Je, tunaweza kupanga mazungumzo ya ana kwa ana?",
+  ],
+  [
+    "Yes. Contact the team to arrange a visit or meeting in Nairobi.",
+    "Ndiyo. Wasiliana na timu kupanga ziara au mkutano Nairobi.",
+  ],
+  [
+    "Do you work with schools and hospitals outside Nairobi?",
+    "Je, mnafanya kazi na shule na hospitali zilizo nje ya Nairobi?",
+  ],
+  [
+    "Yes. We discuss connectivity, device availability, and local support as part of scoping.",
+    "Ndiyo. Tunajadili muunganisho, upatikanaji wa vifaa na msaada wa ndani wakati wa kupanga.",
+  ],
+  [
+    "How do I contact the team directly?",
+    "Ninawezaje kuwasiliana moja kwa moja na timu?",
+  ],
+  [
+    "Email info@swizzy.co.ke or call +254 (0) 20 794 3000.",
+    "Tuma barua pepe info@swizzy.co.ke au piga +254 (0) 20 794 3000.",
+  ],
+  [
+    "Scenario-based practice for clinical, technical, and operational skills.",
+    "Mazoezi ya hali halisi kwa ujuzi wa kliniki, ufundi na uendeshaji.",
+  ],
+  [
+    "Interactive product and facility walkthroughs for distributed audiences.",
+    "Maonyesho shirikishi ya bidhaa na vituo kwa hadhira iliyo maeneo tofauti.",
+  ],
+  [
+    "Guided orientation for equipment, processes, and environments.",
+    "Mwongozo wa kutumia vifaa, michakato na mazingira.",
+  ],
+  [
+    "Digital representations that support planning and shared understanding.",
+    "Miundo ya kidijitali inayosaidia mipango na uelewa wa pamoja.",
+  ],
+  [
+    "Accessible learning experiences for important community topics.",
+    "Uzoefu wa mafunzo unaofikika kuhusu mada muhimu za jamii.",
+  ],
+  [
+    "Understand users, context, and the challenge.",
+    "Elewa watumiaji, muktadha na changamoto.",
+  ],
+  [
+    "Agree on a focused experience and test the direction.",
+    "Kubalianeni kuhusu uzoefu maalum na jaribuni mwelekeo wake.",
+  ],
+  [
+    "Develop content and software with subject experts.",
+    "Tengeneza maudhui na programu pamoja na wataalamu wa mada.",
+  ],
+  [
+    "Try the solution in a real institutional setting.",
+    "Jaribu suluhisho katika mazingira halisi ya taasisi.",
+  ],
+  [
+    "Prepare teams and plan ongoing maintenance.",
+    "Andaa timu na panga matengenezo endelevu.",
+  ],
+  [
+    "We work with organizations to design and deliver custom spatial software for specific training, learning, and communication needs.",
+    "Tunashirikiana na mashirika kubuni na kutoa programu maalum za anga kwa mahitaji mahususi ya mafunzo na mawasiliano.",
+  ],
+  ["Defined use case and deliverables", "Matumizi na matokeo yaliyofafanuliwa"],
+  [
+    "Agreed timeline and review points",
+    "Ratiba na hatua za mapitio zilizokubaliwa",
+  ],
+  ["Start with a focused cohort", "Anza na kundi maalum"],
+  ["Review feedback and performance", "Kagua maoni na utendaji"],
+  [
+    "Plan next steps using evidence",
+    "Panga hatua zinazofuata kwa kutumia ushahidi",
+  ],
+  [
+    "Bring your subject experts and institutional context into the conversation.",
+    "Shirikisha wataalamu wako wa mada na muktadha wa taasisi katika mazungumzo.",
+  ],
+  ["Clinical simulation, virtual labs", "Uigaji wa kliniki na maabara pepe"],
+  ["High-detail specialist experiences", "Uzoefu maalum wenye maelezo mengi"],
+  ["Learning activities and mobile AR", "Shughuli za mafunzo na AR ya simu"],
+  [
+    "We assess your existing equipment, connectivity, and institutional systems before recommending a deployment approach.",
+    "Tunatathmini vifaa, muunganisho na mifumo ya taasisi yako kabla ya kupendekeza namna ya utekelezaji.",
+  ],
+  [
+    "Self-contained headsets for guided immersive learning and simulation.",
+    "Vifaa vya kuvaa vya kujitegemea kwa mafunzo ya kina na uigaji wenye mwongozo.",
+  ],
+  [
+    "For workflows that need additional graphics or specialist peripherals.",
+    "Kwa michakato inayohitaji michoro ya ziada au vifaa saidizi maalum.",
+  ],
+  [
+    "Accessible devices for mobile learning and augmented experiences.",
+    "Vifaa vinavyofikika kwa mafunzo ya simu na uzoefu ulioboreshwa.",
+  ],
+  [
+    "Discuss account provisioning and access requirements for your institution.",
+    "Jadili uundaji wa akaunti na mahitaji ya ufikiaji wa taasisi yako.",
+  ],
+  [
+    "Review potential data flows with your system owners before integration.",
+    "Kagua mtiririko wa data unaowezekana na wasimamizi wa mifumo kabla ya kuunganisha.",
+  ],
+  [
+    "Agree on the minimum information needed to support evaluation.",
+    "Kubalianeni kuhusu taarifa za chini kabisa zinazohitajika kwa tathmini.",
+  ],
+  [
+    "For institutions with reliable internet access and approved cloud requirements.",
+    "Kwa taasisi zenye intaneti ya kuaminika na mahitaji yaliyoidhinishwa ya wingu.",
+  ],
+  [
+    "For experiences that need to remain available within a facility or campus.",
+    "Kwa uzoefu unaopaswa kupatikana ndani ya kituo au kampasi.",
+  ],
+  [
+    "Combine online management with local access where it fits the use case.",
+    "Changanya usimamizi wa mtandaoni na ufikiaji wa ndani panapofaa.",
+  ],
+  ["Review the use case and requirements.", "Kagua matumizi na mahitaji."],
+  [
+    "Agree on device and procurement needs.",
+    "Kubalianeni kuhusu mahitaji ya vifaa na ununuzi.",
+  ],
+  [
+    "Set up devices, access, and local networking.",
+    "Sanidi vifaa, ufikiaji na mtandao wa ndani.",
+  ],
+  [
+    "Prepare educators and administrators.",
+    "Andaa waelimishaji na wasimamizi.",
+  ],
+  [
+    "Documentation and support channels for routine deployment questions.",
+    "Nyaraka na njia za msaada kwa maswali ya kawaida ya utekelezaji.",
+  ],
+  [
+    "A planned response approach for active institutional programmes.",
+    "Mpango wa majibu kwa programu zinazoendelea za taasisi.",
+  ],
+  [
+    "A support agreement scoped to your organization and operating needs.",
+    "Makubaliano ya msaada yaliyolengwa kwa shirika na mahitaji yako ya kazi.",
+  ],
+  [
+    "Our team can help assess devices, connectivity, and integration requirements.",
+    "Timu yetu inaweza kusaidia kutathmini vifaa, muunganisho na mahitaji ya uunganishaji.",
+  ],
+  ["Clinical training partner", "Mshirika wa mafunzo ya kliniki"],
+  [
+    "Outcome metrics to be confirmed with the partner.",
+    "Vipimo vya matokeo vitathibitishwa pamoja na mshirika.",
+  ],
+  ["Virtual STEM learning pilot", "Jaribio la mafunzo pepe ya STEM"],
+  [
+    "Learning measures to be confirmed with the partner.",
+    "Vipimo vya mafunzo vitathibitishwa pamoja na mshirika.",
+  ],
+  ["Shared heritage experience", "Uzoefu wa urithi wa pamoja"],
+  [
+    "Participation measures to be confirmed with the partner.",
+    "Vipimo vya ushiriki vitathibitishwa pamoja na mshirika.",
+  ],
+  [
+    "Explore how immersive technology is being considered and tested across healthcare, education, and community settings.",
+    "Chunguza jinsi teknolojia ya kina inavyofikiriwa na kujaribiwa katika afya, elimu na jamii.",
+  ],
+  [
+    "Tell us about your institution and we can scope a useful first conversation.",
+    "Tuambie kuhusu taasisi yako ili tupange mazungumzo ya kwanza yenye manufaa.",
+  ],
+  [
+    "Your email app should open with a draft. Review and send it to request your demo.",
+    "Programu yako ya barua pepe inapaswa kufungua rasimu. Ikague na uitume kuomba onyesho.",
+  ],
+  [
+    "Request a tailored walkthrough for your institution, learners, or clinical team.",
+    "Omba maelezo maalum kwa taasisi, wanafunzi au timu yako ya kliniki.",
+  ],
+  [
+    "A walkthrough tailored to your goals",
+    "Maelezo yaliyolengwa kwa malengo yako",
+  ],
+  ["Time to explore the experience", "Muda wa kuchunguza uzoefu"],
+  [
+    "A clear discussion of requirements and next steps",
+    "Mazungumzo wazi kuhusu mahitaji na hatua zinazofuata",
+  ],
+  [
+    "Our team reviews your note and follows up.",
+    "Timu yetu hukagua ujumbe wako na kuwasiliana nawe.",
+  ],
+  [
+    "We plan around your audience and goals.",
+    "Tunapanga kulingana na hadhira na malengo yako.",
+  ],
+  [
+    "Explore the experience and discuss next steps.",
+    "Chunguza uzoefu huo na jadili hatua zinazofuata.",
+  ],
+  [
+    "We use the information you choose to share to respond to your requests and operate our services responsibly.",
+    "Tunatumia taarifa unazochagua kushiriki kujibu maombi yako na kuendesha huduma zetu kwa uwajibikaji.",
+  ],
+  [
+    "Browse pages and resources by section.",
+    "Vinjari kurasa na nyenzo kulingana na sehemu.",
+  ],
+  [
+    "An overview of Swizzy Industries, its products, and institutional focus.",
+    "Muhtasari wa Swizzy Industries, bidhaa zake na mwelekeo wa taasisi.",
+  ],
+  [
+    "An introduction to Tibika and immersive clinical learning use cases.",
+    "Utangulizi wa Tibika na matumizi ya mafunzo ya kliniki ya teknolojia ya kina.",
+  ],
+  ["Intellectual and cultural sovereignty", "Uhuru wa maarifa na utamaduni"],
+  ["Institutional accountability", "Uwajibikaji wa taasisi"],
+  ["Our institutional mission", "Dhamira ya taasisi yetu"],
+  [
+    "Pan-African spatial horizon",
+    "Mwelekeo wa teknolojia ya anga Afrika nzima",
+  ],
+  [
+    "Experiences that account for varied infrastructure.",
+    "Uzoefu unaozingatia tofauti za miundombinu.",
+  ],
+  [
+    "Every simulation, data pipeline, and institutional partnership answers to these tenets.",
+    "Kila uigaji, mtiririko wa data na ushirikiano wa taasisi huzingatia kanuni hizi.",
+  ],
+  [
+    "Privacy and safety guide how we design, deploy, and support systems.",
+    "Faragha na usalama huongoza usanifu, utekelezaji na msaada wa mifumo yetu.",
+  ],
+  [
+    "Institutions and communities help shape the tools they use.",
+    "Taasisi na jamii hushiriki kuunda zana wanazotumia.",
+  ],
+  [
+    "We make progress legible through clear goals and honest evaluation.",
+    "Tunafanya maendeleo yaeleweke kupitia malengo wazi na tathmini ya uaminifu.",
+  ],
+  [
+    "Start a conversation about a responsible, locally grounded deployment.",
+    "Anzisha mazungumzo kuhusu utekelezaji unaowajibika na unaozingatia mazingira ya ndani.",
+  ],
+  [
+    "Company registration and WebXR core",
+    "Usajili wa kampuni na msingi wa WebXR",
+  ],
+  [
+    "Swizzy is established in Nairobi and begins building its browser-based spatial platform.",
+    "Swizzy inaanzishwa Nairobi na kuanza kujenga mfumo wake wa teknolojia ya anga unaotumia kivinjari.",
+  ],
+  [
+    "Clinical simulation work begins with healthcare training partners.",
+    "Kazi ya uigaji wa kliniki inaanza pamoja na washirika wa mafunzo ya afya.",
+  ],
+  [
+    "Curriculum-aligned learning modules expand into school and TVET settings.",
+    "Moduli za mafunzo zinazolingana na mtaala zinaenea shuleni na katika TVET.",
+  ],
+  ["County and community programmes", "Programu za kaunti na jamii"],
+  [
+    "Offline-first deployments and shared cultural spaces continue to grow.",
+    "Utekelezaji unaotanguliza matumizi bila intaneti na nafasi za utamaduni za pamoja zinaendelea kukua.",
+  ],
+  [
+    "How Swizzy Industries began in Nairobi and grew into an institutional spatial computing organization.",
+    "Jinsi Swizzy Industries ilivyoanza Nairobi na kukua kuwa shirika la teknolojia ya anga kwa taasisi.",
+  ],
+  [
+    "Extend access to practical learning and simulation in low-connectivity settings.",
+    "Panua ufikiaji wa mafunzo ya vitendo na uigaji katika maeneo yenye muunganisho hafifu.",
+  ],
+  [
+    "Support safe preparation for procedures and patient care.",
+    "Saidia maandalizi salama ya taratibu na huduma kwa wagonjwa.",
+  ],
+  [
+    "Help communities capture and share cultural knowledge on their terms.",
+    "Saidia jamii kuhifadhi na kushiriki maarifa ya utamaduni kwa masharti yao.",
+  ],
+  [
+    "Partner with a Nairobi team building immersive tools around local needs.",
+    "Shirikiana na timu ya Nairobi inayojenga zana za teknolojia ya kina kulingana na mahitaji ya ndani.",
+  ],
+  ["Head of Spatial Architecture", "Mkuu wa Usanifu wa Teknolojia ya Anga"],
+  [
+    "We prioritize safety, evidence, and expert review in high-stakes settings.",
+    "Tunatanguliza usalama, ushahidi na mapitio ya wataalamu katika mazingira yenye hatari kubwa.",
+  ],
+  [
+    "Leads company strategy and institutional partnerships.",
+    "Anaongoza mkakati wa kampuni na ushirikiano wa taasisi.",
+  ],
+  [
+    "Guides clinical governance and healthcare simulation.",
+    "Anaongoza usimamizi wa kliniki na uigaji wa huduma za afya.",
+  ],
+  [
+    "Connects immersive learning modules to curriculum needs.",
+    "Huunganisha moduli za mafunzo ya kina na mahitaji ya mtaala.",
+  ],
+  [
+    "Leads browser-based rendering and spatial systems.",
+    "Anaongoza uwasilishaji wa picha kupitia kivinjari na mifumo ya anga.",
+  ],
+  [
+    "VP of Field Engineering and Logistics",
+    "Makamu wa Rais wa Uhandisi wa Uwanjani na Usafirishaji",
+  ],
+  [
+    "Supports resilient deployments and hardware operations.",
+    "Husaidia utekelezaji thabiti na shughuli za vifaa.",
+  ],
+  [
+    "Works on clinical instrumentation and sensor systems.",
+    "Anafanya kazi kwenye vifaa vya kliniki na mifumo ya vitambuzi.",
+  ],
+  ["Engineering and technical education", "Uhandisi na elimu ya kiufundi"],
+  ["Curriculum and education leadership", "Uongozi wa mtaala na elimu"],
+  ["Clinical practice and governance", "Mazoezi na usimamizi wa kliniki"],
+  [
+    "Community and institutional partnerships",
+    "Ushirikiano wa jamii na taasisi",
+  ],
+  [
+    "A multidisciplinary team of engineers, clinicians, educators, and operators building practical immersive systems in Kenya.",
+    "Timu ya taaluma mbalimbali ya wahandisi, wataalamu wa kliniki, waelimishaji na waendeshaji inayojenga mifumo ya teknolojia ya kina yenye manufaa nchini Kenya.",
+  ],
+  [
+    "Locally governed work and partnerships.",
+    "Kazi na ushirikiano unaosimamiwa ndani ya nchi.",
+  ],
+  [
+    "Interoperability matters across institutions.",
+    "Uwezo wa mifumo kufanya kazi pamoja ni muhimu katika taasisi mbalimbali.",
+  ],
+  [
+    "Deployment and support close to partners.",
+    "Utekelezaji na msaada ulio karibu na washirika.",
+  ],
+  [
+    "Expert review informs high-stakes content.",
+    "Mapitio ya wataalamu huongoza maudhui yenye umuhimu mkubwa.",
+  ],
+  [
+    "Bring your institutional challenge to the people designing the solution.",
+    "Leta changamoto ya taasisi yako kwa watu wanaobuni suluhisho.",
+  ],
+  [
+    "From Rote to Spatial: Aligning 3D Physics Modules with Kenya's Competency-Based Curriculum",
+    "Kutoka kukariri hadi anga pepe: kulinganisha moduli za fizikia za 3D na mtaala wa CBC wa Kenya",
+  ],
+  [
+    "How interactive spatial activities can support active learning across junior secondary physics topics.",
+    "Jinsi shughuli shirikishi za anga zinavyoweza kusaidia mafunzo hai katika mada za fizikia za sekondari ya chini.",
+  ],
+  [
+    "Sub-12ms WebXR on 4G Rails: Overcoming Intermittent Fiber in Rural County Hospitals",
+    "WebXR ya chini ya milisekunde 12 kwenye 4G: kukabiliana na intaneti ya nyuzi inayokatika katika hospitali za vijijini",
+  ],
+  [
+    "Practical approaches to resilient immersive systems when network access varies between facilities.",
+    "Mbinu za vitendo za mifumo thabiti ya teknolojia ya kina wakati upatikanaji wa mtandao unatofautiana kati ya vituo.",
+  ],
+  [
+    "Digitizing Maasai Artifacts: Sovereign Photogrammetry and Cultural Preservation",
+    "Kuweka vitu vya Wamaasai kidijitali: upigaji picha huru wa 3D na uhifadhi wa utamaduni",
+  ],
+  [
+    "Why community participation and control belong at the centre of digital heritage work.",
+    "Kwa nini ushiriki na udhibiti wa jamii vinapaswa kuwa kiini cha kazi ya urithi wa kidijitali.",
+  ],
+  [
+    "Haptic Resistance Calibration in Neonatal Emergency Simulation",
+    "Kusawazisha upinzani wa mguso katika uigaji wa dharura za watoto wachanga",
+  ],
+  [
+    "A closer look at how clinical experts can guide the design and review of simulation scenarios.",
+    "Uchunguzi wa jinsi wataalamu wa kliniki wanavyoweza kuongoza usanifu na mapitio ya hali za uigaji.",
+  ],
+  [
+    "What Hospital Administrators Need to Know Before Investing in Spatial Headsets",
+    "Mambo ambayo wasimamizi wa hospitali wanapaswa kujua kabla ya kuwekeza kwenye vifaa vya kichwani vya anga",
+  ],
+  [
+    "Questions to ask about facility fit, staff training, content governance, and long-term support.",
+    "Maswali kuhusu kufaa kwa kituo, mafunzo ya wafanyakazi, usimamizi wa maudhui na msaada wa muda mrefu.",
+  ],
+  [
+    "EdgePod Architecture: Why Standalone Micro-Servers Beat Cloud-Only VR",
+    "Usanifu wa EdgePod: kwa nini seva ndogo za kujitegemea zinafaa zaidi kuliko VR ya wingu pekee",
+  ],
+  [
+    "A deployment note on local caching and institutional access in low-bandwidth settings.",
+    "Maelezo ya utekelezaji kuhusu akiba ya ndani na ufikiaji wa taasisi katika maeneo yenye intaneti hafifu.",
+  ],
+  [
+    "Ministry of Education initiates a county STEM spatial computing pilot",
+    "Wizara ya Elimu yaanzisha jaribio la teknolojia ya anga ya STEM katika kaunti",
+  ],
+  [
+    "A proposed rollout of virtual physics, biology, and geometry activities for technical training institutions.",
+    "Pendekezo la kusambaza shughuli pepe za fizikia, biolojia na jiometri katika taasisi za mafunzo ya kiufundi.",
+  ],
+  [
+    "How Nairobi's Swizzy Industries is rethinking medical simulation",
+    "Jinsi Swizzy Industries ya Nairobi inavyobuni upya uigaji wa matibabu",
+  ],
+  [
+    "A media feature on local immersive systems and practical clinical training needs.",
+    "Makala ya habari kuhusu mifumo ya ndani ya teknolojia ya kina na mahitaji ya mafunzo ya kliniki.",
+  ],
+  [
+    "Swizzy shares an institutional deployment update",
+    "Swizzy yashiriki taarifa ya utekelezaji wa taasisi",
+  ],
+  [
+    "An update on partner conversations and the next phase of spatial learning pilots.",
+    "Taarifa kuhusu mazungumzo ya washirika na hatua inayofuata ya majaribio ya mafunzo ya anga.",
+  ],
+  [
+    "Local engineering team presents at an immersive technology forum",
+    "Timu ya uhandisi ya ndani yawasilisha katika jukwaa la teknolojia ya kina",
+  ],
+  [
+    "A technical briefing on browser-based XR and offline-aware deployment models.",
+    "Kikao cha kiufundi kuhusu XR ya kivinjari na miundo ya utekelezaji inayozingatia matumizi bila intaneti.",
+  ],
+  [
+    "County partners explore practical virtual science laboratories",
+    "Washirika wa kaunti wachunguza maabara pepe za sayansi za vitendo",
+  ],
+  [
+    "Education stakeholders discuss ways to complement physical lab sessions with interactive modules.",
+    "Wadau wa elimu wajadili jinsi ya kukamilisha vipindi vya maabara halisi kwa moduli shirikishi.",
+  ],
+  ["Editorial and thought leadership", "Uhariri na uongozi wa mawazo"],
+  [
+    "Deep dives into spatial computing, clinical VR simulation, CBC educational tele-presence, and local technological sovereignty across East Africa.",
+    "Uchambuzi wa kina kuhusu teknolojia ya anga, uigaji wa kliniki wa VR, uwepo wa mbali katika elimu ya CBC na uhuru wa teknolojia ya ndani Afrika Mashariki.",
+  ],
+  [
+    "Talk with our team about institutional use cases, engineering requirements, and deployment.",
+    "Zungumza na timu yetu kuhusu matumizi ya taasisi, mahitaji ya uhandisi na utekelezaji.",
+  ],
+  ["Official dispatches and press", "Taarifa rasmi na habari"],
+  [
+    "Official announcements, partner updates, deployment milestones, and media coverage from Swizzy Industries.",
+    "Matangazo rasmi, taarifa za washirika, hatua za utekelezaji na habari za Swizzy Industries.",
+  ],
+  [
+    "Announcements from Swizzy Industries.",
+    "Matangazo kutoka Swizzy Industries.",
+  ],
+  [
+    "Updates from institutional collaborations.",
+    "Taarifa kutoka ushirikiano wa taasisi.",
+  ],
+  [
+    "Reporting and features about immersive technology.",
+    "Ripoti na makala kuhusu teknolojia ya kina.",
+  ],
+  [
+    "Connect with the communications team.",
+    "Wasiliana na timu ya mawasiliano.",
+  ],
+  [
+    "Follow new institutional updates and practical research from our teams.",
+    "Fuatilia taarifa mpya za taasisi na utafiti wa vitendo kutoka kwa timu zetu.",
+  ],
+  [
+    "KMPDC Clinical Simulation Masterclass: Minimally Invasive Laparoscopy in VR",
+    "Darasa kuu la uigaji wa kliniki la KMPDC: laparoskopi ya VR isiyovamizi sana",
+  ],
+  [
+    "A clinical learning session exploring procedural rehearsal and haptic interaction.",
+    "Kipindi cha mafunzo ya kliniki kuhusu mazoezi ya taratibu na mwingiliano wa mguso.",
+  ],
+  ["April 4, 2025 | 09:30 EAT", "4 Aprili 2025 | 09:30 EAT"],
+  [
+    "CBC Junior Secondary STEM: Synchronous Virtual Chemistry Labs",
+    "STEM ya CBC sekondari ya chini: maabara pepe za kemia za wakati mmoja",
+  ],
+  [
+    "A practical briefing on curriculum-aligned virtual science activities for schools.",
+    "Kikao cha vitendo kuhusu shughuli pepe za sayansi zinazoendana na mtaala wa shule.",
+  ],
+  ["April 15, 2025 | 14:00 EAT", "15 Aprili 2025 | 14:00 EAT"],
+  [
+    "East Africa HealthTech Summit 2025: Tele-surgical Haptics",
+    "Mkutano wa HealthTech Afrika Mashariki 2025: mguso wa upasuaji wa mbali",
+  ],
+  [
+    "A keynote on clinical simulation, remote collaboration, and spatial interfaces.",
+    "Hotuba kuu kuhusu uigaji wa kliniki, ushirikiano wa mbali na violesura vya anga.",
+  ],
+  ["May 8, 2025 | 10:00 EAT", "8 Mei 2025 | 10:00 EAT"],
+  [
+    "Spatial Anesthesia Planning: Pediatric VR Case Studies",
+    "Mipango ya usingizi wa upasuaji katika anga: mifano ya VR ya watoto",
+  ],
+  [
+    "On-demand session discussing virtual rehearsal for pediatric care scenarios.",
+    "Kipindi cha kutazama wakati wowote kuhusu mazoezi pepe ya huduma za watoto.",
+  ],
+  ["Recorded February 2025", "Kilirekodiwa Februari 2025"],
+  [
+    "Decentralized Spatial Campuses: Engineering Curricula",
+    "Kampasi za anga zilizogatuliwa: mitaala ya uhandisi",
+  ],
+  [
+    "A technical conversation about delivering practical learning across campuses.",
+    "Mazungumzo ya kiufundi kuhusu kutoa mafunzo ya vitendo katika kampasi mbalimbali.",
+  ],
+  ["Recorded January 2025", "Kilirekodiwa Januari 2025"],
+  [
+    "Spatial Digital Twins for County Urban Drainage",
+    "Nakala pacha za kidijitali za mifereji ya maji mijini katika kaunti",
+  ],
+  [
+    "An introduction to shared spatial models for planning and civic infrastructure.",
+    "Utangulizi wa miundo ya anga ya pamoja kwa mipango na miundombinu ya kiraia.",
+  ],
+  ["Recorded December 2024", "Kilirekodiwa Desemba 2024"],
+  [
+    "Kariuki Mwangi, Chief Executive Officer",
+    "Kariuki Mwangi, Mkurugenzi Mtendaji",
+  ],
+  [
+    "Dr. Amina Ochieng, Lead Medical Advisor",
+    "Dkt. Amina Ochieng, Mshauri Mkuu wa Tiba",
+  ],
+  [
+    "Wanjiku Njeri, Head of Spatial Architecture",
+    "Wanjiku Njeri, Mkuu wa Usanifu wa Teknolojia ya Anga",
+  ],
+  [
+    "David Kiplagat, Spatial Pedagogy Lead",
+    "David Kiplagat, Kiongozi wa Ufundishaji wa Teknolojia ya Anga",
+  ],
+  ["Impact measurement approach", "Mbinu ya kupima matokeo"],
+  [
+    "A guide to defining outcomes, data sources, and evaluation methods.",
+    "Mwongozo wa kufafanua matokeo, vyanzo vya data na mbinu za tathmini.",
+  ],
+  ["Institutional deployment guide", "Mwongozo wa utekelezaji wa taasisi"],
+  [
+    "Questions to consider when planning devices, connectivity, and support.",
+    "Maswali ya kuzingatia unapopanga vifaa, muunganisho na msaada.",
+  ],
+  ["Community experience overview", "Muhtasari wa uzoefu wa jamii"],
+  [
+    "An introduction to Jumuika and shared spatial experiences.",
+    "Utangulizi wa Jumuika na uzoefu wa anga wa pamoja.",
+  ],
+  [
+    "Explore company information, product overviews, practical guides, and methodology notes.",
+    "Gundua taarifa za kampuni, muhtasari wa bidhaa, miongozo ya vitendo na maelezo ya mbinu.",
+  ],
+  [
+    "Who we are, what we build, and the institutions we work with.",
+    "Sisi ni nani, tunachojenga na taasisi tunazoshirikiana nazo.",
+  ],
+  [
+    "An introduction to clinical simulation and healthcare learning.",
+    "Utangulizi wa uigaji wa kliniki na mafunzo ya afya.",
+  ],
+  [
+    "A practical guide to scoping device, network, and support needs.",
+    "Mwongozo wa vitendo wa kupanga mahitaji ya vifaa, mtandao na msaada.",
+  ],
+  [
+    "Clinical simulation overview and deployment questions.",
+    "Muhtasari wa uigaji wa kliniki na maswali ya utekelezaji.",
+  ],
+  [
+    "Education product overview and classroom planning.",
+    "Muhtasari wa bidhaa za elimu na mipango ya darasani.",
+  ],
+  [
+    "Company profile and collaboration information.",
+    "Wasifu wa kampuni na taarifa za ushirikiano.",
+  ],
+  [
+    "Tell us which documents or information would help your team.",
+    "Tuambie ni nyaraka au taarifa gani zitasaidia timu yako.",
+  ],
+  ["Tibika, Elimika, and Jumuika", "Tibika, Elimika na Jumuika"],
+  [
+    "Swizzy Industries is a Kenya-based technology company developing immersive tools for health, education, and community.",
+    "Swizzy Industries ni kampuni ya teknolojia yenye makao Kenya inayounda zana za kina kwa afya, elimu na jamii.",
+  ],
+  [
+    "Find approved company facts and request current brand assets for editorial, event, and partnership use.",
+    "Pata taarifa za kampuni zilizoidhinishwa na uombe rasilimali za sasa za chapa kwa matumizi ya uhariri, matukio na ushirikiano.",
+  ],
+  ["Clinical simulation learning", "Mafunzo ya uigaji wa kliniki"],
+  ["Spatial technology in practice", "Teknolojia ya anga kwa vitendo"],
+  [
+    "Trainee examining a three-dimensional medical simulation",
+    "Mwanafunzi akichunguza uigaji wa matibabu wa pande tatu",
+  ],
+  ["Engineering for local contexts", "Uhandisi kwa mazingira ya ndani"],
+  [
+    "Engineering equipment used in a spatial technology lab",
+    "Vifaa vya uhandisi vinavyotumika katika maabara ya teknolojia ya anga",
+  ],
+  ["Learning through immersive science", "Mafunzo kupitia sayansi ya kina"],
+  [
+    "Learners exploring an immersive science lesson",
+    "Wanafunzi wakichunguza somo la sayansi ya kina",
+  ],
+  ["Community and creative spaces", "Nafasi za jamii na ubunifu"],
+  [
+    "A collaborative creative space for a community event",
+    "Nafasi shirikishi ya ubunifu kwa tukio la jamii",
+  ],
+  [
+    "Explore the people, places, and ideas behind Swizzy's work. Images shown are design previews; production galleries require approved media and consent.",
+    "Gundua watu, maeneo na mawazo yaliyo nyuma ya kazi ya Swizzy. Picha hizi ni vielelezo vya usanifu; matunzio ya mwisho yanahitaji picha zilizoidhinishwa na ridhaa.",
+  ],
+  [
+    "Partner with Swizzy to create useful immersive experiences.",
+    "Shirikiana na Swizzy kuunda uzoefu wa teknolojia ya kina wenye manufaa.",
+  ],
+  [
+    "Build useful technology around important real-world needs.",
+    "Jenga teknolojia yenye manufaa inayoshughulikia mahitaji muhimu ya maisha halisi.",
+  ],
+  [
+    "Learn across engineering, clinical practice, and education.",
+    "Jifunze katika uhandisi, kliniki na elimu.",
+  ],
+  [
+    "Work with colleagues and institutional partners.",
+    "Fanya kazi na wafanyakazi wenzako na taasisi washirika.",
+  ],
+  [
+    "Help shape technology in the communities where it is used.",
+    "Saidia kuunda teknolojia katika jamii ambamo inatumika.",
+  ],
+  [
+    "Join a multidisciplinary team building immersive tools for health, education, and community. Explore the work, our values, and future opportunities.",
+    "Jiunge na timu ya taaluma mbalimbali inayojenga zana za kina kwa afya, elimu na jamii. Gundua kazi, maadili na fursa zijazo.",
+  ],
+  [
+    "Prototype, learn from feedback, and improve the work.",
+    "Tengeneza mfano, jifunze kutokana na maoni na boresha kazi.",
+  ],
+  [
+    "Spend time understanding the places and people involved.",
+    "Tenga muda kuelewa maeneo na watu wanaohusika.",
+  ],
+  [
+    "Bring different disciplines into the same conversation.",
+    "Leta taaluma mbalimbali katika mazungumzo ya pamoja.",
+  ],
+  [
+    "Get a clearer picture of the values, collaboration, and learning that shape life at Swizzy. Specific benefits and working arrangements are confirmed by the team during hiring.",
+    "Elewa vyema maadili, ushirikiano na mafunzo yanayounda maisha Swizzy. Manufaa na mipango mahususi ya kazi huthibitishwa wakati wa kuajiri.",
+  ],
+  [
+    "Development expectations discussed by role.",
+    "Matarajio ya maendeleo hujadiliwa kulingana na nafasi.",
+  ],
+  [
+    "Work model confirmed for each position.",
+    "Mfumo wa kazi huthibitishwa kwa kila nafasi.",
+  ],
+  [
+    "Role-relevant equipment discussed during hiring.",
+    "Vifaa vinavyohusiana na nafasi hujadiliwa wakati wa kuajiri.",
+  ],
+  [
+    "Policies shared during the hiring process.",
+    "Sera hushirikiwa wakati wa mchakato wa kuajiri.",
+  ],
+  [
+    "Opportunities to learn across teams.",
+    "Fursa za kujifunza katika timu mbalimbali.",
+  ],
+  [
+    "Ways to collaborate in person and remotely.",
+    "Njia za kushirikiana ana kwa ana na kwa mbali.",
+  ],
+  [
+    "Opportunities to work alongside local partners.",
+    "Fursa za kufanya kazi pamoja na washirika wa ndani.",
+  ],
+  [
+    "Align on priorities and partner needs.",
+    "Kubalianeni kuhusu vipaumbele na mahitaji ya washirika.",
+  ],
+  [
+    "Work through a design, technical, or delivery challenge.",
+    "Shughulikia changamoto ya usanifu, kiufundi au utoaji.",
+  ],
+  [
+    "Share progress with colleagues and subject experts.",
+    "Shiriki maendeleo na wafanyakazi wenzako pamoja na wataalamu wa mada.",
+  ],
+  [
+    "Capture feedback and plan the next step.",
+    "Kusanya maoni na panga hatua inayofuata.",
+  ],
+  [
+    "Knowledge sharing and role-relevant development support better work.",
+    "Kushiriki maarifa na maendeleo yanayohusiana na nafasi huboresha kazi.",
+  ],
+  [
+    "We aim to create space for people with different disciplines and experiences.",
+    "Tunalenga kuweka nafasi kwa watu wenye taaluma na uzoefu tofauti.",
+  ],
+  [
+    "Hiring and team processes should be transparent and respectful.",
+    "Michakato ya kuajiri na ya timu inapaswa kuwa wazi na yenye heshima.",
+  ],
+  ["Partner learning sessions", "Vipindi vya mafunzo na washirika"],
+  [
+    "Explore published roles or contact us about future opportunities.",
+    "Gundua nafasi zilizochapishwa au wasiliana nasi kuhusu fursa zijazo.",
+  ],
+  [
+    "Explore current opportunities to build immersive technology with a team rooted in local needs.",
+    "Gundua fursa za sasa za kujenga teknolojia ya kina pamoja na timu inayozingatia mahitaji ya ndani.",
+  ],
+  [
+    "Join our talent community to stay connected with future opportunities.",
+    "Jiunge na jumuiya yetu ya vipaji kufuatilia fursa zijazo.",
+  ],
+  [
+    "Explore ways students and recent graduates may build experience across engineering, design, healthcare, and education technology.",
+    "Gundua jinsi wanafunzi na wahitimu wapya wanavyoweza kupata uzoefu katika uhandisi, usanifu, afya na teknolojia ya elimu.",
+  ],
+  [
+    "A time-bound learning experience with a scoped project.",
+    "Uzoefu wa mafunzo wa muda maalum wenye mradi uliofafanuliwa.",
+  ],
+  [
+    "Early-career development across a relevant Swizzy team.",
+    "Ukuaji wa taaluma ya mwanzo katika timu inayofaa ya Swizzy.",
+  ],
+  [
+    "Practical exposure for eligible Kenyan students.",
+    "Uzoefu wa vitendo kwa wanafunzi wa Kenya wanaostahiki.",
+  ],
+  [
+    "Software, device integration, and spatial systems.",
+    "Programu, uunganishaji wa vifaa na mifumo ya anga.",
+  ],
+  [
+    "Research, interaction design, and 3D content.",
+    "Utafiti, usanifu wa mwingiliano na maudhui ya 3D.",
+  ],
+  [
+    "Clinical workflows, simulation, and subject review.",
+    "Mtiririko wa kliniki, uigaji na mapitio ya mada.",
+  ],
 ])
