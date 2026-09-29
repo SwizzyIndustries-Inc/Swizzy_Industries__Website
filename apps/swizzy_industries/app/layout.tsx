@@ -18,6 +18,11 @@ const fontMono = Geist_Mono({
   variable: "--font-mono",
 })
 
+export const metadata: Metadata = {
+  title: "Swizzy Industries | Building the future, together",
+  description: "Innovative solutions for a better tomorrow.",
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{

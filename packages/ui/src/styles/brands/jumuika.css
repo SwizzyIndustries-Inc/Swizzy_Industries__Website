@@ -1,0 +1,55 @@
+/* Jumuika — VR social platform bringing people together.
+   Source: JUMUIKA_SCREENS.md, Section 3.2. */
+:root[data-brand="jumuika"] {
+  --background: #ffffff;
+  --foreground: #241819;
+  --card: #ffffff;
+  --card-foreground: #241819;
+  --popover: #ffffff;
+  --popover-foreground: #241819;
+  --primary: #e8735a;
+  --primary-foreground: #ffffff;
+  --secondary: #efebfb;
+  --secondary-foreground: #4a3aa8;
+  --muted: #fbf6f5;
+  --muted-foreground: #7a6864;
+  --accent: #fbf6f5;
+  --accent-foreground: #e8735a;
+  --destructive: #d64545;
+  --border: #f1e2de;
+  --input: #f1e2de;
+  --ring: rgba(122, 95, 217, 0.6);
+  --chart-1: #3a5bd9;
+  --chart-2: #f2a63b;
+  --chart-3: #0e9f8e;
+  --chart-4: #d9527a;
+  --chart-5: #7a5fd9;
+  --sidebar: #fbf6f5;
+  --sidebar-foreground: #241819;
+  --sidebar-primary: #e8735a;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #fbeae6;
+  --sidebar-accent-foreground: #e8735a;
+  --sidebar-border: #f1e2de;
+  --sidebar-ring: rgba(122, 95, 217, 0.6);
+
+  --cloud-border: #f1e2de;
+  --mist-bg: #fbf6f5;
+  --ink-text: #241819;
+  --slate-body: #4a3936;
+  --slate-muted: #7a6864;
+  --feedback-success: #1e9e6a;
+  --feedback-warning: #e0a100;
+  --feedback-error: #d64545;
+
+  --jumuika-coral: #e8735a;
+  --jumuika-coral-hover: #cf5c44;
+  --jumuika-coral-tint: #fbeae6;
+  --jumuika-violet: #7a5fd9;
+  --jumuika-violet-tint: #efebfb;
+  --space-family: #3a5bd9;
+  --space-diaspora: #f2a63b;
+  --space-interest: #0e9f8e;
+  --space-events: #d9527a;
+  --live-indicator: #7a5fd9;
+}

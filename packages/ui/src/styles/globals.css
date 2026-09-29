@@ -2,16 +2,31 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
+/* Brand overrides — each file below only contains a :root[data-brand="..."]
+   block that redefines the CSS custom properties declared as defaults in
+   this file's :root block. Set data-brand on <html> in each app's root
+   layout (e.g. <html data-brand="elimika">) to switch brands. Swizzy
+   Industries is the default and needs no attribute. */
+@import "./brands/elimika.css";
+@import "./brands/tibika.css";
+@import "./brands/wajibika.css";
+@import "./brands/nufaika.css";
+@import "./brands/jumuika.css";
+
 @custom-variant dark (&:is(.dark *));
 @source "../../../apps/**/*.{ts,tsx}";
 @source "../../../components/**/*.{ts,tsx}";
 @source "../**/*.{ts,tsx}";
 
 @theme inline {
-  /* Typography: Plus Jakarta Sans for headings, Inter for body/inputs/labels */
+  /* Typography: Plus Jakarta Sans for headings, Inter for body/inputs/labels
+     — shared across every brand in the family. */
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-heading: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
 
+  /* Core shadcn semantic tokens — every brand file below redefines the
+     underlying --primary, --secondary, etc. custom properties; these just
+     wire them up to Tailwind utility classes. */
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -44,34 +59,93 @@
   --color-foreground: var(--foreground);
   --color-background: var(--background);
 
-  /* Brand tokens from DESIGN.md (usable as bg-navy-deep, text-product-health, etc.) */
-  --color-navy-deep: #0a1f44;
-  --color-blue-primary: #1b5fc1;
-  --color-blue-hover: #154c9b;
-  --color-blue-tint: #e4eefb;
-  --color-teal-accent: #12a5b4;
-  --color-teal-tint: #ddf3f5;
-  --color-savannah-amber: #f2a63b;
-  --color-cloud-border: #e6ecf4;
-  --color-mist-bg: #f5f8fc;
-  --color-ink-text: #0f172a;
-  --color-slate-body: #334155;
-  --color-slate-muted: #64748b;
-  --color-product-health: #0e9f8e;
-  --color-product-education: #3a5bd9;
-  --color-product-social: #e8735a;
-  --color-product-business: #f5c88a;
-  --color-product-government: #7cc0e2;
-  --color-feedback-success: #1e9e6a;
-  --color-feedback-warning: #e0a100;
-  --color-feedback-error: #d64545;
+  /* Shared conceptual neutrals — same names across every brand, different
+     hex per brand, set inside each brand's :root[data-brand] block. */
+  --color-cloud-border: var(--cloud-border);
+  --color-mist-bg: var(--mist-bg);
+  --color-ink-text: var(--ink-text);
+  --color-slate-body: var(--slate-body);
+  --color-slate-muted: var(--slate-muted);
+  --color-feedback-success: var(--feedback-success);
+  --color-feedback-warning: var(--feedback-warning);
+  --color-feedback-error: var(--feedback-error);
 
-  /* Elevation: low (resting), medium (hover/sticky), high (menus/modals) */
+  /* Swizzy Industries brand tokens (DESIGN.md) */
+  --color-navy-deep: var(--navy-deep, transparent);
+  --color-blue-primary: var(--blue-primary, transparent);
+  --color-blue-hover: var(--blue-hover, transparent);
+  --color-blue-tint: var(--blue-tint, transparent);
+  --color-teal-accent: var(--teal-accent, transparent);
+  --color-teal-tint: var(--teal-tint, transparent);
+  --color-savannah-amber: var(--savannah-amber, transparent);
+  --color-product-health: var(--product-health, transparent);
+  --color-product-education: var(--product-education, transparent);
+  --color-product-social: var(--product-social, transparent);
+  --color-product-business: var(--product-business, transparent);
+  --color-product-government: var(--product-government, transparent);
+
+  /* Elimika brand tokens (ELIMIKA_SCREENS.md) */
+  --color-elimika-indigo: var(--elimika-indigo, transparent);
+  --color-elimika-indigo-hover: var(--elimika-indigo-hover, transparent);
+  --color-elimika-indigo-tint: var(--elimika-indigo-tint, transparent);
+  --color-elimika-gold: var(--elimika-gold, transparent);
+  --color-elimika-gold-tint: var(--elimika-gold-tint, transparent);
+  --color-track-k12: var(--track-k12, transparent);
+  --color-track-highered: var(--track-highered, transparent);
+  --color-track-tvet: var(--track-tvet, transparent);
+  --color-track-educator: var(--track-educator, transparent);
+
+  /* Tibika brand tokens (TIBIKA_SCREENS.md) */
+  --color-tibika-teal: var(--tibika-teal, transparent);
+  --color-tibika-teal-hover: var(--tibika-teal-hover, transparent);
+  --color-tibika-teal-tint: var(--tibika-teal-tint, transparent);
+  --color-tibika-navy: var(--tibika-navy, transparent);
+  --color-domain-clinical: var(--domain-clinical, transparent);
+  --color-domain-research: var(--domain-research, transparent);
+  --color-domain-wellbeing: var(--domain-wellbeing, transparent);
+
+  /* Wajibika brand tokens (WAJIBIKA_SCREENS.md) */
+  --color-wajibika-maroon: var(--wajibika-maroon, transparent);
+  --color-wajibika-maroon-hover: var(--wajibika-maroon-hover, transparent);
+  --color-wajibika-maroon-tint: var(--wajibika-maroon-tint, transparent);
+  --color-wajibika-ochre: var(--wajibika-ochre, transparent);
+  --color-wajibika-ochre-tint: var(--wajibika-ochre-tint, transparent);
+  --color-issue-economy: var(--issue-economy, transparent);
+  --color-issue-governance: var(--issue-governance, transparent);
+  --color-issue-social: var(--issue-social, transparent);
+  --color-issue-community: var(--issue-community, transparent);
+
+  /* Nufaika brand tokens (NUFAIKA_SCREENS.md) */
+  --color-nufaika-green: var(--nufaika-green, transparent);
+  --color-nufaika-green-hover: var(--nufaika-green-hover, transparent);
+  --color-nufaika-green-tint: var(--nufaika-green-tint, transparent);
+  --color-nufaika-amber: var(--nufaika-amber, transparent);
+  --color-nufaika-amber-tint: var(--nufaika-amber-tint, transparent);
+  --color-cat-home: var(--cat-home, transparent);
+  --color-cat-skills: var(--cat-skills, transparent);
+  --color-cat-business: var(--cat-business, transparent);
+  --color-cat-creative: var(--cat-creative, transparent);
+  --color-cat-care: var(--cat-care, transparent);
+
+  /* Jumuika brand tokens (JUMUIKA_SCREENS.md) */
+  --color-jumuika-coral: var(--jumuika-coral, transparent);
+  --color-jumuika-coral-hover: var(--jumuika-coral-hover, transparent);
+  --color-jumuika-coral-tint: var(--jumuika-coral-tint, transparent);
+  --color-jumuika-violet: var(--jumuika-violet, transparent);
+  --color-jumuika-violet-tint: var(--jumuika-violet-tint, transparent);
+  --color-space-family: var(--space-family, transparent);
+  --color-space-diaspora: var(--space-diaspora, transparent);
+  --color-space-interest: var(--space-interest, transparent);
+  --color-space-events: var(--space-events, transparent);
+  --color-live-indicator: var(--live-indicator, transparent);
+
+  /* Elevation: low (resting), medium (hover/sticky), high (menus/modals)
+     — shared across every brand. */
   --shadow-low: 0 1px 2px rgba(15, 23, 42, 0.06);
   --shadow-medium: 0 8px 24px rgba(15, 23, 42, 0.08);
   --shadow-high: 0 24px 48px rgba(15, 23, 42, 0.12);
 
-  /* Radius: --radius is the 12px signature (buttons, cards) */
+  /* Radius: --radius is the 12px signature (buttons, cards), shared. */
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -81,7 +155,12 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-:root {
+/* ============================================================
+   Swizzy Industries — default brand (no data-brand attribute
+   needed; also matches data-brand="swizzy" explicitly)
+   ============================================================ */
+:root,
+:root[data-brand="swizzy"] {
   --background: #ffffff;
   --foreground: #0f172a;
   --card: #ffffff;
@@ -114,6 +193,28 @@
   --sidebar-accent-foreground: #1b5fc1;
   --sidebar-border: #e6ecf4;
   --sidebar-ring: rgba(18, 165, 180, 0.6);
+
+  --cloud-border: #e6ecf4;
+  --mist-bg: #f5f8fc;
+  --ink-text: #0f172a;
+  --slate-body: #334155;
+  --slate-muted: #64748b;
+  --feedback-success: #1e9e6a;
+  --feedback-warning: #e0a100;
+  --feedback-error: #d64545;
+
+  --navy-deep: #0a1f44;
+  --blue-primary: #1b5fc1;
+  --blue-hover: #154c9b;
+  --blue-tint: #e4eefb;
+  --teal-accent: #12a5b4;
+  --teal-tint: #ddf3f5;
+  --savannah-amber: #f2a63b;
+  --product-health: #0e9f8e;
+  --product-education: #3a5bd9;
+  --product-social: #e8735a;
+  --product-business: #f5c88a;
+  --product-government: #7cc0e2;
 }
 
 .dark {

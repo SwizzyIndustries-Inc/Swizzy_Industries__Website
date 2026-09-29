@@ -1,0 +1,52 @@
+/* Tibika — VR medical training & research brand.
+   Source: TIBIKA_SCREENS.md, Section 3.2. */
+:root[data-brand="tibika"] {
+  --background: #ffffff;
+  --foreground: #0b1b2b;
+  --card: #ffffff;
+  --card-foreground: #0b1b2b;
+  --popover: #ffffff;
+  --popover-foreground: #0b1b2b;
+  --primary: #0e9f8e;
+  --primary-foreground: #ffffff;
+  --secondary: #dff6f2;
+  --secondary-foreground: #0b7f72;
+  --muted: #f4f9f8;
+  --muted-foreground: #647178;
+  --accent: #f4f9f8;
+  --accent-foreground: #0e9f8e;
+  --destructive: #d64545;
+  --border: #dceae7;
+  --input: #dceae7;
+  --ring: rgba(14, 159, 142, 0.6);
+  --chart-1: #0e9f8e;
+  --chart-2: #3a5bd9;
+  --chart-3: #6c4fd9;
+  --chart-4: #0a2a44;
+  --chart-5: #1e9e6a;
+  --sidebar: #f4f9f8;
+  --sidebar-foreground: #0b1b2b;
+  --sidebar-primary: #0e9f8e;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #dff6f2;
+  --sidebar-accent-foreground: #0e9f8e;
+  --sidebar-border: #dceae7;
+  --sidebar-ring: rgba(14, 159, 142, 0.6);
+
+  --cloud-border: #dceae7;
+  --mist-bg: #f4f9f8;
+  --ink-text: #0b1b2b;
+  --slate-body: #33424a;
+  --slate-muted: #647178;
+  --feedback-success: #1e9e6a;
+  --feedback-warning: #e0a100;
+  --feedback-error: #d64545;
+
+  --tibika-teal: #0e9f8e;
+  --tibika-teal-hover: #0b7f72;
+  --tibika-teal-tint: #dff6f2;
+  --tibika-navy: #0a2a44;
+  --domain-clinical: #0e9f8e;
+  --domain-research: #3a5bd9;
+  --domain-wellbeing: #6c4fd9;
+}

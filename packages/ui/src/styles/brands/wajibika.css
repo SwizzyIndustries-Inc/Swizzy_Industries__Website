@@ -1,0 +1,54 @@
+/* Wajibika — civic advocacy & accountability platform.
+   Source: WAJIBIKA_SCREENS.md, Section 3.2. */
+:root[data-brand="wajibika"] {
+  --background: #ffffff;
+  --foreground: #241417;
+  --card: #ffffff;
+  --card-foreground: #241417;
+  --popover: #ffffff;
+  --popover-foreground: #241417;
+  --primary: #7a2331;
+  --primary-foreground: #ffffff;
+  --secondary: #fbeedd;
+  --secondary-foreground: #8a5320;
+  --muted: #faf5f4;
+  --muted-foreground: #7a666a;
+  --accent: #faf5f4;
+  --accent-foreground: #7a2331;
+  --destructive: #d64545;
+  --border: #eadddb;
+  --input: #eadddb;
+  --ring: rgba(217, 140, 58, 0.6);
+  --chart-1: #1e8f6b;
+  --chart-2: #3a5bd9;
+  --chart-3: #e8735a;
+  --chart-4: #8c5fd9;
+  --chart-5: #d98c3a;
+  --sidebar: #faf5f4;
+  --sidebar-foreground: #241417;
+  --sidebar-primary: #7a2331;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f5e6e8;
+  --sidebar-accent-foreground: #7a2331;
+  --sidebar-border: #eadddb;
+  --sidebar-ring: rgba(217, 140, 58, 0.6);
+
+  --cloud-border: #eadddb;
+  --mist-bg: #faf5f4;
+  --ink-text: #241417;
+  --slate-body: #4a3438;
+  --slate-muted: #7a666a;
+  --feedback-success: #1e9e6a;
+  --feedback-warning: #e0a100;
+  --feedback-error: #d64545;
+
+  --wajibika-maroon: #7a2331;
+  --wajibika-maroon-hover: #611b27;
+  --wajibika-maroon-tint: #f5e6e8;
+  --wajibika-ochre: #d98c3a;
+  --wajibika-ochre-tint: #fbeedd;
+  --issue-economy: #1e8f6b;
+  --issue-governance: #3a5bd9;
+  --issue-social: #e8735a;
+  --issue-community: #8c5fd9;
+}

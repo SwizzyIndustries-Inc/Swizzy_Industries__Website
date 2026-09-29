@@ -1,0 +1,55 @@
+/* Nufaika — services marketplace & economic-empowerment platform.
+   Source: NUFAIKA_SCREENS.md, Section 3.2. */
+:root[data-brand="nufaika"] {
+  --background: #ffffff;
+  --foreground: #0f1f17;
+  --card: #ffffff;
+  --card-foreground: #0f1f17;
+  --popover: #ffffff;
+  --popover-foreground: #0f1f17;
+  --primary: #1e8f5c;
+  --primary-foreground: #ffffff;
+  --secondary: #fcf1dc;
+  --secondary-foreground: #8a5c10;
+  --muted: #f5faf6;
+  --muted-foreground: #647568;
+  --accent: #f5faf6;
+  --accent-foreground: #1e8f5c;
+  --destructive: #d64545;
+  --border: #dfefe3;
+  --input: #dfefe3;
+  --ring: rgba(242, 166, 59, 0.6);
+  --chart-1: #3a5bd9;
+  --chart-2: #6c4fd9;
+  --chart-3: #0e9f8e;
+  --chart-4: #e8735a;
+  --chart-5: #d9527a;
+  --sidebar: #f5faf6;
+  --sidebar-foreground: #0f1f17;
+  --sidebar-primary: #1e8f5c;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #e4f5ec;
+  --sidebar-accent-foreground: #1e8f5c;
+  --sidebar-border: #dfefe3;
+  --sidebar-ring: rgba(242, 166, 59, 0.6);
+
+  --cloud-border: #dfefe3;
+  --mist-bg: #f5faf6;
+  --ink-text: #0f1f17;
+  --slate-body: #33463b;
+  --slate-muted: #647568;
+  --feedback-success: #1e9e6a;
+  --feedback-warning: #e0a100;
+  --feedback-error: #d64545;
+
+  --nufaika-green: #1e8f5c;
+  --nufaika-green-hover: #166e47;
+  --nufaika-green-tint: #e4f5ec;
+  --nufaika-amber: #f2a63b;
+  --nufaika-amber-tint: #fcf1dc;
+  --cat-home: #3a5bd9;
+  --cat-skills: #6c4fd9;
+  --cat-business: #0e9f8e;
+  --cat-creative: #e8735a;
+  --cat-care: #d9527a;
+}

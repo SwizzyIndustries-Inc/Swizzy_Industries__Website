@@ -1,0 +1,54 @@
+/* Elimika Foundation — VR/AR/AI education brand.
+   Source: ELIMIKA_SCREENS.md, Section 3.2. */
+:root[data-brand="elimika"] {
+  --background: #ffffff;
+  --foreground: #12132b;
+  --card: #ffffff;
+  --card-foreground: #12132b;
+  --popover: #ffffff;
+  --popover-foreground: #12132b;
+  --primary: #3a3bd9;
+  --primary-foreground: #ffffff;
+  --secondary: #fcf1dc;
+  --secondary-foreground: #8a5c10;
+  --muted: #f7f8ff;
+  --muted-foreground: #6b6d87;
+  --accent: #f7f8ff;
+  --accent-foreground: #3a3bd9;
+  --destructive: #d64545;
+  --border: #e4e5f5;
+  --input: #e4e5f5;
+  --ring: rgba(58, 59, 217, 0.6);
+  --chart-1: #3a5bd9;
+  --chart-2: #6c4fd9;
+  --chart-3: #1e8f6b;
+  --chart-4: #d97a3a;
+  --chart-5: #f2b33b;
+  --sidebar: #f7f8ff;
+  --sidebar-foreground: #12132b;
+  --sidebar-primary: #3a3bd9;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #e9e9fb;
+  --sidebar-accent-foreground: #3a3bd9;
+  --sidebar-border: #e4e5f5;
+  --sidebar-ring: rgba(58, 59, 217, 0.6);
+
+  --cloud-border: #e4e5f5;
+  --mist-bg: #f7f8ff;
+  --ink-text: #12132b;
+  --slate-body: #3a3c55;
+  --slate-muted: #6b6d87;
+  --feedback-success: #1e9e6a;
+  --feedback-warning: #e0a100;
+  --feedback-error: #d64545;
+
+  --elimika-indigo: #3a3bd9;
+  --elimika-indigo-hover: #2e2ead;
+  --elimika-indigo-tint: #e9e9fb;
+  --elimika-gold: #f2b33b;
+  --elimika-gold-tint: #fcf1dc;
+  --track-k12: #3a5bd9;
+  --track-highered: #6c4fd9;
+  --track-tvet: #1e8f6b;
+  --track-educator: #d97a3a;
+}
