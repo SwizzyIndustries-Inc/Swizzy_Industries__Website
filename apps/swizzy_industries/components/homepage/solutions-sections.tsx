@@ -18,7 +18,7 @@ import {
   SectionHeading,
 } from "@/components/homepage/shared"
 
-type Pillar = {
+type Product = {
   title: string
   category: string
   description: string
@@ -30,10 +30,10 @@ type Pillar = {
   tint: string
 }
 
-const pillars: Pillar[] = [
+const products: Product[] = [
   {
     title: "Clinical simulation",
-    category: "Health pillar",
+    category: "Tibika | Health",
     description:
       "Immersive spatial software for medical training, ventilator practice, and repeatable surgical drills without risk to patients or expensive equipment.",
     points: [
@@ -41,15 +41,15 @@ const pillars: Pillar[] = [
       "Repeatable emergency procedure practice",
       "Patient telemetry and anatomical education",
     ],
-    href: "/pillars/health",
-    action: "Visit health site",
+    href: "/products/tibika",
+    action: "Explore Tibika",
     Icon: HeartPulse,
     color: "text-product-health",
     tint: "bg-teal-tint",
   },
   {
     title: "Virtual STEM labs",
-    category: "Education pillar",
+    category: "Elimika | Education",
     description:
       "Decentralized curriculum delivery equips classrooms across Kenya with rich physics, chemistry, and technical modules aligned to the CBC standard.",
     points: [
@@ -57,15 +57,15 @@ const pillars: Pillar[] = [
       "National CBC curriculum integration",
       "Educator performance and score tracking",
     ],
-    href: "/pillars/education",
-    action: "Visit education site",
+    href: "/products/elimika",
+    action: "Explore Elimika",
     Icon: GraduationCap,
     color: "text-product-education",
     tint: "bg-blue-tint",
   },
   {
     title: "Pan-African spaces",
-    category: "Socialization pillar",
+    category: "Jumuika | Socialization",
     description:
       "Connect regional creators, youth, and the global African diaspora in safe, moderated shared spaces celebrating culture, art, and civic progress.",
     points: [
@@ -73,15 +73,15 @@ const pillars: Pillar[] = [
       "Historical and cultural 3D photogrammetry",
       "Moderated, safe communal environments",
     ],
-    href: "/pillars/socialization",
-    action: "Visit socialization site",
+    href: "/products/jumuika",
+    action: "Explore Jumuika",
     Icon: UsersRound,
     color: "text-product-social",
     tint: "bg-orange-50",
   },
 ]
 
-function PillarCard({ pillar }: { pillar: Pillar }) {
+function ProductCard({ product }: { product: Product }) {
   const {
     title,
     category,
@@ -92,7 +92,7 @@ function PillarCard({ pillar }: { pillar: Pillar }) {
     Icon,
     color,
     tint,
-  } = pillar
+  } = product
 
   return (
     <article className="flex flex-col justify-between rounded-2xl border border-border bg-white p-6 shadow-low transition duration-300 hover:-translate-y-1 hover:shadow-medium sm:p-8">
@@ -129,18 +129,21 @@ function PillarCard({ pillar }: { pillar: Pillar }) {
   )
 }
 
-export function PillarsSection() {
+export function ProductsSection() {
   return (
-    <section id="pillars-overview" className="bg-white py-16 sm:py-20 lg:py-24">
+    <section
+      id="products-overview"
+      className="bg-white py-16 sm:py-20 lg:py-24"
+    >
       <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
         <SectionHeading
-          eyebrow="Our three pillars"
+          eyebrow="Our products"
           title="Immersive technology where it matters most"
-          description="Targeted spatial architectures designed to empower healthcare teams, educational institutions, and civic community ecosystems."
+          description="Tibika, Elimika, and Jumuika bring spatial tools to healthcare, education, and connected communities."
         />
         <div className="grid gap-6 lg:grid-cols-3 lg:gap-8">
-          {pillars.map((pillar) => (
-            <PillarCard key={pillar.category} pillar={pillar} />
+          {products.map((product) => (
+            <ProductCard key={product.category} product={product} />
           ))}
         </div>
       </div>

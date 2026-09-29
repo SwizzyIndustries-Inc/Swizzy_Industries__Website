@@ -13,7 +13,7 @@ import {
   TestimonialsSection,
 } from "@/components/homepage/stories-sections"
 import {
-  PillarsSection,
+  ProductsSection,
   TechnologySection,
 } from "@/components/homepage/solutions-sections"
 
@@ -22,7 +22,7 @@ export function HomepageSections() {
     <main className="homepage min-h-screen bg-white text-slate-body">
       <HeroSection />
       <InstitutionalStrip />
-      <PillarsSection />
+      <ProductsSection />
       <TechnologySection />
       <DeploymentSection />
       <ImpactStatsSection />

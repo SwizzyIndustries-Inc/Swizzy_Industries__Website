@@ -20,7 +20,7 @@ export function HeroSection() {
       <div className="relative mx-auto grid max-w-[1320px] items-center gap-12 px-5 sm:px-8 lg:grid-cols-2 lg:gap-16">
         <div className="flex flex-col items-start gap-6">
           <a
-            href="#pillars-overview"
+            href="#products-overview"
             className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3.5 py-1.5 text-xs font-semibold text-blue-700 transition-colors hover:bg-blue-100"
           >
             <span aria-hidden="true">KE</span>
@@ -46,7 +46,7 @@ export function HeroSection() {
               <ArrowRight aria-hidden="true" className="size-4" />
             </Link>
             <a
-              href="#pillars-overview"
+              href="#products-overview"
               className="inline-flex min-h-12 items-center justify-center rounded-xl border border-border bg-white px-5 text-sm font-semibold text-slate-body shadow-low transition hover:bg-muted"
             >
               Explore solutions

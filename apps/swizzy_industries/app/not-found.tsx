@@ -8,7 +8,7 @@ import { Button } from "@workspace/ui/components/button"
 export const metadata: Metadata = {
   title: "Page not found | Swizzy Industries",
   description:
-    "We couldn't find that page. Explore Swizzy Industries, our pillars, and the latest insights.",
+    "We couldn't find that page. Explore Swizzy Industries, our products, and the latest insights.",
 }
 
 export default function NotFound() {

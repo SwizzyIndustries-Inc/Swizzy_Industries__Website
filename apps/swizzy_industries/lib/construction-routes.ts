@@ -22,10 +22,58 @@ const navigationRoutes: ConstructionRoute[] = [
     menu.featured,
   ]),
   {
+    title: "Tibika | Health product",
+    description:
+      "Explore immersive simulation and training for healthcare teams.",
+    href: "/products/tibika",
+  },
+  {
+    title: "Elimika | Education product",
+    description: "Explore immersive STEM learning and vocational training.",
+    href: "/products/elimika",
+  },
+  {
+    title: "Jumuika | Socialization product",
+    description:
+      "Explore shared spaces for culture, community, and civic life.",
+    href: "/products/jumuika",
+  },
+  {
+    title: "Tibika | Health product",
+    description: "Legacy link for the Tibika product landing page.",
+    href: "/pillars/health",
+  },
+  {
+    title: "Elimika | Education product",
+    description: "Legacy link for the Elimika product landing page.",
+    href: "/pillars/education",
+  },
+  {
+    title: "Jumuika | Socialization product",
+    description: "Legacy link for the Jumuika product landing page.",
+    href: "/pillars/socialization",
+  },
+  {
     title: "Search",
     description:
       "Search pages, insights, resources, and opportunities at Swizzy.",
     href: "/search",
+  },
+  {
+    title: "Products overview",
+    description: "Explore Swizzy products and their connected areas of work.",
+    href: "/pillars",
+  },
+  {
+    title: "Thank you",
+    description:
+      "Confirmation and next steps after contacting Swizzy Industries.",
+    href: "/thank-you",
+  },
+  {
+    title: "Sitemap",
+    description: "Browse all sections of the Swizzy Industries website.",
+    href: "/sitemap",
   },
   {
     title: "Privacy policy",
@@ -57,10 +105,41 @@ for (const route of navigationRoutes) {
   }
 }
 
+const detailRoutes: {
+  pattern: RegExp
+  title: string
+  description: string
+}[] = [
+  {
+    pattern: /^\/(?:blog|news|events)\/[^/]+$/,
+    title: "Editorial detail",
+    description: "Read a Swizzy Industries article, news item, or event.",
+  },
+  {
+    pattern: /^\/solutions\/case-studies\/[^/]+$/,
+    title: "Case study",
+    description: "Read a detailed Swizzy Industries case study.",
+  },
+  {
+    pattern: /^\/careers\/open-roles\/[^/]+$/,
+    title: "Role details",
+    description: "Learn about a role at Swizzy Industries.",
+  },
+  {
+    pattern: /^\/about\/team\/[^/]+$/,
+    title: "Team profile",
+    description: "Learn about a member of the Swizzy Industries team.",
+  },
+]
+
 export function getConstructionRoute(pathname: string) {
-  return routeMap.get(pathname)
+  const route = routeMap.get(pathname)
+  if (route) return route
+
+  const detail = detailRoutes.find(({ pattern }) => pattern.test(pathname))
+  return detail ? { ...detail, href: pathname } : undefined
 }
 
 export function isSitePage(pathname: string) {
-  return pathname === "/" || routeMap.has(pathname)
+  return pathname === "/" || Boolean(getConstructionRoute(pathname))
 }

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
-import { Moon, Search, Sun } from "lucide-react"
+import { Languages, Moon, Search, Sun } from "lucide-react"
 
 import { Button } from "@workspace/ui/components/button"
 import {
@@ -20,6 +20,7 @@ import { isSitePage } from "@/lib/construction-routes"
 import { MobileNavigation } from "@/components/mobile-navigation"
 import { MegaMenuPanel } from "@/components/navigation-menu-content"
 import { SwizzyLogo } from "@/components/swizzy-logo"
+import { useLanguage } from "@/components/language-provider"
 import {
   megaMenus,
   primaryNavigation,
@@ -35,6 +36,7 @@ function isCurrentPage(pathname: string, href: string) {
 export function SiteHeader() {
   const pathname = usePathname()
   const { resolvedTheme, setTheme } = useTheme()
+  const { language, setLanguage } = useLanguage()
   const [menuValue, setMenuValue] = useState<string | null>(null)
 
   useEffect(() => {
@@ -52,6 +54,7 @@ export function SiteHeader() {
           >
             <SwizzyLogo compact />
           </Link>
+          <LanguageSwitcher language={language} onChange={setLanguage} />
         </div>
       </header>
     )
@@ -137,6 +140,7 @@ export function SiteHeader() {
         </NavigationMenu>
 
         <div className="ml-auto flex shrink-0 items-center gap-2 sm:gap-3 lg:ml-0">
+          <LanguageSwitcher language={language} onChange={setLanguage} />
           <Button
             type="button"
             variant="outline"
@@ -171,5 +175,43 @@ export function SiteHeader() {
         </div>
       </div>
     </header>
+  )
+}
+
+function LanguageSwitcher({
+  language,
+  onChange,
+}: {
+  language: "en" | "sw"
+  onChange: (language: "en" | "sw") => void
+}) {
+  return (
+    <div
+      role="group"
+      aria-label="Language"
+      className="inline-flex h-9 items-center rounded-lg border border-border bg-background p-0.5"
+    >
+      {(["en", "sw"] as const).map((option) => (
+        <button
+          key={option}
+          type="button"
+          aria-pressed={language === option}
+          aria-label={option === "en" ? "English" : "Swahili"}
+          title={option === "en" ? "English" : "Kiswahili"}
+          onClick={() => onChange(option)}
+          className={cn(
+            "inline-flex h-8 min-w-9 items-center justify-center gap-1 rounded-md px-2 text-xs font-semibold transition-colors focus-visible:ring-2 focus-visible:ring-ring",
+            language === option
+              ? "bg-muted text-foreground"
+              : "text-muted-foreground hover:text-foreground"
+          )}
+        >
+          {option === "en" ? (
+            <Languages aria-hidden="true" className="size-3.5" />
+          ) : null}
+          {option.toUpperCase()}
+        </button>
+      ))}
+    </div>
   )
 }

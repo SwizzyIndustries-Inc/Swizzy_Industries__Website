@@ -18,11 +18,11 @@ const footerGroups = [
     ],
   },
   {
-    title: "Pillars & solutions",
+    title: "Products & solutions",
     links: [
-      { label: "Health", href: "/pillars/health" },
-      { label: "Education", href: "/pillars/education" },
-      { label: "Socialization", href: "/pillars/socialization" },
+      { label: "Tibika | Health", href: "/products/tibika" },
+      { label: "Elimika | Education", href: "/products/elimika" },
+      { label: "Jumuika | Socialization", href: "/products/jumuika" },
       { label: "Solutions", href: "/solutions" },
       { label: "Case studies", href: "/solutions/case-studies" },
     ],

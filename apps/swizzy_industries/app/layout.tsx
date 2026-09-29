@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google"
 
 import "@workspace/ui/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import { LanguageProvider } from "@/components/language-provider"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { cn } from "@workspace/ui/lib/utils"
@@ -32,11 +33,13 @@ export default function RootLayout({
     >
       <body>
         <ThemeProvider>
-          <TooltipProvider>
-            <SiteHeader />
-            {children}
-            <SiteFooter />
-          </TooltipProvider>
+          <LanguageProvider>
+            <TooltipProvider>
+              <SiteHeader />
+              {children}
+              <SiteFooter />
+            </TooltipProvider>
+          </LanguageProvider>
         </ThemeProvider>
       </body>
     </html>
