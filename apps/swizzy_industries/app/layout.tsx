@@ -1,6 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google"
 
 import "@workspace/ui/globals.css"
+
+import { Analytics } from "@vercel/analytics/next"
 import { ThemeProvider } from "@/components/theme-provider"
 import { LanguageProvider } from "@/components/language-provider"
 import { SiteHeader } from "@/components/site-header"
@@ -38,6 +40,7 @@ export default function RootLayout({
               <SiteHeader />
               {children}
               <SiteFooter />
+              <Analytics />
             </TooltipProvider>
           </LanguageProvider>
         </ThemeProvider>
