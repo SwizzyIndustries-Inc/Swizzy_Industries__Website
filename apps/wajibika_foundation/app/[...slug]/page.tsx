@@ -1,28 +1,33 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 
-import { getDesignedPage } from "@/lib/site-navigation/pages"
+import { UnderConstructionPage } from "@/components/route-fallbacks"
+import { getConstructionRoute } from "@/lib/construction-routes"
 
 type PageProps = { params: Promise<{ slug: string[] }> }
 
 async function getRoute(params: PageProps["params"]) {
   const { slug } = await params
   const pathname = `/${slug.join("/")}`
-  return { pathname, page: getDesignedPage(pathname) }
+  return { pathname, route: getConstructionRoute(pathname) }
 }
 
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
-  const { page } = await getRoute(params)
-  return page
-    ? { title: `${page.title} | Wajibika`, description: page.description }
+  const { route } = await getRoute(params)
+  return route
+    ? { title: `${route.title} | Wajibika`, description: route.description }
     : { title: "Page not found | Wajibika" }
 }
 
 export default async function DesignedRoute({ params }: PageProps) {
-  const { page } = await getRoute(params)
-  if (!page) notFound()
-  const DesignedPage = page.Page
-  return <DesignedPage />
+  const { route } = await getRoute(params)
+  if (!route) notFound()
+  return (
+    <UnderConstructionPage
+      title={route.title}
+      description={route.description}
+    />
+  )
 }

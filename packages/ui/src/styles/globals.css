@@ -149,6 +149,53 @@
   --color-space-interest: var(--space-interest, transparent);
   --color-space-events: var(--space-events, transparent);
   --color-live-indicator: var(--live-indicator, transparent);
+  --color-jumuika-footer: var(--jumuika-footer, transparent);
+  --color-jumuika-footer-foreground: var(
+    --jumuika-footer-foreground,
+    transparent
+  );
+  --color-jumuika-footer-accent: var(--jumuika-footer-accent, transparent);
+  --color-jumuika-footer-cta: var(--jumuika-footer-cta, transparent);
+  --color-jumuika-footer-cta-foreground: var(
+    --jumuika-footer-cta-foreground,
+    transparent
+  );
+
+  --color-nufaika-footer: var(--nufaika-footer, transparent);
+  --color-nufaika-footer-foreground: var(
+    --nufaika-footer-foreground,
+    transparent
+  );
+  --color-nufaika-footer-accent: var(--nufaika-footer-accent, transparent);
+  --color-nufaika-footer-cta: var(--nufaika-footer-cta, transparent);
+  --color-nufaika-footer-cta-foreground: var(
+    --nufaika-footer-cta-foreground,
+    transparent
+  );
+
+  --color-tibika-footer: var(--tibika-footer, transparent);
+  --color-tibika-footer-foreground: var(
+    --tibika-footer-foreground,
+    transparent
+  );
+  --color-tibika-footer-accent: var(--tibika-footer-accent, transparent);
+  --color-tibika-footer-cta: var(--tibika-footer-cta, transparent);
+  --color-tibika-footer-cta-foreground: var(
+    --tibika-footer-cta-foreground,
+    transparent
+  );
+
+  --color-wajibika-footer: var(--wajibika-footer, transparent);
+  --color-wajibika-footer-foreground: var(
+    --wajibika-footer-foreground,
+    transparent
+  );
+  --color-wajibika-footer-accent: var(--wajibika-footer-accent, transparent);
+  --color-wajibika-footer-cta: var(--wajibika-footer-cta, transparent);
+  --color-wajibika-footer-cta-foreground: var(
+    --wajibika-footer-cta-foreground,
+    transparent
+  );
 
   /* Elevation: low (resting), medium (hover/sticky), high (menus/modals)
      — shared across every brand. */

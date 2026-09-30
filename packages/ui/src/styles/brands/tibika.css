@@ -49,4 +49,60 @@
   --domain-clinical: #0e9f8e;
   --domain-research: #3a5bd9;
   --domain-wellbeing: #6c4fd9;
+  --tibika-footer: #0a2a44;
+  --tibika-footer-foreground: #edfdfb;
+  --tibika-footer-accent: #0e9f8e;
+  --tibika-footer-cta: #dff6f2;
+  --tibika-footer-cta-foreground: #0b7f72;
+}
+
+:root[data-brand="tibika"].dark {
+  --background: #0a1724;
+  --foreground: #edfdfb;
+  --card: #101f2b;
+  --card-foreground: #edfdfb;
+  --popover: #101f2b;
+  --popover-foreground: #edfdfb;
+  --primary: #52d5c3;
+  --primary-foreground: #071b1c;
+  --secondary: #102d2d;
+  --secondary-foreground: #b9f7ed;
+  --muted: #0f2230;
+  --muted-foreground: #a7d2d0;
+  --accent: #122a32;
+  --accent-foreground: #b9f7ed;
+  --destructive: #fb7185;
+  --border: #1f3a45;
+  --input: #1f3a45;
+  --ring: #5fe2d5;
+  --chart-1: #5fe2d5;
+  --chart-2: #7fa8ff;
+  --chart-3: #ba9dff;
+  --chart-4: #d7f4ff;
+  --chart-5: #66d9b7;
+  --sidebar: #101f2b;
+  --sidebar-foreground: #edfdfb;
+  --sidebar-primary: #52d5c3;
+  --sidebar-primary-foreground: #071b1c;
+  --sidebar-accent: #122a32;
+  --sidebar-accent-foreground: #b9f7ed;
+  --sidebar-border: #1f3a45;
+  --sidebar-ring: #5fe2d5;
+
+  --cloud-border: #1f3a45;
+  --mist-bg: #0f2230;
+  --ink-text: #edfdfb;
+  --slate-body: #d1ebee;
+  --slate-muted: #a7d2d0;
+  --feedback-success: #52d5c3;
+  --feedback-warning: #f7c56b;
+  --feedback-error: #fb7185;
+
+  --tibika-teal: #52d5c3;
+  --tibika-teal-hover: #76e4d6;
+  --tibika-teal-tint: #102d2d;
+  --tibika-navy: #e3f7ff;
+  --domain-clinical: #52d5c3;
+  --domain-research: #7fa8ff;
+  --domain-wellbeing: #ba9dff;
 }

@@ -35,7 +35,7 @@ export function SiteFooter() {
 
   return (
     <footer className="bg-elimika-footer text-elimika-footer-foreground">
-      <div className="border-b border-elimika-footer-foreground/15">
+      <div className="border-b border-elimika-footer-foreground/15 bg-elimika-footer-foreground/10">
         <div className="mx-auto flex max-w-[1320px] flex-col gap-5 px-5 py-8 sm:px-8 md:flex-row md:items-center md:justify-between lg:py-10">
           <div>
             <h2 className="font-heading text-xl font-semibold sm:text-2xl">

@@ -53,7 +53,7 @@ export type NavigationGroup = {
   links: NavigationEntry[]
 }
 
-export type MegaMenuKey = "home" | "solutions" | "insights"
+export type MegaMenuKey = "home" | "solutions" | "labs" | "insights"
 
 type MegaMenuDefinition = {
   sectionLink: SiteLink
@@ -157,30 +157,6 @@ export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
         ],
       },
       {
-        title: "Tertiary & technical",
-        links: [
-          {
-            title: "Higher education",
-            description: "Virtual labs for universities and colleges",
-            href: "/solutions/higher-education",
-            icon: GraduationCap,
-          },
-          {
-            title: "TVET & skills",
-            description: "Practice technical skills through simulation",
-            href: "/solutions/tvet-skills",
-            icon: Wrench,
-          },
-          {
-            title: "Colleges & universities",
-            description:
-              "Explore practical programmes for tertiary institutions",
-            href: "/solutions/colleges-universities",
-            icon: Building2,
-          },
-        ],
-      },
-      {
         title: "Education leadership",
         links: [
           {
@@ -222,6 +198,44 @@ export const megaMenus: Record<MegaMenuKey, MegaMenuDefinition> = {
       action: "Request an institutional demo",
       href: "/contact/request-a-demo",
       icon: Sparkles,
+    },
+  },
+  labs: {
+    sectionLink: { title: "Labs & modules", href: "/labs" },
+    groups: [
+      {
+        title: "Tertiary & technical",
+        links: [
+          {
+            title: "Higher education",
+            description: "Virtual labs for universities and colleges",
+            href: "/solutions/higher-education",
+            icon: GraduationCap,
+          },
+          {
+            title: "TVET & skills",
+            description: "Practice technical skills through simulation",
+            href: "/solutions/tvet-skills",
+            icon: Wrench,
+          },
+          {
+            title: "Colleges & universities",
+            description:
+              "Explore practical programmes for tertiary institutions",
+            href: "/solutions/colleges-universities",
+            icon: Building2,
+          },
+        ],
+      },
+    ],
+    featured: {
+      eyebrow: "Practice and explore",
+      title: "Learning through virtual labs",
+      description:
+        "Explore hands-on modules for tertiary and technical learning.",
+      action: "Explore labs & modules",
+      href: "/labs",
+      icon: FlaskConical,
     },
   },
   insights: {

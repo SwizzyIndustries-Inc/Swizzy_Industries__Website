@@ -43,7 +43,7 @@ function MobileNavigationSection({
   const { language } = useLanguage()
   const label = translate(item.title, language)
 
-  if (item.key === "labs" || item.key === "contact") {
+  if (item.key === "contact") {
     return (
       <Link
         href={item.href}

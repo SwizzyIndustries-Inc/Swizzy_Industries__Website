@@ -51,4 +51,62 @@
   --issue-governance: #3a5bd9;
   --issue-social: #e8735a;
   --issue-community: #8c5fd9;
+  --wajibika-footer: #241417;
+  --wajibika-footer-foreground: #fff7f3;
+  --wajibika-footer-accent: #d98c3a;
+  --wajibika-footer-cta: #fbeedd;
+  --wajibika-footer-cta-foreground: #8a5320;
+}
+
+:root[data-brand="wajibika"].dark {
+  --background: #170d10;
+  --foreground: #fff7f3;
+  --card: #1f1217;
+  --card-foreground: #fff7f3;
+  --popover: #1f1217;
+  --popover-foreground: #fff7f3;
+  --primary: #d5737e;
+  --primary-foreground: #1f1217;
+  --secondary: #3a1f22;
+  --secondary-foreground: #ffd4a2;
+  --muted: #261318;
+  --muted-foreground: #d7b8b8;
+  --accent: #2c1c20;
+  --accent-foreground: #ffd9d6;
+  --destructive: #fb7185;
+  --border: #4b2d33;
+  --input: #4b2d33;
+  --ring: #f4af6a;
+  --chart-1: #60d7a1;
+  --chart-2: #7ea6ff;
+  --chart-3: #f39a7a;
+  --chart-4: #b99bff;
+  --chart-5: #efc26d;
+  --sidebar: #1f1217;
+  --sidebar-foreground: #fff7f3;
+  --sidebar-primary: #d5737e;
+  --sidebar-primary-foreground: #1f1217;
+  --sidebar-accent: #3a1f22;
+  --sidebar-accent-foreground: #ffd9d6;
+  --sidebar-border: #4b2d33;
+  --sidebar-ring: #f4af6a;
+
+  --cloud-border: #4b2d33;
+  --mist-bg: #261318;
+  --ink-text: #fff7f3;
+  --slate-body: #f0d7d2;
+  --slate-muted: #d7b8b8;
+  --feedback-success: #60d7a1;
+  --feedback-warning: #efc26d;
+  --feedback-error: #fb7185;
+
+  --wajibika-maroon: #f08b96;
+  --wajibika-maroon-hover: #f4a2aa;
+  --wajibika-maroon-tint: #3a1f22;
+  --wajibika-ochre: #efc26d;
+  --wajibika-ochre-tint: #3e2b1d;
+  --issue-economy: #60d7a1;
+  --issue-governance: #7ea6ff;
+  --issue-social: #f39a7a;
+  --issue-community: #b99bff;
 }

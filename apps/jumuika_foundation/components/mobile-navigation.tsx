@@ -14,14 +14,12 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@workspace/ui/components/sheet"
-import { useLanguage } from "@/components/language-provider"
-import { primaryNavigation, productLinks } from "@/lib/site-navigation"
+import { translate, useLanguage } from "@/components/language-provider"
+import { megaMenus, primaryNavigation } from "@/lib/site-navigation"
 
 export function MobileNavigation() {
   const [open, setOpen] = useState(false)
   const { language, setLanguage } = useLanguage()
-  const siblings = productLinks.filter((product) => !product.parent)
-  const parent = productLinks.find((product) => product.parent)
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger
@@ -31,9 +29,7 @@ export function MobileNavigation() {
             variant="outline"
             size="icon-lg"
             className="xl:hidden"
-            aria-label={
-              language === "sw" ? "Fungua menyu" : "Open navigation menu"
-            }
+            aria-label={translate("Open navigation menu", language)}
           />
         }
       >
@@ -42,7 +38,7 @@ export function MobileNavigation() {
       <SheetContent
         side="right"
         showCloseButton={false}
-        className="w-full max-w-none gap-0 overflow-hidden border-0 p-0 sm:max-w-none"
+        className="w-full max-w-none gap-0 overflow-hidden border-0 p-0 sm:max-w-[440px]"
       >
         <SheetHeader className="relative border-b px-5 py-4 pr-16">
           <SheetTitle className="flex items-center gap-2">
@@ -50,16 +46,14 @@ export function MobileNavigation() {
             Jumuika
           </SheetTitle>
           <SheetDescription>
-            {language === "sw"
-              ? "Umbali ni jambo dogo tu."
-              : "Distance is just a detail."}
+            {translate("Distance is just a detail.", language)}
           </SheetDescription>
           <SheetClose
             render={
               <Button
                 variant="ghost"
                 size="icon-lg"
-                aria-label={language === "sw" ? "Funga menyu" : "Close menu"}
+                aria-label={translate("Close menu", language)}
                 className="absolute top-2 right-3"
               />
             }
@@ -69,7 +63,7 @@ export function MobileNavigation() {
         </SheetHeader>
         <div
           role="group"
-          aria-label={language === "sw" ? "Lugha" : "Language"}
+          aria-label={translate("Language", language)}
           className="flex justify-end gap-1 border-b border-border px-4 py-2"
         >
           {(["en", "sw"] as const).map((option) => (
@@ -86,70 +80,55 @@ export function MobileNavigation() {
           ))}
         </div>
         <nav
-          aria-label={language === "sw" ? "Urambazaji" : "Mobile navigation"}
+          aria-label={translate("Mobile navigation", language)}
           className="min-h-0 flex-1 overflow-y-auto px-4 py-2"
         >
           {primaryNavigation.map((item) => (
             <Link
-              key={item.href}
+              key={item.key}
               href={item.href}
               onClick={() => setOpen(false)}
               className="flex min-h-12 items-center border-b border-border px-2 font-semibold hover:text-primary"
             >
-              {language === "sw"
-                ? (
-                    {
-                      "/": "Mwanzo",
-                      "/spaces": "Nafasi na jumuiya",
-                      "/events": "Matukio",
-                      "/safety-privacy": "Usalama na faragha",
-                      "/stories": "Hadithi",
-                      "/careers": "Kazi",
-                      "/contact": "Mawasiliano",
-                    } as Record<string, string>
-                  )[item.href]
-                : item.title}
+              {translate(item.title, language)}
             </Link>
           ))}
-          <section className="py-4">
-            <h2 className="px-2 pb-2 text-xs font-semibold tracking-wide text-muted-foreground uppercase">
-              {language === "sw"
-                ? "Bidhaa na suluhisho"
-                : "Products & Solutions"}
-            </h2>
-            {parent && (
-              <a
-                href={parent.href}
-                className="flex min-h-12 items-center gap-3 rounded-lg px-2 font-semibold hover:bg-muted"
-              >
-                <UsersRound
-                  aria-hidden="true"
-                  className="size-5 text-primary"
-                />
-                Swizzy Industries{" "}
-                <span className="text-xs font-normal text-muted-foreground">
-                  ({language === "sw" ? "Kampuni mama" : "Parent company"})
-                </span>
-              </a>
-            )}
-            {siblings.map((product) => {
-              const Icon = product.icon
-              return (
-                <a
-                  key={product.title}
-                  href={product.href}
-                  className="flex min-h-12 items-center gap-3 rounded-lg px-2 hover:bg-muted"
-                >
-                  <Icon
-                    aria-hidden="true"
-                    className="size-5"
-                    style={{ color: product.color }}
-                  />
-                  {product.title}
-                </a>
-              )
-            })}
-          </section>
+          {Object.values(megaMenus).map((menu) => (
+            <section
+              key={menu.sectionLink.href}
+              className="border-b border-border py-4"
+            >
+              <h2 className="px-2 pb-2 text-xs font-semibold text-muted-foreground uppercase">
+                {translate(menu.sectionLink.title, language)}
+              </h2>
+              {menu.groups
+                .flatMap((group) => group.links)
+                .map((entry) => {
+                  const Icon = entry.icon
+                  return (
+                    <Link
+                      key={entry.href}
+                      href={entry.href}
+                      onClick={() => setOpen(false)}
+                      className="flex min-h-12 items-center gap-3 rounded-lg px-2 hover:bg-muted"
+                    >
+                      <Icon
+                        aria-hidden="true"
+                        className="size-4 shrink-0 text-primary"
+                      />
+                      <span className="min-w-0">
+                        <span className="block text-sm font-medium">
+                          {translate(entry.title, language)}
+                        </span>
+                        <span className="block truncate text-xs text-muted-foreground">
+                          {translate(entry.description, language)}
+                        </span>
+                      </span>
+                    </Link>
+                  )
+                })}
+            </section>
+          ))}
         </nav>
         <div className="border-t p-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
           <Button
@@ -158,7 +137,7 @@ export function MobileNavigation() {
             className="h-12 w-full rounded-xl"
             onClick={() => setOpen(false)}
           >
-            {language === "sw" ? "Anza" : "Get started"}
+            {translate("Get started", language)}
           </Button>
         </div>
       </SheetContent>

@@ -4,6 +4,7 @@ import { microfrontendUpstreams } from "./lib/microfrontend-upstreams"
 
 const nextConfig: NextConfig = {
   transpilePackages: ["@workspace/ui"],
+  allowedDevOrigins: ["localhost", "*.localhost"],
   async rewrites() {
     return {
       beforeFiles: [

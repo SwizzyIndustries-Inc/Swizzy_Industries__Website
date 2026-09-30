@@ -1,9 +1,10 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { ArrowUpRight, HeartPulse } from "lucide-react"
+import { useTheme } from "next-themes"
+import { ArrowUpRight, HeartPulse, Moon, Search, Sun } from "lucide-react"
 
 import { Button } from "@workspace/ui/components/button"
 import {
@@ -15,207 +16,131 @@ import {
   NavigationMenuTrigger,
 } from "@workspace/ui/components/navigation-menu"
 import { cn } from "@workspace/ui/lib/utils"
-import { useLanguage } from "@/components/language-provider"
+import { translate, useLanguage } from "@/components/language-provider"
+import { MegaMenuPanel } from "@/components/navigation-menu-content"
 import { MobileNavigation } from "@/components/mobile-navigation"
-import { primaryNavigation, productLinks } from "@/lib/site-navigation"
+import {
+  megaMenus,
+  primaryNavigation,
+  type MegaMenuKey,
+} from "@/lib/site-navigation"
 
-function active(pathname: string, href: string) {
+function isCurrentPage(pathname: string, href: string) {
   return href === "/"
     ? pathname === "/"
     : pathname === href || pathname.startsWith(`${href}/`)
 }
+
 export function SiteHeader() {
   const pathname = usePathname()
   const { language, setLanguage } = useLanguage()
-  const [menuValue, setMenuValue] = useState<string | null>(null)
-  const siblings = productLinks.filter((product) => !product.parent)
-  const parent = productLinks.find((product) => product.parent)
-  const sw = language === "sw"
-  useEffect(() => setMenuValue(null), [pathname])
-  const nav = sw
-    ? {
-        home: "Mwanzo",
-        products: "Bidhaa na suluhisho",
-        parent: "Kampuni mama",
-        lang: "Lugha",
-        demo: "Omba ushauri",
-      }
-    : {
-        home: "Home",
-        products: "Products & Solutions",
-        parent: "Parent company",
-        lang: "Language",
-        demo: "Request a Consultation",
-      }
-  const localized = (href: string, title: string) =>
-    sw
-      ? ((
-          {
-            "/solutions": "Suluhisho",
-            "/catalog": "Katalogi ya uigaji",
-            "/evidence": "Ushahidi",
-            "/publications": "Machapisho",
-            "/careers": "Kazi",
-            "/contact": "Mawasiliano",
-          } as Record<string, string>
-        )[href] ?? title)
-      : title
+  const { resolvedTheme, setTheme } = useTheme()
+  const [menuState, setMenuState] = useState<{
+    pathname: string
+    value: string | null
+  }>({ pathname, value: null })
+  const menuValue = menuState.pathname === pathname ? menuState.value : null
+
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 text-foreground shadow-sm backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-[1320px] items-center justify-between gap-3 px-4 sm:px-6 lg:h-20 lg:px-8">
         <Link
           href="/"
-          aria-label="Tibika home"
-          className="flex shrink-0 items-center gap-2.5"
+          aria-label={translate("Tibika home", language)}
+          className="flex shrink-0 items-center gap-2.5 rounded-lg focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
         >
-          <span className="flex size-10 items-center justify-center rounded-xl bg-primary text-primary-foreground">
+          <span className="grid size-10 place-items-center rounded-xl bg-primary text-primary-foreground">
             <HeartPulse aria-hidden="true" className="size-5" />
           </span>
           <span className="leading-tight">
             <span className="block font-heading text-lg font-bold">Tibika</span>
             <span className="block text-[11px] text-muted-foreground">
-              {sw ? "Teknolojia ya kitabibu" : "Clinical technology"}
+              {translate("Clinical technology", language)}
             </span>
           </span>
         </Link>
         <NavigationMenu
           className="hidden flex-1 justify-center xl:flex"
           value={menuValue}
-          onValueChange={(value) => setMenuValue(value as string | null)}
+          onValueChange={(value) =>
+            setMenuState({ pathname, value: value as string | null })
+          }
         >
           <NavigationMenuList className="gap-1">
-            <NavigationMenuItem>
-              <NavigationMenuLink
-                render={
-                  <Link
-                    href="/"
-                    aria-current={pathname === "/" ? "page" : undefined}
-                  />
-                }
-                className={cn(
-                  "h-10 rounded-lg px-3 text-sm font-medium hover:bg-muted",
-                  pathname === "/" && "text-primary"
-                )}
-              >
-                {nav.home}
-              </NavigationMenuLink>
-            </NavigationMenuItem>
-            {primaryNavigation.slice(1, 4).map((item) => (
-              <NavigationMenuItem key={item.href}>
-                <NavigationMenuLink
-                  render={
-                    <Link
-                      href={item.href}
-                      aria-current={
-                        active(pathname, item.href) ? "page" : undefined
+            {primaryNavigation.map((item) => {
+              const current = isCurrentPage(pathname, item.href)
+              const menu =
+                item.key in megaMenus
+                  ? megaMenus[item.key as MegaMenuKey]
+                  : undefined
+              if (!menu)
+                return (
+                  <NavigationMenuItem key={item.key}>
+                    <NavigationMenuLink
+                      render={
+                        <Link
+                          href={item.href}
+                          aria-current={current ? "page" : undefined}
+                        />
                       }
-                    />
-                  }
-                  className={cn(
-                    "h-10 rounded-lg px-3 text-sm font-medium hover:bg-muted",
-                    active(pathname, item.href) && "text-primary"
-                  )}
-                >
-                  {localized(item.href, item.title)}
-                </NavigationMenuLink>
-              </NavigationMenuItem>
-            ))}
-            <NavigationMenuItem value="products">
-              <NavigationMenuTrigger>{nav.products}</NavigationMenuTrigger>
-              <NavigationMenuContent className="!w-[min(calc(100vw-2rem),860px)] !p-0">
-                <div className="grid gap-5 p-5 sm:grid-cols-[0.85fr_1.6fr] sm:p-6">
-                  <a
-                    href={parent?.href}
-                    className="flex min-h-40 flex-col justify-between rounded-xl bg-primary p-5 text-primary-foreground hover:brightness-95"
+                      className={cn(
+                        "h-10 rounded-lg px-3 text-sm font-medium hover:bg-muted",
+                        current && "text-primary"
+                      )}
+                    >
+                      {translate(item.title, language)}
+                    </NavigationMenuLink>
+                  </NavigationMenuItem>
+                )
+              return (
+                <NavigationMenuItem key={item.key} value={item.key}>
+                  <NavigationMenuTrigger
+                    nativeButton={false}
+                    render={
+                      <Link
+                        href={menu.sectionLink.href}
+                        aria-current={current ? "page" : undefined}
+                        onClick={() => setMenuState({ pathname, value: null })}
+                      />
+                    }
+                    className={cn(
+                      "h-10 rounded-lg px-3 text-sm font-medium hover:bg-muted",
+                      current && "text-primary"
+                    )}
                   >
-                    <HeartPulse aria-hidden="true" className="size-6" />
-                    <span>
-                      <span className="block text-xs font-semibold tracking-wide uppercase opacity-75">
-                        {nav.parent}
-                      </span>
-                      <span className="mt-1 block font-heading text-xl font-bold">
-                        Swizzy Industries
-                      </span>
-                      <span className="mt-2 inline-flex items-center gap-1 text-sm">
-                        {sw ? "Tembelea kampuni" : "Visit the company"}
-                        <ArrowUpRight aria-hidden="true" className="size-4" />
-                      </span>
-                    </span>
-                  </a>
-                  <div>
-                    <p className="mb-3 text-xs font-semibold tracking-wide text-muted-foreground uppercase">
-                      {nav.products}
-                    </p>
-                    <div className="grid gap-1 sm:grid-cols-2">
-                      {siblings.map((product) => {
-                        const Icon = product.icon
-                        return (
-                          <a
-                            key={product.title}
-                            href={product.href}
-                            className="flex min-h-16 items-center gap-3 rounded-lg px-3 py-2 hover:bg-muted"
-                          >
-                            <span
-                              className="flex size-10 items-center justify-center rounded-lg"
-                              style={{
-                                color: product.color,
-                                backgroundColor: `${product.color}18`,
-                              }}
-                            >
-                              <Icon aria-hidden="true" className="size-5" />
-                            </span>
-                            <span>
-                              <span className="block font-semibold">
-                                {product.title}
-                              </span>
-                              <span className="block text-xs leading-5 text-muted-foreground">
-                                {sw
-                                  ? product.descriptionSw
-                                  : product.description}
-                              </span>
-                            </span>
-                          </a>
-                        )
-                      })}
-                    </div>
-                  </div>
-                </div>
-              </NavigationMenuContent>
-            </NavigationMenuItem>
-            {primaryNavigation.slice(4).map((item) => (
-              <NavigationMenuItem key={item.href}>
-                <NavigationMenuLink
-                  render={
-                    <Link
-                      href={item.href}
-                      aria-current={
-                        active(pathname, item.href) ? "page" : undefined
-                      }
-                    />
-                  }
-                  className={cn(
-                    "h-10 rounded-lg px-3 text-sm font-medium hover:bg-muted",
-                    active(pathname, item.href) && "text-primary"
-                  )}
-                >
-                  {localized(item.href, item.title)}
-                </NavigationMenuLink>
-              </NavigationMenuItem>
-            ))}
+                    {translate(item.title, language)}
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent className="!w-[min(calc(100vw-2rem),960px)] !p-0">
+                    <MegaMenuPanel menuKey={item.key as MegaMenuKey} />
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+              )
+            })}
           </NavigationMenuList>
         </NavigationMenu>
-        <div className="hidden shrink-0 items-center gap-2 sm:flex">
+        <div className="ml-auto flex shrink-0 items-center gap-2 xl:ml-0">
+          <Button
+            render={<Link href="/catalog" />}
+            nativeButton={false}
+            variant="outline"
+            size="icon-lg"
+            className="hidden rounded-full sm:inline-flex"
+            aria-label={translate("Search catalog and publications", language)}
+            title={translate("Search catalog and publications", language)}
+          >
+            <Search aria-hidden="true" />
+          </Button>
           <div
             role="group"
-            aria-label={nav.lang}
-            className="inline-flex items-center rounded-lg border border-border p-0.5"
+            aria-label={translate("Language", language)}
+            className="hidden h-9 items-center rounded-lg border border-border p-0.5 sm:inline-flex"
           >
             {(["en", "sw"] as const).map((option) => (
               <Button
                 key={option}
                 type="button"
-                variant={language === option ? "secondary" : "ghost"}
                 size="sm"
+                variant={language === option ? "secondary" : "ghost"}
                 aria-pressed={language === option}
                 className="h-8 min-w-9 px-2 text-xs"
                 onClick={() => setLanguage(option)}
@@ -225,14 +150,29 @@ export function SiteHeader() {
             ))}
           </div>
           <Button
+            type="button"
+            variant="outline"
+            size="icon-lg"
+            className="rounded-full"
+            aria-label={translate("Toggle light and dark mode", language)}
+            title={translate("Toggle light and dark mode", language)}
+            onClick={() =>
+              setTheme(resolvedTheme === "dark" ? "light" : "dark")
+            }
+          >
+            <Sun aria-hidden="true" className="hidden dark:block" />
+            <Moon aria-hidden="true" className="block dark:hidden" />
+          </Button>
+          <Button
             render={<Link href="/contact" />}
             nativeButton={false}
-            className="h-11 rounded-xl px-4 text-sm"
+            className="hidden h-11 rounded-xl px-4 text-sm sm:inline-flex"
           >
-            {nav.demo}
+            {translate("Request a consultation", language)}
+            <ArrowUpRight aria-hidden="true" data-icon="inline-end" />
           </Button>
+          <MobileNavigation />
         </div>
-        <MobileNavigation />
       </div>
     </header>
   )

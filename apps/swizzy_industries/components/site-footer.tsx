@@ -57,12 +57,12 @@ const legalLinks = [
 
 function MinimalErrorFooter() {
   return (
-    <footer className="border-t border-border px-5 py-5 text-muted-foreground sm:px-8">
+    <footer className="border-t border-white/15 bg-navy-deep px-5 py-5 text-white/65 sm:px-8">
       <div className="mx-auto flex max-w-6xl flex-col gap-2 text-xs sm:flex-row sm:items-center sm:justify-between">
         <p>© {new Date().getFullYear()} Swizzy Industries</p>
         <Link
           href="/contact"
-          className="inline-flex min-h-9 items-center text-xs font-medium hover:text-primary focus-visible:rounded-sm focus-visible:ring-2 focus-visible:ring-teal-accent focus-visible:outline-none"
+          className="inline-flex min-h-9 items-center text-xs font-medium hover:text-white focus-visible:rounded-sm focus-visible:ring-2 focus-visible:ring-teal-accent focus-visible:outline-none"
         >
           Contact us
         </Link>
@@ -80,7 +80,7 @@ export function SiteFooter() {
 
   return (
     <footer className="bg-navy-deep text-white">
-      <div className="border-b border-white/15">
+      <div className="border-b border-white/15 bg-white/10">
         <div className="mx-auto flex max-w-[1320px] flex-col gap-5 px-5 py-8 sm:px-8 md:flex-row md:items-center md:justify-between lg:py-10">
           <div>
             <h2 className="font-heading text-xl font-semibold sm:text-2xl">

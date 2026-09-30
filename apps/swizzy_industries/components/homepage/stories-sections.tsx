@@ -294,17 +294,17 @@ export function InsightsSection() {
 
 export function ContactCtaSection() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-blue-primary via-blue-700 to-teal-accent py-16 text-white sm:py-20 lg:py-24">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:24px_24px] opacity-10" />
+    <section className="from-bg-muted via-bg-muted-700 to-ink-text-foreground relative overflow-hidden bg-gradient-to-br py-16 text-navy-deep sm:py-20 lg:py-24 dark:text-white">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(var(--foreground)_2px,transparent_1px)] [background-size:24px_24px] opacity-10" />
       <div className="relative mx-auto max-w-4xl space-y-6 px-5 text-center sm:px-8">
-        <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/15 px-3.5 py-1.5 text-xs font-semibold tracking-wider uppercase">
+        <span className="inline-flex items-center gap-2 rounded-full border border-navy-deep/20 bg-white/50 px-3.5 py-1.5 text-xs font-semibold tracking-wider uppercase dark:border-white/20 dark:bg-white/15">
           <CalendarDays aria-hidden="true" className="size-4" /> Partner with
           Swizzy Industries
         </span>
         <h2 className="font-heading text-3xl leading-tight font-extrabold sm:text-5xl">
           Ready to see what immersive technology can do for your institution?
         </h2>
-        <p className="mx-auto max-w-2xl text-base leading-relaxed text-blue-100 sm:text-lg">
+        <p className="mx-auto max-w-2xl text-base leading-relaxed text-navy-deep/85 sm:text-lg dark:text-blue-100">
           Schedule an executive demonstration with our spatial systems
           architects in Nairobi, or request an on-site evaluation for your
           hospital or school.
@@ -318,12 +318,12 @@ export function ContactCtaSection() {
           </Link>
           <Link
             href="/contact"
-            className="inline-flex min-h-12 items-center justify-center rounded-xl border border-white/40 bg-white/10 px-6 text-sm font-medium text-white transition hover:bg-white/20"
+            className="inline-flex min-h-12 items-center justify-center rounded-xl border border-navy-deep/25 bg-white/40 px-6 text-sm font-medium text-navy-deep transition hover:bg-navy-deep/5 dark:border-white/40 dark:bg-white/10 dark:text-white dark:hover:bg-white/20"
           >
             Talk to our Nairobi team
           </Link>
         </div>
-        <ul className="flex flex-wrap justify-center gap-x-6 gap-y-3 pt-3 text-xs text-blue-100">
+        <ul className="flex flex-wrap justify-center gap-x-6 gap-y-3 pt-3 text-xs text-navy-deep/85 dark:text-blue-100">
           <li className="inline-flex items-center gap-1.5">
             <Check aria-hidden="true" className="size-4 text-teal-300" />{" "}
             Turnkey enterprise deployments

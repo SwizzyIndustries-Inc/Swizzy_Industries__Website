@@ -120,7 +120,7 @@ export function SiteHeader() {
               const active = isCurrentPage(pathname, item.href)
               const label = translate(item.title, language)
 
-              if (item.key === "labs" || item.key === "contact") {
+              if (item.key === "contact") {
                 return (
                   <NavigationMenuItem key={item.key}>
                     <NavigationMenuLink
