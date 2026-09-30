@@ -134,29 +134,6 @@ function ElimikaPage({
           </div>
         </div>
       </section>
-      <section className="bg-primary px-5 py-12 text-primary-foreground sm:px-8">
-        <div className="mx-auto flex max-w-[1200px] flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <p className="text-sm font-semibold text-primary-foreground/75">
-              Elimika Foundation
-            </p>
-            <h2 className="mt-1 font-heading text-2xl font-bold">
-              {isSwahili
-                ? "Jifunze zaidi kuhusu Elimika"
-                : "Talk with the Elimika team"}
-            </h2>
-          </div>
-          <Button
-            render={<Link href="/contact/request-a-demo" />}
-            nativeButton={false}
-            variant="secondary"
-            className="h-12 shrink-0 rounded-xl px-5"
-          >
-            {isSwahili ? "Omba onyesho" : "Request a demo"}
-            <ArrowRight aria-hidden="true" className="ml-2 size-4" />
-          </Button>
-        </div>
-      </section>
     </main>
   )
 }

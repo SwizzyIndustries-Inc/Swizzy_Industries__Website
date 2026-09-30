@@ -30,7 +30,7 @@ const tracks = [
     swText: "Ugunduzi wa sayansi, historia na lugha unaolingana na mtaala.",
     href: "/solutions/k-12",
     icon: School,
-    color: "#3a5bd9",
+    color: "var(--track-k12)",
   },
   {
     title: "Higher education",
@@ -39,7 +39,7 @@ const tracks = [
     swText: "Maabara pepe na utafiti wa anga kwa programu za vyuo vikuu.",
     href: "/solutions/higher-education",
     icon: GraduationCap,
-    color: "#6c4fd9",
+    color: "var(--track-highered)",
   },
   {
     title: "TVET & skills",
@@ -48,7 +48,7 @@ const tracks = [
     swText: "Uigaji unaorudiwa kwa mafunzo ya vitendo ya ufundi.",
     href: "/solutions/tvet-skills",
     icon: Wrench,
-    color: "#1e8f6b",
+    color: "var(--track-tvet)",
   },
   {
     title: "Educators & institutions",
@@ -57,7 +57,7 @@ const tracks = [
     swText: "Zana za darasa zinazowaweka walimu katikati.",
     href: "/solutions/educators-institutions",
     icon: BookOpen,
-    color: "#d97a3a",
+    color: "var(--track-educator)",
   },
 ]
 
@@ -155,8 +155,8 @@ export function HomepageSections() {
                 >
                   <CardHeader>
                     <span
-                      className="flex size-11 items-center justify-center rounded-lg"
-                      style={{ color, backgroundColor: `${color}18` }}
+                      className="flex size-11 items-center justify-center rounded-lg bg-primary/10"
+                      style={{ color }}
                     >
                       <Icon aria-hidden="true" className="size-5" />
                     </span>
@@ -233,7 +233,7 @@ export function HomepageSections() {
               <CardHeader>
                 <Lightbulb
                   aria-hidden="true"
-                  className="text-gold-achievement size-6"
+                  className="size-6 text-elimika-gold"
                 />
                 <CardTitle className="mt-2">
                   {swahili ? "Stadi za vitendo" : "Practical skills"}
@@ -249,78 +249,44 @@ export function HomepageSections() {
         </div>
       </section>
 
-      <section className="bg-navy-900 py-14 text-white sm:py-16 lg:py-20">
+      <section className="bg-primary py-14 text-primary-foreground sm:py-16 lg:py-20">
         <div className="mx-auto grid max-w-[1200px] gap-10 px-5 sm:px-8 md:grid-cols-3">
           <div>
             <GraduationCap
               aria-hidden="true"
-              className="text-gold-achievement size-7"
+              className="size-7 text-elimika-gold"
             />
             <h2 className="mt-4 font-heading text-xl font-bold">
               {swahili ? "Mtaala kwanza" : "Curriculum first"}
             </h2>
-            <p className="mt-2 text-sm leading-6 text-white/70">
+            <p className="mt-2 text-sm leading-6 text-primary-foreground/75">
               {swahili
                 ? "Masomo yanayotengenezwa kuzunguka malengo ya ujifunzaji."
                 : "Experiences designed around learning objectives."}
             </p>
           </div>
           <div>
-            <School
-              aria-hidden="true"
-              className="text-gold-achievement size-7"
-            />
+            <School aria-hidden="true" className="size-7 text-elimika-gold" />
             <h2 className="mt-4 font-heading text-xl font-bold">
               {swahili ? "Mwalimu katikati" : "Educators at the centre"}
             </h2>
-            <p className="mt-2 text-sm leading-6 text-white/70">
+            <p className="mt-2 text-sm leading-6 text-primary-foreground/75">
               {swahili
                 ? "Teknolojia inayosaidia walimu kuongoza, si kuchukua nafasi yao."
                 : "Technology that supports teachers instead of replacing them."}
             </p>
           </div>
           <div>
-            <BookOpen
-              aria-hidden="true"
-              className="text-gold-achievement size-7"
-            />
+            <BookOpen aria-hidden="true" className="size-7 text-elimika-gold" />
             <h2 className="mt-4 font-heading text-xl font-bold">
               {swahili ? "Utafiti na ushahidi" : "Research and evidence"}
             </h2>
-            <p className="mt-2 text-sm leading-6 text-white/70">
+            <p className="mt-2 text-sm leading-6 text-primary-foreground/75">
               {swahili
                 ? "Matokeo hupimwa kwa uwazi na muktadha."
                 : "Outcomes are measured with context and care."}
             </p>
           </div>
-        </div>
-      </section>
-
-      <section className="py-14 sm:py-16 lg:py-20">
-        <div className="mx-auto flex max-w-[1200px] flex-col gap-5 px-5 sm:px-8 md:flex-row md:items-center md:justify-between">
-          <div className="max-w-2xl">
-            <p className="mb-2 text-xs font-bold tracking-wide text-primary uppercase">
-              {swahili ? "Hatua inayofuata" : "Your next step"}
-            </p>
-            <h2 className="font-heading text-3xl font-bold">
-              {swahili
-                ? "Tujenge uzoefu bora wa kujifunza"
-                : "Bring immersive learning to your institution"}
-            </h2>
-            <p className="mt-3 text-base leading-7 text-muted-foreground">
-              {swahili
-                ? "Jadili mtaala, mahitaji ya darasa na namna ya kuanza."
-                : "Talk curriculum, classroom needs, and how to get started."}
-            </p>
-          </div>
-          <Button
-            render={<Link href="/contact/request-a-demo" />}
-            nativeButton={false}
-            className="h-12 shrink-0 rounded-xl px-5"
-          >
-            {swahili ? "Omba onyesho" : "Request a demo"}
-            <ArrowRight aria-hidden="true" className="ml-2 size-4" />
-          </Button>
         </div>
       </section>
     </main>

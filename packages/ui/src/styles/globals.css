@@ -90,6 +90,17 @@
   --color-elimika-indigo-tint: var(--elimika-indigo-tint, transparent);
   --color-elimika-gold: var(--elimika-gold, transparent);
   --color-elimika-gold-tint: var(--elimika-gold-tint, transparent);
+  --color-elimika-footer: var(--elimika-footer, transparent);
+  --color-elimika-footer-foreground: var(
+    --elimika-footer-foreground,
+    transparent
+  );
+  --color-elimika-footer-accent: var(--elimika-footer-accent, transparent);
+  --color-elimika-footer-cta: var(--elimika-footer-cta, transparent);
+  --color-elimika-footer-cta-foreground: var(
+    --elimika-footer-cta-foreground,
+    transparent
+  );
   --color-track-k12: var(--track-k12, transparent);
   --color-track-highered: var(--track-highered, transparent);
   --color-track-tvet: var(--track-tvet, transparent);

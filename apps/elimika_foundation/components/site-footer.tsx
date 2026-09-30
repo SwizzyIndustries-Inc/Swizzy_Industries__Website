@@ -4,7 +4,7 @@ import Link from "next/link"
 import { ArrowRight, School } from "lucide-react"
 
 import { Button } from "@workspace/ui/components/button"
-import { useLanguage } from "@/components/language-provider"
+import { translate, useLanguage } from "@/components/language-provider"
 import { pageLinks, productLinks } from "@/lib/site-navigation"
 
 export function SiteFooter() {
@@ -34,14 +34,14 @@ export function SiteFooter() {
         }
 
   return (
-    <footer className="bg-navy-deep text-white">
-      <div className="border-b border-white/15">
+    <footer className="bg-elimika-footer text-elimika-footer-foreground">
+      <div className="border-b border-elimika-footer-foreground/15">
         <div className="mx-auto flex max-w-[1320px] flex-col gap-5 px-5 py-8 sm:px-8 md:flex-row md:items-center md:justify-between lg:py-10">
           <div>
             <h2 className="font-heading text-xl font-semibold sm:text-2xl">
               {labels.ready}
             </h2>
-            <p className="mt-2 max-w-xl text-sm leading-6 text-white/70">
+            <p className="mt-2 max-w-xl text-sm leading-6 text-elimika-footer-foreground/75">
               {language === "sw"
                 ? "Tujadili mtaala, mahitaji ya darasa na hatua inayofuata."
                 : "Let’s talk curriculum, classroom needs, and a practical next step."}
@@ -51,7 +51,7 @@ export function SiteFooter() {
             render={<Link href="/contact/request-a-demo" />}
             nativeButton={false}
             variant="secondary"
-            className="h-11 shrink-0 rounded-xl px-5"
+            className="h-11 shrink-0 rounded-xl bg-elimika-footer-cta px-5 text-elimika-footer-cta-foreground hover:bg-elimika-footer-cta/90"
           >
             {labels.action}
             <ArrowRight aria-hidden="true" className="ml-2 size-4" />
@@ -64,17 +64,20 @@ export function SiteFooter() {
             href="/"
             className="inline-flex min-h-11 items-center gap-2 rounded-lg"
           >
-            <School aria-hidden="true" className="size-6 text-indigo-300" />
+            <School
+              aria-hidden="true"
+              className="size-6 text-elimika-footer-accent"
+            />
             <span className="font-heading text-lg font-bold">
               Elimika Foundation
             </span>
           </Link>
-          <p className="mt-3 text-sm font-medium text-white/85">
+          <p className="mt-3 text-sm font-medium text-elimika-footer-foreground/90">
             {language === "sw"
               ? "Kujifunza, kufikiriwa upya katika vipimo vitatu"
               : "Learning, reimagined in three dimensions"}
           </p>
-          <p className="mt-3 text-sm leading-6 text-white/65">
+          <p className="mt-3 text-sm leading-6 text-elimika-footer-foreground/75">
             {labels.company}
           </p>
         </div>
@@ -85,9 +88,9 @@ export function SiteFooter() {
               <li key={item.href}>
                 <Link
                   href={item.href}
-                  className="inline-flex min-h-9 items-center text-sm text-white/65 hover:text-white"
+                  className="inline-flex min-h-9 items-center text-sm text-elimika-footer-foreground/75 hover:text-elimika-footer-foreground"
                 >
-                  {item.title}
+                  {translate(item.title, language)}
                 </Link>
               </li>
             ))}
@@ -100,7 +103,7 @@ export function SiteFooter() {
               <li key={product.title}>
                 <a
                   href={product.href}
-                  className="inline-flex min-h-9 items-center text-sm text-white/65 hover:text-white"
+                  className="inline-flex min-h-9 items-center text-sm text-elimika-footer-foreground/75 hover:text-elimika-footer-foreground"
                 >
                   {product.title}
                 </a>
@@ -114,7 +117,7 @@ export function SiteFooter() {
             <li>
               <Link
                 href="/contact"
-                className="inline-flex min-h-9 items-center text-sm text-white/65 hover:text-white"
+                className="inline-flex min-h-9 items-center text-sm text-elimika-footer-foreground/75 hover:text-elimika-footer-foreground"
               >
                 {labels.contact}
               </Link>
@@ -122,7 +125,7 @@ export function SiteFooter() {
             <li>
               <a
                 href={productLinks.find((product) => product.parent)?.href}
-                className="inline-flex min-h-9 items-center text-sm text-white/65 hover:text-white"
+                className="inline-flex min-h-9 items-center text-sm text-elimika-footer-foreground/75 hover:text-elimika-footer-foreground"
               >
                 Swizzy Industries ({labels.parent})
               </a>
@@ -130,14 +133,14 @@ export function SiteFooter() {
           </ul>
         </nav>
       </div>
-      <div className="border-t border-white/15">
-        <div className="mx-auto flex max-w-[1320px] flex-col gap-3 px-5 py-5 text-xs text-white/60 sm:px-8 md:flex-row md:items-center md:justify-between">
+      <div className="border-t border-elimika-footer-foreground/15">
+        <div className="mx-auto flex max-w-[1320px] flex-col gap-3 px-5 py-5 text-xs text-elimika-footer-foreground/70 sm:px-8 md:flex-row md:items-center md:justify-between">
           <p>
             © {new Date().getFullYear()} Elimika Foundation. {labels.rights}
           </p>
           <Link
             href="/legal/privacy"
-            className="inline-flex min-h-8 items-center hover:text-white"
+            className="inline-flex min-h-8 items-center hover:text-elimika-footer-foreground"
           >
             {language === "sw" ? "Faragha" : "Privacy"}
           </Link>
