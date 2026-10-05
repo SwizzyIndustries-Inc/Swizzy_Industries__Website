@@ -102,6 +102,16 @@ export function SiteHeader() {
               className="size-8 object-contain"
             />
           </span>
+          <span className="leading-tight">
+            <BrandLogo
+              src="/logos/elimika_logo_text.svg"
+              viewBox="0 0 368.54 72.54"
+              label="Elimika"
+              width={102}
+              height={20}
+              className="block"
+            />
+          </span>
         </Link>
 
         <NavigationMenu
