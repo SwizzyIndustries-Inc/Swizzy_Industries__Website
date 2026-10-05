@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tibika
 
-## Getting Started
+Tibika is the Swizzy Industries health platform. It supports immersive
+clinical training, medical research, and patient wellbeing.
 
-First, run the development server:
+Production: [tibika.swizzyindustries.com](https://tibika.swizzyindustries.com)
+
+## Local development
+
+Install dependencies from the repository root (once per checkout):
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run Tibika on its own from this directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+bun run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:4204](http://localhost:4204). Run `bun run dev` at the
+repository root to start all six sites with Turbo. Press `Ctrl+C` to stop.
 
-## Learn More
+The app's `.env.development` and `.env.production` configure
+`NEXT_PUBLIC_HOST` and `NEXT_PUBLIC_PROTOCOL` for cross-site navigation. Use
+development configuration on your machine and keep environment values
+private.
 
-To learn more about Next.js, take a look at the following resources:
+## Commands
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Command         | Purpose                                   |
+| --------------- | ----------------------------------------- |
+| `bun run dev`   | Start the development server on port 4204 |
+| `bun run build` | Create a production build                 |
+| `bun run start` | Serve the production build on port 4204   |
+| `bun run lint`  | Run ESLint                                |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Run commands from `apps/tibika_foundation`. The root workspace uses Turbo to
+run available tasks across apps and shared packages. Not every workspace
+defines a `typecheck` or `format` script.
 
-## Deploy on Vercel
+## Code map and routes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `app/page.tsx` renders the homepage assembled from `components/homepage/`.
+  Sections cover clinical solutions, deployment, impact, and stories.
+- `components/site-header.tsx`, `components/mobile-navigation.tsx`, and
+  `components/site-footer.tsx` define site navigation and shared layout.
+- `lib/site-navigation.ts` owns menu content. `lib/construction-routes.ts`
+  maps supported links and supplies sitemap paths.
+- `app/[...slug]/page.tsx` handles recognized non-homepage routes and their
+  page metadata. Keep navigation links, route entries, and page definitions
+  consistent when adding destinations.
+- `app/layout.tsx` configures global styles, providers, theme, and metadata.
+  Shared UI components and CSS tokens live in `packages/ui/`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Theme and public assets
+
+The root layout sets `data-brand="tibika"`. Brand-specific light and dark
+variables live in `packages/ui/src/styles/brands/tibika.css`; prefer semantic
+theme tokens in components.
+
+The header uses the icon and wordmark SVGs in `public/logos/`. Browser and
+Apple icons are in `public/icons/`, and `public/images/og-image.png` is the
+Open Graph banner used for social previews (including WhatsApp link previews).
+SEO helpers are shared in `packages/ui/src/lib/seo.ts`; crawler endpoints are
+`/robots.txt` and `/sitemap.xml`.
+
+## Checks and deployment
+
+Run `bun run lint` and `bun run build` from this directory before shipping.
+Deploy this workspace as a Next.js app at the production URL above, with the
+production host/protocol environment settings available.
