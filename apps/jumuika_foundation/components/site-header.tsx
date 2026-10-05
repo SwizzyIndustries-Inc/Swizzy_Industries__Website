@@ -65,9 +65,6 @@ export function SiteHeader() {
               height={16}
               className="block"
             />
-            <span className="block text-[11px] text-muted-foreground">
-              {translate("A Swizzy Industries brand", language)}
-            </span>
           </span>
         </Link>
 

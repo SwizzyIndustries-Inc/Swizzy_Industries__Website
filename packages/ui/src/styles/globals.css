@@ -310,7 +310,6 @@
 }
 
 :root:not([data-brand]).dark {
-  --navy-deep: #dce8fb;
   --blue-primary: #82b5ff;
   --blue-hover: #a4caff;
   --blue-tint: #1a2d49;

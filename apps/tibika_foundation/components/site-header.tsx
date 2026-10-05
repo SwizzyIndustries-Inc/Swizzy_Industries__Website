@@ -66,9 +66,6 @@ export function SiteHeader() {
               height={20}
               className="block"
             />
-            <span className="block text-[11px] text-muted-foreground">
-              {translate("Clinical technology", language)}
-            </span>
           </span>
         </Link>
         <NavigationMenu

@@ -66,9 +66,6 @@ export function SiteHeader() {
               height={17}
               className="block"
             />
-            <span className="block text-[11px] text-muted-foreground">
-              {translate("Skills meet opportunity", language)}
-            </span>
           </span>
         </Link>
         <NavigationMenu

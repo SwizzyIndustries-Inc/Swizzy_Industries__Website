@@ -65,9 +65,6 @@ export function SiteHeader() {
               height={20}
               className="block"
             />
-            <span className="block text-[11px] text-muted-foreground">
-              {translate("Your voice, amplified", language)}
-            </span>
           </span>
         </Link>
         <NavigationMenu
