@@ -4,15 +4,10 @@ import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
-import {
-  ArrowUpRight,
-  BriefcaseBusiness,
-  Moon,
-  Search,
-  Sun,
-} from "lucide-react"
+import { ArrowUpRight, Moon, Search, Sun } from "lucide-react"
 
 import { Button } from "@workspace/ui/components/button"
+import { BrandLogo } from "@workspace/ui/components/brand-logo"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -55,13 +50,22 @@ export function SiteHeader() {
           aria-label={translate("Nufaika home", language)}
           className="flex shrink-0 items-center gap-2.5 rounded-lg focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
         >
-          <span className="grid size-10 place-items-center rounded-xl bg-primary text-primary-foreground">
-            <BriefcaseBusiness aria-hidden="true" className="size-5" />
+          <span className="grid size-10 place-items-center rounded-xl bg-background">
+            <BrandLogo
+              src="/logos/nufaika_logo_icon.svg"
+              viewBox="0 0 247.89 167.18"
+              className="size-8 object-contain"
+            />
           </span>
           <span className="leading-tight">
-            <span className="block font-heading text-lg font-bold">
-              Nufaika
-            </span>
+            <BrandLogo
+              src="/logos/nufaika_logo_text.svg"
+              viewBox="0 0 239.61 33.18"
+              label="Nufaika"
+              width={120}
+              height={17}
+              className="block"
+            />
             <span className="block text-[11px] text-muted-foreground">
               {translate("Skills meet opportunity", language)}
             </span>

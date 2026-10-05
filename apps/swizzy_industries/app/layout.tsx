@@ -11,6 +11,7 @@ import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { cn } from "@workspace/ui/lib/utils"
 import { TooltipProvider } from "@workspace/ui/components/tooltip"
+import { createSiteMetadata } from "@workspace/ui/lib/seo"
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -20,8 +21,23 @@ const fontMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Swizzy Industries | Building the future, together",
-  description: "Innovative solutions for a better tomorrow.",
+  ...createSiteMetadata({
+    siteName: "Swizzy Industries",
+    siteUrl: "https://swizzyindustries.com",
+    title: "Swizzy Industries | Building the future, together",
+    description:
+      "Immersive technology serving people and institutions in Kenya.",
+    keywords: [
+      "immersive technology",
+      "virtual reality",
+      "augmented reality",
+      "digital solutions",
+      "Kenya technology company",
+      "healthcare technology",
+      "education technology",
+    ],
+    logoPath: "/logos/swizzy_logo_icon.svg",
+  }),
 }
 
 export default function RootLayout({

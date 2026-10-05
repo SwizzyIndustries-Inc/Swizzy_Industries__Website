@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2009.74 2009.74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: color-mix(in srgb, var(--elimika-gold, #f2b33b) 74%, var(--foreground, #12132b) 26%);
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="994.33" cy="890.31" fx="994.33" fy="426.26" r="970.53" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 74%, var(--foreground, #12132b) 26%)"/>
+      <stop offset=".33" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 75%, var(--foreground, #12132b) 25%)"/>
+      <stop offset=".48" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 79%, var(--foreground, #12132b) 21%)"/>
+      <stop offset=".59" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 86%, var(--foreground, #12132b) 14%)"/>
+      <stop offset=".68" stop-color="var(--elimika-gold, #f2b33b)"/>
+      <stop offset=".76" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 88%, var(--background, #ffffff) 12%)"/>
+      <stop offset=".83" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 69%, var(--background, #ffffff) 31%)"/>
+      <stop offset=".9" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 46%, var(--background, #ffffff) 54%)"/>
+      <stop offset=".96" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 20%, var(--background, #ffffff) 80%)"/>
+      <stop offset="1" stop-color="var(--primary-foreground, #ffffff)"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="984.35" y1="853.38" x2="984.35" y2="512.35" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 74%, var(--foreground, #12132b) 26%)"/>
+      <stop offset=".14" stop-color="var(--elimika-gold, #f2b33b)"/>
+      <stop offset=".28" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 68%, var(--background, #ffffff) 32%)"/>
+      <stop offset=".43" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 44%, var(--background, #ffffff) 56%)"/>
+      <stop offset=".57" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 25%, var(--background, #ffffff) 75%)"/>
+      <stop offset=".71" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 12%, var(--background, #ffffff) 88%)"/>
+      <stop offset=".86" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 12%, var(--background, #ffffff) 88%)"/>
+      <stop offset="1" stop-color="var(--primary-foreground, #ffffff)"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="M1085.29,18.39c-24.05-12.26-51.03-18.39-77.99-18.39s-53.94,6.13-78,18.39c0,0-851.27,434.12-853.62,435.47l242.56,123.66c1.74-1,631.37-322.09,631.37-322.09,17.8-9.07,37.74-13.61,57.69-13.61s39.9,4.54,57.69,13.61c0,0,629.64,321.09,631.38,322.09l242.56-123.66c-2.35-1.36-853.63-435.47-853.63-435.47Z"/>
+  <path class="cls-1" d="M340.21,1394.64c-33.61-17.13-54.48-49.06-54.48-83.33v-602.94h0c0-1.17.07-2.34.13-3.51L5.14,561.76c-.15,2.48-.28,4.96-.28,7.45h0v863.06c0,49.05,29.88,94.76,77.99,119.28l846.46,431.53c2.45,1.25,4.94,2.39,7.45,3.51v-288.02c-1.75-.78-3.5-1.58-5.2-2.45l-591.34-301.47Z"/>
+  <path class="cls-1" d="M1931.75,1260.65l-846.46,431.53c-2.45,1.25-4.95,2.39-7.45,3.51v290.91c2.5-1.12,5-2.26,7.45-3.51l846.46-431.53c48.11-24.53,77.99-70.23,77.99-119.28v-290.91c0,49.05-29.88,94.76-77.99,119.28Z"/>
+  <path class="cls-1" d="M1717.62,684.43v135.7h0s-592.73,302.18-592.73,302.18c-23.33,11.89-40.32,31.62-46.67,54.74-.24.89-.38,1.46-.38,1.62v258.24c2.5-1.12,5-2.26,7.45-3.51l846.46-431.53c48.11-24.53,77.99-70.23,77.99-119.28v-353.85l-292.12,155.69Z"/>
+  <path class="cls-1" d="M936.76,1192.25v244.67l-380.74-159.17c-30.89-12.91-50.58-40.39-50.58-70.57v-245.69l198.36,85.63s11.02,3.17,24.48,8.7l156.23,64.11c31.87,13.08,52.26,41.29,52.26,72.32Z"/>
+  <path class="cls-2" d="M12.91,520.94l798.94,405.98c102.91,53.42,165.24,141.79,165.24,247.2v814.22c0,11.82,10.85,21.41,24.24,21.41h0c13.39,0,24.24-9.58,24.24-21.41v-812.71c0-105.56,63.37-203.2,166.52-256.57l786.44-406.9c10.79-5.02,13.51-17.59,5.55-25.76h0c-6.88-7.07-18.36-9.04-27.74-4.76l-784.5,407.54c-103.3,53.66-231.12,54.81-335.63,3L39.1,484.82c-29.49-16.44-55.63,19.8-26.19,36.13Z"/>
+  <ellipse class="cls-3" cx="984.35" cy="682.87" rx="193.11" ry="170.52"/>
+</svg>

@@ -10,6 +10,7 @@ import { SiteHeader } from "@/components/site-header"
 import { ThemeProvider } from "@/components/theme-provider"
 import { TooltipProvider } from "@workspace/ui/components/tooltip"
 import { cn } from "@workspace/ui/lib/utils"
+import { createSiteMetadata } from "@workspace/ui/lib/seo"
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -19,9 +20,22 @@ const fontMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Nufaika | Skills meet opportunity",
-  description:
-    "A trusted marketplace connecting skilled service providers with customers across Kenya.",
+  ...createSiteMetadata({
+    siteName: "Nufaika",
+    siteUrl: "https://nufaika.swizzyindustries.com",
+    title: "Nufaika | Skills meet opportunity",
+    description:
+      "A trusted marketplace connecting skilled service providers with customers across Kenya.",
+    keywords: [
+      "services marketplace",
+      "find skilled professionals",
+      "local service providers",
+      "Kenya marketplace",
+      "small business",
+      "skilled work",
+    ],
+    logoPath: "/logos/nufaika_logo_icon.svg",
+  }),
 }
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

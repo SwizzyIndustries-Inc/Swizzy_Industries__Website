@@ -4,9 +4,10 @@ import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
-import { ArrowUpRight, Megaphone, Moon, Search, Sun } from "lucide-react"
+import { ArrowUpRight, Moon, Search, Sun } from "lucide-react"
 
 import { Button } from "@workspace/ui/components/button"
+import { BrandLogo } from "@workspace/ui/components/brand-logo"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -48,13 +49,22 @@ export function SiteHeader() {
           aria-label={translate("Wajibika home", language)}
           className="flex shrink-0 items-center gap-2.5 rounded-lg focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
         >
-          <span className="grid size-10 place-items-center rounded-xl bg-primary text-primary-foreground">
-            <Megaphone aria-hidden="true" className="size-5" />
+          <span className="grid size-10 place-items-center rounded-xl bg-background">
+            <BrandLogo
+              src="/logos/wajibika_logo_icon.svg"
+              viewBox="0 0 489.56 366.54"
+              className="size-8 object-contain"
+            />
           </span>
           <span className="leading-tight">
-            <span className="block font-heading text-lg font-bold">
-              Wajibika
-            </span>
+            <BrandLogo
+              src="/logos/wajibika_logo_text.svg"
+              viewBox="0 0 322.34 54.26"
+              label="Wajibika"
+              width={119}
+              height={20}
+              className="block"
+            />
             <span className="block text-[11px] text-muted-foreground">
               {translate("Your voice, amplified", language)}
             </span>

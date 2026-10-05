@@ -9,6 +9,7 @@ import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
 import { ThemeProvider } from "@/components/theme-provider"
 import { TooltipProvider } from "@workspace/ui/components/tooltip"
+import { createSiteMetadata } from "@workspace/ui/lib/seo"
 import { cn } from "@workspace/ui/lib/utils"
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" })
@@ -19,8 +20,22 @@ const fontMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Jumuika | Distance is just a detail",
-  description: "Shared spaces for family, friends, diaspora, and communities.",
+  ...createSiteMetadata({
+    siteName: "Jumuika",
+    siteUrl: "https://jumuika.swizzyindustries.com",
+    title: "Jumuika | Distance is just a detail",
+    description:
+      "Shared spaces for family, friends, diaspora, and communities.",
+    keywords: [
+      "virtual communities",
+      "shared virtual spaces",
+      "diaspora connections",
+      "virtual events",
+      "social technology",
+      "Kenya",
+    ],
+    logoPath: "/logos/jumuika_logo_icon.svg",
+  }),
 }
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 
+import { createPageMetadata } from "@workspace/ui/lib/seo"
 import { UnderConstructionPage } from "@/components/under-construction-page"
 import { getConstructionRoute } from "@/lib/construction-routes"
 import { getDesignedPage } from "@/lib/site-navigation/pages"
@@ -22,12 +23,20 @@ async function getRouteInfo(params: PageProps["params"]) {
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
-  const { route, design } = await getRouteInfo(params)
+  const { pathname, route, design } = await getRouteInfo(params)
+  const title = design?.title ?? route?.title
 
-  return {
-    title: `${design?.title ?? route?.title ?? "Page not found"} | Swizzy Industries`,
-    description: design?.description ?? route?.description,
-  }
+  return title
+    ? createPageMetadata({
+        pathname,
+        siteName: "Swizzy Industries",
+        title: `${title} | Swizzy Industries`,
+        description: design?.description ?? route?.description,
+      })
+    : {
+        title: "Page not found | Swizzy Industries",
+        robots: { index: false, follow: false },
+      }
 }
 
 export default async function NavigationPlaceholderPage({ params }: PageProps) {

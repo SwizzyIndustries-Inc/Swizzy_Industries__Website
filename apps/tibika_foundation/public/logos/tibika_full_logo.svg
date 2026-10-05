@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 532.21 125.39">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        stroke: url(#linear-gradient-6);
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-5 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-8 {
+        fill: color-mix(in srgb, var(--tibika-navy, #0a2a44) 66%, var(--background, #ffffff) 34%);
+      }
+
+      .cls-9 {
+        fill: color-mix(in srgb, var(--tibika-teal, #0e9f8e) 18%, var(--foreground, #0b1b2b) 82%);
+      }
+
+      .cls-10 {
+        fill: color-mix(in srgb, var(--tibika-teal, #0e9f8e) 77%, var(--background, #ffffff) 23%);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="72.79" y1="115.82" x2="114.81" y2="73.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 52%, var(--foreground, #0b1b2b) 48%)"/>
+      <stop offset=".06" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 80%, var(--foreground, #0b1b2b) 20%)"/>
+      <stop offset=".18" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 88%, var(--background, #ffffff) 12%)"/>
+      <stop offset=".24" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 81%, var(--background, #ffffff) 19%)"/>
+      <stop offset=".37" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 90%, var(--background, #ffffff) 10%)"/>
+      <stop offset=".58" stop-color="var(--tibika-teal, #0e9f8e)"/>
+      <stop offset=".71" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 90%, var(--foreground, #0b1b2b) 10%)"/>
+      <stop offset=".89" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 62%, var(--background, #ffffff) 38%)"/>
+      <stop offset=".93" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 64%, var(--background, #ffffff) 36%)"/>
+      <stop offset=".95" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 67%, var(--background, #ffffff) 33%)"/>
+      <stop offset=".96" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 72%, var(--background, #ffffff) 28%)"/>
+      <stop offset=".97" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 81%, var(--background, #ffffff) 19%)"/>
+      <stop offset=".98" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 91%, var(--background, #ffffff) 9%)"/>
+      <stop offset=".99" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 88%, var(--foreground, #0b1b2b) 12%)"/>
+      <stop offset=".99" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 44%, var(--foreground, #0b1b2b) 56%)"/>
+      <stop offset="1" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 12%, var(--foreground, #0b1b2b) 88%)"/>
+      <stop offset="1" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 12%, var(--foreground, #0b1b2b) 88%)"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="56.68" cy="71.5" fx="56.68" fy="71.5" r="9.05" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="var(--primary-foreground, #ffffff)"/>
+      <stop offset=".41" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 52%, var(--background, #ffffff) 48%)"/>
+      <stop offset=".53" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 55%, var(--background, #ffffff) 45%)"/>
+      <stop offset=".67" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 64%, var(--background, #ffffff) 36%)"/>
+      <stop offset=".82" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 79%, var(--background, #ffffff) 21%)"/>
+      <stop offset=".98" stop-color="var(--tibika-teal, #0e9f8e)"/>
+      <stop offset="1" stop-color="var(--tibika-teal, #0e9f8e)"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-2" x1="2.98" y1="83.27" x2="80.83" y2="83.27" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 40%, var(--background, #ffffff) 60%)"/>
+      <stop offset="0" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 41%, var(--background, #ffffff) 59%)"/>
+      <stop offset=".05" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 65%, var(--background, #ffffff) 35%)"/>
+      <stop offset=".11" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 85%, var(--background, #ffffff) 15%)"/>
+      <stop offset=".16" stop-color="var(--tibika-teal, #0e9f8e)"/>
+      <stop offset=".21" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 68%, var(--foreground, #0b1b2b) 32%)"/>
+      <stop offset=".27" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 50%, var(--foreground, #0b1b2b) 50%)"/>
+      <stop offset=".33" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 45%, var(--foreground, #0b1b2b) 55%)"/>
+      <stop offset=".73" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 85%, var(--background, #ffffff) 15%)"/>
+      <stop offset="1" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 47%, var(--background, #ffffff) 53%)"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="67.02" y1="40.88" x2="126.42" y2="40.88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 96%, var(--background, #ffffff) 4%)"/>
+      <stop offset=".04" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 91%, var(--foreground, #0b1b2b) 9%)"/>
+      <stop offset=".1" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 64%, var(--foreground, #0b1b2b) 36%)"/>
+      <stop offset=".16" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 49%, var(--foreground, #0b1b2b) 51%)"/>
+      <stop offset=".23" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 45%, var(--foreground, #0b1b2b) 55%)"/>
+      <stop offset=".73" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 39%, var(--background, #ffffff) 61%)"/>
+      <stop offset="1" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 12%, var(--foreground, #0b1b2b) 88%)"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="12.99" y1="58.54" x2="66.32" y2="5.21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 12%, var(--foreground, #0b1b2b) 88%)"/>
+      <stop offset="0" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 18%, var(--foreground, #0b1b2b) 82%)"/>
+      <stop offset=".01" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 57%, var(--foreground, #0b1b2b) 43%)"/>
+      <stop offset=".02" stop-color="var(--tibika-teal, #0e9f8e)"/>
+      <stop offset=".02" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 93%, var(--background, #ffffff) 7%)"/>
+      <stop offset=".03" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 85%, var(--background, #ffffff) 15%)"/>
+      <stop offset=".04" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 80%, var(--background, #ffffff) 20%)"/>
+      <stop offset=".06" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 77%, var(--background, #ffffff) 23%)"/>
+      <stop offset=".1" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 76%, var(--background, #ffffff) 24%)"/>
+      <stop offset=".11" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 81%, var(--background, #ffffff) 19%)"/>
+      <stop offset=".18" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 96%, var(--background, #ffffff) 4%)"/>
+      <stop offset=".24" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 75%, var(--foreground, #0b1b2b) 25%)"/>
+      <stop offset=".3" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 50%, var(--foreground, #0b1b2b) 50%)"/>
+      <stop offset=".37" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 35%, var(--foreground, #0b1b2b) 65%)"/>
+      <stop offset=".44" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 31%, var(--foreground, #0b1b2b) 69%)"/>
+      <stop offset="1" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 90%, var(--background, #ffffff) 10%)"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="313.52" y1="97.5" x2="313.52" y2="29.92" gradientTransform="translate(28.68 -1.01)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 71%, var(--background, #ffffff) 29%)"/>
+      <stop offset=".99" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 94%, var(--background, #ffffff) 6%)"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="313.52" y1="97.5" x2="313.52" y2="29.92" gradientTransform="translate(28.68 -1.01)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 72%, var(--background, #ffffff) 28%)"/>
+      <stop offset="1" stop-color="color-mix(in srgb, var(--tibika-teal, #0e9f8e) 93%, var(--background, #ffffff) 7%)"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path class="cls-3" d="M122.14,72.28l-3.31-2.07,3.13,2.02c.41.36,1.66,1.76,2.4,2.73-.62-.97-1.37-1.88-2.22-2.68Z"/>
+    <path class="cls-10" d="M42.17,122.8s.56.03.7.03c.12,0,.23,0,.35,0-.29-.04-.55-.1-.79-.17-.09.08-.18.13-.26.14Z"/>
+    <path class="cls-10" d="M84.75,123.14h-1.49c.63,0,1.01.12,1.49,0Z"/>
+    <path class="cls-11" d="M121.89,76.09c-.5-.65-1.24-1.5-1.79-2.1-.35-.38-.75-.71-1.18-.99l-13.15-7.96s-43.31,39.65-43.82,41c8.79,8.89,15.14,15.31,15.66,15.73,1.59,1.27,1.98,2.32,4.73,2.49.47-.14,1.04-.53,2.02-1.51l38.22-35.98c.79-.72,1.33-1.79,1.58-2.97.02-2.37-.48-4.02-1.27-5.83-.28-.64-.61-1.27-1-1.87Z"/>
+    <path class="cls-10" d="M126.64,82.64c.04-.21.08-.43.1-.65l-.1.65Z"/>
+    <path class="cls-5" d="M66.38,84.48s-1-3.46-3.25-6.28c-.48-.61-1.01-1.16-1.28-1.44,1.45-1.6,2.3-3.75,2.2-6.1-.2-4.43-3.86-8.01-8.29-8.12-4.85-.11-8.8,3.83-8.71,8.67.09,4.4,3.61,8.07,8,8.32,1.6.09,3.12-.26,4.43-.95.59.63,1.43,1.44,2.19,2.68,1.39,2.27,1.61,4.5,1.79,6.28.15,1.52.37,3.74-.49,6.28-.23.68-.7,1.87-3.25,5.16-3.59,4.62-4.25,4.31-5.53,6.61-.17.31-.33.62-.47.92.09.09.17.17.26.26.75.76,1.49,1.51,2.21,2.23.52-1.34,1.14-2.38,1.58-3.1,2.24-3.66,3.73-3.29,6.18-6.93.4-.59,1.02-1.53,1.6-2.77.66-1.39,1.27-3.17,1.49-5.29.31-3.04-.35-5.4-.65-6.44Z"/>
+    <path class="cls-9" d="M47.77,123.14h2.99c-2.87,0-4.91-.29-7.54-.31.98.15,2.33.18,4.55.31Z"/>
+    <path class="cls-9" d="M85.21,123.14c-.14,0-.27-.01-.4-.02-.02,0-.04.01-.06.02h.46Z"/>
+    <path class="cls-1" d="M75.59,122.89c-.52-.42-6.87-6.84-15.66-15.73-.72-.73-30.86-31.14-42.73-42.76l-12.71-12.05c-.58-.61-2.8-2.46-3.19-5.83-.32-2.7-.12-4.5.03-5.36-.11.52-.21,1.03-.32,1.55-.54,2.62-.82,5.33-.83,8.06L0,81.46c-.03,4.74,1.55,6.77,4.23,9.56l30.76,31.77c1.28,1.26,1.95,1.83,2.93,2.12.24.07.5.13.79.17,2.64.02,4.68.31,7.54.31h33.99s.04-.01.06-.02c-2.75-.16-3.14-1.22-4.73-2.49Z"/>
+    <path class="cls-6" d="M121.02,72.05c.85.81,1.6,1.72,2.22,2.68.23.3.41.56.5.72l1.16,2.16c.66,1.23.88,2.73.72,4.14v-.05c.55-3.33.81-6.73.8-10.15l-.12-25.08c0-2.43-.84-4.7-2.23-6.09,0,0-56.88-40.22-57.04-40.39v38.36l53.99,33.7Z"/>
+    <path class="cls-8" d="M126.63,82.68v-.05s0,.02,0,.03c0,0,0,0,0,.01Z"/>
+    <path class="cls-4" d="M3.18,45.92c.43,1.68,1.12,3.3,1.8,4.35.83,1.3,1.73,1.9,2.63,2.74,2.82,2.61,6.59,6.24,10.93,10.49l.02.02,44.05-23.8V1.5L6.72,34.04c-.73.66-1.42,1.39-2.06,2.21l-.47.6c-.63.8-1.13,1.79-1.41,2.92-.02.09-.06.26-.1.48.01-.07.03-.14.04-.21-.06,2.73,0,4.06.47,5.87Z"/>
+  </g>
+  <g>
+    <g>
+      <path class="cls-7" d="M253.55,29.16h-24.04c-1.06,0-1.92.94-1.92,2.11h0c0,1.08.74,1.98,1.72,2.1l5.87.68c.97.11,1.71.99,1.73,2.06.14,8.03.15,16.09.15,24.09v5.01c0,8.13,0,16.18-.15,24.1-.02,1.06-.76,1.94-1.72,2.05l-5.87.68c-.98.11-1.72,1.02-1.72,2.1,0,1.16.86,2.11,1.92,2.11h24.04c1.06,0,1.92-.94,1.92-2.11,0-1.08-.74-1.98-1.72-2.1l-5.87-.68c-.97-.11-1.71-.99-1.73-2.06-.14-8.03-.15-16.09-.15-24.09v-5.01c0-8.13,0-16.18.15-24.1.02-1.06.76-1.94,1.72-2.05l5.87-.68c.98-.11,1.72-1.02,1.72-2.1h0c0-1.16-.86-2.11-1.92-2.11Z"/>
+      <path class="cls-7" d="M208.47,29.16h-50.73c-1.02,0-1.86.88-1.91,2l-.61,13.62c-.05,1.2.82,2.2,1.91,2.2h1.99c.92,0,1.7-.71,1.88-1.7l1.69-9.42c.18-.99.96-1.7,1.88-1.7h11.99c1.04,0,1.9.92,1.92,2.06.14,7.99.15,16.01.15,23.97v5.01c0,8.11,0,16.16-.15,24.06-.02,1.07-.76,1.94-1.73,2.05l-6.85.74c-.98.11-1.73,1.01-1.73,2.09,0,1.16.86,2.1,1.92,2.1h26.05c1.06,0,1.92-.94,1.92-2.1,0-1.08-.75-1.98-1.73-2.09l-6.85-.74c-.97-.1-1.71-.99-1.73-2.05-.14-8.02-.15-16.06-.15-24.06v-5.01c0-8.08,0-16.1.15-23.97.02-1.14.88-2.06,1.92-2.06h11.99c.92,0,1.7.71,1.88,1.7l1.69,9.42c.18.99.96,1.7,1.88,1.7h1.99c1.09,0,1.97-1,1.91-2.2l-.61-13.62c-.05-1.12-.89-2-1.91-2Z"/>
+      <path class="cls-7" d="M370.5,29.16h-24.04c-1.06,0-1.92.94-1.92,2.11h0c0,1.08.74,1.98,1.72,2.1l5.87.68c.97.11,1.71.99,1.73,2.06.14,8.03.15,16.09.15,24.09v5.01c0,8.13,0,16.18-.15,24.1-.02,1.06-.76,1.94-1.72,2.05l-5.87.68c-.98.11-1.72,1.02-1.72,2.1,0,1.16.86,2.11,1.92,2.11h24.04c1.06,0,1.92-.94,1.92-2.11,0-1.08-.74-1.98-1.72-2.1l-5.87-.68c-.97-.11-1.71-.99-1.73-2.06-.14-8.03-.15-16.09-.15-24.09v-5.01c0-8.13,0-16.18.15-24.1.02-1.06.76-1.94,1.72-2.05l5.87-.68c.98-.11,1.72-1.02,1.72-2.1h0c0-1.16-.86-2.11-1.92-2.11Z"/>
+      <path class="cls-7" d="M450.95,92.02l-5.1-.64c-.59-.07-1.12-.44-1.42-1l-19.68-35.56,16.34-19.75c.31-.37.73-.61,1.18-.68l7.3-1c.96-.13,1.68-1.03,1.68-2.09v-.04c0-1.16-.86-2.11-1.92-2.11h-19.06c-1.06,0-1.92.94-1.92,2.11v.14c0,1.02.66,1.89,1.58,2.07l2.27.46c1.48.3,2.09,2.25,1.09,3.48l-23.76,29.21v-6.43c0-8.11,0-16.16.15-24.06.02-1.06.76-1.94,1.72-2.05l6.17-.72c.98-.11,1.72-1.02,1.72-2.1h0c0-1.16-.86-2.11-1.92-2.11h-24.04c-1.06,0-1.92.94-1.92,2.11h0c0,1.08.74,1.98,1.72,2.1l5.87.68c.97.11,1.71.99,1.73,2.06.14,8.03.15,16.09.15,24.09v5.01c0,8.13,0,16.18-.15,24.1-.02,1.06-.76,1.94-1.72,2.05l-5.87.68c-.98.11-1.72,1.02-1.72,2.1,0,1.16.86,2.11,1.92,2.11h24.04c1.06,0,1.92-.94,1.92-2.11,0-1.08-.74-1.98-1.72-2.1l-6.18-.72c-.96-.11-1.7-.99-1.72-2.05-.1-5.67-.13-11.18-.14-16.05l10.03-12.13,14.56,27.3c.7,1.31-.06,2.99-1.44,3.16l-3.73.47c-.97.12-1.7,1.02-1.7,2.09v.02c0,1.16.86,2.11,1.92,2.11h21.55c1.06,0,1.92-.94,1.92-2.11v-.02c0-1.07-.73-1.97-1.7-2.09Z"/>
+      <path class="cls-7" d="M527.49,92.27l-4.76-.58c-.72-.09-1.34-.62-1.59-1.36l-20.36-60.05c-.28-.83-1-1.38-1.8-1.38h-3.3c-.8,0-1.52.55-1.8,1.37l-20.43,59.76c-.25.73-.84,1.24-1.54,1.35l-5.57.84c-.95.14-1.66,1.04-1.66,2.09v.05c0,1.17.86,2.11,1.92,2.11h19.06c1.06,0,1.92-.95,1.92-2.11v-.03c0-1.06-.72-1.96-1.69-2.09l-5.74-.79c-1.23-.17-2-1.55-1.57-2.83l4.77-14.07h23.3l4.74,14.2c.43,1.29-.36,2.68-1.6,2.82l-5.76.69c-.98.12-1.72,1.02-1.72,2.1,0,1.17.86,2.11,1.92,2.11h23.04c1.06,0,1.92-.95,1.92-2.11h0c0-1.08-.74-1.98-1.71-2.1ZM484.91,69.95l10.18-30.03,10.03,30.03h-20.2Z"/>
+      <path class="cls-7" d="M309.29,61.36c10.93-2.26,15.46-8.64,15.46-15.79,0-9.61-7.97-16.42-21.61-16.42h-26.76c-1.06,0-1.92.94-1.92,2.11h0c0,1.08.74,1.98,1.72,2.1l7.56.88c.17,8.64.19,17.33.19,25.96v5.01c0,8.76-.01,17.45-.18,25.96l-7.56.88c-.98.11-1.72,1.02-1.72,2.1,0,1.16.86,2.11,1.92,2.11h25.37c18.82,0,26.29-9.21,26.29-18.32,0-8-5.51-14.6-18.74-16.55ZM293.07,33.76h7.18c10.26,0,15.54,3.2,15.54,12.41s-5.28,13.12-17.53,13.12h-5.38c0-8.62.02-17.16.19-25.53ZM299.35,91.63h-6.29c-.18-8.77-.19-17.75-.19-27.73h5.68c13.94,0,20.02,4.71,20.02,14.02,0,8.81-6.27,13.72-19.22,13.72Z"/>
+    </g>
+    <g>
+      <path class="cls-2" d="M253.55,29.16h-24.04c-1.06,0-1.92.94-1.92,2.11h0c0,1.08.74,1.98,1.72,2.1l5.87.68c.97.11,1.71.99,1.73,2.06.14,8.03.15,16.09.15,24.09v5.01c0,8.13,0,16.18-.15,24.1-.02,1.06-.76,1.94-1.72,2.05l-5.87.68c-.98.11-1.72,1.02-1.72,2.1,0,1.16.86,2.11,1.92,2.11h24.04c1.06,0,1.92-.94,1.92-2.11,0-1.08-.74-1.98-1.72-2.1l-5.87-.68c-.97-.11-1.71-.99-1.73-2.06-.14-8.03-.15-16.09-.15-24.09v-5.01c0-8.13,0-16.18.15-24.1.02-1.06.76-1.94,1.72-2.05l5.87-.68c.98-.11,1.72-1.02,1.72-2.1h0c0-1.16-.86-2.11-1.92-2.11Z"/>
+      <path class="cls-2" d="M208.47,29.16h-50.73c-1.02,0-1.86.88-1.91,2l-.61,13.62c-.05,1.2.82,2.2,1.91,2.2h1.99c.92,0,1.7-.71,1.88-1.7l1.69-9.42c.18-.99.96-1.7,1.88-1.7h11.99c1.04,0,1.9.92,1.92,2.06.14,7.99.15,16.01.15,23.97v5.01c0,8.11,0,16.16-.15,24.06-.02,1.07-.76,1.94-1.73,2.05l-6.85.74c-.98.11-1.73,1.01-1.73,2.09,0,1.16.86,2.1,1.92,2.1h26.05c1.06,0,1.92-.94,1.92-2.1,0-1.08-.75-1.98-1.73-2.09l-6.85-.74c-.97-.1-1.71-.99-1.73-2.05-.14-8.02-.15-16.06-.15-24.06v-5.01c0-8.08,0-16.1.15-23.97.02-1.14.88-2.06,1.92-2.06h11.99c.92,0,1.7.71,1.88,1.7l1.69,9.42c.18.99.96,1.7,1.88,1.7h1.99c1.09,0,1.97-1,1.91-2.2l-.61-13.62c-.05-1.12-.89-2-1.91-2Z"/>
+      <path class="cls-2" d="M370.5,29.16h-24.04c-1.06,0-1.92.94-1.92,2.11h0c0,1.08.74,1.98,1.72,2.1l5.87.68c.97.11,1.71.99,1.73,2.06.14,8.03.15,16.09.15,24.09v5.01c0,8.13,0,16.18-.15,24.1-.02,1.06-.76,1.94-1.72,2.05l-5.87.68c-.98.11-1.72,1.02-1.72,2.1,0,1.16.86,2.11,1.92,2.11h24.04c1.06,0,1.92-.94,1.92-2.11,0-1.08-.74-1.98-1.72-2.1l-5.87-.68c-.97-.11-1.71-.99-1.73-2.06-.14-8.03-.15-16.09-.15-24.09v-5.01c0-8.13,0-16.18.15-24.1.02-1.06.76-1.94,1.72-2.05l5.87-.68c.98-.11,1.72-1.02,1.72-2.1h0c0-1.16-.86-2.11-1.92-2.11Z"/>
+      <path class="cls-2" d="M450.95,92.02l-5.1-.64c-.59-.07-1.12-.44-1.42-1l-19.68-35.56,16.34-19.75c.31-.37.73-.61,1.18-.68l7.3-1c.96-.13,1.68-1.03,1.68-2.09v-.04c0-1.16-.86-2.11-1.92-2.11h-19.06c-1.06,0-1.92.94-1.92,2.11v.14c0,1.02.66,1.89,1.58,2.07l2.27.46c1.48.3,2.09,2.25,1.09,3.48l-23.76,29.21v-6.43c0-8.11,0-16.16.15-24.06.02-1.06.76-1.94,1.72-2.05l6.17-.72c.98-.11,1.72-1.02,1.72-2.1h0c0-1.16-.86-2.11-1.92-2.11h-24.04c-1.06,0-1.92.94-1.92,2.11h0c0,1.08.74,1.98,1.72,2.1l5.87.68c.97.11,1.71.99,1.73,2.06.14,8.03.15,16.09.15,24.09v5.01c0,8.13,0,16.18-.15,24.1-.02,1.06-.76,1.94-1.72,2.05l-5.87.68c-.98.11-1.72,1.02-1.72,2.1,0,1.16.86,2.11,1.92,2.11h24.04c1.06,0,1.92-.94,1.92-2.11,0-1.08-.74-1.98-1.72-2.1l-6.18-.72c-.96-.11-1.7-.99-1.72-2.05-.1-5.67-.13-11.18-.14-16.05l10.03-12.13,14.56,27.3c.7,1.31-.06,2.99-1.44,3.16l-3.73.47c-.97.12-1.7,1.02-1.7,2.09v.02c0,1.16.86,2.11,1.92,2.11h21.55c1.06,0,1.92-.94,1.92-2.11v-.02c0-1.07-.73-1.97-1.7-2.09Z"/>
+      <path class="cls-2" d="M527.49,92.27l-4.76-.58c-.72-.09-1.34-.62-1.59-1.36l-20.36-60.05c-.28-.83-1-1.38-1.8-1.38h-3.3c-.8,0-1.52.55-1.8,1.37l-20.43,59.76c-.25.73-.84,1.24-1.54,1.35l-5.57.84c-.95.14-1.66,1.04-1.66,2.09v.05c0,1.17.86,2.11,1.92,2.11h19.06c1.06,0,1.92-.95,1.92-2.11v-.03c0-1.06-.72-1.96-1.69-2.09l-5.74-.79c-1.23-.17-2-1.55-1.57-2.83l4.77-14.07h23.3l4.74,14.2c.43,1.29-.36,2.68-1.6,2.82l-5.76.69c-.98.12-1.72,1.02-1.72,2.1,0,1.17.86,2.11,1.92,2.11h23.04c1.06,0,1.92-.95,1.92-2.11h0c0-1.08-.74-1.98-1.71-2.1ZM484.91,69.95l10.18-30.03,10.03,30.03h-20.2Z"/>
+      <path class="cls-2" d="M309.29,61.36c10.93-2.26,15.46-8.64,15.46-15.79,0-9.61-7.97-16.42-21.61-16.42h-26.76c-1.06,0-1.92.94-1.92,2.11h0c0,1.08.74,1.98,1.72,2.1l7.56.88c.17,8.64.19,17.33.19,25.96v5.01c0,8.76-.01,17.45-.18,25.96l-7.56.88c-.98.11-1.72,1.02-1.72,2.1,0,1.16.86,2.11,1.92,2.11h25.37c18.82,0,26.29-9.21,26.29-18.32,0-8-5.51-14.6-18.74-16.55ZM293.07,33.76h7.18c10.26,0,15.54,3.2,15.54,12.41s-5.28,13.12-17.53,13.12h-5.38c0-8.62.02-17.16.19-25.53ZM299.35,91.63h-6.29c-.18-8.77-.19-17.75-.19-27.73h5.68c13.94,0,20.02,4.71,20.02,14.02,0,8.81-6.27,13.72-19.22,13.72Z"/>
+    </g>
+  </g>
+</svg>
