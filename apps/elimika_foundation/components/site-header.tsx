@@ -4,9 +4,10 @@ import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
-import { ArrowUpRight, Moon, School, Sun } from "lucide-react"
+import { ArrowUpRight, Moon, Sun } from "lucide-react"
 
 import { Button } from "@workspace/ui/components/button"
+import { BrandLogo } from "@workspace/ui/components/brand-logo"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -94,16 +95,22 @@ export function SiteHeader() {
           className="group flex min-w-0 shrink-0 items-center gap-2.5 rounded-lg focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
           aria-label={translate("Elimika Foundation home", language)}
         >
-          <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-primary text-primary-foreground">
-            <School aria-hidden="true" className="size-5" />
+          <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-background">
+            <BrandLogo
+              src="/logos/elimika_logo_icon.svg"
+              viewBox="0 0 2009.74 2009.74"
+              className="size-8 object-contain"
+            />
           </span>
           <span className="leading-tight">
-            <span className="block font-heading text-lg font-bold">
-              Elimika
-            </span>
-            <span className="block text-[11px] text-muted-foreground">
-              Foundation
-            </span>
+            <BrandLogo
+              src="/logos/elimika_logo_text.svg"
+              viewBox="0 0 368.54 72.54"
+              label="Elimika"
+              width={102}
+              height={20}
+              className="block"
+            />
           </span>
         </Link>
 

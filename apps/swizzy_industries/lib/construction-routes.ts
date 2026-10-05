@@ -144,3 +144,9 @@ export function getConstructionRoute(pathname: string) {
 export function isSitePage(pathname: string) {
   return pathname === "/" || Boolean(getConstructionRoute(pathname))
 }
+
+export function getSitemapRoutes() {
+  return [...routeMap.keys()].filter(
+    (pathname) => pathname !== "/search" && pathname !== "/thank-you"
+  )
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 239.61 33.18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="170.17" y1="-45.46" x2="87.52" y2="72.58" gradientUnits="userSpaceOnUse">
+      <stop offset=".02" stop-color="color-mix(in srgb, var(--nufaika-amber, #f2a63b) 94%, var(--background, #ffffff) 6%)"/>
+      <stop offset=".12" stop-color="var(--nufaika-amber, #f2a63b)"/>
+      <stop offset=".26" stop-color="var(--nufaika-amber, #f2a63b)"/>
+      <stop offset=".41" stop-color="color-mix(in srgb, var(--nufaika-amber, #f2a63b) 88%, var(--foreground, #0f1f17) 12%)"/>
+      <stop offset=".58" stop-color="color-mix(in srgb, var(--nufaika-amber, #f2a63b) 76%, var(--foreground, #0f1f17) 24%)"/>
+      <stop offset=".76" stop-color="color-mix(in srgb, var(--nufaika-green, #1e8f5c) 82%, var(--background, #ffffff) 18%)"/>
+      <stop offset=".95" stop-color="color-mix(in srgb, var(--nufaika-green, #1e8f5c) 95%, var(--background, #ffffff) 5%)"/>
+      <stop offset="1" stop-color="var(--nufaika-green, #1e8f5c)"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="M35.25,32.61h-8.65l-7.21-21.1c-.37-1.09-.6-1.98-.69-2.65h-.13c-.36,1.12-1.07,2.86-2.13,5.2l-8.43,18.55H0L14.82,0h9.22l6.86,20.51c.46,1.36.72,2.23.79,2.59h.13c.19-.79.78-2.29,1.79-4.5L42.06,0h8.01l-14.82,32.61ZM82.84,18.59c-4.42,9.73-12.13,14.59-23.12,14.59s-13.77-4.74-9.46-14.21L58.88,0h8.47l-8.64,19.01c-2.47,5.43-1.1,8.15,4.1,8.15s8.87-2.62,11.25-7.85L82.84,0h8.45l-8.45,18.59ZM120.01,5.69h-14.16l-3.81,8.38h13.03l-2.58,5.68h-13.03l-5.85,12.86h-8.45L99.99,0h22.6l-2.58,5.69ZM145.69,32.61h-9.22l.43-7.47h-14.41l-6.32,7.47h-9.16L136.34,0h9.93l-.59,32.61ZM137.34,19.77l.63-11.31c.04-.72.26-1.66.68-2.84h-.23c-.54.96-1.18,1.87-1.94,2.76l-9.71,11.39h10.57ZM173.95,0l-14.82,32.61h-8.45L165.5,0h8.45ZM200.62,32.61h-10.7l-5.53-14.25c-.14-.36-.23-.93-.27-1.71h-.13l-7.25,15.96h-8.45L183.11,0h8.45l-7,15.41h.13c.68-.67,1.32-1.26,1.92-1.75L204.18,0h10.09l-21.25,15.56,7.61,17.05ZM239.02,32.61h-9.22l.43-7.47h-14.41l-6.32,7.47h-9.16L229.68,0h9.93l-.59,32.61ZM230.68,19.77l.63-11.31c.03-.72.26-1.66.68-2.84h-.23c-.54.96-1.18,1.87-1.94,2.76l-9.71,11.39h10.57Z"/>
+</svg>

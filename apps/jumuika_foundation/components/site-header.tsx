@@ -4,9 +4,10 @@ import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
-import { ArrowUpRight, Moon, Sun, UsersRound } from "lucide-react"
+import { ArrowUpRight, Moon, Sun } from "lucide-react"
 
 import { Button } from "@workspace/ui/components/button"
+import { BrandLogo } from "@workspace/ui/components/brand-logo"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -48,16 +49,22 @@ export function SiteHeader() {
           aria-label={translate("Jumuika home", language)}
           className="flex shrink-0 items-center gap-2.5 rounded-lg focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
         >
-          <span className="grid size-10 place-items-center rounded-xl bg-primary text-primary-foreground">
-            <UsersRound aria-hidden="true" className="size-5" />
+          <span className="grid size-10 place-items-center rounded-xl bg-background">
+            <BrandLogo
+              src="/logos/jumuika_logo_icon.svg"
+              viewBox="0 0 477.4 275.17"
+              className="size-8 object-contain"
+            />
           </span>
           <span className="leading-tight">
-            <span className="block font-heading text-lg font-bold">
-              Jumuika
-            </span>
-            <span className="block text-[11px] text-muted-foreground">
-              {translate("A Swizzy Industries brand", language)}
-            </span>
+            <BrandLogo
+              src="/logos/jumuika_logo_text.svg"
+              viewBox="0 0 511.22 69.64"
+              label="Jumuika"
+              width={120}
+              height={16}
+              className="block"
+            />
           </span>
         </Link>
 

@@ -309,6 +309,20 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+:root:not([data-brand]).dark {
+  --blue-primary: #82b5ff;
+  --blue-hover: #a4caff;
+  --blue-tint: #1a2d49;
+  --teal-accent: #52d5df;
+  --teal-tint: #132f35;
+  --savannah-amber: #f5c66f;
+  --product-health: #52d5c3;
+  --product-education: #9a9cff;
+  --product-social: #ff9b7f;
+  --product-business: #f5c88a;
+  --product-government: #7cc0e2;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

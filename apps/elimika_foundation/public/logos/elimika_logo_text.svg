@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 368.54 72.54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+        stroke: url(#radial-gradient-2);
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="184.27" cy="36.27" fx="184.27" fy="103.08" r="129.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 90%, var(--background, #ffffff) 10%)"/>
+      <stop offset=".19" stop-color="var(--elimika-gold, #f2b33b)"/>
+      <stop offset=".71" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 81%, var(--foreground, #12132b) 19%)"/>
+      <stop offset="1" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 74%, var(--foreground, #12132b) 26%)"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="184.27" cy="36.27" fx="184.27" fy="36.27" r="132.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 90%, var(--background, #ffffff) 10%)"/>
+      <stop offset=".22" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 95%, var(--foreground, #12132b) 5%)"/>
+      <stop offset=".48" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 83%, var(--foreground, #12132b) 17%)"/>
+      <stop offset=".74" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 76%, var(--foreground, #12132b) 24%)"/>
+      <stop offset="1" stop-color="color-mix(in srgb, var(--elimika-gold, #f2b33b) 74%, var(--foreground, #12132b) 26%)"/>
+    </radialGradient>
+  </defs>
+  <path class="cls-1" d="M13.36,4h.46v63.06c0,.82-.66,1.48-1.48,1.48h-1.5c-3.77,0-6.83-3.06-6.83-6.83V13.36c0-5.17,4.19-9.36,9.36-9.36ZM16.64,4h27.99c2.38,0,4.31,1.93,4.31,4.31h0c0,2.38-1.93,4.31-4.31,4.31H8.76s0-.73,0-.73c0-4.35,3.53-7.88,7.88-7.88ZM8.76,32.19h30.58c2.38,0,4.31,1.93,4.31,4.31h0c0,2.38-1.93,4.31-4.31,4.31H8.76s0-8.61,0-8.61ZM8.76,59.93h35.87c2.38,0,4.31,1.93,4.31,4.31h0c0,2.38-1.93,4.31-4.31,4.31H12.55c-2.09,0-3.78-1.69-3.78-3.78v-4.83ZM67.8,4h0c2.71,0,4.91,2.2,4.91,4.91v59.63h-1.78c-4.44,0-8.03-3.6-8.03-8.03V8.91c0-2.71,2.2-4.91,4.91-4.91ZM67.8,59.93h35.72c2.38,0,4.31,1.93,4.31,4.31h0c0,2.38-1.93,4.31-4.31,4.31h-29.1c-3.66,0-6.62-2.96-6.62-6.62v-1.99ZM124.28,68.54h0c-2.71,0-4.91-2.2-4.91-4.91V8.91c0-2.71,2.2-4.91,4.91-4.91h0c2.71,0,4.91,2.2,4.91,4.91v54.73c0,2.71-2.2,4.91-4.91,4.91ZM199.79,4h1.4c2.64,0,4.79,2.14,4.79,4.79v54.97c0,2.64-2.14,4.79-4.79,4.79h0c-2.64,0-4.79-2.14-4.79-4.79V20.2l.48,2.84-15.93,33.79c-.79,1.68-2.48,2.75-4.33,2.75h-.79c-1.84,0-3.51-1.05-4.31-2.7l-15.92-32.94.48-3.73v43.55c0,2.64-2.14,4.79-4.79,4.79h0c-2.64,0-4.79-2.14-4.79-4.79V8.79c0-2.64,2.14-4.79,4.79-4.79h1.4c1.84,0,3.51,1.05,4.31,2.71l19.24,39.91,19.24-39.91c.8-1.66,2.47-2.71,4.31-2.71ZM228.2,68.54h0c-2.71,0-4.91-2.2-4.91-4.91V8.91c0-2.71,2.2-4.91,4.91-4.91h0c2.71,0,4.91,2.2,4.91,4.91v54.73c0,2.71-2.2,4.91-4.91,4.91ZM255.34,4h0c2.71,0,4.91,2.2,4.91,4.91v54.73c0,2.71-2.2,4.91-4.91,4.91h0c-2.71,0-4.91-2.2-4.91-4.91V8.91c0-2.71,2.2-4.91,4.91-4.91ZM258.13,40.22l29.54-34.65c.85-1,2.1-1.57,3.41-1.57h0c3.87,0,5.92,4.58,3.35,7.47l-37.75,42.34,1.44-13.58ZM269.77,34.1l7.75-6.61,22.04,34.14c1.93,2.98-.22,6.92-3.77,6.92h-1.35c-1.52,0-2.94-.77-3.77-2.05l-20.9-32.39ZM336,4h1.77c1.99,0,3.79,1.21,4.53,3.07l21.89,54.79c1.28,3.2-1.08,6.68-4.53,6.68h0c-2.04,0-3.86-1.27-4.57-3.17l-18.21-48.89-18.21,48.89c-.71,1.91-2.53,3.17-4.57,3.17h0c-3.45,0-5.81-3.48-4.53-6.68l21.89-54.79c.74-1.85,2.53-3.07,4.53-3.07ZM318.8,45.77h36.81v8.61h-36.81v-8.61Z"/>
+</svg>

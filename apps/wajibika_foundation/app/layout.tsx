@@ -10,6 +10,7 @@ import { SiteHeader } from "@/components/site-header"
 import { ThemeProvider } from "@/components/theme-provider"
 import { TooltipProvider } from "@workspace/ui/components/tooltip"
 import { cn } from "@workspace/ui/lib/utils"
+import { createSiteMetadata } from "@workspace/ui/lib/seo"
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -19,9 +20,22 @@ const fontMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Wajibika | Your voice, amplified",
-  description:
-    "A civic platform for evidence-aware issues, campaigns, and public accountability.",
+  ...createSiteMetadata({
+    siteName: "Wajibika",
+    siteUrl: "https://wajibika.swizzyindustries.com",
+    title: "Wajibika | Your voice, amplified",
+    description:
+      "A civic platform for evidence-aware issues, campaigns, and public accountability.",
+    keywords: [
+      "civic engagement",
+      "public accountability",
+      "community advocacy",
+      "citizen participation",
+      "public issues",
+      "Kenya",
+    ],
+    logoPath: "/logos/wajibika_logo_icon.svg",
+  }),
 }
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

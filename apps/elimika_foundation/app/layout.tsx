@@ -10,6 +10,7 @@ import { SiteHeader } from "@/components/site-header"
 import { ThemeProvider } from "@/components/theme-provider"
 import { TooltipProvider } from "@workspace/ui/components/tooltip"
 import { cn } from "@workspace/ui/lib/utils"
+import { createSiteMetadata } from "@workspace/ui/lib/seo"
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -19,9 +20,22 @@ const fontMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Elimika Foundation | Learning, reimagined",
-  description:
-    "Curriculum-aligned immersive learning for schools and institutions across Kenya.",
+  ...createSiteMetadata({
+    siteName: "Elimika Foundation",
+    siteUrl: "https://elimika.swizzyindustries.com",
+    title: "Elimika Foundation | Learning, reimagined",
+    description:
+      "Curriculum-aligned immersive learning for schools and institutions across Kenya.",
+    keywords: [
+      "immersive learning",
+      "virtual reality education",
+      "STEM learning",
+      "vocational training",
+      "education technology",
+      "Kenya",
+    ],
+    logoPath: "/logos/elimika_logo_icon.svg",
+  }),
 }
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

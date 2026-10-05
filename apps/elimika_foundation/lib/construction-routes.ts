@@ -38,3 +38,7 @@ for (const route of navigationRoutes) {
 export function getConstructionRoute(pathname: string) {
   return routeMap.get(pathname)
 }
+
+export function getSitemapRoutes() {
+  return [...routeMap.keys()]
+}

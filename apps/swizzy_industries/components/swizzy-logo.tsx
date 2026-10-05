@@ -1,5 +1,4 @@
-import { Layers3 } from "lucide-react"
-import Image from "next/image"
+import { BrandLogo } from "@workspace/ui/components/brand-logo"
 
 type SwizzyLogoProps = {
   compact?: boolean
@@ -9,10 +8,19 @@ export function SwizzyLogo({ compact = false }: SwizzyLogoProps) {
   if (compact) {
     return (
       <span className="inline-flex items-center gap-2 rounded-lg">
-        <Layers3 aria-hidden="true" className="size-6 text-primary" />
-        <span className="font-heading text-base font-bold">
-          Swizzy Industries
-        </span>
+        <BrandLogo
+          src="/logos/swizzy_logo_icon.svg"
+          viewBox="0 0 236 405.56"
+          className="size-6 object-contain"
+        />
+        <BrandLogo
+          src="/logos/swizzy_logo_text.svg"
+          viewBox="0 0 268.79 92.68"
+          width={90}
+          height={31}
+          label="Swizzy Industries"
+          className="block"
+        />
       </span>
     )
   }
@@ -20,39 +28,19 @@ export function SwizzyLogo({ compact = false }: SwizzyLogoProps) {
   return (
     <span className="group inline-flex min-w-0 items-center gap-2.5 rounded-lg">
       <span className="flex size-10 shrink-0 items-center justify-center rounded-xl transition-colors group-hover:bg-teal-tint dark:group-hover:bg-teal-accent/15">
-        <Image
-          alt="Swizzy Industries Logo"
-          className="size-full dark:hidden"
-          src="/logo/logo.png"
-          width={30}
-          height={30}
-          priority
-        />
-        <Image
-          alt="Swizzy Industries Logo"
-          className="hidden dark:block"
-          src="/logo/logo-dark.png"
-          width={30}
-          height={30}
-          priority
+        <BrandLogo
+          src="/logos/swizzy_logo_icon.svg"
+          viewBox="0 0 236 405.56"
+          className="size-8 object-contain"
         />
       </span>
-      <span className="hidden size-15 shrink-0 items-center justify-center sm:flex">
-        <Image
-          alt="Swizzy Industries Text Logo"
-          className="dark:hidden"
-          src="/logo/logo-text.png"
-          width={120}
-          height={30}
-          priority
-        />
-        <Image
-          alt="Swizzy Industries Text Logo"
-          className="hidden dark:block"
-          src="/logo/dark-text-logo.png"
-          width={120}
-          height={30}
-          priority
+      <span className="hidden shrink-0 items-center justify-center sm:flex">
+        <BrandLogo
+          src="/logos/swizzy_logo_text.svg"
+          viewBox="0 0 268.79 92.68"
+          width={70}
+          height={24}
+          className="block"
         />
       </span>
     </span>

@@ -1,7 +1,7 @@
 import { Check } from "lucide-react"
 
 export const homepageImages = {
-  hero: "https://lh3.googleusercontent.com/aida/AEtjO1U-XRDiyrJ1uUc9t926xbNnrGMOS5buTP_IJ8VQgoyzyQIyd6Hy2449zfMsWTUR6q3wUzM-y2e5wsdtErvDdDxlP-GwREnQM7gLMzrdDHTJgaMwpLv1FhtuhqcHUTUISdDmWMuMxKm9lZMNV4yu6a82ttMY4QCKeV6B9Fy_atLWfipxezh6DKDwEVfVIa8iND0os3kjjbeVbIFpzgyAkg5ogzE8psMuR1dXbEoRQMPszbqR8Q2DogJ8WA",
+  hero: "/images/homepage/hero.jpeg",
   technology:
     "https://lh3.googleusercontent.com/aida-public/AB6AXuBjC_-tapFO_NZI1WoOP9nJC4M5VoVLC-bFgm97pIoNWCuNUUumqBhXhc3f5YmswewDVweyddogPcwoeOMxPhBL4f9Ug4dFvsXlFeFd-hpfxM6CNjYFr8_1Bf7bXWoW4MQxlycRO9qLwqBO3wuwJkQqwldSgA62q_NaRBUKd4jUjf_TJ8-CdyZ_xGqR_3MVpJkCQqDDXPoveI650u7kcBejuYtF_vE_OKwC9HBo9O_hnu8rMQt7fc4u",
   caseStudy:

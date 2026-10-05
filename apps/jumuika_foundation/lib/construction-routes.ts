@@ -44,3 +44,7 @@ export function getConstructionRoute(pathname: string) {
       }
     : undefined
 }
+
+export function getSitemapRoutes() {
+  return [...routeMap.keys()]
+}
